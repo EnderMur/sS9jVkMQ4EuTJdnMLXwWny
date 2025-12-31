@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<mod name="dx11fx" global_key="dx11fx">
+	<wren>
+        <init file="main"/>
+    </wren>
+</mod>

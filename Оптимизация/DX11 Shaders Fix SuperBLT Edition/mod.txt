@@ -1,0 +1,16 @@
+{
+	"name": "DX11 Shaders Fix SuperBLT Edition",
+	"description": "Fixes the DX11 Shaders",
+	"author": " Matthelzor, I am not a spy..., Test1",
+	"contact": "",
+	"version": "2.0",
+	"vr_disabled": true,
+	"updates": [
+        {
+            "identifier": "dx11shadersfix",
+            "host": {
+				"meta": "https://raw.githubusercontent.com/steam-test1/PD2Updates/master/updates_metas/meta_dx11shadersfix.json"
+			}
+        }
+    ]
+}
