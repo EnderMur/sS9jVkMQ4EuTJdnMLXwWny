@@ -70,6 +70,7 @@
 11. Visual Fixes & Tweaks
 12. DX11 Shaders Fix SuperBLT Edition
 13. Fixed NPC Weapon scale
+14. Less Artifacted Weapons
 
 ### Серия преступлений
 1. Crime Spree Difficulty Rebalance
