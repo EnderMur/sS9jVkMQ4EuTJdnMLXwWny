@@ -45,7 +45,7 @@
 2. More Weapon Stats - Больше описания у оружия
 3. No Contract Broker Images - отключение фотографий у контрактов в Crime.net
 4. Peer Mod List Highlighter - позволяет выделять названия модов одним из 3 цветов в меню списка модов игрока, на экране модов Crime.net, а также во время присоединения игроков к вашему лобби.
-5. VanillaHUD Plus - Лучше чем Extra Heist Info, устанавливать два СТРОГО запрещено
+5. VanillaHUD Plus
 6. Void UI Scoreboard Standalone - улучшение Tab
 
 ### Оптимизация
