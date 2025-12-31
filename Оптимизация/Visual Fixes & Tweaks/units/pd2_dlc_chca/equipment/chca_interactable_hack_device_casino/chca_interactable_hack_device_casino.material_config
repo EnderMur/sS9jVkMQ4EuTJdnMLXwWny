@@ -1,0 +1,48 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rack" version="2">
+        <diffuse_texture file="units/pd2_dlc_chca/equipment/chca_interactable_hack_device_casino/rack_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chca/equipment/chca_interactable_hack_device_casino/rack_nm"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mtr_outline1" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable type="scalar" name="contour_distance" value="300"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+
+    <material unique="true" render_template="generic:DIFFUSE_TEXTURE" name="mat_keyboard1" version="2">
+        <diffuse_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_interaction_screen_df"/>
+    </material>
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_monitor_hack_ecm1" version="2">
+        <bump_normal_texture file="units/payday2/props/off_prop_appliance_monitor/monitor_nm"/>
+        <diffuse_texture file="units/payday2/props/off_prop_appliance_monitor/monitor_df"/>
+    </material>
+
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_screen_hack_a_v3">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df"/>
+    </material>
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_hacky" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device_nm" mip="1"/>
+    </material>
+
+    <material render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" name="mat_screen" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_hacking_device/screen_scrolling_df" mip="1"/>
+        <variable type="vector3" name="uv_speed" value="0 -1 0"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/props/sah_prop_hacking_device/screen_scrolling_df"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+        <variable type="scalar" name="il_bloom" value="3.5410001681885"/>
+    </material>
+
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" name="mat_leds_anim" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_hacking_device/led_anim_df" mip="1"/>
+        <variable type="scalar" name="intensity" value="reddot"/>
+        <variable type="vector3" name="uv0_speed" value="0 3 0"/>
+    </material>
+</materials>
+
+

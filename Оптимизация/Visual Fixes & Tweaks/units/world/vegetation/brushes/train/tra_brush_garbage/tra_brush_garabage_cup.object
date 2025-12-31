@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garbage" orientation_object="rp_tra_brush_garabage_cup" />
+  <graphics>
+    <object name="g_tra_brush_garabage_cup" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

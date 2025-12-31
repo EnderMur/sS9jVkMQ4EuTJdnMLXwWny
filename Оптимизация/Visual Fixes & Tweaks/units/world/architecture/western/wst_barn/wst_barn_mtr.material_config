@@ -1,0 +1,10 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BACKDROP" decal_material="wood" name="wst_barn_not_instanced" version="2">
+        <bump_normal_texture file="units/world/architecture/western/wst_barn/wst_barn_nm"/>
+        <diffuse_texture file="units/world/architecture/western/wst_barn/wst_barn_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BACKDROP" decal_material="wood" name="wst_barn" version="2">
+        <bump_normal_texture file="units/world/architecture/western/wst_barn/wst_barn_nm"/>
+        <diffuse_texture file="units/world/architecture/western/wst_barn/wst_barn_df"/>
+    </material>
+</materials>

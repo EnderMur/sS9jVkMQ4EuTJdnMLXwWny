@@ -1,0 +1,39 @@
+<materials version="3" group="civ_female_bikini_2">
+	<material name="m_civ_female_bikini_2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_df"/>
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_1/civ_female_bikini_1_nm"/>
+	</material>
+	<material name="m_civ_female_bikini_2_head_1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_df"/>
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_nm"/>
+	</material>
+	<material name="m_eyes" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df"/>
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="m_civ_female_bikini_2_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_1/civ_female_bikini_1_nm" />
+	</material>
+	<material name="m_civ_female_bikini_2_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_1/civ_female_bikini_1_nm" />
+	</material>
+	<material name="m_civ_female_bikini_2_head_1_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_nm" />
+	</material>
+	<material name="m_civ_female_bikini_2_head_1_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_bikini_2/civ_female_bikini_2_head_1_nm" />
+	</material>
+	<material name="m_eyes_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df" />
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm" />
+	</material>
+	<material name="m_eyes_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df" />
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm" />
+	</material>
+</materials>

@@ -1,0 +1,12 @@
+<materials version="3">
+    <material name="mat_cas_fence_01" render_template="generic:VERTEX_COLOR:VERTEX_COLOR_ALPHA" version="2"/>
+    <material name="mat_hcm_int_b" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/cas_int_01_b_casino_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/cas_int_01_b_nm"/>
+    </material>
+    <material name="mat_pillar" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_pillar_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_pillar_nm"/>
+    </material>
+</materials>

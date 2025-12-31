@@ -1,0 +1,26 @@
+<materials version="3" group="weapon_g17">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_barrel_ck" version="2">
+        <diffuse_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_barrel_ck_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_barrel_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_frame_ck" version="2">
+        <diffuse_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_body_ck_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_body_ck_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_slider_ck" version="2">
+        <diffuse_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_nm"/>
+        <material_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_tritium" version="2">
+        <diffuse_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_df"/>
+        <material_texture file="core/textures/default_texture_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_g17_ck_pts/wpn_fps_pis_g17_slider_ck_il"/>
+        <variable type="scalar" name="il_bloom" value="2"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+    </material>
+</materials>

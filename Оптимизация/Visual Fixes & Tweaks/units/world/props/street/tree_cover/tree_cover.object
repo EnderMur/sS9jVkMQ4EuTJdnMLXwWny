@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/tree_cover/tree_cover" orientation_object="rp_tree_cover" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_tree_cover" />
+      <object name="c_0" collision_type="convex" padding="0" shell="8"/>
+    </body>
+  </bodies>
+  <decal_surfaces static="true" default_material="concrete">
+    <decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+    <decal_mesh name="dm_metal" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_tree_cover" shadow_caster="true" enabled="true" instance_struct="world_tm" />
+    <object name="g_tree_cover_fence" shadow_caster="true" enabled="true" instance_struct="world_tm" />
+    <object name="s_s" shadow_caster="false" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object>

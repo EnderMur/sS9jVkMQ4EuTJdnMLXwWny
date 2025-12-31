@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/fence_suburbia/fence_not_instanced" orientation_object="rp_fence_5m_variation_suburbia" />
+	<bodies> 
+		<!--
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="rp_fence_5m_variation_suburbia" />
+			<object collision_type="box" name="c_box_3" padding="-2" />
+			<object collision_type="box" name="c_box_4" padding="-2" />
+		</body>
+		-->
+		
+		<body name="static_body" enabled="true" editable="true" template="static">
+			<object name="rp_fence_5m_variation_suburbia" />
+			<object collision_type="box" name="c_box_1" padding="-2" />
+			<object collision_type="box" name="c_box_2" padding="-2" />
+			<object collision_type="box" name="c_box_3" padding="-2" />
+			<object collision_type="box" name="c_box_4" padding="-2" />
+			<object collision_type="box" name="c_box_5" padding="-2" />
+			<object collision_type="box" name="c_box_6" padding="-2" />
+		</body>
+		<!--
+		<body name="bullet_body" enabled="true" editable="true" template="raycoll_static">
+			<object name="rp_fence_5m_variation_suburbia" />
+			<object collision_type="mesh_mopp" name="c_bullet" />
+		</body>
+		-->
+	</bodies>
+
+	<decal_surfaces default_material="grass" static="true">
+		<decal_mesh enabled="true" material="wood" name="dm_wood"/>
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_fence_5m_variation_suburbia" enabled="true" shadow_caster="true"/>
+		<object name="s_fence_5m_variation_suburbia" enabled="true"/>
+	</graphics>
+</dynamic_object> 

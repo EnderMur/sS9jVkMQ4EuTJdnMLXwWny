@@ -1,0 +1,11 @@
+<materials version="3" group="npc_yakuza_guard_1">
+    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_head_nm" />
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_head_df" />
+    </material>
+    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_nm" />
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_df" />
+    </material>
+    <material version="2" render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster"/>
+</materials>

@@ -1,0 +1,31 @@
+<materials version="3" group="civ_male_casual_6">
+    <material name="m_per_wallin" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/per_wallin_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/per_wallin_df"/>
+    </material>
+    <material name="mtr_casual_male_6" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_6_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_6_df"/>
+    </material>
+
+    <material name="m_per_wallin_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/per_wallin_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/per_wallin_df" />
+    </material>
+    <material name="m_per_wallin_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/per_wallin_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/per_wallin_df" />
+    </material>
+
+    <material name="mtr_casual_male_6_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_6_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_6_df" />
+    </material>
+    <material name="mtr_casual_male_6_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_6_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_6_df" />
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>
+
+

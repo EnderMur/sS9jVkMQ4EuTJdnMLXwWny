@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_dlc_friend/props/sfm_prop_ext_umbrella/sfm_prop_ext_umbrella" orientation_object="rp_lxy_prop_ext_umbrella" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_lxy_prop_ext_umbrella" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="dm_lxy_prop_ext_umbrella" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_lxy_prop_ext_umbrella" enabled="true" shadow_caster="true" />
+    <object name="dm_lxy_prop_ext_umbrella" enabled="false" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

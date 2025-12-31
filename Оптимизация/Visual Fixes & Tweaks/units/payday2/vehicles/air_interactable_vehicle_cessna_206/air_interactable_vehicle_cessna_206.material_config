@@ -1,0 +1,21 @@
+<materials version="3" group="cessna_tint_group">
+    <material name="mtr_cessna_206" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/vehicles/air_vehicle_cessna_206/air_vehicle_cessna_206_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/air_vehicle_cessna_206/air_vehicle_cessna_206_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mtr_cessna_206_tint" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SIMPLE_TINT" version="2">
+        <diffuse_texture file="units/payday2/vehicles/air_vehicle_cessna_206/air_vehicle_cessna_206_df"/>
+        <variable value="0.15979620814323 0.35155165195465 0.54330706596375" type="vector3" name="tint_color"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mtr_glass" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <variable value="0 1 0.58999997377396" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="0 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

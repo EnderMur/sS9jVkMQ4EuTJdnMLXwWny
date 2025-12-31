@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lamp" materials="units/payday2/props/lxa_prop_livingroom_lamp_floor/lxa_prop_livingroom_lamp_floor" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_lamp" />
+            <object collision_type="convex" name="c_convex_01" />
+            <object collision_type="mesh_mopp" name="c_mesh_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="c_convex_01" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

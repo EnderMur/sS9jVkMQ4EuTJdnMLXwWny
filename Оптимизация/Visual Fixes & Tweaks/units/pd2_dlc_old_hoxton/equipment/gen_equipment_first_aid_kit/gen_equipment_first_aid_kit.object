@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit" orientation_object="rp_gen_equipment_medic_bag_small" />
+  <bodies>
+			<body name="dynamic" enabled="false" template="dynamic_no_ray" collision_class="bag" collides_with_mover="false" >
+				<object name="rp_gen_equipment_medic_bag_small" />
+				<object name="c_health_bag" collision_type="box" padding="-2.5" />
+			</body>
+  </bodies>
+  <decal_surfaces default_material="cloth" static="true">
+	<decal_mesh name="dm_health_bag" enabled="true" material="cloth" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_first_aid" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

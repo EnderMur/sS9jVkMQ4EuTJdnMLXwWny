@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1" orientation_object="rp_zone_forrest_bush_1" />
+  <bodies>
+    <body name="editor_body" enabled="true" template="editor">
+      <object name="rp_zone_forrest_bush_1" enabled="true" />
+      <object name="g_zone_forrest_bush_1" enabled="true" collision_type="box" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_zone_forrest_bush_1" enabled="true" shadow_caster="true" instance_struct="world_tm"/>
+  </graphics>
+  <objects>
+    <object name="rp_zone_forrest_bush_1" enabled="true" shadow_caster="true"/>
+  </objects>
+</dynamic_object>

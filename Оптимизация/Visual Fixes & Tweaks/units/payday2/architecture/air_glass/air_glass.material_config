@@ -1,0 +1,17 @@
+<materials version="3">
+   <material name="glass_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="2 1 -0.65000003576279" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/air_glass/air_glass_a_dmg_op"/>
+        <diffuse_texture file="units/payday2/architecture/air_glass/air_glass_a_dmg_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/air_glass/air_glass_a_dmg_nm"/>
+    </material>
+    <material name="glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="2 1 -0.5" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/air_glass/air_glass_a_op"/>
+        <diffuse_texture file="units/payday2/architecture/air_glass/air_glass_a_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/air_glass/air_glass_a_nm"/>
+    </material>
+	
+</materials>

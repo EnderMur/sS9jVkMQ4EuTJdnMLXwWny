@@ -1,0 +1,27 @@
+<materials version="3" group="civ_female_hostess_apron_1">
+	<material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/tove_chauca_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/tove_chauca_df"/>
+	</material>
+	<material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_df"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="mtr_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/tove_chauca_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/tove_chauca_df" />
+	</material>
+	<material name="mtr_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/tove_chauca_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/tove_chauca_df" />
+	</material>
+	<material name="mtr_body_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_df" />
+	</material>
+	<material name="mtr_body_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_fem_clerk_df" />
+	</material>
+</materials>

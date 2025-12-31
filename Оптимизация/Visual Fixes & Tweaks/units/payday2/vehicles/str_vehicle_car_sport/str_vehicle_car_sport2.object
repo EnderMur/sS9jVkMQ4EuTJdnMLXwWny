@@ -1,0 +1,56 @@
+<dynamic_object>
+    <diesel materials="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2" orientation_object="rp_str_vehicle_car_sport2" />
+    <sequence_manager file="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2" />
+    <bodies>
+    	<body name="window_front" enabled="true" template="static">
+    		<object name="rp_str_vehicle_car_sport2" />
+    		<object name="c_window_front" collision_type="convex" two_sided="true" />
+    	</body>
+
+    	<body name="window_back" enabled="true" template="static">
+    		<object name="rp_str_vehicle_car_sport2" />
+    		<object name="c_window_back" collision_type="convex" two_sided="true" />
+    	</body>
+
+    	<body name="window_left" enabled="true" template="static">
+    		<object name="rp_str_vehicle_car_sport2" />
+    		<object name="c_window_left" collision_type="convex" two_sided="true" />
+    	</body>
+
+    	<body name="window_right" enabled="true" template="static">
+    		<object name="rp_str_vehicle_car_sport2" />
+    		<object name="c_window_right" collision_type="convex" two_sided="true" />
+    	</body>
+
+        <body enabled="true" template="static" name="sport2" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+
+        <body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="rp_str_vehicle_car_sport2" />
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_body" material="sheet_metal" />
+        <decal_mesh enabled="true" name="g_window_front" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_window_back" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_window_left" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_window_right" material="glass_breakable" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_body" shadow_caster="true" />
+        <object enabled="true" name="g_glass" shadow_caster="true" />
+        <object enabled="true" name="s_s" shadow_caster="false" />
+        <object enabled="true" name="g_window_front" />
+		<object enabled="true" name="g_window_back" />
+		<object enabled="true" name="g_window_left" />
+		<object enabled="true" name="g_window_right" />
+
+		<object enabled="false" name="g_window_front_dmg" />
+		<object enabled="false" name="g_window_back_dmg" />
+		<object enabled="false" name="g_window_left_dmg" />
+		<object enabled="false" name="g_window_right_dmg" />
+    </graphics>
+</dynamic_object>

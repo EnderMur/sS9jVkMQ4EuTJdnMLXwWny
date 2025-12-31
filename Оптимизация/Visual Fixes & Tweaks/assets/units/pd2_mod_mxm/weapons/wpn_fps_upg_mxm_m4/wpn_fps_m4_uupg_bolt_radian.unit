@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1">
+	<object file="units/pd2_mod_mxm/weapons/wpn_fps_upg_mxm_m4/wpn_fps_m4_uupg_bolt_radian" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

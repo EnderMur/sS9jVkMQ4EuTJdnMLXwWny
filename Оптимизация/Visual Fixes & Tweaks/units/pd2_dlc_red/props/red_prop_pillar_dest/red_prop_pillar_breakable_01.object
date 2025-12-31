@@ -1,0 +1,56 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_prop_pillar_breakable_01"/>
+	<sequence_manager file="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_01" />
+
+	<bodies>
+		<body name="pillar_hole_body" enabled="false" template="static" >
+			<object name="rp_red_prop_pillar_breakable_01" />
+			<object name="g_concrete" collision_type="mesh_mopp" />
+			<object name="g_pillar_hole" collision_type="mesh_mopp" />
+		</body>
+		<body name="dmg_3" enabled="true" template="static" collision_group="3">
+			<object name="g_dmg_3" collision_type="mesh_mopp" />
+			<object name="g_dmg_3a" collision_type="mesh_mopp" />
+			<object name="g_dmg_3b" collision_type="mesh_mopp" />
+			<object name="g_dmg_3c" collision_type="mesh_mopp" />
+			<object name="g_dmg_3d" collision_type="mesh_mopp" />
+		</body>
+		<body name="dmg_3_dynamic" enabled="false" template="debris" collision_group="3">
+			<object name="g_dmg_3" collision_type="box" mass="1" />
+		</body>
+		<body name="dmg_3a_dynamic" enabled="false" template="debris" collision_group="3">
+			<object name="c_dmg_3a" collision_type="box" mass="0.7" />
+		</body>
+		<body name="dmg_3b_dynamic" enabled="false" template="debris" collision_group="3">
+			<object name="c_dmg_3b" collision_type="box" mass="0.6" />
+		</body>
+		<body name="dmg_3c_dynamic" enabled="false" template="debris" collision_group="3"> 
+			<object name="c_dmg_3c" collision_type="box" mass="0.8" />
+		</body>
+		<body name="dmg_3d_dynamic" enabled="false" template="debris" collision_group="3"> 
+			<object name="c_dmg_3d" collision_type="box" mass="0.4" />
+		</body>	
+	</bodies>
+  
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="g_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="g_pillar" enabled="false" material="marble" />
+		<decal_mesh name="g_pillar_hole" enabled="true" material="marble" />
+		<decal_mesh name="g_dmg_3" enabled="true" material="marble" />
+		<decal_mesh name="g_dmg_3a" enabled="true" material="marble" />
+		<decal_mesh name="g_dmg_3b" enabled="true" material="marble" />
+		<decal_mesh name="g_dmg_3c" enabled="true" material="marble" />
+		<decal_mesh name="g_dmg_3d" enabled="true" material="marble" />
+	</decal_surfaces>
+   
+  <graphics>
+	<object name="g_dmg_3" enabled="false" shadow_caster="true" />
+	<object name="g_dmg_3a" enabled="false" shadow_caster="true" />
+	<object name="g_dmg_3b" enabled="false" shadow_caster="true" />
+	<object name="g_dmg_3c" enabled="false" shadow_caster="true" />
+	<object name="g_dmg_3d" enabled="false" shadow_caster="true" />	
+    <object name="g_pillar" enabled="true" shadow_caster="true" /> 
+    <object name="g_pillar_hole" enabled="false" shadow_caster="true" />
+    <object name="g_concrete" enabled="false" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

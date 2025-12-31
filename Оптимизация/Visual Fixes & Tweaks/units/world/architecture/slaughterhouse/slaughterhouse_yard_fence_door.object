@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/slaughterhouse/slaughterhouse_yard_fence" orientation_object="rp_yard_door" />
+  <sequence_manager file="units/world/architecture/slaughterhouse/slaughterhouse_yard_fence_door" />
+  <animations>
+    <animation_group name="out">
+      <object name="a_anim_out" />
+    </animation_group>
+    <animation_group name="in">
+      <object name="a_anim_in" />
+    </animation_group>
+  </animations>
+  <bodies>
+    <body name="door" enabled="true" template="fence" keyframed="true">
+      <object name="a_anim_out" />
+      <object name="c_box_frame_1" collision_type="box" padding="-2"/>
+      <object name="c_box_frame_2" collision_type="box" padding="-2"/>
+      <object name="c_box_frame_3" collision_type="box" padding="-2"/>
+      <object name="c_box_frame_4" collision_type="box" padding="-2"/>
+      <object name="c_box_frame_5" collision_type="box" padding="-2"/>
+	  </body>
+	 <body name="mover_block" enabled="true" template="bag" keyframed="true">
+	 <object name="a_anim_out" />
+	 <object name="c_fence" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="dm_metal" enabled="true" material="metal_hollow" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_fence" enabled="true" shadow_caster="true"/>
+    <object name="g_frame" enabled="true" shadow_caster="true"/>
+    <object name="g_hinge_in" enabled="true" shadow_caster="true"/>
+    <object name="g_hinge_out" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

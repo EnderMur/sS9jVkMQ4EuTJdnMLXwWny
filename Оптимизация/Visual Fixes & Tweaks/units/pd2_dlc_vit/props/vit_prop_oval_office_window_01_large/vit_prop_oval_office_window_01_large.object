@@ -1,0 +1,36 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_vit/props/vit_prop_oval_office_window_01_large/vit_prop_oval_office_window_01_large" orientation_object="rp_vit_prop_oval_office_window_01_large" />
+	<sequence_manager file="units/pd2_dlc_vit/props/vit_prop_oval_office_window_01_large/vit_prop_oval_office_window_01_large" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_vit_prop_oval_office_window_01_large" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_glass" enabled="true" template="static">
+			<object name="rp_vit_prop_oval_office_window_01_large" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_broken" enabled="false" template="static">
+			<object name="rp_vit_prop_oval_office_window_01_large" />
+			<object name="c_box_09" enabled="false" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" enabled="false" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_unbreakable">
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_wood_broken" enabled="false" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_prop_oval_office_window_01_large" enabled="true" shadow_caster="true" />
+		<object name="g_prop_oval_office_window_01_large_broken" enabled="false" shadow_caster="true" />
+		<object name="s_s" enabled="true" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

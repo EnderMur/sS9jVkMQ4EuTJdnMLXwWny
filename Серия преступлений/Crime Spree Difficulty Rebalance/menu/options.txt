@@ -1,0 +1,24 @@
+{
+	"menu_id" : "CCSD_menu_id",
+	"parent_menu_id" : "blt_options",
+	"title" : "CCSD_menu_title",
+	"description" : "CCSD_menu_desc",
+	"back_callback" : "CCSDSave",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "CCSD_slider_value",
+			"title" : "CCSD_slider_value_title",
+			"description" : "CCSD_slider_value_desc",
+			"callback" : "CCSD_slider",
+			"items" : [
+				"CCSD_slider_value_1",
+				"CCSD_slider_value_2",
+				"CCSD_slider_value_3",
+				"CCSD_slider_value_4"
+			],
+			"value" : "CCSD_slider_value",
+			"default_value" : 1,
+		}
+	]
+}

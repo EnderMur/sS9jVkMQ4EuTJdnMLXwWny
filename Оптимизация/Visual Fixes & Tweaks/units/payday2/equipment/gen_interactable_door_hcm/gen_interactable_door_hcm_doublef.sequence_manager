@@ -1,0 +1,298 @@
+<sequence_manager>
+	<unit>
+		<sequence editable_state="true" name="'interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'sawicongroup'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_door_open'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+			<animation_group enabled="true" from="183/30" name="'anim_door'" speed="0" to="183/30"/>
+			<run_sequence name="'done_opened'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_door_close'" triggable="true">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="true" name="'body_hitbox_door_handle_out'"/>
+			<animation_group enabled="true" from="0/30" name="'anim_door'" speed="0" to="0/30"/>
+			<graphic_group name="'sawicongroup'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<body enabled="false" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="false" name="'body_frame'"/>
+			<body enabled="false" name="'body_door_1'"/>
+			<body enabled="false" name="'body_door_2'"/>
+			<body enabled="false" name="'body_glass_1_top'"/>
+			<body enabled="false" name="'body_glass_1_bottom'"/>
+			<body enabled="false" name="'body_mover_blocker_1'"/>
+			<body enabled="false" name="'body_glass_2_top'"/>
+			<body enabled="false" name="'body_glass_2_bottom'"/>
+			<body enabled="false" name="'body_mover_blocker_2'"/>
+			<graphic_group name="'doors'" visibility="false"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<body enabled="true" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="true" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="true" name="'body_frame'"/>
+			<body enabled="true" name="'body_door_1'"/>
+			<body enabled="true" name="'body_door_2'"/>
+			<body enabled="true" name="'body_glass_1_top'"/>
+			<body enabled="true" name="'body_glass_1_bottom'"/>
+			<body enabled="true" name="'body_mover_blocker_1'"/>
+			<body enabled="true" name="'body_glass_2_top'"/>
+			<body enabled="true" name="'body_glass_2_bottom'"/>
+			<body enabled="true" name="'body_mover_blocker_2'"/>
+			<graphic_group name="'doors'" visibility="true"/>
+			<graphic_group name="'sawicongroup'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_open_door'" triggable="false">
+			<animation_group enabled="true" from="163/30" name="'anim_door'" to="194/30"/>
+			<sound action="'play'" event="'generic_door_metal_open'" object="'anim_door_1'"/>
+			<sound action="'play'" event="'generic_door_metal_open'" object="'anim_door_2'"/>
+			<run_sequence name="'done_opened'" start_time="31/30"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_close_door'" triggable="false">
+			<animation_group enabled="true" from="195/30" name="'anim_door'" to="214/30"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_explosion_out'" triggable="false">
+			<sound action="'play'" event="'c4_explode_metal'" object="'anim_frame'"/>
+			<animation_group enabled="true" from="163/30" name="'anim_door'" speed="3" to="194/30"/>
+			<run_sequence name="'done_opened'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_explosion_in'" triggable="false">
+			<sound action="'play'" event="'c4_explode_metal'" object="'anim_frame'"/>
+			<animation_group enabled="true" from="163/30" name="'anim_door'" speed="3" to="194/30"/>
+			<run_sequence name="'done_opened'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<body name="'body_hitbox_door_handle_in'">
+			<endurance bullet="4">
+				<run_sequence name="'int_seq_bullet_hit_in'"/>
+			</endurance>
+			<endurance lock="30">
+				<run_sequence name="'int_seq_saw_in'"/>
+			</endurance>
+			<endurance explosion="1">
+				<run_sequence name="'int_seq_explosion_out'"/>
+			</endurance>
+		</body>
+		<body name="'body_hitbox_door_handle_out'">
+			<endurance bullet="4">
+				<run_sequence name="'int_seq_bullet_hit_out'"/>
+			</endurance>
+			<endurance lock="30">
+				<run_sequence name="'int_seq_saw_out'"/>
+			</endurance>
+			<endurance explosion="1">
+				<run_sequence name="'int_seq_explosion_in'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_1_top'">
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_crack_win_1_top'"/>
+			</endurance>
+			<endurance bullet="3" explosion="1" lock="3" melee="2">
+				<run_sequence name="'int_seq_shatter_win_1_top'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_1_bottom'">
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_crack_win_1_bottom'"/>
+			</endurance>
+			<endurance bullet="3" explosion="1" lock="3" melee="2">
+				<run_sequence name="'int_seq_shatter_win_1_bottom'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_2_top'">
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_crack_win_2_top'"/>
+			</endurance>
+			<endurance bullet="3" explosion="1" lock="3" melee="2">
+				<run_sequence name="'int_seq_shatter_win_2_top'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_2_bottom'">
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_crack_win_2_bottom'"/>
+			</endurance>
+			<endurance bullet="3" explosion="1" lock="3" melee="2">
+				<run_sequence name="'int_seq_shatter_win_2_bottom'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="false" name="'int_seq_crack_win_1_top'" once="true" triggable="false">
+			<object enabled="false" name="'g_glass_1_top'"/>
+			<object enabled="true" name="'g_glass_1_top_dmg'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_1_top'" operation="'add'" preset_name="'prop_ene_ntl'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_1_top'" once="true" triggable="false">
+			<body enabled="false" name="'body_glass_1_top'"/>
+			<object enabled="false" name="'g_glass_1_top'"/>
+			<object enabled="false" name="'g_glass_1_top_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_glass_1_top'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_1_top' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_1_top'"/>
+			<alert/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_crack_win_1_bottom'" once="true" triggable="false">
+			<object enabled="false" name="'g_glass_1_bottom'"/>
+			<object enabled="true" name="'g_glass_1_bottom_dmg'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_1_bottom'" operation="'add'" preset_name="'prop_ene_ntl'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_1_bottom'" once="true" triggable="false">
+			<body enabled="false" name="'body_glass_1_bottom'"/>
+			<object enabled="false" name="'g_glass_1_bottom'"/>
+			<object enabled="false" name="'g_glass_1_bottom_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_glass_1_bottom'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_1_bottom' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_1_bottom'"/>
+			<alert/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_crack_win_2_top'" once="true" triggable="false">
+			<object enabled="false" name="'g_glass_2_top'"/>
+			<object enabled="true" name="'g_glass_2_top_dmg'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_2_top'" operation="'add'" preset_name="'prop_ene_ntl'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_2_top'" once="true" triggable="false">
+			<body enabled="false" name="'body_glass_2_top'"/>
+			<object enabled="false" name="'g_glass_2_top'"/>
+			<object enabled="false" name="'g_glass_2_top_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_glass_2_top'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_2_top' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_2_top'"/>
+			<alert/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_crack_win_2_bottom'" once="true" triggable="false">
+			<object enabled="false" name="'g_glass_2_bottom'"/>
+			<object enabled="true" name="'g_glass_2_bottom_dmg'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_2_bottom'" operation="'add'" preset_name="'prop_ene_ntl'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_2_bottom'" once="true" triggable="false">
+			<body enabled="false" name="'body_glass_2_bottom'"/>
+			<object enabled="false" name="'g_glass_2_bottom'"/>
+			<object enabled="false" name="'g_glass_2_bottom_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_glass_2_bottom'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_2_bottom' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_2_bottom'"/>
+			<alert/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_open'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+			<object enabled="true" name="'g_door'"/>
+			<object enabled="false" name="'g_door_saw_dst'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_breach_common'" triggable="false">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_bullet_hit_in'" triggable="false">
+			<effect name="'effects/payday2/particles/impacts/sparks/sparks_partical_random'" parent="object( 'e_door_dst' )" position="v()"/>
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+			<object enabled="false" name="'g_door'"/>
+			<object enabled="true" name="'g_door_saw_dst'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_bullet_hit_out'" triggable="false">
+			<effect name="'effects/payday2/particles/impacts/sparks/sparks_partical_random'" parent="object( 'e_door_dst' )" position="v()"/>
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+			<object enabled="false" name="'g_door'"/>
+			<object enabled="true" name="'g_door_saw_dst'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_saw_in'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+			<object enabled="false" name="'g_door'"/>
+			<object enabled="true" name="'g_door_saw_dst'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_saw_out'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+			<object enabled="false" name="'g_door'"/>
+			<object enabled="true" name="'g_door_saw_dst'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_explosion_in'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_explosion_in'"/>
+			<run_sequence name="'done_exploded'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_explosion_out'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_explosion_out'"/>
+			<run_sequence name="'done_exploded'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'int_seq_open'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'sobj_swat_breach_in'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_door'" to="83/30"/>
+			<run_sequence name="'int_seq_slam_door'" start_time="89/30"/>
+			<run_sequence name="'done_swat_breach'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'sobj_swat_breach_out'" triggable="true">
+			<animation_group enabled="true" from="93/30" name="'anim_door'" to="153/30"/>
+			<run_sequence name="'anim_explosion_out'" start_time="90/30"/>
+			<run_sequence name="'done_swat_breach'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_slam_door'" triggable="false">
+			<animation_group enabled="true" from="163/30" name="'anim_door'" speed="3" to="194/30"/>
+			<sound action="'play'" event="'generic_door_metal_open'" object="'anim_door_1'"/>
+			<sound action="'play'" event="'generic_door_metal_open'" object="'anim_door_2'"/>
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'done_opened'"/>
+			<graphic_group name="'sawicongroup'" visibility="false"/>
+		</sequence>
+		<sequence name="'open_door'" triggable="true">
+			<run_sequence name="'int_seq_open'"/>
+		</sequence>
+		<sequence editable_state="true" name="'collision_off'" triggable="true">
+			<body enabled="false" name="'body_frame'"/>
+			<body enabled="false" name="'body_door_1'"/>
+			<body enabled="false" name="'body_door_2'"/>
+			<body enabled="false" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="false" name="'body_glass_1_top'"/>
+			<body enabled="false" name="'body_glass_1_bottom'"/>
+			<body enabled="false" name="'body_mover_blocker_1'"/>
+			<body enabled="false" name="'body_glass_2_top'"/>
+			<body enabled="false" name="'body_glass_2_bottom'"/>
+			<body enabled="false" name="'body_mover_blocker_2'"/>
+		</sequence>
+		<sequence editable_state="true" name="'collision_on'" triggable="true">
+			<body enabled="true" name="'body_frame'"/>
+			<body enabled="true" name="'body_door_1'"/>
+			<body enabled="true" name="'body_door_2'"/>
+			<body enabled="true" name="'body_hitbox_door_handle_in'"/>
+			<body enabled="true" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="true" name="'body_glass_1_top'"/>
+			<body enabled="true" name="'body_glass_1_bottom'"/>
+			<body enabled="true" name="'body_mover_blocker_1'"/>
+			<body enabled="true" name="'body_glass_2_top'"/>
+			<body enabled="true" name="'body_glass_2_bottom'"/>
+			<body enabled="true" name="'body_mover_blocker_2'"/>
+		</sequence>
+		<sequence editable_state="false" name="'done_exploded'" triggable="false"/>
+		<sequence editable_state="false" name="'done_opened'" triggable="false"/>
+		<sequence editable_state="false" name="'done_swat_breach'" triggable="false"/>
+	</unit>
+</sequence_manager>

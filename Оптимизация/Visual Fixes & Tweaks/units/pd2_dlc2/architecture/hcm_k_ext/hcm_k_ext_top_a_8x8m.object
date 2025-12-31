@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hcm_k_ext_top_a_8x8m" materials="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext" />
+    <bodies>
+        <body enabled="true" template="static" name="hcm_body" >
+            <object collision_type="box" name="c_box_00" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_concrete" material="thin_layer" />
+        <decal_mesh enabled="true" name="dm_glass_breakable" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_b92fs">
+    <material name="brig" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_brigadier_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_brigadier_nm" mip="1"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>	
+</materials>

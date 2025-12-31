@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pedestal" materials="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+    <graphics>
+        <object enabled="true" name="g_pedestal" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

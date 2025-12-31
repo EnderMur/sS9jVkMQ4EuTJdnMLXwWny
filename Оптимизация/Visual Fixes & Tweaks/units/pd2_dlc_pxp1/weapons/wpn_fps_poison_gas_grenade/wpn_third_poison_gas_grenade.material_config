@@ -1,0 +1,29 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_grenade" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_nm"/>
+        <material_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_gsma"/>
+    </material>
+    <material render_template="opacity:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:FPS:OPACITY_UVANIM" name="mtr_poison_1" version="2">
+        <opacity_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_df"/>
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_df"/>
+        <variable type="vector3" name="uv_speed" value="0.10000000149012 0.10000000149012 0"/>
+    </material>
+    <material render_template="opacity:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:FPS" name="mtr_poison_2" version="2">
+        <opacity_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_bubbles_df"/>
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_bubbles_df"/>
+        <variable type="vector3" name="uv_speed" value="-0.041999764740467 0.021000238135457 0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" name="mtr_poison_3" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_base_df"/>
+        <self_illumination_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/poison_base_df"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+        <variable type="scalar" name="il_bloom" value="4"/>
+        <variable type="vector3" name="uv_speed" value="-0.020999763160944 0.042000237852335 0"/>
+    </material>
+	<material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_white_third" version="2">
+		<diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_nm"/>
+        <material_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_poison_gas_grenade/grenade_gsma"/>
+    </material>
+</materials>

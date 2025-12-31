@@ -1,0 +1,18 @@
+<materials version="3">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" decal_material="glass_breakable" name="display" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_df"/>
+        <self_illumination_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_df"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop_nm"/>
+	    <variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" decal_material="glass_breakable" unique="true" name="computer" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_df"/>
+        <self_illumination_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_il"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop_nm"/>
+        <variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

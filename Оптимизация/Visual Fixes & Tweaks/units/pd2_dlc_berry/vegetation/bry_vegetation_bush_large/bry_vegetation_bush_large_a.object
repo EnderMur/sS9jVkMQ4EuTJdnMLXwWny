@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a" orientation_object="rp_bry_vegetation_bush_large_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_bry_vegetation_bush_large_a" />
+			<object name="c_sphere_01" collision_type="sphere" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+	<!-- 
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="15000" instance_struct="world_tm" shadow_caster="true"/>
+			<object name="g_lod1" enabled="true" instance_struct="world_tm" />
+		</lod_object>
+		-->
+		<object name="g_lod0" enabled="true" max_distance="15000" instance_struct="world_tm" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

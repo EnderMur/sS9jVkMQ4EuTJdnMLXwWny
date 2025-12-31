@@ -1,0 +1,41 @@
+<materials version="3">
+	<material name="facade_metal_03" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_metal_03_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="window" render_template="generic:BLUE_MASK_TINT:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:RL_BACKDROP:VERTEX_COLOR" decal_material="glass_breakable" version="2">
+		<diffuse_texture file="units/world/architecture/street/windows_df" />
+		<reflection_texture type="cubemap" file="environments/cubemaps/cubemap_street_01"/>
+	</material>
+	<material name="facade_asphalt_01" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_asphalt_01_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="facade_bricks_03" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_bricks_03_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="facade_concrete_01_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_concrete_01b_df" />
+		<diffuse_layer0_texture file="units/pd2_dlc_dinner/architecture/textures/facade_concrete_01_df" />
+		<diffuse_layer1_texture file="units/pd2_dlc_dinner/architecture/textures/facade_concrete_01b_mask_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+		<normal_layer0_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="facade_trims_01" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_trims_02_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="facade_trims_02_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_D_A:BLEND_SMOOTH:BLEND_TINT_SECOND:DIFFUSE_TEXTURE:INSTANCED" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_trims_02_df" />
+		<diffuse_layer0_texture file="units/pd2_dlc_dinner/architecture/textures/facade_trims_02_blend_df" />
+	</material>
+	<material name="facade_metal_01" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_metal_01_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+	<material name="facade_metal_02" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_dinner/architecture/textures/facade_metal_02_df" />
+		<bump_normal_texture file="units/payday2/textures/blank_nm" />
+	</material>
+</materials>

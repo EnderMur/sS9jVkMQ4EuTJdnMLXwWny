@@ -1,0 +1,8 @@
+<materials version="3" group="weapon_51b">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_muzzle" version="2">
+        <bump_normal_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_jcomp_nm"/>
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_jcomp_df"/>
+        <material_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_jcomp_gsma"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

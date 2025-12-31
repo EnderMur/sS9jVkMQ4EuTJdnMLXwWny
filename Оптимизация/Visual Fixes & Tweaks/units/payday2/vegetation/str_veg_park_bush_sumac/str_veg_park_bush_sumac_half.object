@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_veg_park_bush_sumac_half" materials="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac" />
+    <bodies>
+        <body enabled="false" template="mover_blocker" name="static_body" >
+			<object name="rp_str_veg_park_bush_sumac_half" />
+			<object collision_type="capsule" name="c_capsule_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

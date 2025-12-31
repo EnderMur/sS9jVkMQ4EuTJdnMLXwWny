@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<dynamic_object> 
+  <diesel materials="units/world/architecture/suburbia/suburbia_house2_crash_wall" orientation_object="rp_suburbia_house2_crash_wall" />
+  <sequence_manager file="units/world/architecture/suburbia/suburbia_house2_crash_wall" />
+	<animations>
+<!-- ///////////////////////////////////Truck////////////////////////////////////////////// -->
+			<animation_group name="main_animation">
+				<object name="a_main_animation" />
+				<object name="a_body" />
+				<object name="a_front_right_wheel" />
+				<object name="a_front_left_wheel" />
+				<object name="a_rear_wheels" />
+				
+				<object name="a_table_suburbia_01" />
+				<object name="a_lxy_prop_ext_chair_deck" />
+				<object name="a_lxy_prop_ext_chair_deck1" />
+				<object name="a_lxy_prop_ext_chair_deck2" />
+				<object name="a_lxy_prop_ext_chair_deck3" />
+				
+				<object name="a_painting_25" />
+				<object name="a_table_leg" />
+				<object name="a_table_leg1" />
+				
+				<object name="a_fence_piece1" />
+				<object name="a_fence_piece2" />
+				
+				<object name="a_tire_front_left" />
+				<object name="a_tire_front_right" />
+				<object name="a_tire_rear_left" />
+				<object name="a_tire_rear_right" />
+			</animation_group>
+			<animation_group name="crash1">
+				<object name="a_crash1" />
+				<object name="a_body_crash1" />
+				<object name="a_rear_wheels_crash1" />
+				<object name="a_front_left_wheel_crash1" />
+				<object name="a_front_right_wheel_crash1" />
+			</animation_group>
+			
+			<animation_group name="crash2">
+				<object name="a_crash2" />
+				<object name="a_body_crash2" />
+				<object name="a_rear_wheels_crash2" />
+				<object name="a_front_left_wheel_crash2" />
+				<object name="a_front_right_wheel_crash2" />
+			</animation_group>
+			
+			<animation_group name="anim_door_driver">
+				<object name="anim_door_driver" />
+			</animation_group>
+
+			<animation_group name="anim_door_top">
+				<object name="anim_door_top" />
+			</animation_group>
+	<animation_group name="ag_right_door">
+		<object name="a_right_door" />
+	</animation_group>
+
+	<animation_group name="ag_left_door">
+		<object name="a_left_door" />
+	</animation_group>
+<!-- ///////////////////////////////////oooooooooo////////////////////////////////////////////// -->
+	
+	</animations>
+	
+	<bodies>
+<!-- ///////////////////////////////////Truck////////////////////////////////////////////// -->
+	<body name="static_body" enabled="true" template="animated">
+	  <object name="a_body_crash2"/>
+      <object name="c_box_bag_blocker" collision_type="box" padding="-2"/>
+      <object name="c_body" collision_type="mesh_mopp" />
+	</body>
+	<body name="player_nono" enabled="true" template="mover_blocker" keyframed="true">
+      <object name="c_player_nono" collision_type="box" />
+	</body>
+
+	<body name="player_collision_fix" enabled="true" template="mover_blocker" keyframed="true">
+      <object name="c_player_collision_fix" collision_type="box" />
+	</body>
+	
+	<!--body remove_ray_type="ai_vision" name="window_front_left" enabled="true" template="animated">
+      <object name="c_window_front_left" collision_type="box" padding="-2"/>
+    </body>
+    <body remove_ray_type="ai_vision" name="window_front_right" enabled="true" template="animated">
+      <object name="c_window_front_right" collision_type="box" padding="-2"/>
+    </body>
+    <body remove_ray_type="ai_vision" name="window_right" enabled="true" template="animated">
+      <object name="c_window_right" collision_type="convex" padding="-2"/>
+    </body>
+    <body remove_ray_type="ai_vision" name="window_left" enabled="true" template="animated">
+      <object name="c_window_left" collision_type="convex" padding="-2"/>
+    </body>
+	 <body remove_ray_type="ai_vision" name="window_right_door" enabled="true" template="animated">
+      <object name="c_window_right_door" collision_type="box" padding="-2"/>
+    </body>
+	 <body remove_ray_type="ai_vision" name="window_left_door" enabled="true" template="animated">
+      <object name="c_window_left_door" collision_type="box" padding="-2"/>
+    </body-->
+	<body name="static_body2" enabled="true" template="animated">
+	  <object name="a_left_door" />
+      <object name="c_left_door" collision_type="convex" padding="-2"/>
+    </body>
+	
+	<body name="static_body3" enabled="true" template="animated">
+	  <object name="a_right_door" />
+      <object name="c_right_door" collision_type="convex" padding="-2"/>
+    </body>
+
+	<body name="static_body4" enabled="true" template="animated">
+	  <object name="anim_door_top" />
+      <object name="c_convex_top_door" collision_type="convex" padding="-2"/>
+    </body>
+
+	<body name="static_body5" enabled="true" template="animated">
+	  <object name="anim_door_driver" />
+      <object name="c_convex_driver_door" collision_type="convex" padding="-2"/>
+    </body>
+
+<!-- ///////////////////////////////////wall////////////////////////////////////////////// -->
+	<body name="wall_body" enabled="true" template="static">
+	  <object name="rp_suburbia_house2_crash_wall" />
+	  <object name="c_hole_box1" padding="-2" collision_type="box" />
+	  <object name="c_hole_box7" padding="-2" collision_type="box" />
+	  <object name="c_hole_box8" padding="-2" collision_type="box" />
+	  <object name="c_hole_box9" padding="-2" collision_type="box" />
+	  <object name="c_hole_box10" padding="-2" collision_type="box" />
+	  <object name="c_fill_box1" padding="-2" collision_type="box" />
+	  <object name="c_fill_box2" padding="-2" collision_type="box" />
+	  <object name="c_fill_box3" padding="-2" collision_type="box" />
+	  <object name="c_fill_box4" padding="-2" collision_type="box" />
+	  <object name="c_fill_box5" padding="-2" collision_type="box" />
+	  <object name="c_fill_box6" padding="-2" collision_type="box" />
+	  <object name="c_fill_box7" padding="-2" collision_type="box" />
+	  <object name="c_fill_box8" padding="-2" collision_type="box" />
+    </body>
+	<body name="wall_dest_body" enabled="false" template="static">
+	  <object name="rp_suburbia_house2_crash_wall" />
+      <object name="c_hole_box1" padding="-2" collision_type="box" />
+      <object name="c_hole_box2" padding="-2" collision_type="box" />
+      <object name="c_hole_box3" padding="-2" collision_type="box" />
+      <object name="c_hole_box4" padding="-2" collision_type="box" />
+      <object name="c_hole_box5" padding="-2" collision_type="box" />
+      <object name="c_hole_box6" padding="-2" collision_type="box" />
+      <object name="c_hole_box7" padding="-2" collision_type="box" />
+      <object name="c_hole_box8" padding="-2" collision_type="box" />
+      <object name="c_hole_box9" padding="-2" collision_type="box" />
+      <object name="c_hole_box10" padding="-2" collision_type="box" />
+      <object name="c_hole_plank_box1" padding="-2" collision_type="box" />
+      <object name="c_hole_plank_box2" padding="-2" collision_type="box" />
+    </body>
+	<body name="no_mover_coll" enabled="false" collides_with_mover="false" template="static">
+	  <object name="rp_suburbia_house2_crash_wall" />
+      <object name="c_hole_plank_box" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box3" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_convex1" padding="-2" collision_type="convex" />
+	  <object name="c_hole_plank_convex2" padding="-2" collision_type="convex" />
+	  <object name="c_hole_plank_convex3" padding="-2" collision_type="convex" />
+	  <object name="c_hole_plank_convex4" padding="-2" collision_type="convex" />
+	  
+	  <object name="c_hole_plank_box4" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box5" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box6" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box7" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box8" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box9" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box10" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box11" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box12" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box13" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box14" padding="-2" collision_type="box" />
+	  <object name="c_hole_plank_box15" padding="-2" collision_type="box" />
+    </body>
+	<body name="ramp_body" enabled="false" template="mover_blocker">
+	  <object name="rp_suburbia_house2_crash_wall" />
+      <object name="c_ramp_box1" padding="-2" collision_type="box" />
+      <object name="c_ramp_box2" padding="-2" collision_type="box" />
+    </body>
+
+<!-- ///////////////////////////////////window////////////////////////////////////////////// -->
+	<body name="frame" enabled="true" template="static" remove_ray_type="walk">
+		<object name="a_m" />
+		<object name="c_box1_top_frame" collision_type="box" padding="-2"/>
+		<object name="c_box2_top_frame" collision_type="box" padding="-2"/>
+		<object name="c_box3_top_frame" collision_type="box" padding="-2"/>
+		<object name="c_box4_top_frame" collision_type="box" padding="-2"/>
+		<object name="c_box1_bottom_frame" collision_type="box" padding="-2"/>
+		<object name="c_box2_bottom_frame" collision_type="box" padding="-2"/>
+		<object name="c_box3_bottom_frame" collision_type="box" padding="-2"/>
+		<object name="c_box4_bottom_frame" collision_type="box" padding="-2"/>
+	</body>
+	<body remove_ray_type="walk vis_graph ai_vision" name="glass" enabled="true" template="static">
+		<object name="g_glass" collision_type="box" padding="-2"/>
+	</body>
+	<body name="top_frame_dynamic" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_top_frame" collision_type="box" material="balsa"/>
+		<object name="c_top_frame_weight" collision_type="none" mass="10"/>
+		<object name="g_top_frame"/>
+	</body>
+	<body name="bottom_frame_dynamic" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_bottom_frame" collision_type="box" material="balsa"/>
+		<object name="c_bottom_frame_weight" collision_type="none" mass="10"/>
+		<object name="g_bottom_frame"/>
+	</body>
+	
+<!-- ///////////////////////////////////window1////////////////////////////////////////////// -->
+	<body name="frame1" enabled="true" template="static" remove_ray_type="walk">
+		<object name="a_m1" />
+		<object name="c_box1_top_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box2_top_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box3_top_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box4_top_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box1_bottom_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box2_bottom_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box3_bottom_frame1" collision_type="box" padding="-2"/>
+		<object name="c_box4_bottom_frame1" collision_type="box" padding="-2"/>
+	</body>
+	<body remove_ray_type="walk vis_graph ai_vision" name="glass1" enabled="true" template="static">
+		<object name="g_glass1" collision_type="box" padding="-2"/>
+	</body>
+	<body name="top_frame_dynamic1" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_top_frame1" collision_type="box" material="balsa"/>
+		<object name="c_top_frame_weight1" collision_type="none" mass="10"/>
+		<object name="g_top_frame1"/>
+	</body>
+	<body name="bottom_frame_dynamic1" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_bottom_frame1" collision_type="box" material="balsa"/>
+		<object name="c_bottom_frame_weight1" collision_type="none" mass="10"/>
+		<object name="g_bottom_frame1"/>
+	</body>
+
+<!-- ///////////////////////////////////window2////////////////////////////////////////////// -->
+	<body name="frame2" enabled="true" template="static" remove_ray_type="walk">
+		<object name="a_m2" />
+		<object name="c_box1_top_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box2_top_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box3_top_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box4_top_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box1_bottom_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box2_bottom_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box3_bottom_frame2" collision_type="box" padding="-2"/>
+		<object name="c_box4_bottom_frame2" collision_type="box" padding="-2"/>
+	</body>
+	<body remove_ray_type="walk vis_graph ai_vision" name="glass2" enabled="true" template="static">
+		<object name="g_glass2" collision_type="box" padding="-2"/>
+	</body>
+	<body name="top_frame_dynamic2" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_top_frame2" collision_type="box" material="balsa"/>
+		<object name="c_top_frame_weight2" collision_type="none" mass="10"/>
+		<object name="g_top_frame2"/>
+	</body>
+	<body name="bottom_frame_dynamic2" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_bottom_frame2" collision_type="box" material="balsa"/>
+		<object name="c_bottom_frame_weight2" collision_type="none" mass="10"/>
+		<object name="g_bottom_frame2"/>
+	</body>
+	
+<!-- ///////////////////////////////////chair////////////////////////////////////////////// -->
+	 <body name="chair_body" enabled="true" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	 <body name="chair_body1" enabled="true" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck1" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	 <body name="chair_body2" enabled="true" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck2" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	 <body name="chair_body3" enabled="true" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck3" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	<body name="chair_body1_1" enabled="false" collides_with_mover="false" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck1" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	 <body name="chair_body2_1" enabled="false" collides_with_mover="false" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck2" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+	 <body name="chair_body3_1" enabled="false" collides_with_mover="false" template="animated">
+      <object name="c_lxy_prop_ext_chair_deck3" collision_type="convex" padding="-2.5"/>
+    </body>
+	
+<!-- ///////////////////////////////////table////////////////////////////////////////////// -->
+	<body name="table_body" enabled="true" template="animated">
+		<object name="a_table_suburbia_01" />
+		<object collision_type="box" name="c_box_3" padding="-2"/>
+		<object collision_type="box" name="c_box_4" padding="-2"/>
+		<object collision_type="box" name="c_box_5" padding="-2"/>
+	</body>
+	<body name="table_leg_body" enabled="true" template="animated">
+		<object name="a_table_suburbia_01" />
+		<object collision_type="box" name="c_box_1" padding="-2"/>
+		<object collision_type="box" name="c_box_2" padding="-2"/>
+	</body>
+
+<!-- ///////////////////////////////////vase////////////////////////////////////////////// -->
+	<body name="vase" enabled="true" template="static">
+      <object name="a_lxy_prop_flower_vase" />
+      <object name="c_lxy_prop_flower_vase" collision_type="mesh_mopp" />
+    </body>
+	
+	<body name="foot" enabled="false" template="static">
+      <object name="c_foot" collision_type="mesh_mopp" />
+    </body>
+	
+	 <body name="part1" template="debris" pushed_by_mover="false">
+      <object name="c_part_1" collision_type="convex" mass="2" />
+      <object name="g_part_1" />
+    </body>
+	
+	<body name="part2" template="debris" pushed_by_mover="false">
+      <object name="c_part_2" collision_type="convex" mass="2" />
+      <object name="g_part_2" />
+    </body>
+	
+	<body name="part3" template="debris" pushed_by_mover="false">
+      <object name="c_part_3" collision_type="convex" mass="2" />
+      <object name="g_part_3" />
+    </body>
+	
+	<body name="part4" template="debris" pushed_by_mover="false">
+      <object name="c_part_4" collision_type="convex" mass="2" />
+      <object name="g_part_4" />
+    </body>
+	
+	<body name="part5" template="debris" pushed_by_mover="false">
+      <object name="c_part_5" collision_type="convex" mass="2" />
+      <object name="g_part_5" />
+    </body>
+	
+	<body name="part6" template="debris" pushed_by_mover="false">
+      <object name="c_part_6" collision_type="convex" mass="2" />
+      <object name="g_part_6" />
+    </body>
+	
+	<body name="part7" template="debris" pushed_by_mover="false">
+      <object name="c_part_7" collision_type="convex" mass="2" />
+      <object name="g_part_7" />
+    </body>	
+	
+<!-- ///////////////////////////////////bottles////////////////////////////////////////////// -->
+	<body name="bottle_body" enabled="true" template="raycoll_static">
+      <object name="a_bottle_1"/>
+      <object name="c_bottle_1" collision_type="mesh_mopp" />
+    </body>
+	<body name="bottle2_body" enabled="true" template="raycoll_static">
+      <object name="a_bottle_2"/>
+      <object name="c_bottle_2" collision_type="mesh_mopp" />
+    </body>
+	<body name="bottle2_1_body" enabled="true" template="raycoll_static">
+      <object name="a_bottle_2_1"/>
+      <object name="c_bottle_2_1" collision_type="mesh_mopp" />
+    </body>
+	
+<!-- ///////////////////////////////////plates////////////////////////////////////////////// -->
+	<body name="plate_body" enabled="true" template="static">
+      <object name="g_plate" collision_type="convex" />
+    </body>
+	<body name="plate1_body" enabled="true" template="static">
+      <object name="g_plate1" collision_type="convex" />
+    </body>
+	<body name="plate2_body" enabled="true" template="static">
+      <object name="g_plate2" collision_type="convex" />
+    </body>
+	<body name="plate3_body" enabled="true" template="static">
+      <object name="g_plate3" collision_type="convex" />
+    </body>
+  
+ <!-- ///////////////////////////////////painting////////////////////////////////////////////// -->
+	<body name="painting_static_body" enabled="true" template="animated">
+			<object name="a_painting_25"/>
+			<object name="c_painting" material="titanium" collision_type="box" />
+		</body>
+		<body name="painting_dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false">
+			<object name="a_painting_25"/>
+			<object name="c_painting" 			  	 collision_type="box"/>
+			<object name="c_painting_tilter" 	    collision_type="box"/>
+		</body>
+		<body name="painting_dynamic_body_2" enabled="false" template="small_prop" pushed_by_mover="false">
+			<object name="a_painting_25"/>
+			<object name="c_painting" 			  	material="wood" collision_type="box"/>
+		</body>
+
+<!-- ///////////////////////////////////Chanpange Glass////////////////////////////////////////////// -->
+	<body name="champange_glass_body" enabled="true" template="static">
+      <object name="c_lxy_prop_champaign_glass_convex" collision_type="convex" />
+    </body>
+	<body name="champange_glass_body1" enabled="true" template="static">
+      <object name="c_lxy_prop_champaign_glass_convex1" collision_type="convex" />
+    </body>
+	<body name="champange_glass_body2" enabled="true" template="static">
+      <object name="c_lxy_prop_champaign_glass_convex2" collision_type="convex" />
+    </body>
+	<body name="champange_glass_body3" enabled="true" template="static">
+      <object name="c_lxy_prop_champaign_glass_convex3" collision_type="convex" />
+    </body>
+	
+<!-- ///////////////////////////////////fence////////////////////////////////////////////// -->
+	<body name="fence_body" enabled="true" template="static">
+	  <object name="a_fence" />
+      <object name="c_box1" collision_type="box" />
+      <object name="c_box2" collision_type="box" />
+    </body>
+	<body name="fence_piece1_body" enabled="true" template="animated">
+      <object name="a_fence_piece1" />
+      <object name="c_fence_piece1" collision_type="box" />
+    </body>
+	<body name="fence_piece2_body" enabled="true" template="animated">
+      <object name="a_fence_piece2" />
+      <object name="c_fence_piece2" collision_type="box" />
+    </body>
+	
+<!-- ///////////////////////////////////hedge////////////////////////////////////////////// -->
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="a_hedge_buxbom" />
+			<object name="c_vision_block" collision_type="box" />
+		</body>	
+		<body name="hedge_body" enabled="true" editable="true" template="mover_blocker">
+			<object name="c_c" collision_type="box" />
+		</body>
+		<body name="vision_blocker_dest" enabled="false" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="a_hedge_buxbom" />
+			<object name="c_vision_block_dest" collision_type="box" />
+			<object name="c_vision_block_dest1" collision_type="box" />
+		</body>	
+		<body name="hedge_body_dest" enabled="false" editable="true" template="mover_blocker">
+			<object name="a_hedge_buxbom" />
+			<object name="c_c_dest" collision_type="box" />
+			<object name="c_c_dest1" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="hardwood">
+<!-- ///////////////////////////////////Truck////////////////////////////////////////////// -->
+<decal_mesh name="g_veichle" 				enabled="true" material="metal"/>
+<decal_mesh name="g_tire_rear_right" 		enabled="true" material="metal"/>
+<decal_mesh name="g_tire_rear_left" 		enabled="true" material="metal"/>
+<decal_mesh name="g_tire_front_right" 		enabled="true" material="metal"/>
+<decal_mesh name="g_tire_front_left" 		enabled="true" material="metal"/>
+<decal_mesh name="g_door_left" 				enabled="true" material="metal"/>
+<decal_mesh name="g_door_right" 			enabled="true" material="metal"/>
+<decal_mesh name="g_door_driver" 			enabled="true" material="metal"/>
+<!-- ///////////////////////////////////wall////////////////////////////////////////////// -->
+	<decal_mesh name="c_hole_plank_box1" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box2" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box3" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box7" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box6" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box5" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box4" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box8" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box10" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box11" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box12" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box13" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box14" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="c_hole_plank_box15" 		enabled="true" material="hardwood"/>
+	<decal_mesh name="dm_hole_ext" 				enabled="true" material="hardwood"/>
+	<decal_mesh name="dm_plywood" 				enabled="true" material="hardwood"/>
+	<decal_mesh name="dm_insulation" 			enabled="true" material="cloth"/>
+	<decal_mesh name="dm_hole_int" 				enabled="true" material="plaster"/>
+  
+<!-- ///////////////////////////////////window////////////////////////////////////////////// -->
+	<decal_mesh name="dm_wood" enabled="true" material="wood" />
+    <decal_mesh name="g_glass" enabled="true" material="glass_breakable" />
+	
+<!-- ///////////////////////////////////window1////////////////////////////////////////////// -->
+	<decal_mesh name="dm_wood1" enabled="true" material="wood" />
+    <decal_mesh name="g_glass1" enabled="true" material="glass_breakable" />
+	
+<!-- ///////////////////////////////////window2////////////////////////////////////////////// -->
+	<decal_mesh name="dm_wood2" enabled="true" material="wood" />
+    <decal_mesh name="g_glass2" enabled="true" material="glass_breakable" />
+	
+<!-- ///////////////////////////////////chair////////////////////////////////////////////// -->
+	<decal_mesh name="dm_lxy_prop_ext_chair_deck_wood" enabled="true" material="wood" />
+    <decal_mesh name="dm_lxy_prop_ext_chair_deck_fabric" enabled="true" material="cloth" />
+	
+	<decal_mesh name="dm_lxy_prop_ext_chair_deck_wood1" enabled="true" material="wood" />
+    <decal_mesh name="dm_lxy_prop_ext_chair_deck_fabric1" enabled="true" material="cloth" />
+	
+	<decal_mesh name="dm_lxy_prop_ext_chair_deck_wood2" enabled="true" material="wood" />
+    <decal_mesh name="dm_lxy_prop_ext_chair_deck_fabric2" enabled="true" material="cloth" />
+	
+	<decal_mesh name="dm_lxy_prop_ext_chair_deck_wood3" enabled="true" material="wood" />
+    <decal_mesh name="dm_lxy_prop_ext_chair_deck_fabric3" enabled="true" material="cloth" />
+
+<!-- ///////////////////////////////////table////////////////////////////////////////////// -->
+	<decal_mesh name="g_table" enabled="true" material="wood" />
+
+<!-- ///////////////////////////////////bottles////////////////////////////////////////////// -->
+	<decal_mesh name="dm_bottle_1" enabled="true" material="glass_breakable"/>
+	<decal_mesh name="dm_bottle_2" enabled="true" material="glass_breakable"/>
+	<decal_mesh name="dm_bottle_2_1" enabled="true" material="glass_breakable"/>
+	
+<!-- ///////////////////////////////////plates////////////////////////////////////////////// -->
+	<decal_mesh name="g_plate" enabled="true" />
+	<decal_mesh name="g_plate1" enabled="true" />
+	<decal_mesh name="g_plate2" enabled="true" />
+	<decal_mesh name="g_plate3" enabled="true" />
+	
+<!-- ///////////////////////////////////painting////////////////////////////////////////////// -->
+	<decal_mesh name="dm_painting_wood" enabled="true" material="wood" />
+	<decal_mesh name="dm_glass" enabled="true" material="glass_breakable" />
+
+
+<!-- ///////////////////////////////////Chanpange Glass////////////////////////////////////////////// -->
+	<decal_mesh name="g_lxy_prop_champaign_glass" enabled="true" material="glass_breakable" />
+	<decal_mesh name="g_lxy_prop_champaign_glass1" enabled="true" material="glass_breakable" />
+	<decal_mesh name="g_lxy_prop_champaign_glass2" enabled="true" material="glass_breakable" />
+	<decal_mesh name="g_lxy_prop_champaign_glass3" enabled="true" material="glass_breakable" />
+
+<!-- ///////////////////////////////////fence////////////////////////////////////////////// -->
+	<decal_mesh name="dm_fence_wood" enabled="true" material="wood" />
+	<decal_mesh name="dm_fence_piece" enabled="true" material="wood" />
+	<decal_mesh name="dm_fence_piece1" enabled="true" material="wood" />
+	<decal_mesh name="dm_fence_piece2" enabled="true" material="wood" />
+	
+<!-- ///////////////////////////////////hedge////////////////////////////////////////////// -->
+	<decal_mesh name="g_g" enabled="true" />
+	<decal_mesh name="g_g_dest" enabled="false" />
+  </decal_surfaces>
+  
+  <graphics>
+<!-- ///////////////////////////////////Truck////////////////////////////////////////////// -->
+	<graphic_group name="grp_vehicle" 		enabled="true" culling_object="co_cull">
+		<object name="g_lamp"				enabled="false" />
+		<object name="g_veichle"			enabled="true" shadow_caster="true" />
+		<object name="g_tire_front_left"	enabled="true" shadow_caster="true" />
+		<object name="g_tire_front_right"	enabled="true" shadow_caster="true" />
+		<object name="g_tire_rear_right"	enabled="true" shadow_caster="true" />
+		<object name="g_tire_rear_left"		enabled="true" shadow_caster="true" />
+		<object name="g_door_driver"		enabled="true" shadow_caster="true" />
+		<object name="g_hatch"				enabled="true" shadow_caster="true" />
+		<object name="g_cone_light"			enabled="false" />
+		<object name="g_door_left"			enabled="true" shadow_caster="true" />
+		<object name="g_door_right"			enabled="true" shadow_caster="true" />
+	</graphic_group>
+<!-- ///////////////////////////////////window////////////////////////////////////////////// -->
+	<object  name="g_frame"        enabled="true" shadow_caster="true"/>
+    <object  name="g_top_frame"    enabled="true" shadow_caster="true"/>
+    <object  name="g_bottom_frame" enabled="true" shadow_caster="true"/>
+    <object  name="g_glass"        enabled="true" shadow_caster="true"/>
+    <object  name="g_glass_shattered"        enabled="false" />
+    <object  name="g_dmg_glass"    enabled="false" />
+	
+<!-- ///////////////////////////////////window1////////////////////////////////////////////// -->
+	<object  name="g_frame1"        enabled="true" shadow_caster="true" />
+    <object  name="g_top_frame1"    enabled="true" shadow_caster="true" />
+    <object  name="g_bottom_frame1" enabled="true" shadow_caster="true" />
+    <object  name="g_glass1"        enabled="true" shadow_caster="true" />
+    <object  name="g_dmg_glass1"    enabled="false" />
+	
+<!-- ///////////////////////////////////window2////////////////////////////////////////////// -->
+	<object  name="g_frame2"        enabled="true" />
+    <object  name="g_top_frame2"    enabled="true" />
+    <object  name="g_bottom_frame2" enabled="true" />
+    <object  name="g_glass2"        enabled="true" />
+    <object  name="g_dmg_glass2"    enabled="false" />
+	
+<!-- ///////////////////////////////////chair////////////////////////////////////////////// -->
+	<object name="g_lxy_prop_ext_chair_deck" enabled="true"  />
+	<object name="g_lxy_prop_ext_chair_deck1" enabled="true"  />
+	<object name="g_lxy_prop_ext_chair_deck2" enabled="true"  />
+	<object name="g_lxy_prop_ext_chair_deck3" enabled="true"  />
+	
+	<object name="g_lxy_prop_ext_chair_deck2_leg" enabled="true"  />
+	<object name="g_lxy_prop_ext_chair_deck3_leg" enabled="true"  />
+
+<!-- ///////////////////////////////////table////////////////////////////////////////////// -->
+	<object name="g_table" enabled="true"  />
+	<object name="g_table_broken" enabled="false"  />
+	<object name="g_table_leg" enabled="false"  />
+	<object name="g_table_leg1" enabled="false"  />
+
+<!-- ///////////////////////////////////vase////////////////////////////////////////////// -->
+	<object name="g_lxy_prop_flower_vase" enabled="true"/>
+    <object name="g_foot"    enabled="false"/>
+    <object name="g_part_1" enabled="false"/>
+    <object name="g_part_2" enabled="false"/>
+    <object name="g_part_3" enabled="false"/>
+    <object name="g_part_4" enabled="false"/>
+    <object name="g_part_5" enabled="false"/>
+    <object name="g_part_6" enabled="false"/>
+    <object name="g_part_7" enabled="false"/>
+
+<!-- ///////////////////////////////////wall////////////////////////////////////////////// -->
+	<object name="g_exterior" enabled="true"  />
+	<object name="g_interior" enabled="true"  />
+	<object name="g_hole" enabled="false"  />
+	<object name="s_fill" enabled="true" shadow_caster="true" />
+	<object name="s_hole" enabled="false" shadow_caster="true" />
+	<object name="g_glass_shards"   enabled="false"/>
+	<object name="g_wood_splinters" enabled="false"/>
+	
+<!-- ///////////////////////////////////bottles////////////////////////////////////////////// -->
+	<object name="g_bottle_1" enabled="true" />
+	<object name="g_bottle_2" enabled="true" />
+	<object name="g_bottle_2_1" enabled="true" />
+	
+<!-- ///////////////////////////////////plates////////////////////////////////////////////// -->
+	<object name="g_plate" enabled="true" />
+	<object name="g_plate1" enabled="true" />
+	<object name="g_plate2" enabled="true" />
+	<object name="g_plate3" enabled="true" />
+	
+	<object name="g_fork" enabled="true" />
+	<object name="g_fork1" enabled="true" />
+	<object name="g_fork2" enabled="true" />
+	<object name="g_fork3" enabled="true" />
+	
+	<object name="g_knife" enabled="true" />
+	<object name="g_knife1" enabled="true" />
+	<object name="g_knife2" enabled="true" />
+	<object name="g_knife3" enabled="true" />
+	
+<!-- ///////////////////////////////////painting////////////////////////////////////////////// -->
+	<object name="g_painting" enabled="true" />
+	<object name="g_painting_glass" 	enabled="true" />
+
+
+<!-- ///////////////////////////////////Chanpange Glass////////////////////////////////////////////// -->
+	<object name="g_lxy_prop_champaign_glass" enabled="true"  />
+	<object name="g_lxy_prop_champaign_glass1" enabled="true"  />
+	<object name="g_lxy_prop_champaign_glass2" enabled="true"  />
+	<object name="g_lxy_prop_champaign_glass3" enabled="true"  />
+	
+<!-- ///////////////////////////////////fence////////////////////////////////////////////// -->
+	<object name="g_fence_5m_suburbia" enabled="true" shadow_caster="true" />
+	<object name="g_fence_static_piece1" enabled="true" shadow_caster="true" />
+	<object name="g_fence_static_piece2" enabled="false" shadow_caster="true" />
+	<object name="g_fence_piece1" enabled="true" shadow_caster="true" />
+	<object name="g_fence_piece2" enabled="true" shadow_caster="true" />
+	<object name="s_fence_piece1" shadow_caster="true" enabled="true"  />
+	<object name="s_fence_piece2" shadow_caster="true" enabled="true"  />
+	<object name="s_fence_pillar_suburbia" shadow_caster="true" enabled="false"  />
+	<object name="s_fence_piece" shadow_caster="true" enabled="false"  />
+
+<!-- ///////////////////////////////////hedge////////////////////////////////////////////// -->
+	<object name="g_g" enabled="true" shadow_caster="true" />
+	<object name="g_g_dest" enabled="false" shadow_caster="true"/>
+	<object name="s_s_dest" enabled="false" shadow_caster="false" />
+	<object name="s_s" enabled="true" shadow_caster="false" />
+  </graphics>
+	<lights>
+		<light name="ls_left"		far_range="2000" type="spot|specular" end_angle="53" multiplier="identity" editable="true" />
+		<light name="ls_right"		far_range="2000" type="spot|specular" end_angle="39" multiplier="identity" editable="true" />
+		<light name="ls_t_left"		far_range="1000" type="spot|specular" end_angle="53" multiplier="identity" editable="true" />
+		<light name="ls_t_right"	far_range="1000" type="spot|specular" end_angle="39" multiplier="identity" editable="true" />
+	</lights>
+</dynamic_object>

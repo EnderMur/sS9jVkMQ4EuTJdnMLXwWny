@@ -1,0 +1,10 @@
+<materials version="3">
+	<material name="mat_frame" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_bedroom_painting/cas_bedroom_painting_df" />
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_bedroom_painting/cas_bedroom_painting_nm" />
+	</material>
+	<material name="mat_painting" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_paintings_painting_df"  />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_paintings_painting_nm" />
+	</material>
+</materials>

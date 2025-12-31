@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="mat_wall_lamp" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/bnk_prop_office_lamp_wall/bnk_prop_office_lamp_wall_df"/>
+        <bump_normal_texture file="units/payday2/props/bnk_prop_office_lamp_wall/bnk_prop_office_lamp_wall_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_carshop_tunnels" type="cubemap"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_il">
+        <diffuse_texture file="units/payday2/props/bnk_prop_office_lamp_wall/bnk_prop_office_lamp_wall_df"/>
+        <self_illumination_texture file="units/payday2/props/bnk_prop_office_lamp_wall/bnk_prop_office_lamp_wall_df"/>
+        <variable value="searchlight" type="scalar" name="il_multiplier"/>
+
+    </material>
+</materials>

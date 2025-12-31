@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/bank/bank_lobby/bank_entrance_door/bank_entrance_door" orientation_object="rp_entrance_doors" />
+  <sequence_manager file="units/world/architecture/bank/bank_lobby/bank_entrance_door/bank_entrance_door" />
+  <bodies>
+    <body name="doors" enabled="true" template="static">
+      <object name="rp_entrance_doors" />
+      <object name="c_door_left" collision_type="mesh_mopp" />
+      <object name="c_door_right" collision_type="mesh_mopp" />
+    </body>
+    <body remove_ray_type="vis_graph ai_vision" name="left_window_top" enabled="true" template="static">
+      <object name="g_door_left_window_top" collision_type="box" />
+    </body>
+    <body remove_ray_type="vis_graph ai_vision" name="left_window_bottom" enabled="true" template="static">
+      <object name="g_door_left_window_bottom" collision_type="box" />
+    </body>
+    <body remove_ray_type="vis_graph ai_vision" name="right_window_top" enabled="true" template="static">
+      <object name="g_door_right_window_top" collision_type="box" />
+    </body>
+    <body remove_ray_type="vis_graph ai_vision" name="right_window_bottom" enabled="true" template="static">
+      <object name="g_door_right_window_bottom" collision_type="box" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="hardwood" static="true">
+    <decal_mesh name="dm_wood_left" enabled="true" material="hardwood" />
+	<decal_mesh name="dm_wood_right" enabled="true" material="hardwood" />
+    <decal_mesh name="g_door_left_window_top" enabled="true" material="glass_breakable" />
+    <decal_mesh name="g_door_left_window_bottom" enabled="true" material="glass_breakable" />
+    <decal_mesh name="g_door_right_window_top" enabled="true" material="glass_breakable" />
+    <decal_mesh name="g_door_right_window_bottom" enabled="true" material="glass_breakable" />
+
+  </decal_surfaces>
+  <graphics>
+    <object name="g_door_left" enabled="true" shadow_caster="true"/>
+    <object name="g_door_left_window_top" enabled="true" shadow_caster="true"/>
+    <object name="g_door_left_window_bottom" enabled="true" shadow_caster="true"/>
+    <object name="g_door_left_window_top_dmg" shadow_caster="true"/>
+    <object name="g_door_left_window_bottom_dmg" shadow_caster="true"/>
+    <object name="g_door_right_window_top" enabled="true" shadow_caster="true"/>
+    <object name="g_door_right_window_bottom" enabled="true" shadow_caster="true"/>
+    <object name="g_door_right" enabled="true" shadow_caster="true"/>
+    <object name="g_door_right_window_top_dmg" shadow_caster="true"/>
+    <object name="g_door_right_window_bottom_dmg" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,41 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_plaster" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_wall_03_df"/>
+        <bump_normal_texture file="units/payday2/architecture/safehouse/safehouse_int_wall_03_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_concrete_floor" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_floor_03_df"/>
+    </material>
+    <material render_template="generic:VERTEX_COLOR" name="mat_killhouse_temp" version="2"/>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_wood" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ceiling" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02b_df"/>
+        <bump_normal_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02a_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_brick_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_nm"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_beams" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_nm"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_floor_stairs" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_concrete_slabs_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_concrete_slabs_02_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_bright_wood" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_walls_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_fusebox" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_wires" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_killhouse/chl_genric_wires_df"/>
+    </material>
+</materials>

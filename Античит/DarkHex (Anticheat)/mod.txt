@@ -1,0 +1,26 @@
+{
+	"name" : "DarkHex (Anticheat)",
+	"description" : "\"Todo truco tiene un precio. DarkHex lo cobra en silencio.\"",
+	"author" : "Anti cheto Flow",
+	"contact": ""DarkHex escucha. Pero no olvida."",
+	"version" : "1.01",
+	"blt_version" : 2,
+	"image" : "icon.png",
+	"color" : "0.15 0.15 0.15",
+	"hooks" : [
+		{
+			"hook_id" : "lib/network/base/networkpeer",
+			"script_path" : "Anticheat.lua"
+		},
+		{
+			"hook_id" : "lib/network/base/handlers/connectionnetworkhandler",
+			"script_path" : "Anticheat.lua"
+		}
+	],
+	"updates": [{
+		"identifier": "anticheatpd2",
+		"host": {
+			"meta": "https://gitlab.com/xsrleandro/anticheatpd2/-/raw/main/anticheatpd2-updates.json"
+		}
+	}],
+}

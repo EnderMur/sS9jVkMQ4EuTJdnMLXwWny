@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" name="mat_res_ext_apartment_backdrop_buildings_far">
+        <diffuse_texture file="units/payday2/architecture/res_ext_apartment/res_ext_apartment_backdrop_buildings_df"/>
+        <bump_normal_texture file="units/payday2/architecture/res_ext_apartment/res_ext_apartment_backdrop_buildings_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

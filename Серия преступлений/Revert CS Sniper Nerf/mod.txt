@@ -1,0 +1,12 @@
+{
+    "name": "Revert CS Sniper Nerf",
+    "description": "Reverts CS Sniper Nerf",
+    "author": "Afinitive",
+    "contact": "https://steamcommunity.com/id/afinitive",
+    "hooks": [
+        {
+            "hook_id": "lib/tweak_data/crimespreetweakdata",
+            "script_path": "mod.lua"
+        }
+    ],
+}

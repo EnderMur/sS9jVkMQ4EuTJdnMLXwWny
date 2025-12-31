@@ -1,0 +1,24 @@
+<dynamic_object>
+    <diesel orientation_object="rp_furniture_mini_table" materials="units/world/architecture/suburbia/childrens_room/childrens_room_props" />
+    
+	<bodies>
+		<body name="body01" enabled="true" collides_with_mover="false" template="static">
+			<object name="rp_furniture_mini_table"/>
+			<object name="c_box1" collision_type="box" padding="-2"/>
+			<object name="c_box2" collision_type="box" padding="-2"/>
+			<object name="c_box3" collision_type="box" padding="-2"/>
+			<object name="c_box4" collision_type="box" padding="-2"/>
+			<object name="c_box5" collision_type="box" padding="-2"/>
+		</body>
+		<body name="ai_player" enabled="true" add_ray_type="camera" template="nav_walk">
+			<object name="c_mover1" collision_type="box" padding="-2" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="hardwood">
+		<decal_mesh name="dm_hardwood" enabled="true" material="hardwood" />
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_furniture_mini_table" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

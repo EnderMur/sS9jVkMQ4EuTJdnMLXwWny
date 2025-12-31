@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_wood_standard" decal_material="wood" version="2" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_df"/>
+    </material>
+    <material name="mat_backplate" decal_material="sheet_metal" version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture file="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_df"/>
+        <opacity_texture file="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_op"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <variable value="0 0.3299999833107 0.75999999046326" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_default_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_default_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

@@ -1,0 +1,11 @@
+<materials version="3">
+	<material name="mat_cupobard" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_b/chl_prop_garage_cabinets_b_df"  />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_b/chl_prop_garage_cabinets_b_nm"  />
+	</material>
+	<material name="mat_cupobard_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_b/chl_prop_garage_cabinets_b_df" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_b/chl_prop_garage_cabinets_b_nm" mip="4" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+</materials>

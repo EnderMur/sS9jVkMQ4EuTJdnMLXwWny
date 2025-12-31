@@ -1,0 +1,42 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="globe_mat_NT" version="2">
+        <diffuse_texture file="units/world/props/bank/bank_globe/world_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" name="mesh" version="2">
+        <diffuse_texture file="units/world/props/bank/bank_globe/mesh_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.56200003623962"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:SIMPLE_TINT" name="globe_Mat_1" version="2">
+        <diffuse_texture file="units/world/props/bank/bank_globe/world_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.20358408987522"/>
+        <variable type="vector3" name="tint_color" value="0.57254904508591 0.48947334289551 0.40190699696541"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:SIMPLE_TINT" name="globe_Mat_2" version="2">
+        <diffuse_texture file="units/world/props/bank/bank_globe/world_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.26946893334389"/>
+        <variable type="vector3" name="tint_color" value="0.36609542369843 0.37054193019867 0.37795275449753"/>
+    </material>
+    <material version="2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" name="glass_breakable" decal_material="glass_breakable">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.60000002384186"/>
+        <opacity_texture file="units/glass/glass_indoors_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="glass_broken" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2" decal_material="glass_breakable">
+        <variable type="vector3" name="fresnel_settings" value="2 1 0.6"/>
+        <opacity_texture file="units/world/architecture/glass/glass_shattered_generic_diamond_op"/>
+        <diffuse_texture file="units/world/architecture/glass/glass_shattered_generic_bank_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_int_brushedmetal" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_int_marble_05" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_05_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_int_wood" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_wood_df"/>
+    </material>
+</materials>

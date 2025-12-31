@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/sub/shared_textures/sub_int_platform_stair_set" orientation_object="rp_sub_int_platform_stairs_01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_sub_int_platform_stairs_01_convex" collision_type="convex" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="g_sub_int_platform_stairs_01" enabled="true" material="concrete" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_sub_int_platform_stairs_01" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

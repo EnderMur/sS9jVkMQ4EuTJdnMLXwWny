@@ -1,0 +1,28 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_park_fountain" materials="units/payday2/props/str_prop_park_fountain/str_prop_park_fountain" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_str_prop_park_fountain" />
+			<object collision_type="box" name="c_box_000" padding="-2.5"/>                     
+			<object collision_type="box" name="c_box_001" padding="-2.5"/>                     
+			<object collision_type="box" name="c_box_002" padding="-2.5"/>                     
+			<object collision_type="box" name="c_box_003" padding="-2.5"/>                     
+			<object collision_type="box" name="c_box_004" padding="-2.5"/>                     
+			<object collision_type="convex" name="c_convex_000" padding="-2.5"/>           
+			<object collision_type="convex" name="c_convex_001" padding="-2.5"/>           
+			<object collision_type="convex" name="c_convex_002" padding="-2.5"/>           
+			<object collision_type="convex" name="c_convex_003" padding="-2.5"/>           
+			<object collision_type="convex" name="c_convex_004" padding="-2.5"/>           
+			<object collision_type="convex" name="c_convex_005" padding="-2.5"/>
+        </body>
+    </bodies>
+	<decal_surfaces default_material="stone" static="true">
+		<decal_mesh name="dm_stone" enabled="true" material="stone" />
+		<decal_mesh name="dm_water_puddle" enabled="true" material="water_puddle"/>
+	</decal_surfaces> 
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+        <object enabled="true" name="g_water_plane" shadow_caster="true" />
+        <object enabled="true" name="g_water_pour" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

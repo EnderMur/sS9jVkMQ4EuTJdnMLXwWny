@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/suburbia_stool_bar/suburbia_stool_bar" orientation_object="rp_suburbia_stool_bar" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static" collides_with_mover="false">
+      <object name="rp_suburbia_stool_bar"/>
+      <object name="c_convex" collision_type="convex" padding="-2"/>
+      <object name="c_sphere" collision_type="sphere" />
+      <object name="c_box" collision_type="box" padding="-2.5" />
+    </body>
+    <body name="player_collision" enabled="true" template="mover_blocker">
+      <object name="rp_suburbia_stool_bar"/>
+		<object name="c_capsule" collision_type="capsule" />
+	</body>
+  </bodies>
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="dm_metal" enabled="true" material="metal" />
+    <decal_mesh name="dm_leather" enabled="true" material="cloth" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_suburbia_stool_bar" enabled="true"  shadow_caster="true"/>
+  </graphics>
+</dynamic_object> 

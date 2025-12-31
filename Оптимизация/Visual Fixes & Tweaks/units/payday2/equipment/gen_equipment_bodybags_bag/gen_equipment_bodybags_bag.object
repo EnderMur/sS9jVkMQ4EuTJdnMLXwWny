@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_pku_bodybagsbag" materials="units/payday2/equipment/gen_equipment_bodybags_bag/gen_equipment_bodybags_bag" />
+	<sequence_manager file="units/payday2/equipment/gen_equipment_bodybags_bag/gen_equipment_bodybags_bag" />
+    <bodies>
+		<body name="dynamic" enabled="false" template="dynamic_no_ray" collision_class="bag" collides_with_mover="false" >
+			<object name="rp_gen_pku_bodybagsbag" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_pelican" 	enabled="true" shadow_caster="true"/>
+        <object name="g_bodybag_1"	enabled="true" shadow_caster="true"/>
+        <object name="g_bodybag_2"  enabled="true" shadow_caster="true"/>
+        <object name="g_bodybag_3"  enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>
+

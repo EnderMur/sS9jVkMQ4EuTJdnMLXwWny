@@ -1,0 +1,25 @@
+<materials version="3" group="civ_female_gala_guest_05">
+
+	<material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_head_nm"/>
+		<diffuse_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_head_df"/>
+	</material>
+
+	<material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_body_nm" />
+		<diffuse_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_body_df" />
+	</material>
+
+	<material name="mtr_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_head_nm" />
+		<diffuse_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_head_df" />
+	</material>
+	
+	<material name="mtr_body_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_body_nm" />
+		<diffuse_texture file="units/pd2_dlc_sah/characters/civ_female_gala_guest_06/material_body_df"  />
+	</material>
+
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+
+</materials>

@@ -1,0 +1,45 @@
+<dynamic_object>
+    <diesel orientation_object="rp_girl_room_props" materials="units/world/architecture/suburbia/childrens_room/childrens_room_props" />
+    
+	<bodies>
+    <body name="body01" enabled="true" collides_with_mover="false" template="static">
+	  <object name="rp_girl_room_props" />
+      <object name="c_box1" collision_type="box" padding="-2"/>
+      <object name="c_box2" collision_type="box" padding="-2"/>
+      <object name="c_box3" collision_type="box" padding="-2"/>
+      <object name="c_box4" collision_type="box" padding="-2"/>
+      <object name="c_box5" collision_type="box" padding="-2"/>
+      <object name="c_box6" collision_type="box" padding="-2"/>
+      <object name="c_box7" collision_type="box" padding="-2"/>
+      <object name="c_box8" collision_type="box" padding="-2"/>
+      <object name="c_box9" collision_type="box" padding="-2"/>
+      <object name="c_box10" collision_type="box" padding="-2"/>
+      <object name="c_box11" collision_type="box" padding="-2"/>
+      <object name="c_box12" collision_type="box" padding="-2"/>
+      <object name="c_box13" collision_type="box" padding="-2"/>
+      <object name="c_box14" collision_type="box" padding="-2"/>
+      <object name="c_box15" collision_type="box" padding="-2"/>
+      <object name="c_box16" collision_type="box" padding="-2"/>
+      <object name="c_box17" collision_type="box" padding="-2"/>
+      <object name="c_convex" collision_type="convex" padding="-2"/>
+
+    </body>
+	<body name="ai_player" enabled="true" add_ray_type="camera" template="nav_walk">
+		<object name="rp_girl_room_props" />
+		<object name="c_mover1" collision_type="box" padding="-2" />
+		<object name="c_mover2" collision_type="box" padding="-2" />
+	</body>
+	
+  </bodies>
+  
+  <decal_surfaces default_material="hardwood">
+		<decal_mesh name="dm_hardwood" enabled="true" material="hardwood" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_girl_room_props" shadow_caster="true" />
+    </graphics>
+	
+</dynamic_object>

@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_peta/props/pta_prop_barn_haybale_stacked/pta_prop_barn_haybale_stacked" orientation_object="rp_pta_prop_barn_haybale_stacked_b" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pta_prop_barn_haybale_stacked_b" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="grass">
+		<decal_mesh name="dm_grass" enabled="true" material="grass" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true"/>
+		<object name="g_lod1" enabled="false"/>
+		<object name="g_lod2" enabled="false"/>
+		<object name="s_s" enabled="false"/>
+	</graphics>
+</dynamic_object>

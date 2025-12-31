@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mod>
+    <!--
+        Since Beardlib uses it's own hooks system.
+        It's probably going to be simplest to do this, instead of trying to hook it somehow, as both run separately.
+    -->
+    <Hooks directory="hooks">
+        <hook source_file="lib/network/base/networkpeer" file="networkpeer.lua"/>
+    </Hooks>
+</mod>

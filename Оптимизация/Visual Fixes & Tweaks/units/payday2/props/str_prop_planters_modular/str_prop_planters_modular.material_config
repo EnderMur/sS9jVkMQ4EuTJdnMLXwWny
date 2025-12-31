@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_planter" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_planters_modular/str_prop_planters_modular_df"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_planters_modular/str_prop_planters_modular_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

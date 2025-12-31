@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_veg_bush_staphyleapinnata_small" materials="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata"/>
+	<bodies>
+		<body name="mover_blocker_body" enabled="true" template="mover_blocker" collides_with_mover="false">
+		<object name="rp_res_veg_bush_staphyleapinnata_small"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+		</body>
+	</bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" instance_struct="world_tm"/>
+    </graphics>
+</dynamic_object>

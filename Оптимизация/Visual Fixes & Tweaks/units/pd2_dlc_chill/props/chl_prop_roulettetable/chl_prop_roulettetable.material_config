@@ -1,0 +1,43 @@
+<materials version="3">
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulettetable_a">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulettetable_a_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulettetable_a_lod1">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulettetable_a_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulettetable_a_lod2">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulettetable_a_df" mip="2"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulette_a">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulette_a_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulette_a_lod1">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulette_a_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_cas_prop_roulette_a_lod2">
+        <diffuse_texture file="units/payday2/architecture/cas/cas_prop_roulette_a_df" mip="2"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+
+    <material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="mat_ball" render_template="generic:DIFFUSE_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+    </material>
+</materials>

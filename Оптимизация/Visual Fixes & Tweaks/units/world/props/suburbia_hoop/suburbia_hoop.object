@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/suburbia_hoop/suburbia_hoop" orientation_object="rp_hoop" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_hoop" />
+	  <object name="c_1" collision_type="box" padding="-1"/>
+	  <object name="c_2_m_mopp" collision_type="mesh_mopp" />
+	  <object name="c_3" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="dm_metal_hollow" enabled="true" material="metal_hollow" />
+	<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	<decal_mesh name="dm_metal" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_net" enabled="true" shadow_caster="true" />
+    <object name="g_hoop" enabled="true" shadow_caster="true" />
+	<object name="s_hoop" enabled="false"/>
+  </graphics>
+</dynamic_object>

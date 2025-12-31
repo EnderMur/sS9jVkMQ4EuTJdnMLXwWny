@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_veg_str_park_grass_thick_a_inst" materials="units/payday2/vegetation/veg_str_park_grass_thick_a/veg_str_park_grass_thick_a" />
+    <bodies>
+        <body enabled="true" template="editor" name="editor_body" >
+            <object collision_type="box" name="c_box_editor" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

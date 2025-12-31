@@ -1,0 +1,14 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_bonsai_tree" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/vegetation/chl_veg_bonsai_tree/chw_veg_desert_bush_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/vegetation/chl_veg_bonsai_tree/chw_veg_desert_bush_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0.012"/>
+        <variable type="scalar" name="glossiness_control" value="0.097000004607253"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_bonsai_tree_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/vegetation/chl_veg_bonsai_tree/chw_veg_desert_bush_df" mip="2"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/vegetation/chl_veg_bonsai_tree/chw_veg_desert_bush_nm" mip="2"/>
+        <variable type="scalar" name="alpha_ref" value="0.012"/>
+        <variable type="scalar" name="glossiness_control" value="0.097000004607253"/>
+    </material>
+</materials>

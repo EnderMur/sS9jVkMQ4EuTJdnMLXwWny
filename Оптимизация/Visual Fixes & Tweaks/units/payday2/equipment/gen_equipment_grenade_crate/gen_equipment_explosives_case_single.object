@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_explosives_case" orientation_object="rp_gen_equipment_explosives_case_single" />
+	<sequence_manager file="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_explosives_case_single" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_gen_equipment_explosives_case_single" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_grenade" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

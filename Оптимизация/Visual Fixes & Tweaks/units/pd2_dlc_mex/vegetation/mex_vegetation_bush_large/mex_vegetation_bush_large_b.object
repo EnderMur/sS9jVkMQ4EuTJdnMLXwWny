@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_a" orientation_object="rp_bry_vegetation_bush_large_b" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_bry_vegetation_bush_large_b" />
+			<object name="c_sphere_01" collision_type="sphere" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_lod0" enabled="true" instance_struct="world_tm" shadow_caster="true"/>
+		<object name="g_lod1" enabled="false" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object>

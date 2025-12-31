@@ -1,0 +1,81 @@
+<materials version="3" group="civ_female_casual_4">
+	<material version="2" unique="true" name="m_civ_female_casual_4" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_nm"/>
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_civ_female_casual_4_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_nm"/>
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_eyes" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="m_civ_female_casual_4_hair" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_df"/>
+		<variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+		<opacity_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_op"/>
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_nm"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material version="2" unique="true" name="m_civ_female_casual_4_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_nm" />
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_civ_female_casual_4_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_nm" />
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_civ_female_casual_4_head_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_nm" />
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_civ_female_casual_4_head_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_nm" />
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_head_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_eyes_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="m_eyes_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/eye_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/eye_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="m_civ_female_casual_4_hair_lod1" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_df" />
+		<variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+		<opacity_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_op" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_nm" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="m_civ_female_casual_4_hair_lod2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_df" />
+		<variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+		<opacity_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_op" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_4/civ_female_casual_4_hair_nm" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+</materials>

@@ -1,0 +1,56 @@
+<dynamic_object>
+    <diesel materials="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" orientation_object="rp_str_vehicle_car_compact" />
+	<sequence_manager file="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_body" />
+		</body>
+		
+		<body name="body_windows_front" enabled="true" template="static">
+			<object name="c_windows_front" collision_type="mesh_mopp" /> 
+		</body>
+
+		<body name="body_windows_side_left" enabled="true" template="static">
+			<object name="c_windows_side_left" collision_type="mesh_mopp" />
+		</body>
+
+		<body name="body_windows_side_right" enabled="true" template="static">
+			<object name="c_windows_side_right" collision_type="mesh_mopp" />
+		</body>
+			
+		<body name="body_windows_back" enabled="true" template="static">
+			<object name="c_windows_back" collision_type="mesh_mopp" />
+		</body>	
+
+		<body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="rp_str_vehicle_car_compact" />
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+    </bodies>
+	
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_body" 					material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_windows_front" 			material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_back" 			material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_side_right" 	material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_side_left" 		material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_headlights" 		material="glass_breakable" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object name="g_decal" 					enabled="true"/>
+		<object name="g_body_lod0" 				enabled="true" shadow_caster="true" />
+		<object name="g_body_lod1" 				enabled="false"  />
+		<object name="g_body_lod2" 				enabled="false"  />
+        <object name="g_glass_headlights"   	enabled="true"  />
+        <object name="g_windows_side_left"  	enabled="true"  />
+        <object name="g_windows_side_right" 	enabled="true"  />
+        <object name="g_windows_back" 			enabled="true"  />
+        <object name="g_windows_front" 			enabled="true"  />
+        <object name="g_windows_side_left_dmg"  enabled="false" />
+        <object name="g_windows_side_right_dmg" enabled="false" />
+        <object name="g_windows_back_dmg"		enabled="false" />
+        <object name="g_windows_front_dmg"      enabled="false" />
+        <object name="s_body"					enabled="false"  />
+    </graphics>
+</dynamic_object>

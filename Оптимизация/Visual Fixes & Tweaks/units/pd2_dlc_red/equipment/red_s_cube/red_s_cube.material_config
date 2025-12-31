@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="mat_int_marble_02" unique="true" version="2" decal_material="marble" render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_02_512_df"/>
+        <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_02_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+    </material>
+</materials>

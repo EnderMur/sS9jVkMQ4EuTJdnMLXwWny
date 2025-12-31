@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ranc/architecture/ext/ranc_ext_midland_ranch_gate/ranc_ext_midland_ranch_gate" orientation_object="rp_ranc_ext_midland_ranch_gate" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ranc_ext_midland_ranch_gate" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_22" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true"/>
+ 		<object name="g_lod1" enabled="false" />
+		<object name="g_lod2" enabled="false" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+	<lights />
+</dynamic_object>

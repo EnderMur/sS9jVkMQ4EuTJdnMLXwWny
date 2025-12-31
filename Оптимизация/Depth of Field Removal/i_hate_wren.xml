@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tweak version="2" name="core/shaders/post_processor" extension="post_processor">
+    <search>
+        <?xml version="1.0" encoding="utf-8" ?>
+        <post_processor/>
+        <effect name="bloom_combine"/>
+        <defined platform="PS3 X360"/>
+        <combiner diffuse_texture="high_target_1" dst="bb" render_template="post_chromatic_aberration"/>
+    </search>
+    <target mode="replace" />
+</tweak>

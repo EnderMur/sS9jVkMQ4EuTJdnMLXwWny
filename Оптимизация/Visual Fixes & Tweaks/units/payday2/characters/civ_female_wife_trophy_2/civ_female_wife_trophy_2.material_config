@@ -1,0 +1,27 @@
+<materials version="3" group="civ_female_wife_trophy_2">
+	<material name="mtr_trophy_wife_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_df"/>
+	</material>
+	<material name="mtr_trophy_wife" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_df"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="mtr_trophy_wife_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_df" />
+	</material>
+	<material name="mtr_trophy_wife_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_head_df" />
+	</material>
+	<material name="mtr_trophy_wife_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_df" />
+	</material>
+	<material name="mtr_trophy_wife_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/trophy_wife_2_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/trophy_wife_2_df" />
+	</material>
+</materials>

@@ -1,0 +1,17 @@
+<materials version="3">
+	<material version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_ind_interior_window_01">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/ind/ind_ext_dock_bld/ind_interior_window_01_op"/>
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_dock_bld/ind_interior_window_01_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cube"/>
+        <variable value="10 5000 0" type="vector3" name="opacity_fade_to_solid"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE_TO_SOLID" name="mat_ind_interior_window_01_broken">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/ind/ind_ext_dock_bld/ind_interior_window_01_broken_op"/>
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_dock_bld/ind_interior_window_01_broken_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cube"/>
+        <variable value="10 5000 0" type="vector3" name="opacity_fade_to_solid"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_dock_bld/ind_interior_window_01_broken_nm"/>
+    </material>
+</materials>

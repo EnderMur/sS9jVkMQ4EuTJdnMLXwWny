@@ -1,0 +1,25 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_corp_sign" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/props/corp_dest_campus_sign/corp_dest_campus_sign_df"/>
+        <bump_normal_texture file="units/pd2_dlc_corp/props/corp_dest_campus_sign/corp_dest_campus_sign_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_corp/props/corp_dest_campus_sign/corp_dest_campus_sign_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_corp_sign_concrete_base" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/architecture/int/int_textures/corp_int_plaster_01/corp_int_plaster_dirty_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_corp/architecture/int/int_textures/corp_int_plaster_01/corp_int_plaster_clean_01_nm" mip="4"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_corp_sign_wood" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/architecture/ext/textures/corp_ext_wood_planks_01/corp_ext_wood_planks_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_corp/architecture/ext/textures/corp_ext_wood_planks_01/corp_ext_wood_planks_01_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_corp/architecture/ext/textures/corp_ext_wood_planks_01/corp_ext_wood_planks_01_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="lambert1" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/props/corp_dest_campus_sign/corp_dest_campus_sign_number_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_corp_sign_number" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/props/corp_dest_campus_sign/corp_dest_campus_sign_number_df"/>
+    </material>
+</materials>

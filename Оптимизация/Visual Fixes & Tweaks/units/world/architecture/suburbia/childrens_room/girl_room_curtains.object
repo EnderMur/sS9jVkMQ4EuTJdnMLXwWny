@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_girl_room_curtains" materials="units/world/architecture/suburbia/childrens_room/girl_room_curtains" />
+    
+	<bodies>
+    <body name="body01" enabled="true" template="editor">
+	  <object name="rp_girl_room_curtains" />
+      <object name="c_editor_1" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+	
+	<graphics>
+        <object enabled="true" name="g_girl_room_curtains" shadow_caster="true" />
+    </graphics>
+	
+</dynamic_object>

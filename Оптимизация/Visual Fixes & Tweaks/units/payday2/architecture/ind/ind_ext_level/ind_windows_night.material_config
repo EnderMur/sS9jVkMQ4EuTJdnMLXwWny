@@ -1,0 +1,18 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_ind_ext_dock_bld_window_glass_night" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_night_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_ind_ext_dock_bld_window_glass_night_illum" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_night_v2_il"/>
+        <self_illumination_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_night_v2_il"/>
+        <variable value="flashlight" type="scalar" name="il_multiplier"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_nm"/>
+    </material>
+    <material name="mat_ind_ext_dock_bld_window_solid" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_solid_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_dock_bld_window_solid_nm"/>
+    </material>
+</materials>

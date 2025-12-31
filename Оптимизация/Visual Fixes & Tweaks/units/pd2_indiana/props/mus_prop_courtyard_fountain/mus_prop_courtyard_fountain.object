@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_courtyard_fountain/mus_prop_courtyard_fountain" orientation_object="rp_mus_prop_courtyard_fountain" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_prop_courtyard_fountain" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_mesh_01" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_stone" enabled="true" material="stone" />
+		<decal_mesh name="dm_grass" enabled="true" material="grass" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod_0" enabled="true" shadow_caster="true" />
+		<object name="g_lod_1" enabled="false" />
+		<object name="g_lod_2" enabled="false" />
+		<object name="s_s" 	   enabled="false" />
+	</graphics>
+</dynamic_object>

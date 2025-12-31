@@ -1,0 +1,926 @@
+<table>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_storefront2_4x8m_a"/>
+	<object path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_single"/>
+	<object path="units/payday2/props/str_prop_street_signs/str_prop_street_signs_lamppost_a"/>
+	<object path="units/payday2/props/str_prop_street_signs/str_prop_street_signs_lamppost_b"/>	
+	<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_fallen"/>
+	<object path="units/vehicles/animated_cars/police_ny_bank_anim"/>
+	<object path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01"/>	
+	<object path="units/pd2_dlc_moon/vehicles/moon_helicopter/moon_helicopter"/>	
+	<object path="units/payday2/architecture/com_int_store_barber/com_int_store_barber_street"/>
+	<object path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole"/>
+	<object path="units/payday2/characters/ene_security_7/ene_security_7"/>
+	<object path="units/pd2_dlc_mxm/equipment/gen_equipment_grenade_crate/gen_equipment_grenade_crate"/>
+	<object path="units/pd2_dlc_run/props/run_prop_loadingdock_roof_01/run_prop_loadingdock_roof_01"/>
+	<object path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_teller"/>
+	<texture path="units/payday2/characters/shared_textures/equipment_lootbag_df"/>
+	<texture path="units/pd2_dlc2/csgo_models/props_bank/vault_nm"/>
+	<texture path="units/world/props/slaughterhouse/slaughterhouse_safe/slaughterhouse_safe_nm"/>
+	<texture path="units/world/props/suburbia_safe/suburbia_safe_nm"/>
+	<texture load="true" path="units/payday2/props/off_prop_office_monitor/display_master_jewelry_il"/>
+	<sequence_manager path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double"/>
+	<sequence_manager path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal"/>
+	<sequence_manager path="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_painting_bars"/>
+	<sequence_manager path="units/vehicles/animated_cars/garbage_truck/garbage_truck_animated"/>
+	<environment path="environments/pd2_env_hox_02/pd2_env_hox_02"/>	
+	<environment path="environments/pd2_glace/glace_inside"/>
+	<environment path="environments/pd2_glace/glace_outside"/>
+	<environment path="environments/pd2_mad_outdoor/pd2_mad_outdoor"/>
+	<environment path="environments/pd2_mad_lab/pd2_mad_lab"/>	
+	<environment path="units/pd2_dlc_skm/environments/pd2_env_skm_run_exterior"/>
+	<environment path="environments/pd2_run/run_inside"/>	
+	<environment path="environments/pd2_run/run_outside"/>
+	<environment path="units/pd2_dlc_brb/environments/pd2_env_brb_exterior_v4"/>
+	<environment path="units/pd2_dlc_brb/environments/pd2_env_brb_interior_bank"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102304"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102329"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103603"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102331"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103602"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103599"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103598"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102333"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/101871"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102093"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102039"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/101874"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/100991"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/100997"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103589"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102104"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102230"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102037"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103635"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102028"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103623"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102309"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/100989"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/100990"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103639"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103637"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102056"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102067"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/101994"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102026"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102312"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102031"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102111"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102087"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102072"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103642"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103643"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103647"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103648"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102032"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102092"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102057"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102089"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102084"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102119"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102086"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102090"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103651"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102096"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/103653"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102082"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102347"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/102345"/>
+	<texture path="levels/narratives/dentist/mia/stage1/cube_lights/dome_occlusion"/>
+	<continent path="levels/narratives/dentist/mia/stage1/world/world"/>
+	<continent path="levels/narratives/butcher/friend/world/world"/>
+	<continent path="levels/narratives/butcher/friend/art_patio/art_patio"/>
+	<continent path="levels/narratives/butcher/friend/art_house_exterior/art_house_exterior"/>
+	<continent path="levels/narratives/butcher/friend/art_lower_courtyard/art_lower_courtyard"/>	
+	<continent path="levels/narratives/butcher/friend/art_upper_courtyard/art_upper_courtyard"/>
+	<continent path="levels/narratives/butcher/friend/art_main_yard/art_main_yard"/>
+	<continent path="levels/narratives/butcher/friend/art_bo_cheng/art_bo_cheng"/>
+	<continent path="levels/narratives/h_firestarter/stage_3/world/world"/>
+	<continent path="levels/narratives/classics/pal/world/world"/>
+	<continent path="levels/narratives/elephant/mad/art1/art1"/>	
+	<continent path="levels/narratives/elephant/mad/terrain/terrain"/>
+	<continent path="levels/narratives/elephant/mad/world/world"/>	
+	<continent path="levels/narratives/classics/run/dhruva_art/dhruva_art"/>	
+	<continent path="levels/narratives/classics/run/world/world"/>	
+	<continent path="levels/narratives/bain/shadow_raid/world/world"/>
+	<continent path="levels/narratives/vlad/jewelry_store/world/world"/>
+	<continent path="levels/narratives/escapes/escape_park/world/world"/>
+	<continent path="levels/narratives/vlad/ukrainian_job/world/world"/>
+	<continent path="levels/narratives/h_firestarter/stage_1/world/world"/>
+	<continent path="levels/narratives/classics/man/world/world"/>	
+	<texture path="units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_s_adapter_df_cc" force="true"/>
+	<object path="units/payday2/architecture/hcm_ext_stair/hcm_ext_stair_3m" force="true"/>	
+	<object path="units/payday2/props/gen_prop_bank_atm_standing/gen_prop_bank_atm_standing" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_ceiling" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_ceiling_dmg" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_curve" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_b_curve" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_to_2_a" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a_ceiling" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_curve" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_curve2a" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_end" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_cap" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_patch" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_ductbox_mid_1" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a_ceiling" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_a" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_a_black" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_a_curve" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_a_curve_black" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_a_hanging" force="true"/>	
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_b_curve" force="true"/>
+	<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_duct_1_b_curve_black" force="true"/>
+	<object path="units/payday2/architecture/sub/sub_int_platform_stairs_01/sub_int_platform_stairs_01" force="true"/>
+	<object path="units/payday2/props/com_prop_club_sign_open/com_prop_club_sign_open" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x8m_d" force="true"/>		
+	<object path="units/world/props/yacht/boxes/lxy_cover_boxes_stacked_low" force="true"/>			
+	<object path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a" force="true"/>
+	<object path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a_1m" force="true"/>
+	<object path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_cap4_corner_4x4m_a" force="true"/>	
+	<object path="units/payday2/vehicles/str_vehicle_swat_van_gensec/str_vehicle_swat_van_gensec" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" force="true"/>	
+	<object path="units/payday2/props/str_prop_street_planter_c/str_prop_street_planter_c_1x1m_end_a" force="true"/>
+	<object path="units/payday2/props/str_prop_street_planter_c/str_prop_street_planter_c_1x2m_a" force="true"/>		
+	<object path="units/payday2/props/str_prop_park_hedge_buxbom/str_prop_park_hedge_buxbom_instanced" force="true"/>
+	<object path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" force="true"/>
+	<object path="units/payday2/props/com_prop_store_shelf/com_prop_store_shelf_hangers_single_b" force="true"/>	
+	<object path="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_2x2m_clean" force="true"/>	
+	<object path="units/world/props/street/roof_addons/roof_antenna_far_01" force="true"/>	
+	<object path="units/world/props/street/roof_addons/roof_antenna_far_03" force="true"/>	
+	<object path="units/payday2/vehicles/str_backdrop_vehicles_animated/str_backdrop_vehicles_animated" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_thinpipes_1" force="true"/>	
+	<object path="units/world/props/pipes/pipe_thick_sbend_1" force="true"/>	
+	<object path="units/world/props/pipes/pipe_thick_straight" force="true"/>	
+	<object path="units/world/props/pipes/pipe_thick_corner_bend_1" force="true"/>	
+	<object path="units/world/architecture/secret_stash/props/secret_stash_thinpipes_3" force="true"/>	
+	<object path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" force="true"/>	
+	<object path="units/world/architecture/diamondheist/props/diamondheist_roof_gen_small_01" force="true"/>	
+	<object path="units/world/props/cup/cup1" force="true"/>
+	<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_table_window_300_a" force="true"/>	
+	<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_table_window_300" force="true"/>
+	<object path="units/world/props/suburbia_stool_bar/suburbia_stool_bar" force="true"/>	
+	<object path="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_4m_trim_a" force="true"/>
+	<object path="units/world/props/bottle/bottle_2" force="true"/>
+	<object path="units/world/props/bottle/bottle_3" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_sofa_1_pillow" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect" force="true"/>
+	<object path="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_cup" force="true"/>	
+	<object path="units/world/props/survivalist/cardboard_box/cardboard_cube" force="true"/>		
+	<object path="units/world/props/pipes/pipe_medium_straight_2" force="true"/>
+	<object path="units/world/props/pipes/pipe_medium_corner_1" force="true"/>		
+	<object path="units/world/architecture/secret_stash/props/secret_stash_electricbox_tiny_2" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_electricbox_tiny_3" force="true"/>	
+	<object path="units/payday2/architecture/com_inte_store_tshirt/com_int_store_tshirt_street" force="true"/>
+	<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_02_corner_16x16" force="true"/>
+	<object path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" force="true"/>
+	<object path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof_4x8m_a" force="true"/>		
+	<object path="units/world/props/apartment/facade_light/facade_light" force="true"/>	
+	<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" force="true"/>		
+	<object path="units/payday2/props/str_prop_street_sign_roof/str_prop_street_sign_roof_contest_01" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_electricbox_1" force="true"/>
+	<object path="units/world/props/pipes/pipe_medium_straight_1" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_wallcables_1" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" force="true"/>
+	<object path="units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag" force="true"/>	
+	<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" force="true"/>	
+	<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" force="true"/>
+	<object path="units/payday2/architecture/bnk/bnk_int_window_03" force="true"/>|
+	<object path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag" force="true"/>
+	<object path="units/payday2/pickups/gen_pku_toolbag_large/gen_pku_toolbag_large" force="true"/>
+	<object path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_tall" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_ceiling_lamp/com_prop_mall_ceiling_lamp_long" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_ceiling_lamp/com_prop_mall_ceiling_lamp_wall" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_bag_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_bank_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_barber" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_barber_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_barista_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_cosmetic_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_falcogini_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_gym_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_jewelry_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_lobby" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_mens_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_pear_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_shield" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_shoe_side" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_tshirt_side" force="true"/>
+	<object path="units/payday2/architecture/com_ext_mall_facades/com_mall_big_piece_back" force="true"/>
+	<object path="units/payday2/architecture/com_ext_mall_facades/com_mall_big_piece_front" force="true"/>
+	<object path="units/payday2/vegetation/srt_veg_flower_box/str_veg_flower_box_c" force="true"/>
+	<object path="units/payday2/vegetation/com_veg_indoor_plants/com_veg_indoor_plants_smallgreen_a" force="true"/>
+	<object path="units/payday2/vegetation/com_veg_plant_fanpalm/com_veg_plant_fanpalm_a" force="true"/>
+	<object path="units/payday2/vegetation/com_veg_indoor_plants/com_veg_indoor_plants_palm_b" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_planter_modular/com_prop_mall_planter_modular_corner_outer_50cm" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_planter_modular/com_prop_mall_planter_modular_edge_50x100cm" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_planter_modular/com_prop_mall_planter_modular_50x100cm" force="true"/>	
+	<object path="units/payday2/props/com_prop_mall_bench/com_prop_mall_bench" force="true"/>
+	<object path="units/payday2/props/com_prop_mall_trashbin/com_prop_mall_trashbin" force="true"/>
+	<object path="units/payday2/architecture/air_hangar_segment/air_shed_welcometothejungle_a" force="true"/>
+	<object path="units/payday2/props/ind_prop_scrapyard_carcrusher/ind_prop_scrapyard_carcrusher" force="true"/>
+	<object path="units/world/props/survivalist/mattress/mattress_double" force="true"/>	
+	<object path="units/world/architecture/hospital/props/desk_metal/desk_metal" force="true"/>		
+	<object path="units/world/props/vending_machine/vending_machine_01_dirty" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_radiator_1" force="true"/>
+	<object path="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata_small" force="true"/>	
+	<object path="units/world/environment/mansion/man_ground_ext/man_roadbarrier" force="true"/>	
+	<object path="units/world/props/train/tra_prop_dish/tra_prop_dish_mug" force="true"/>		
+	<object path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_a_8x8m" force="true"/>
+	<object path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01" force="true"/>
+	<object path="units/pd2_dlc_run/props/run_prop_construction_crane_01/run_prop_construction_crane_top_01" force="true"/>
+	<object path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_catwalk" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_fueltank/air_prop_runway_fueltank" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_globes/red_prop_globe_pedestal" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_office_lower/red_int_office_lower" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_building_lobby/red_int_building_lobby" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_02" force="true"/>
+	<object path="units/world/props/bank/ticket_dispenser/ticket_dispenser_01" force="true"/>
+	<object path="units/world/props/trashcan/trash_can_int" force="true"/>
+	<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b" force="true"/>
+	<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b_unbreakable" force="true"/>
+	<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_c" force="true"/>
+	<object path="units/world/architecture/bank/bank_lobby/bank_entrance_door/bank_entrance_door" force="true"/>
+	<object path="units/world/props/mansion/man_prop_statue_karo_base/man_karo_statue_base_2" force="true"/>
+	<object path="units/world/props/statues/statue_karo" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_ext_building_facade/red_ext_building_facade" force="true"/>
+	<object path="units/world/props/suburbia_manhole/suburbia_manhole" force="true"/>
+	<object path="units/world/props/prop_ladder_folded/ladder_folded" force="true"/>
+	<object path="units/world/props/diamond_heist/construction_int/construction_paintcan_group" force="true"/>
+	<object path="units/world/props/diamond_heist/construction_int/construction_paintcan" force="true"/>
+	<object path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline" force="true"/>
+	<object path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" force="true"/>
+	<object path="units/equipment/garden_tap_interactive/garden_tap_interactive" force="true"/>
+	<object path="units/equipment/garden_tap_interactive/garden_hose_reel_suburbia" force="true"/>
+	<object path="units/world/props/bush_juniperus_sabina/bush_juniperus_sabina_02_instanced" force="true"/>
+	<object path="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_ammobag/gen_equipment_ammobag" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_bodybags_bag/gen_equipment_bodybags_bag" force="true"/>
+	<object path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_grenade_crate" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_explosives_case_single" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_explosives_case" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_jammer/gen_equipment_jammer" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_medicbag/gen_equipment_medicbag" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_tripmine/gen_equipment_tripmine" force="true"/>
+	<object path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry" force="true"/>
+	<object path="units/pd2_dlc_drive/vehicles/veh_helicopter_loot_cage/veh_helicopter_loot_cage" force="true"/>
+	<object path="units/payday2/props/str_prop_street_busstop/str_prop_street_busstop" force="true"/>
+	<object path="units/payday2/props/str_prop_park_fountain/str_prop_park_fountain" force="true"/>
+	<object path="units/world/props/mansion/man_cov_ext_bench/man_cov_ext_bench" force="true"/>
+	<object path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet" force="true"/>
+	<object path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile" force="true"/>
+	<object path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_concrete" force="true"/>
+	<object path="units/pd2_dlc_run/props/run_prop_shoppingcart_01/run_prop_shoppingcart_01" force="true"/>
+	<object path="units/world/architecture/slaughterhouse/slaughterhouse_yard_fence_door" force="true"/>
+	<object path="units/world/architecture/slaughterhouse/slaughterhouse_yard_fence" force="true"/>
+	<object path="units/world/architecture/slaughterhouse/slaughterhouse_yard_fence_bd" force="true"/>
+	<object path="units/world/props/gym/gym_fence_door/gym_fence_door" force="true"/>
+	<object path="units/world/architecture/slaughterhouse/slaughterhouse_container_crane" force="true"/>
+	<object path="units/world/props/street/roof_addons/roof_water_tower_04" force="true"/>
+	<object path="units/equipment/explosive_bag/explosive_bag" force="true"/>
+	<object path="units/equipment/explosive_bag/explosive_bag_animated" force="true"/>
+	<object path="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_apartment_01" force="true"/>
+	<object path="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_02/flt_prop_catwalk_apartment_02" force="true"/>
+	<object path="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_03/flt_prop_catwalk_apartment_03" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_1" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_2" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_3" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_4" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_5" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_6" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_7" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_8" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_9" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_10" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_11" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_12" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_13" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_14" force="true"/>
+	<object path="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_15" force="true"/>
+	<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_c" force="true"/>
+	<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a" force="true"/>
+	<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_b" force="true"/>
+	<object path="units/pd2_dlc_dinner/architecture/din_int_building/din_rail" force="true"/>
+	<object path="units/pd2_dlc_dinner/architecture/din_int_building/din_int_building" force="true"/>
+	<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_single" force="true"/>
+	<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_1m50cm" force="true"/>
+	<object path="units/world/props/bush_juniperus_sabina/bush_juniperus_sabina_01_instanced" force="true"/>
+	<object path="units/world/props/hedge_buxbom/hedge_buxbom_instanced" force="true"/>
+	<object path="units/world/props/fence_suburbia/fence_1m_suburbia" force="true"/>
+	<object path="units/world/props/fence_suburbia/fence_5m_suburbia" force="true"/>
+	<object path="units/world/props/fence_suburbia/fence_5m_variation_suburbia" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia_pool" force="true"/>
+	<object path="units/world/vegetation/mansion/man_veg_rosetrellis/suburbia_plant_wall_instanced" force="true"/>
+	<object path="units/world/props/gym/stn_lamp_walllobby/stn_prop_lamp_wall_lobby" force="true"/>
+	<object path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia_house1" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia_house2" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia_house2_crash_wall" force="true"/>
+	<object path="units/pd2_dlc_vit/props/vit_prop_oval_office_window_01_large/vit_prop_oval_office_window_01_large" force="true"/>	
+	<object path="units/payday2/props/str_prop_street_fireescape/str_prop_street_fireescape_b" force="true"/>
+	<object path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent" force="true"/>
+	<object path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" force="true"/>
+	<object path="units/wire/wire_01" force="true"/>	
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_storefront1_4x4m_a" force="true"/>
+	<object path="units/pd2_dlc1/props/str_prop_street_lamppost_trafficlight_a/str_prop_street_lamppost_trafficlight_a" force="true"/>	
+	<object path="units/payday2/props/str_prop_street_lamppost_trafficlight/str_prop_street_lamppost_trafficlight" force="true"/>	
+	<object path="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign" force="true"/>	
+	<object path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double_02_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double_b_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double_broken" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_none" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_single_02_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_single_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner_02_il_debris" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner_02_il" force="true"/>
+	<object path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner" force="true"/>
+	<object path="units/payday2/props/str_prop_street_usmailbox/str_prop_street_usmailbox" force="true"/>
+	<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_3" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_foliage_mini/pnau_brush_foliage_mini_e_01" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_foliage_mini/pnau_brush_foliage_mini_f_03" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_foliage_mini/pnau_brush_foliage_mini_f_04" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5d" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5c" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5b" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5a" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_4" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_3_small" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_3_flat" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_3" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_2_small" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_2" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_1_small" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_1" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_a" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_b" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_a" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_b" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_c" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_d" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_e" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_f" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_g" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_h" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_shroom/pnau_brush_shroom_01" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_brush/pnau_brush_shroom/pnau_brush_shroom_02" force="true"/>
+	<object path="units/world/props/street/streetcone_01" force="true"/>
+	<object path="units/world/props/street/streetcone_02" force="true"/>
+	<object path="units/world/architecture/hospital/props/rooftop/acvent/acvent02" force="true"/>	
+	<object path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag" force="true"/>
+	<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" force="true"/>
+	<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn" force="true"/>
+	<object path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" force="true"/>
+	<object path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90" force="true"/>	
+	<object path="units/pd2_dlc_friend/props/sfm_prop_ext_umbrella/sfm_prop_ext_umbrella" force="true"/>	
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_mansion" force="true"/>
+	<object path="units/pd2_dlc_friend/props/sfm_prop_ext_sofa_a/sfm_prop_ext_sofa_a" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_foliage/mad_veg_winter_tree_pine/mad_veg_winter_tree_pine_medium" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_foliage/mad_veg_winter_tree_linden/mad_veg_winter_tree_linden_small" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_01" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_02" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_04" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_07" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_08" force="true"/>
+	<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_09" force="true"/>
+	<object path="units/pd2_dlc_mad/vehicles/mad_vehicles_cesna_206/mad_vehicles_cessna_206" force="true"/>
+	<object path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_ext_stairs" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_int_mainroom" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_int_staircaseroom_railings_top" force="true"/>	
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_staircaseroom/sfm_int_staircaseroom" force="true"/>	
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_room_library" force="true"/>	
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" force="true"/>
+	<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_lower_courtyard" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_upper_courtyard" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_main_yard_hedges_02" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_main_yard_hedges" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_main_yard" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_terrace" force="true"/>
+	<object path="units/pd2_mcmansion/props/mcm_prop_garden_bollard/mcm_prop_garden_bollard_b" force="true"/>
+	<object path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone" force="true"/>
+	<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" force="true"/>
+	<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_atrium_segment_a" force="true"/>
+	<object path="units/payday2/props/bnk_prop_roof_flag_01/bnk_prop_flag_01" force="true"/>
+	<object path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_round" force="true"/>
+	<object path="units/payday2/props/gen_prop_construction_crane/gen_prop_construction_crane_arm" force="true"/>
+	<object path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_ground" force="true"/>
+	<object path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_openhours" force="true"/>
+	<object path="units/payday2/props/str_prop_street_sign_roof/str_prop_street_sign_roof_contest_02" force="true"/>
+	<object path="units/payday2/props/off_prop_officehigh_blinders/off_prop_officehigh_blinders_1_open" force="true"/>
+	<object path="units/payday2/architecture/str/str_ext_deco_asphalt_patch_b" force="true"/>
+	<object path="units/payday2/architecture/str/str_ext_deco_asphalt_patch_d" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" force="true"/>
+	<object path="units/world/props/airport/airport_cones/airport_tall_cone" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_signs/air_prop_runway_sign_hazard" force="true"/>
+	<object path="units/world/props/street/streetlight_a" force="true"/>
+	<object path="units/world/props/street/bicycle/bicycle" force="true"/>
+	<object path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_sign_front" force="true"/>
+	<object path="units/world/props/mansion/man_prop_ext_fence_wooden_5m/man_prop_ext_fence_wooden_5m" force="true"/>
+	<object path="units/world/vegetation/mansion/man_cov_hedges/man_cov_hedge_straight_tall_4m" force="true"/>
+	<object path="units/world/street/ct_telephone_pole/ct_telephone_pole_01" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_ford_graffiti/str_vehicle_car_ford_graffiti" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_modernsedan2_open/str_vehicle_car_modernsedan2_open" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_modernsedan2/str_vehicle_car_modernsedan2" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_ford_open/str_vehicle_car_ford_open" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_ford_punctured/str_vehicle_car_ford_punctured" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_compact_open/str_vehicle_car_compact_open" force="true"/>	
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_compact_crushed_roof/str_vehicle_car_compact_crushed_roof" force="true"/>	
+	<object path="units/payday2/vehicles/str_vehicle_car_compact_anim_shouse/str_vehicle_car_compact_anim_shouse" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab_open" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" force="true"/>
+	<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" force="true"/>
+	<object path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_taxi/str_vehicle_car_taxi" force="true"/>
+	<object path="units/pd2_dlc1/vehicles/str_vehicle_car_taxi_open/str_vehicle_car_taxi_open" force="true"/>
+	<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" force="true"/>
+	<object path="units/world/props/street/parking_meter/parking_meter" force="true"/>
+	<object path="units/world/props/construction_crane/construction_crane_01" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_fireplace_room/sfm_int_room_fireplace_room" force="true"/>
+	<object path="units/pd2_dlc_friend/architecture/int/sfm_int_bedroom/sfm_int_bedroom" force="true"/>
+	<object path="units/pd2_indiana/props/mus_prop_courtyard_fountain/mus_prop_courtyard_fountain" force="true"/>	
+	<object path="units/pd2_indiana/props/mus_prop_courtyard_fountain/mus_prop_courtyard_fountain_hedge" force="true"/>	
+	<object path="units/payday2/vehicles/str_vehicle_van/str_vehicle_van" force="true"/>	
+	<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_wood" force="true"/>	
+	<object path="units/payday2/vehicles/air_interactable_vehicle_cessna_206/air_interactable_vehicle_cessna_206" force="true"/>
+	<object path="units/pd2_dlc_cro/vehicles/air_interactable_cessna_206/air_interactable_vehicle_cessna_206" force="true"/>
+	<sequence_manager path="units/pd2_dlc_cro/vehicles/air_interactable_cessna_206/air_interactable_vehicle_cessna_206" force="true"/>
+	<object path="units/world/props/container/container" force="true"/>
+	<object path="units/pd2_dlc_bex/characters/ene_policia_01/ene_policia_01" force="true"/>
+	<object path="units/pd2_dlc_bex/characters/ene_policia_02/ene_policia_02" force="true"/>
+	<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" force="true"/>
+	<object path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_separator" force="true"/>
+	<object path="units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_ck" force="true"/>
+	<object path="units/pd2_dlc_tng/weapons/wpn_fps_ass_ak_m_quick/wpn_fps_upg_ak_m_quick" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shooting_range/ranc_ext_shooting_range" force="true"/>	
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_shooting_range_fence" force="true"/>	
+	<object path="units/pd2_dlc_gitgud/characters/ene_acc_shield_new_swat/ene_acc_shield_new_swat" force="true"/>	
+	<texture path="units/payday2/props/gen_prop_security_monitors/office_screen_il" force="true"/>
+	<texture path="units/payday2/props/gen_prop_security_monitors/street_screen_il" force="true"/>
+	<texture path="units/payday2/props/gen_prop_security_monitors/forest_screen_il" force="true"/>
+	<texture path="units/payday2/props/gen_prop_security_monitors/apartment_screen_il" force="true"/>
+	<object path="units/world/props/furniture_outdoors/furniture_outdoors_parasol"/>
+	<object path="units/world/props/furniture_outdoors/furniture_outdoors_table"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_suburban/str_vehicle_car_suburban"/>
+	<object path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex"/>
+	<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_facade_01"/>
+	<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_facade_02"/>
+	<object path="units/payday2/architecture/res_ext_apartment/res_ext_apartment_window_04"/>
+	<material_config path="units/pd2_dlc_red/architecture/red_vault_entrance" force="true"/>
+	<material_config path="units/pd2_dlc_red/architecture/red_vault_extra" force="true"/>
+	<material_config path="units/pd2_dlc_red/equipment/red_s_cube/red_s_cube" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_carpet_vault_entrance_df" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_trims_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_01_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_02_512_df" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_05_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_wood_gsm" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/din_facade_metal_01_gsm" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/din_facade_metal_02_gsm" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_vault_entrance/red_int_vault_entrance" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_building_lobby/red_int_building_lobby" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_01" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_02" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_office_lower/red_int_office_lower" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_ext_building_facade/red_ext_building_facade" force="true"/>
+	<material_config path="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal_df" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal_gsma" force="true"/>
+	<material_config path="units/world/props/bank/vault/vault_new" force="true"/>
+	<texture load="true" path="units/world/props/bank/safety_box/safety_box_gsma" force="true"/>
+	<texture load="true" path="units/world/props/bank/vault/vault_gsma" force="true"/>
+	<texture load="true" path="units/world/props/bank/vault/vault_hallway_doors_gsma" force="true"/>
+	<object path="units/world/props/bank/vault/vault_door_set" force="true"/>
+	<object path="units/world/architecture/secret_stash/secret_stash_facade_balcony" force="true"/>
+	<object path="units/world/props/street/plywood_fence/plywood_fence_varia" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_catwalk_rooftop" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_catwalk_bridge" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_catwalk_bridge" force="true"/>
+	<object path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks" force="true"/>
+	<object path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks_short" force="true"/>
+	<object path="units/world/props/street/plywood_fence/plywood_fence_small" force="true"/>
+	<object path="units/world/architecture/secret_stash/props/secret_stash_sofa_1_a" force="true"/>
+	<object path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_a_grime/res_prop_livingroom_lamp_floor_worn_a_grime" force="true"/>
+	<object path="units/world/props/train/tra_cover_luggage/tra_cover_luggage_bigcardboard" force="true"/>
+	<animation_def path="anims/units/characters/arena/arena" force="true"/>
+	<animation_def path="anims/units/enemies/cop/cop_def" force="true"/>
+	<animation_def path="anims/units/escort_guy/escort_normal_walk_def" force="true"/>
+	<animation_def path="anims/units/escort_guy/escort_normal_walk_rvd_def" force="true"/>
+	<animation_def path="anims/units/escort_guy/escort_prisoner_def" force="true"/>
+	<animation_def path="anims/units/escort_guy/escort_undercover_def" force="true"/>
+	<animation_def path="anims/units/escort_var/cop_def" force="true"/>
+	<animation_def path="anims/units/level/chill/cop_def" force="true"/>
+	<animation_def path="anims/units/level/sand/cop_def" force="true"/>
+	<animation_def path="anims/units/level/spa/spa_follower_hurt/cop_def" force="true"/>
+	<animation_def path="anims/units/menu_character/player_criminal/menu_criminal" force="true"/>
+	<animation_def path="anims/units/rubber_boat/rubber_boat" force="true"/>
+	<texture path="units/payday2/equipment/gen_interactable_door_reinforced_lab/gen_prop_door_metal_lab_gsma" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_cellceiling1_2x2m_a" force="true"/>
+	<object path="units/payday2/props/res_prop_livingroom_table_coffee/res_prop_livingroom_table_coffee" force="true"/>
+	<object path="units/payday2/props/lxa_prop_livingroom_sofaenglish/lxa_prop_livingroom_couch_english" force="true"/>
+	<object path="units/payday2/props/lxa_prop_livingroom_sofaenglish/lxa_prop_livingroom_sofa3_english" force="true"/>
+	<object path="units/payday2/props/lxa_prop_livingroom_lamp_floor/lxa_prop_livingroom_lamp_floor" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_ext_facade_01" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_stairs1_1m_a_tile" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_stairs1_1m_a_corner" force="true"/>
+	<object path="units/payday2/props/lxa_prop_balcony_table_large/lxa_prop_balcony_table_large" force="true"/>
+	<object path="units/payday2/props/lxa_prop_terrace_loveseat/lxa_prop_terrace_loveseat" force="true"/>
+	<object path="units/payday2/props/lxa_prop_terrace_sunbed/lxa_prop_terrace_sunbed" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_stairs1_100x200x125m_a_bottom" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_stairs1_100x200x125m_a" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_stairs1_100x200x125m_a_top" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_bookshelfstairs_3m_a" force="true"/>
+	<object path="units/payday2/architecture/lux/lux_int_bookshelfstairs_1m_extension_a" force="true"/>
+	<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" force="true"/>	
+	<texture path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_b_nm" force="true"/>
+	<texture path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_a_nm" force="true"/>
+	<continent path="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior" force="true"/>
+	<sequence_manager path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_double/chca_interactable_door_double" force="true"/>
+	<world path="levels/narratives/vlad/jewelry_store/world" force="true"/>
+	<object path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner" force="true"/>
+	<object path="units/payday2_cash/safes/bah/safe/eco_safe_bah" force="true"/>
+	<object path="units/pd2_dlc_run/props/run_prop_street_lights_01/run_prop_street_lights_01" force="true"/>
+	<object path="units/world/props/street/tree_cover/tree_cover" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_f" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_g" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_h" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_j" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_k" force="true"/>
+	<object path="units/payday2/props/bnk_prop_vault_loot_value_i/bnk_prop_vault_loot_value_i" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_ext_plaza/red_ext_plaza" force="true"/>
+	<object path="units/world/props/flags/large_flagpole" force="true"/>
+	<object path="units/world/props/flags/large_flag_us" force="true"/>
+	<object path="units/world/props/flags/flag_us" force="true"/>
+	<object path="units/world/props/street/roof_addons/roof_water_tower_01" force="true"/>
+	<object path="units/world/props/street/roof_addons/roof_water_tower_02" force="true"/>
+	<object path="units/world/props/street/roof_addons/roof_water_tower_03" force="true"/>
+	<object path="units/world/props/street/plywood_fence/plywood_fence_wide_varia" force="true"/>
+	<continent path="levels/narratives/classics/flat/lights/lights" force="true"/>
+	<texture path="levels/narratives/classics/flat/cube_lights/500113" force="true"/>
+	<continent path="levels/narratives/chill/world/world" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v3" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b_v2" force="true"/>
+	<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" force="true"/>
+	<object path="units/pd2_dlc_chill/props/chl_veg_planingroom_dallas_plant/chl_veg_planingroom_dallas_plant_medium" force="true"/>
+	<object path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_upperfloor" force="true"/>
+	<object path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_exterior" force="true"/>
+	<object path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_groundfloor" force="true"/>
+	<texture path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/ranc_equipment_turretbag_df" force="true"/>
+	<texture path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/ranc_equipment_turretbag_nm" force="true"/>
+	<object path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/turret_bag" force="true"/>
+	<texture path="units/pd2_dlc_pda9/props/pda9_pickup_feed_bag/pda9_equipment_feed_bag_df" force="true"/>
+	<texture path="units/pd2_dlc_pda9/props/pda9_pickup_feed_bag/pda9_equipment_feed_bag_gsma" force="true"/>
+	<texture path="units/pd2_dlc_pda9/props/pda9_pickup_feed_bag/pda9_equipment_feed_bag_nm" force="true"/>
+	<object path="units/pd2_dlc_pda9/props/pda9_pickup_feed_bag/pda9_pickup_feed_bag" force="true"/>
+	<object path="units/pd2_dlc_cg22/pickups/cg22_pku_bag/cg22_pku_bag" force="true"/>
+	<object path="units/pd2_dlc_cg22/pickups/cg22_pku_bag/cg22_pku_bag_yellow" force="true"/>
+	<object path="units/pd2_dlc_cg22/pickups/cg22_pku_bag/cg22_pku_bag_green" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2" force="true"/>
+	<object path="units/pd2_dlc_peta/vehicles/pta_vehicle_truck_old/pta_vehicle_truck_old" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" force="true"/>
+	<object path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_motorcycle_chopper/str_vehicle_motorcycle_chopper" force="true"/>
+	<object path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_1m_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_2m_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_inner_conner_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_inner_corner_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_corner_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_2m_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_1m_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_03_v2" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_window_big" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_big" force="true"/>
+	<object path="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" force="true"/>
+	<object path="units/world/props/street/cementbags_cover/cementbags_cover" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_04_v3" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_v3" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_1m_v3" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_2m_v3" force="true"/>
+	<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_stair_spiral" force="true"/>
+	<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_stair_spiral_v02" force="true"/>
+	<continent path="levels/narratives/e_framing_frame/stage_1/world/world" force="true"/>
+	<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" force="true"/>
+	<object path="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" force="true"/>
+	<object path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/design_lamp" force="true"/>
+	<object path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception" force="true"/>
+	<object path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_big_bank" force="true"/>
+	<object path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_corner" force="true"/>
+	<object path="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" force="true"/>
+	<object path="units/payday2/props/com_prop_int_gallery_art_covered/com_prop_int_gallery_art_covered" force="true"/>
+	<object path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench" force="true"/>
+	<object path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" force="true"/>
+	<object path="units/payday2/props/com_prop_gallery_postcard_stand/com_prop_gallery_postcard_stand" force="true"/>
+	<object path="units/payday2/props/com_prop_gallery_brochurestand_wall" force="true"/>
+	<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_3m" force="true"/>
+	<object path="units/payday2/props/com_prop_gallery_brochurestand_floor/com_prop_gallery_brochurestand_floor" force="true"/>
+	<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_stair" force="true"/>
+	<object path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac" force="true"/>
+	<object path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half" force="true"/>
+	<object path="units/world/street/vegetation_cypressbig/vegetation_cypressbig_full_01" force="true"/>
+	<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_c" force="true"/>
+	<object path="units/payday2/props/str_prop_street_planter_c/str_prop_street_planter_c_1x1m_corner_a" force="true"/>
+	<sequence_manager path="units/pd2_dlc_max/characters/npc_criminals_max/npc_criminal_max" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_b" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_c" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_garden_recreation/ranc_ext_garden_recreation" force="true"/>
+	<object path="units/pd2_dlc_fex/props/fex_prop_light_row/fex_prop_light_row_3m" force="true"/>
+	<continent path="levels/narratives/mcshay/ranc/art_props/art_props" force="true"/>
+	<continent path="levels/narratives/mcshay/ranc/art_props2/art_props2" force="true"/>
+	<continent path="levels/narratives/mcshay/ranc/world/world" force="true"/>
+	<continent path="levels/narratives/mcshay/ranc/art_architecture/art_architecture" force="true"/>
+	<continent path="levels/narratives/mcshay/ranc/art_backdrop/art_backdrop" force="true"/>
+	<environment path="environments/pd2_env_ranc/pd2_env_ranc_ext"/>
+	<environment path="environments/pd2_env_ranc/pd2_env_ranc_int"/>
+	<object path="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" force="true"/>
+	<object path="units/pd2_dlc_ranc/props/ranc_prop_shooting_range_target/ranc_prop_shooting_range_target" force="true"/>
+	<object path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_stacked/pta_prop_barn_haybale_stacked_a" force="true"/>
+	<object path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_stacked/pta_prop_barn_haybale_stacked_b" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_midland_ranch_gate/ranc_ext_midland_ranch_gate" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground_a" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_barbecue_area/ranc_ext_barbecue_area" force="true"/>
+	<object path="units/payday2/props/res_prop_kitchen_table_b_long_worn_clean/res_prop_kitchen_table_b_long_worn_clean" force="true"/>
+	<object path="units/payday2/props/res_prop_kitchen_chair_b_worn_clean/res_prop_kitchen_chair_b_worn_clean" force="true"/>
+	<object path="units/pd2_dlc_ranc/props/ranc_prop_heavy_gate/ranc_prop_heavy_gate" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shed/ranc_ext_shed_01" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_building_small/ranc_ext_building_small_01" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_old_shed" force="true"/>
+	<object path="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" force="true"/>
+	<object path="units/payday2/props/gen_prop_container/gen_prop_container" force="true"/>
+	<object path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/ranc_int_weapon_box_2x1x1m" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ranch_house/ranc_ext_ranch_house" force="true"/>
+	<object path="units/pd2_dlc_ranc/vegetation/ranc_prop_tree_cottonwood/ranc_prop_tree_cottonwood" force="true"/>
+	<object path="units/pd2_dlc_sand/vehicles/sand_vehicle_truck_boxvan/sand_vehicle_truck_boxvan" force="true"/>
+	<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_tree/bry_vegetation_tree_a" force="true"/>
+	<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_tree/bry_vegetation_tree_b" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_tree_circle/ranc_ext_tree_circle" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_tree_circle/ranc_ext_tree_circle" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/int/ranc_int_ranch_house_windows/ranc_ranch_house_window_01_open" force="true"/>
+	<object path="units/pd2_dlc_ranc/architecture/int/ranc_int_ranch_house_a/ranc_int_ranch_house_a" force="true"/>
+	<object path="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_a" force="true"/>
+	<object path="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_b" force="true"/>
+	<object path="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_c" force="true"/>
+	<object path="units/pd2_dlc_ranc/vegetation/ranc_prop_veg_tree_mesquite/ranc_prop_tree_mesquite" force="true"/>
+	<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_cover_01" force="true"/>
+	<object path="units/pd2_dlc2/vehicles/air_vehicle_cessna_206_csgo/air_vehicle_cessna_206_csgo" force="true"/>
+	<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" force="true"/>
+	<object path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" force="true"/>
+	<texture path="units/pd2_dlc_brb/environments/cubemaps/brb_bank_int" force="true"/>
+	<continent path="levels/narratives/locke/pex/art_props/art_props" force="true"/> 
+	<continent path="levels/narratives/locke/pex/lights/lights" force="true"/>
+	<object path="units/world/props/suburbia_transformer_box/suburbia_transformer_box" force="true"/>
+	<object path="units/world/props/curtain/curtain_double_long" force="true"/>
+	<object path="units/world/props/window_suburban/window_suburban_01" force="true"/>
+	<object path="units/world/props/window_suburban/window_suburban_small_01" force="true"/>
+	<object path="units/world/props/window_suburban/window_suburban_big_01" force="true"/>
+	<object path="units/world/props/curtain/curtain_short_single" force="true"/>
+	<object path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" force="true"/>
+	<object path="units/world/props/curtain/curtain_double_mid" force="true"/>
+	<object path="units/world/props/yacht/bath/lxy_prop_bath_perfume_a" force="true"/>
+	<object path="units/world/props/yacht/bath/lxy_prop_bath_perfume_b" force="true"/>
+	<object path="units/world/props/yacht/bath/lxy_prop_bath_lotion_b" force="true"/>
+	<object path="units/world/props/suburbia_sink/sink_suburbia" force="true"/>
+	<object path="units/world/props/suburbia_bathroom/toilet_suburbia" force="true"/>
+	<object path="units/world/props/suburbia_magazines/magazinepile_01" force="true"/>
+	<object path="units/world/props/suburbia_magazines/magazinepile_02" force="true"/>
+	<object path="units/world/props/suburbia_magazines/magazinepile_03" force="true"/>
+	<object path="units/world/architecture/suburbia/childrens_room/boy_room_props" force="true"/>
+	<object path="units/world/architecture/suburbia/childrens_room/boy_room_curtains" force="true"/>
+	<object path="units/world/props/zombie_toys/zombie_tank" force="true"/>
+	<object path="units/world/props/zombie_toys/zombie_smoker" force="true"/>
+	<object path="units/world/props/zombie_toys/zombie_hunter" force="true"/>
+	<object path="units/world/props/zombie_toys/zombie_bommer" force="true"/>
+	<object path="units/world/props/zombie_toys/zombie_all" force="true"/>
+	<object path="units/world/props/office/fan_table/fan_table" force="true"/>
+	<object path="units/world/architecture/suburbia/childrens_room/girl_room_curtains" force="true"/>
+	<object path="units/world/architecture/suburbia/childrens_room/girl_room_props" force="true"/>
+	<object path="units/world/props/bed_children/bed_children_girl" force="true"/>
+	<object path="units/world/props/furniture_mini/furniture_mini_table" force="true"/>
+	<object path="units/world/props/furniture_mini/furniture_mini_chair" force="true"/>
+	<object path="units/world/props/mansion/man_prop_int_workbench/man_prop_int_workbench" force="true"/>
+	<object path="units/world/architecture/suburbia/suburbia_garage_door_open" force="true"/>
+	<object path="units/world/props/suburbia_hoop/suburbia_hoop" force="true"/>
+	<object path="units/pd2_dlc2/vehicles/str_vehicle_truck_swat_csgo_1/str_vehicle_truck_swat_csgo_1" force="true"/>
+	<object path="units/pd2_dlc_pal/vehicles/pal_vehicle_van_player/pal_vehicle_van_player" force="true"/>
+	<object path="units/world/props/street/hotdog_stand/hotdog_stand" force="true"/>
+	<object path="units/world/street/street_bench/street_bench" force="true"/>
+	<object path="units/payday2/vehicles/str_vehicle_bmw/str_vehicle_bmw" force="true"/>
+	<object path="units/world/architecture/secret_stash/secret_stash_facade" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof_corner_2x2m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof_2x2m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof_1x1m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof_corner_4x8m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_4m_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_branchbank_roofstairs_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_corner_4x4m_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_4m_c" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_corner_4x4m_c" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_corner_inner_4x4m_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_corner_8x8m_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_trim_8m_b" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a_nowin" force="true"/>
+	<object path="units/payday2/architecture/bnk/bnk_ext_entrance_b" force="true"/>
+	<object path="units/payday2/architecture/bnk/bnk_ext_wall_window_4m" force="true"/>
+	<object path="units/payday2/architecture/bnk/bnk_ext_wall_window_2m" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x4m_a_nowin" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_storefront1_4x4m_a_door" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_storefront1_4x8m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x4m_a_door" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x2m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x1m_a" force="true"/>
+	<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x8m_a" force="true"/>
+	<object path="units/payday2/props/str_prop_park_hedge_buxbom/str_prop_park_hedge_buxbom_shape_a" force="true"/>
+	<object path="units/payday2/architecture/com_int_store_cosmetic/com_int_store_cosmetic_2a" force="true"/>
+	<object path="units/pd2_dlc_bex/vehicles/anim_vehicle_suv_bex/anim_vehicle_suv_bex" force="true"/>
+	<continent path="levels/narratives/e_election_day/stage_1/world/world" force="true"/>
+	<continent path="levels/narratives/h_firestarter/stage_2/world/world" force="true"/>
+	<continent path="levels/narratives/h_firestarter/stage_2/pc_only/pc_only" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100033" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100008" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100020" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100029" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100023" force="true"/>
+	<texture path="levels/narratives/h_firestarter/stage_2/cube_lights/100028" force="true"/>
+	
+	<environment path="environments/pd2_are_lobby/pd2_are_lobby" force="true"/>
+	<environment path="environments/env_test_dark/env_test_dark" force="true"/>
+	<texture path="environments/pd2_env_hox_02/pd2_env_hox_02" force="true"/>
+	<object path="units/pd2_dlc_jerry/vehicles/jry_vehicle_blackhawk_money_pile/jry_vehicle_blackhawk_money_pile" force="true"/>
+	<environment path="units/pd2_dlc_dah/environments/pd2_dah_outdoor/pd2_dah_outdoor" force="true"/>
+	<texture path="environments/pd2_env_spa/pd2_env_spa_a" force="true"/>
+	<environment path="environments/pd2_env_spa/pd2_env_spa_a" force="true"/>
+	<environment path="environments/pd2_env_spa/pd2_env_spa_outside" force="true"/>
+	<object path="units/payday2/equipment/gen_pku_gas_can/gen_pku_gas_can" force="true"/>
+	<texture path="levels/narratives/vlad/mallcrasher/cube_lights/500547" force="true"/>
+	<texture path="levels/narratives/vlad/mallcrasher/cube_lights/500546" force="true"/>
+	<texture path="levels/narratives/vlad/mallcrasher/cube_lights/500544" force="true"/>
+	<texture path="levels/narratives/vlad/mallcrasher/cube_lights/500541" force="true"/>
+	<object path="units/payday2/architecture/hcm/hcm_ext_storefront_8x16m_f" force="true"/>
+	<continent path="levels/narratives/vlad/mallcrasher/ed3_world/ed3_world" force="true"/>
+	<object path="units/world/architecture/hospital/props/rooftop/acunit/acunit01" force="true"/>
+	<texture path="environments/cubemaps/cubemap_chill" force="true"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_memorial_stone"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_stair_400x100x125cm"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_4x2m_broken"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m"/>
+    <object path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_inner_1x1m"/>
+    <object path="units/payday2/props/str_prop_park_planting/str_prop_park_planting_a_round_small"/>
+    <object path="units/payday2/vegetation/veg_str_park_grass_thick_a/veg_str_park_grass_thick_a_inst"/>
+    <object path="units/world/vegetation/mansion/man_cov_hedges/man_cov_hedge_straight_4m"/>
+    <object path="units/pd2_dlc_pent/architecture/int/pent_int_entrance_lobby/pent_int_ball_fountain"/>
+    <object path="units/world/props/mansion/man_prop_statue_karo_base/man_karo_statue_base" force="true"/>	
+	<object path="units/pd2_dlc_chca/props/chca_prop_tree/chca_tree_pot" force="true"/>
+	<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_constructiontower_1" force="true"/>	
+	<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_constructiontower_2" force="true"/>
+	<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_destruction_c" force="true"/>
+	<object path="units/pd2_dlc_moon/props/moo_prop_dome/moo_prop_dome_small" force="true"/>
+	<object path="units/pd2_dlc_moon/props/moo_prop_dome/moo_prop_dome" force="true"/>
+	<environment path="environments/env_core_inside_01/env_core_inside_01" force="true"/>
+	<texture path="environments/env_core_inside_01/env_core_inside_cubemap" force="true"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_middle"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_edge_right"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_edge_left"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_window_open_v2"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_window_closed_v2"/>
+	<object path="units/world/street/construction_grbhaul/construction_grbhaul"/>
+	<object path="units/world/street/street_lights/street_lights_c"/>
+	<object path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_alt_burnt"/>
+	<object path="units/pd2_dlc_pines/architecture/ind_ext_dock_bld_roof_support_no_collision"/>	
+	<object path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_b"/>
+	<object path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet"/>
+	<object path="units/payday2/props/ind_prop_warehouse_pallettruck/ind_prop_warehouse_pallettruck"/>	
+	<environment path="units/pd2_dlc_sah/environments/pd2_env_sah_exterior" force="true"/>
+	<environment path="units/pd2_dlc_sah/environments/pd2_env_sah_interior" force="true"/>
+	<object path="units/pd2_dlc_brb/props/brb_prop_vehicle_truck_wheelloader/brb_prop_vehicle_truck_wheelloader"/>	
+	<world path="levels/narratives/locke/brb/world"/>	
+	<object path="units/vehicles/animated_cars/garbage_truck/garbage_truck_animated"/>	
+	<object path="units/payday2/equipment/gen_pku_gas_can_2/gen_pku_gas_can_2"/>
+	<object path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane"/>	
+	<environment path="environments/pd2_man/pd2_man_corridor"/>	
+	<environment path="environments/pd2_man/pd2_man_corridor_nofog"/>	
+	<environment path="environments/pd2_man/pd2_man_rooms"/>	
+	<environment path="environments/pd2_man/pd2_man_main"/>
+	<world path="levels/narratives/classics/man/world"/>
+	<texture path="environments/cubemaps/cubemap_undercover_ext"/>	
+	<texture path="environments/cubemaps/cubemap_undercover_corridor"/>	
+	<texture path="environments/cubemaps/cubemap_undercover_rooms"/>
+	<object path="units/pd2_dlc_dinner/architecture/din_ext_alley/din_alley_wall"/>
+	<object path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank"/>
+	<texture path="environments/cubemaps/cubemap_cloudy"/>
+	<environment path="environments/pd2_wwh/pd2_wwh"/>
+	<environment path="environments/pd2_wwh/pd2_wwh_train"/>	
+	<object path="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_a"/>	
+	<object path="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_b"/>	
+	<object path="units/pd2_dlc_jerry/props/jry_bdrop_telephonepole/jry_bdrop_telephonepole"/>	
+	<continent path="levels/instances/unique/pbr/pbr_hardware_store/world/world"/>
+	<object path="units/pd2_dlc_jerry/architecture/jry_hardware_store/jry_hardware_store_pillar_1"/>	
+	<texture path="environments/cubemaps/cubemap_flat_indoor"/>
+	<environment path="environments/pd2_flat_indoor/pd2_flat_indoor"/>
+	<object path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up_half"/>
+	<object path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up"/>
+	<object path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
+	<object path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_entrance"/>
+	<object path="units/pd2_dlc_flat/architecture/flt_ext_apartment_roof/flt_ext_apartment_roof"/>
+	<object path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment"/>
+	<continent path="levels/narratives/classics/flat/world/world"/>
+	<continent path="levels/narratives/classics/flat/art_dhruva/art_dhruva"/>
+	<continent path="levels/instances/unique/flat/flat_coketable/world/world"/>
+	<object path="units/vehicles/helicopter/helicopter_ranger/helicopter_cops"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_container"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_night"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_fondation"/>
+	<object path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington"/>
+	<object path="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1"/>
+	<object path="units/pd2_dlc_run/props/run_prop_concrete_blocks/run_prop_concrete_blocks_medium"/>
+	<object path="units/test/payday2/tst_vehicle_suburban_animated/tst_vehicle_suburban_animated"/>
+	<object path="units/world/props/mansion/man_cover_int_laundry_chart/man_cover_int_laundry_chart"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_b"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_b_clean"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_clean"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_d"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_d_clean"/>
+	<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_d_clean"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_pole_base"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_pole"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_02"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_03"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_04"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_05"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_06"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_07"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_09"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_10"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_11"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_12"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_13"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_14"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_15"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_16"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_17"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_18"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_19"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_20"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_21"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_22"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_23"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_24"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_25"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_26"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_28"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_29"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_30"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_31"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_32"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_33"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_34"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_35"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_36"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_37"/>
+	<object path="units/world/props/signs/traffic_signs/traffic_sign_38"/>
+	<object path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big"/>
+	<object path="units/payday2/architecture/ind/ind_ext_4x8m_groundfloor_c"/>
+	<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_window_open_night_v2"/>
+	<object path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
+	<object path="units/payday2/architecture/sub/sub_ext_crater_entrance_debris_pile_01/sub_ext_crater_entrance_debris_pile_01"/>
+	<object path="units/payday2/architecture/res/res_scrapyard_house_b"/>
+	<object path="units/payday2/architecture/res/res_int_window_01"/>
+	
+</table>
+
+	<!-- <reflection_texture type="cubemap" global_texture="current_global_texture"/> -->
+	<!-- shadow_caster="true" -->

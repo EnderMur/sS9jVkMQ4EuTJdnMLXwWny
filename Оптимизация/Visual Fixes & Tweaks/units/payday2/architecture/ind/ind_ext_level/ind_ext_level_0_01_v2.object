@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2" orientation_object="rp_ind_ext_level_0_01_v2" />
+	<bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_ind_ext_level_0_01_v2"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="plaster">
+        <decal_mesh enabled="true" name="dm_plaster" material="plaster" />
+    </decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+		<object enabled="false" name="s_s" />
+    </graphics>
+</dynamic_object> 

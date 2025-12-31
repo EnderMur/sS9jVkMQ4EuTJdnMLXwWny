@@ -1,0 +1,43 @@
+ <?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/lux/lux_villavivaldi" orientation_object="rp_lux_ext_facade_01" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_lux_ext_facade_01"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_lux_ext_facade_01"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_meshmopp_pool_ladder"/>
+        </body>
+        <body name="static_body_pool_ladder" template="nav_walk" enabled="true" >
+            <object name="rp_lux_ext_facade_01"/>
+            <object collision_type="box" enabled="true" name="c_box_nav_pool_ladder_01"/>
+            <object collision_type="box" enabled="true" name="c_box_nav_pool_ladder_02"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+        <decal_mesh name="dm_stone" material="stone" enabled="true"/>
+        <decal_mesh name="dm_concrete" material="concrete" enabled="true"/>
+        <decal_mesh name="dm_hardwood" material="hardwood" enabled="true"/>
+        <decal_mesh name="dm_metal" material="metal" enabled="true"/>
+        <decal_mesh name="dm_plaster" material="plaster" enabled="true"/>
+        <decal_mesh name="dm_glass_unbreakable" material="glass_unbreakable" enabled="true"/>
+        <decal_mesh name="dm_glass_unbreakable2" material="glass_unbreakable" enabled="true"/>
+		<decal_mesh name="dm_tile" material="tile" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_lux_ext_facade_01" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_02" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_03" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_01_concrete" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_01_pool_glow" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_01_pool_il" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_01_pool" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_facade_01_b" shadow_caster="true"  />
+        <object enabled="true" name="g_lux_int_largetree_01" shadow_caster="true" />
+        <object enabled="true" name="g_lux_int_largetree_01_leaf" shadow_caster="true" />
+        <object enabled="true" name="g_lux_ext_atrium_glass" shadow_caster="true" />
+        <object enabled="true" name="s_lux_ext_facade_01" shadow_caster="true" />
+        <object enabled="true" name="s_lux_ext_int" shadow_caster="true" />
+    </graphics>
+</dynamic_object> 

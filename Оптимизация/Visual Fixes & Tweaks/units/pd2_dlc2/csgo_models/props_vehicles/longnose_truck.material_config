@@ -1,0 +1,10 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_BIGPROPS" name="mat_longnose_truck" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_df"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="opacity:DIFFUSE_TEXTURE" version="2" name="mat_longnose_truck_glass">
+        <opacity_texture file="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_glass_df"/>
+    </material>
+</materials>

@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_flag_01" materials="units/payday2/props/bnk_prop_roof_flag_01/bnk_prop_flag_01" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_flag" shadow_caster="true" />
+        <object enabled="true" name="g_pole" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

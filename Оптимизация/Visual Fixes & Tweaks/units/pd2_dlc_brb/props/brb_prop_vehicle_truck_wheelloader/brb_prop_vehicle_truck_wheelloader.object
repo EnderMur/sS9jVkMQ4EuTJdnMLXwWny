@@ -1,0 +1,25 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_brb/props/brb_prop_vehicle_truck_wheelloader/brb_prop_vehicle_truck_wheelloader" orientation_object="rp_lxa_vehicle_truck_wheelloader" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_lxa_vehicle_truck_wheelloader" />
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+	</decal_surfaces>
+	<graphics>
+			<object name="g_lod0" enabled="true" shadow_caster="true" />
+			<object name="g_lod1" enabled="false" />
+			<object name="g_lod2" enabled="false" />
+			<object name="s_s" enabled="false" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

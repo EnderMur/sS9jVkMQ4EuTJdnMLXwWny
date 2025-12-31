@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag" orientation_object="rp_bodybag" />
+  <sequence_manager file="units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag" />
+  <bodies>
+    <body  name="hips_body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="1" restitution="0">
+        <object name="rp_bodybag" />
+        <object name="c_upperleg" collision_type="convex" mass="50" />
+    </body>
+    <body  name="leg_body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="1" restitution="0">
+        <object name="leg" />
+        <object name="c_leg" collision_type="convex" mass="50" />
+    </body>
+    <body  name="foot_body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="1" restitution="0">
+        <object name="foot" />
+        <object name="c_foot" collision_type="convex" mass="50" />
+    </body>
+    <body  name="torso_body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="1" restitution="0">
+        <object name="torso" />
+        <object name="c_torso" collision_type="convex" mass="100" />
+    </body>
+    <body  name="head_body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="1" restitution="0">
+        <object name="head" />
+        <object name="c_head" collision_type="convex" mass="50" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="cloth" />
+  <graphics>
+    <object name="g_bodybag" enabled="true" shadow_caster="true"/>
+  </graphics>
+
+  <constraints>
+    <constraint name="hips" enabled="true" type="ragdoll">
+      <param body_a="hips_body" body_b="torso_body"/>
+      <param pivot="position:torso"/>
+      <param twist_axis="yaxis:torso" twist_min="-5" twist_max="5" twist_freedom="2"/>
+      <param plane_axis="xaxis:torso"/>
+      <param cone_y="5" cone_z="5" cone_freedom="2"/>
+      <param damping="8" spring_constant="2000" min_restitution="0"/>
+    </constraint>
+    <constraint name="neck" enabled="true" type="ragdoll">
+      <param body_a="torso_body" body_b="head_body"/>
+      <param pivot="position:head"/>
+      <param twist_axis="yaxis:head" twist_min="-5" twist_max="5" twist_freedom="2"/>
+      <param plane_axis="xaxis:head"/>
+      <param cone_y="5" cone_z="5" cone_freedom="2"/>
+      <param damping="8" spring_constant="600" min_restitution="0"/>
+    </constraint>
+    <constraint type="limited_hinge" name="leg" enabled="true">
+      <param body_a="hips_body" body_b="leg_body"/>
+      <param pivot="position:leg"/>
+      <param min_angle="-5" max_angle="5" axis="yaxis:leg" twist_freedom="0.5"/>
+      <param plane_axis="xaxis:leg"/>
+      <param damping="8" spring_constant="4000" min_restitution="0"/>
+    </constraint>
+    <constraint type="limited_hinge" name="ankle" enabled="true">
+      <param body_a="leg_body" body_b="foot_body"/>
+      <param pivot="position:foot"/>
+      <param min_angle="-5" max_angle="5" axis="yaxis:foot" twist_freedom="2"/>
+      <param plane_axis="yaxis:foot"/>
+      <param damping="8" spring_constant="600" min_restitution="0"/>
+    </constraint>
+  </constraints>
+</dynamic_object>

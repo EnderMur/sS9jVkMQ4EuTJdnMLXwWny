@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/mansion/man_prop_int_workbench/man_prop_int_workbench" orientation_object="rp_man_prop_int_workbench" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_man_prop_int_workbench" />
+      <object name="c_man_prop_int_workbench_meshmopp" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="g_man_prop_int_workbench" enabled="true" material="metal"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_man_prop_int_workbench" enabled="true" shadow_caster="true"  />
+  </graphics>
+</dynamic_object>

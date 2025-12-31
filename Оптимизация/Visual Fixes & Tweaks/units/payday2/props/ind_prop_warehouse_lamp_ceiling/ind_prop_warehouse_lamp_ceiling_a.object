@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_prop_warehouse_lamp_ceiling_a" materials="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling" />
+	<sequence_manager file="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling" /> 
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_meshmopp" />
+        </body>
+    </bodies>
+	<effects>
+		<effect_spawner name="street_light_flare_blueish" enabled="false" object="e_flare" effect="effects/payday2/particles/flares/street_light_flare_blueish" />
+    </effects>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+        <object enabled="false" name="g_dmg" shadow_caster="true" />
+    </graphics>
+    <lights>
+		<light editable="true" name="lo_omni" multiplier="0.3" far_range="350" falloff="7" enabled="true" type="omni|specular" />
+    </lights>
+</dynamic_object>

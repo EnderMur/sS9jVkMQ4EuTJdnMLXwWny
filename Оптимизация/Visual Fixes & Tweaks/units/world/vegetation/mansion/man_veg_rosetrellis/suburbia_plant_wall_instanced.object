@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/vegetation/mansion/man_veg_rosetrellis/man_veg_rosetrellis_instanced" orientation_object="rp_plant_wall" />
+
+	<bodies>
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="rp_plant_wall" />
+			<object name="c_vision" collision_type="box" />
+		</body>	
+		<body name="static_body" enabled="true" template="static">
+			<object name="a_collisions" />
+			<object enabled="true" name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_24" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_25" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_26" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_27" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_28" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_29" collision_type="box" padding="-2.5"/>
+			<object enabled="true" name="c_box_30" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="grass">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_bush" material="grass" />
+	</decal_surfaces>
+	
+	<graphics>
+			<object name="g_plant_wall"	enabled="true" instance_struct="world_tm" shadow_caster="true"/>
+			<object name="g_plant_wall_lod" enabled="false" instance_struct="world_tm"/>
+		<object name="s_plant_wall"	enabled="false" shadow_caster="false" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object> 

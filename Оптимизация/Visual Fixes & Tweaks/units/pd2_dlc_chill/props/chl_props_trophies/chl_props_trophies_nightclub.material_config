@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mat_poster" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_nightclub_df"  />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_nightclub_nm"  />
+	</material>
+</materials>

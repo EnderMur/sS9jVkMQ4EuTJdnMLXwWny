@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_semi_trailer" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_vehicles/semi_trailer_df"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

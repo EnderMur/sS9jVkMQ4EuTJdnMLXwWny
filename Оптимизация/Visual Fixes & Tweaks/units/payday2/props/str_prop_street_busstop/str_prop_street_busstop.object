@@ -1,0 +1,57 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_street_busstop" materials="units/payday2/props/str_prop_street_busstop/str_prop_street_busstop" />
+	<sequence_manager file="units/payday2/props/str_prop_street_busstop/str_prop_street_busstop" />
+    
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_str_prop_street_busstop" />
+            <object collision_type="box" name="c_box_000" padding="-2.5"/>
+            <object collision_type="box" name="c_box_001" padding="-2.5"/>
+            <object collision_type="box" name="c_box_002" padding="-2.5"/>
+            <object collision_type="box" name="c_box_003" padding="-2.5"/>
+            <object collision_type="box" name="c_box_004" padding="-2.5"/>
+        </body>
+		<body enabled="true" template="static" name="glass_body_01" >        
+            <object collision_type="box" name="c_box_glass_01" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="static" name="glass_body_02" >        
+            <object collision_type="box" name="c_box_glass_02" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="static" name="glass_body_03" >        
+            <object collision_type="box" name="c_box_glass_03" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="static" name="glass_body_04" >        
+            <object collision_type="box" name="c_box_glass_04" padding="-2.5"/>
+		</body>
+		
+		<body name="dynamic_body" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_box_map_dynamic" material="wood" collision_type="box" padding="-2.5" />
+			<object name="g_map" />
+		</body>
+		<body name="map_body" enabled="true" template="static">
+			<object name="c_box_map" collision_type="box" padding="-2.5" />
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="sheet_metal">
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal"/>
+        <decal_mesh enabled="true" name="dm_glass_01" material="glass_breakable"/>
+        <decal_mesh enabled="true" name="dm_glass_02" material="glass_breakable"/>
+        <decal_mesh enabled="true" name="dm_glass_03" material="glass_breakable"/>
+        <decal_mesh enabled="true" name="dm_glass_04" material="glass_breakable"/>
+    </decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_map" shadow_caster="true"/>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+        <object enabled="true" name="g_glass_01" shadow_caster="true"/>
+        <object enabled="true" name="g_glass_02" shadow_caster="true"/>
+        <object enabled="true" name="g_glass_03" shadow_caster="true"/>
+        <object enabled="true" name="g_glass_04" shadow_caster="true"/>
+        <object enabled="false" name="g_glass_dmg_01" shadow_caster="true"/>
+        <object enabled="false" name="g_glass_dmg_02" shadow_caster="true"/>
+        <object enabled="false" name="g_glass_dmg_03" shadow_caster="true"/>
+        <object enabled="false" name="g_glass_dmg_04" shadow_caster="true"/>
+		<object enabled="true" name="s_s" shadow_caster="false" />
+    </graphics>
+</dynamic_object>

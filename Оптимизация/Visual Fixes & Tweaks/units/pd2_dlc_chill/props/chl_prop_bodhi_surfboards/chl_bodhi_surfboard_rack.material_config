@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_surfboard_rack" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_bodhi_surfboards/chl_surfboard_rack_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_bodhi_surfboards/chl_surfboard_rack_nm" />
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+</materials>

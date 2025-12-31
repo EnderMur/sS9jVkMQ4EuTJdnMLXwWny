@@ -1,0 +1,53 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_hcm_new" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_01_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_01_nm"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" src="GLOBAL" version="2" name="mat_hcm_glass">
+        <variable value="0 1 0.66999995708466" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/hcm/hcm_ext_01_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_01_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_hcm_glass_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" version="2">
+        <variable value="2 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" decal_material="glass_breakable" name="mat_glass_shattered" version="2">
+        <variable value="2 0 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+	<material name="mat_hcm_int_a_new" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_a_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_int_01_a_nm"/>
+    </material>
+	<material name="mat_carpet_new" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_df"/>
+        <bump_normal_texture file="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_nm"/>
+    </material>
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_hcm_fluorescent_new">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_fluorescent_df"/>
+        <self_illumination_texture file="units/payday2/architecture/hcm/hcm_int_01_fluorescent_df"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+	<material version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" name="mat_hcm_int_01_glow_new">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_glow_op"/>
+        <variable value="dimlight" type="scalar" name="intensity"/>
+    </material>
+	<material name="mtr_gym_ceiling_office_new" decal_material="metal" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/architecture/gym/gym_ceiling_office/stn_ceiling_office_df"/>
+        <bump_normal_texture file="units/world/architecture/gym/gym_ceiling_office/stn_ceiling_office_nm"/>
+    </material>
+</materials>

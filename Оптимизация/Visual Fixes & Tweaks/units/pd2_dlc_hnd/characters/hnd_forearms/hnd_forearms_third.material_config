@@ -1,0 +1,65 @@
+<materials version="3" group="hnd_forearms">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_gloves" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_hnd/characters/hnd_glv_kidswool/glv_kidswool_nm"/>
+        <diffuse_texture file="units/pd2_dlc_hnd/characters/hnd_glv_kidswool/glv_kidswool_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_male" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_male_02" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_02_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_male_chains" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_chains_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_male_bodhi" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_bodhi_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_sangres" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_sangres_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_sangres_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_female" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_female_joy" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_joy_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_arms_female_sydney" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_sus/characters/sus_npc_male_arms/npc_male_criminals_arms_caucasian_nm"/>
+        <diffuse_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_sydney_df"/>
+        <material_texture file="units/pd2_dlc_sus/characters/sus_npc_female_arms/npc_female_criminals_arms_caucasian_gsma"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+</materials>

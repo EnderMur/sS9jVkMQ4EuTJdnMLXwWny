@@ -1,0 +1,54 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_c_int_bank_atrium_segment_a" materials="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_atrium" />
+    <sequence_manager file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_atrium_segment" />
+
+	<bodies>
+		<body enabled="true" template="window" name="window_body_1" >
+			<object  name="e_glass_1" />
+			<object  name="c_box_window_1_1" collision_type="box" padding="-2.5"/>
+			<object  name="c_box_window_1_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="window" name="window_body_2" >
+			<object  name="e_glass_2" />
+			<object  name="c_box_window_2_1" collision_type="box" padding="-2.5"/>
+			<object  name="c_box_window_2_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="window" name="window_body_3" >
+			<object  name="e_glass_3" />
+			<object  name="c_box_window_3_1" collision_type="box" padding="-2.5"/>
+			<object  name="c_box_window_3_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body enabled="true" template="window" name="window_body_4" >
+			<object  name="e_glass_4" />
+			<object  name="c_box_window_4_1" collision_type="box" padding="-2.5"/>
+			<object  name="c_box_window_4_2" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_glass_1" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_2" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_3" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_4" material="glass_breakable" />
+    </decal_surfaces>
+
+	<graphics>
+        <object name="s_frame" 	 		enabled="false" />
+        <object name="s_window_1" 		enabled="false" />
+        <object name="s_window_2" 		enabled="false" />
+        <object name="s_window_3" 		enabled="false" />
+        <object name="s_window_4" 		enabled="false" />
+		
+		<object name="g_frame"    	  	enabled="true"  shadow_caster="true" instance_struct="world_tm" />
+		<object name="g_frame_dst_01" 	enabled="false" shadow_caster="true" instance_struct="world_tm" />
+		<object name="g_frame_dst_02" 	enabled="false" shadow_caster="true" instance_struct="world_tm" />
+		<object name="g_frame_dst_03" 	enabled="false" shadow_caster="true" instance_struct="world_tm" />
+		<object name="g_frame_dst_04" 	enabled="false" shadow_caster="true" instance_struct="world_tm" />
+		
+        <object enabled="true" name="g_window_1" shadow_caster="true" />
+        <object enabled="true" name="g_window_2" shadow_caster="true" />
+        <object enabled="true" name="g_window_3" shadow_caster="true" />
+        <object enabled="true" name="g_window_4" shadow_caster="true" />
+
+    </graphics>
+</dynamic_object>

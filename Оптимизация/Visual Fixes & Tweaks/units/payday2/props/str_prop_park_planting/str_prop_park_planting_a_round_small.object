@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_park_planting_a_round_small" materials="units/payday2/props/str_prop_park_planting/str_prop_park_planting_a" />
+    
+	<bodies>
+		<body name="static_body" enabled="true" editable="true" template="static">
+			<object name="rp_str_prop_park_planting_a_round_small"/>
+			<object name="c_convex_000" collision_type="convex" />			
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="asphalt">
+		<decal_mesh name="c_convex_000" enabled="true" material="asphalt" />
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

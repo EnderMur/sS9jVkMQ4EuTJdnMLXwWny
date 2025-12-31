@@ -1,0 +1,29 @@
+{
+	"menu_id" : "the_fixes_preventer_opt",
+	"title" : "the_fixes_preventer",
+	"back_callback" : "the_fixes_preventer_save",
+	"parent_menu_id" : "blt_options",
+	"items" : 
+	[
+		{
+			"type" : "button",
+			"id" : "read_me",
+			"title" : "the_fixes_readme",
+			"description" : "",
+			"callback" : "the_fixes_preventer_show_read_me",
+			"localized": true
+		},
+		{
+			"type" : "button",
+			"id" : "status",
+			"title" : "the_fixes_status",
+			"description" : "",
+			"callback" : "the_fixes_preventer_status",
+			"localized": true
+		},
+		{
+			"type" : "divider",
+			"size" : 20
+		}
+	]
+}

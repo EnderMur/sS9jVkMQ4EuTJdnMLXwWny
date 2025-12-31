@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="glowing" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT" version="2">
+	    <variable value="light::color" type="listener" name="il_tint" object="lo_omni"/>
+        <diffuse_texture file="units/world/props/apartment/facade_light/facade_light_df"/>
+        <self_illumination_texture file="units/world/props/apartment/facade_light/facade_light_il"/>
+        <variable value="candle" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>
+
+

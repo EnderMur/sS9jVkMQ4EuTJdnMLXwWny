@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bush_juniperus_sabina_01" materials="units/world/props/bush_juniperus_sabina/bush_juniperus_sabina_instanced" />
+	<bodies>
+		<body name="static" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="c_capsule" collision_type="capsule" padding="-2" />
+		</body>
+	</bodies>
+	<graphics>
+        <object enabled="true" name="g_bush_juniperus_sabina" shadow_caster="true" instance_struct="world_tm" />
+        <object enabled="true" name="s_bush_juniperus_sabina" shadow_caster="false" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

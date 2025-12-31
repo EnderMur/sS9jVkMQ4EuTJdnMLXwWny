@@ -1,0 +1,10 @@
+<materials version="3">
+	<material name="mat_gym_wallpadding" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_wallpadding/chl_prop_gym_sokol_wallpadding_df" />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_wallpadding/chl_prop_gym_sokol_wallpadding_nm" />
+	</material>
+	<material name="mat_gym_wallpadding_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_wallpadding/chl_prop_gym_sokol_wallpadding_df" mip="2" />
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_wallpadding/chl_prop_gym_sokol_wallpadding_nm" mip="2" />
+	</material>
+</materials>

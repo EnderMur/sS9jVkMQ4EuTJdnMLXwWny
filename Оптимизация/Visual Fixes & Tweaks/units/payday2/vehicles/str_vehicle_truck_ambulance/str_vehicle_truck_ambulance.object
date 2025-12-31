@@ -1,0 +1,60 @@
+<dynamic_object>
+    <diesel materials="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance" orientation_object="rp_str_vehicle_truck_ambulance" />
+   <sequence_manager file="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance" />
+  
+	<animations>
+		<animation_group name="open" enabled="false" >
+			<object name="anim_car" />
+			<object name="anim_body" />
+			<object name="anim_right_a" />
+			<object name="anim_right_b" />
+			<object name="anim_left_a" />
+			<object name="anim_left_b" />
+		</animation_group>
+		
+		<animation_group name="sirens" enabled="false" >
+			<object name="li_light_orange" />
+			<object name="li_light_red" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+        <body enabled="true" template="static" name="ambulance" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+        <body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="rp_str_vehicle_truck_ambulance" />
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+		<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" />
+		</body>
+    </bodies>
+	
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_left" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_right" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_tires" material="rubber" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" 	name="g_decals" />
+        <object enabled="true" 	name="g_glass" />
+        <object enabled="true" 	name="g_left" />
+        <object enabled="true" 	name="g_right" />
+        <object enabled="false" name="g_il_1" />
+        <object enabled="false" name="g_il_2" />
+        <object enabled="false" name="g_il_small_1" />
+        <object enabled="false" name="g_il_small_2" />
+        <object enabled="true" 	name="g_ambulance" shadow_caster="true" />
+        <object enabled="true"  name="s_s" />
+    </graphics>
+	
+	<lights>
+		<light editable="true" name="li_light_orange" 		multiplier="0.1" far_range="350" falloff="4" enabled="false" type="omni|specular" />
+		<light editable="true" name="li_light_red" 			multiplier="0.1" far_range="350" falloff="4" enabled="false" type="omni|specular" />
+	
+	</lights>
+</dynamic_object>

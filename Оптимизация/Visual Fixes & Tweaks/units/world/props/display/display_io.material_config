@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" decal_material="glass_breakable" name="display" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/props/display/bank_display_master_df"/>
+        <self_illumination_texture file="units/world/props/display/bank_display_master_il"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

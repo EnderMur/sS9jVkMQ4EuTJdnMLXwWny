@@ -1,0 +1,75 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_lcm_b_ext_01a">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_lcm_b_ext_01b">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01b_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01b_nm"/>
+    </material>
+    <material render_template="shadow_caster_only" version="2" name="shadow_caster"/>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_lcm_b_ext_01a_alpha" version="2">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_rail_df"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_rail_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0.05800000205636"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_lcm_b_int_01" version="2">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_nm"/>
+    </material>
+    <material version="2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" name="mat_glass_broken" decal_material="glass_breakable">
+        <variable type="vector3" name="fresnel_settings" value="2 1 0.45999997854233"/>
+        <opacity_texture file="units/payday2/architecture/lcm/lcm_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/lcm/lcm_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="vector3" name="opacity_fade" value="10 4000 0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_lcm_b_ext_rooftar_a">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_nm"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_glass_shattered" version="2">
+        <opacity_texture file="units/glass/window_glass/cracked_glass_op"/>
+        <diffuse_texture file="units/glass/window_glass/cracked_glass_df"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="3536 5784 0"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="vector3" name="fresnel_settings" value="0 1 1"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" version="2" name="mat_lcm_b_decal_logo_coffeestore_timeout">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_decal_logo_coffeestore_timeout_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.3120000064373"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_wood_white" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_wood_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_wood_01_nm"/>
+        <variable type="vector3" name="tint_color" value="0.21259844303131 0.21259844303131 0.21259844303131"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" name="mat_glass" version="2">
+        <opacity_texture file="units/glass/window_glass/windows_op_texture_03_op"/>
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_storefronts/brb_store_front_glass_df"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_storefronts/brb_store_front_glass_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="vector3" name="fresnel_settings" value="2 0 1"/>
+        <variable type="vector3" name="opacity_fade" value="0 5558 0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_glass_dark" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_storefronts/brb_store_front_glass_solid_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_storefronts/brb_store_front_glass_nm"/>
+        <variable type="scalar" name="glossiness_control" value="0.41800001985393"/>
+    </material>
+    <material name="mat_gen_interactable_door_wooden_c_white" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" version="2" src="ERROR">
+        <diffuse_texture file="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_white_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_nm"/>
+        <variable type="vector3" name="tint_color" value="0.19685041904449 0.19685041904449 0.19685041904449"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2" name="mat_gen_interactable_door_wooden_c_cubemap">
+        <diffuse_texture file="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

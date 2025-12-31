@@ -1,0 +1,13 @@
+{
+	"blt_version" : 2,
+	"name" : "Bags in Spree",
+	"description" : "Bags in Spree",
+	"author" : " no",
+	"version" : "1.0",
+	"priority" : 0,
+	"color" : "0.129 0.133 0.141",
+	"hooks" : [
+		{ "hook_id" : "lib/managers/crimespreemanager", "script_path" : "crimespreemanager.lua"},
+		{ "hook_id" : "core/lib/utils/coreapp", "script_path" : "ehi.lua"},
+	]
+}

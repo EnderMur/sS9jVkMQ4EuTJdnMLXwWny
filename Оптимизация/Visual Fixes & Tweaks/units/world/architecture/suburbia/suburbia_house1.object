@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/suburbia/suburbia" orientation_object="rp_suburbia_house1"/>
+	<sequence_manager file="units/world/architecture/suburbia/suburbia_house1" />
+	
+	<animations>
+		<animation_group name="front_door" enabled="false">
+			<object name="a_front_door" />
+		</animation_group>	
+		<animation_group name="front_door" enabled="false">
+			<object name="a_front_door" />
+		</animation_group>
+		<animation_group loop="true" enabled="true" name="hanging_planter" >
+			<object name="a_hanging_planter" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_suburbia_house1"/>
+			<object collision_type="convex" name="c_convex_001"/>
+			<object collision_type="convex" name="c_convex_002"/>
+			<object collision_type="convex" name="c_convex_003"/>
+			<object collision_type="convex" name="c_convex_004"/>
+			<object collision_type="convex" name="c_convex_005"/>
+			<object collision_type="convex" name="c_convex_006"/>
+			<object collision_type="convex" name="c_convex_007"/>
+			<object collision_type="convex" name="c_convex_008"/>
+			<object collision_type="convex" name="c_convex_009"/>
+			
+			<object collision_type="convex" name="c_convex_010"/>
+			<object collision_type="convex" name="c_convex_011"/>
+			<object collision_type="convex" name="c_convex_012"/>
+			<object collision_type="convex" name="c_convex_013"/>
+			<object collision_type="convex" name="c_convex_014"/>
+			<object collision_type="convex" name="c_convex_015"/>
+			<object collision_type="convex" name="c_convex_016"/>
+			<object collision_type="convex" name="c_convex_017"/>
+			<object collision_type="convex" name="c_convex_018"/>
+			<object collision_type="convex" name="c_convex_019"/>
+			
+			<object collision_type="convex" name="c_convex_020"/>
+			<object collision_type="convex" name="c_convex_021"/>
+			<object collision_type="convex" name="c_convex_022"/>
+			<object collision_type="convex" name="c_convex_023"/>
+			<object collision_type="convex" name="c_convex_024"/>
+			<object collision_type="convex" name="c_convex_025"/>
+			<object collision_type="convex" name="c_convex_026"/>
+			<object collision_type="convex" name="c_convex_027"/>
+			<object collision_type="convex" name="c_convex_028"/>
+			<object collision_type="convex" name="c_convex_029"/>
+			
+			<object collision_type="mesh_mopp" name="c_mesh_mopp_001"/>
+			<object collision_type="mesh_mopp" name="c_mesh_mopp_002"/>
+			<object collision_type="mesh_mopp" name="c_mesh_mopp_003"/>
+			<object collision_type="mesh_mopp" name="c_mesh_mopp_004"/>
+			
+			<object collision_type="capsule" name="c_capsule_001" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_002" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_003" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_004" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_005" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_006" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_007" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_008" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_009" padding="-2"/>
+			
+			<object collision_type="capsule" name="c_capsule_010" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_011" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_012" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_013" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_014" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_015" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_016" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_017" padding="-2"/>
+			<object collision_type="capsule" name="c_capsule_018" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_000" padding="-2"/>
+			<object collision_type="box" name="c_box_001" padding="-2"/>
+			<object collision_type="box" name="c_box_002" padding="-2"/>
+			<object collision_type="box" name="c_box_003" padding="-2"/>
+			<object collision_type="box" name="c_box_004" padding="-2"/>
+			<object collision_type="box" name="c_box_005" padding="-2"/>
+			<object collision_type="box" name="c_box_006" padding="-2"/>
+			<object collision_type="box" name="c_box_007" padding="-2"/>
+			<object collision_type="box" name="c_box_008" padding="-2"/>
+			<object collision_type="box" name="c_box_009" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_010" padding="-2"/>
+			<object collision_type="box" name="c_box_011" padding="-2"/>
+			<object collision_type="box" name="c_box_012" padding="-2"/>
+			<object collision_type="box" name="c_box_013" padding="-2"/>
+			<object collision_type="box" name="c_box_014" padding="-2"/>
+			<object collision_type="box" name="c_box_015" padding="-2"/>
+			<object collision_type="box" name="c_box_016" padding="-2"/>
+			<object collision_type="box" name="c_box_017" padding="-2"/>
+			<object collision_type="box" name="c_box_018" padding="-2"/>
+			<object collision_type="box" name="c_box_019" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_020" padding="-2"/>
+			<object collision_type="box" name="c_box_021" padding="-2"/>
+			<object collision_type="box" name="c_box_022" padding="-2"/>
+			<object collision_type="box" name="c_box_023" padding="-2"/>
+			<object collision_type="box" name="c_box_024" padding="-2"/>
+			<object collision_type="box" name="c_box_025" padding="-2"/>
+			<object collision_type="box" name="c_box_026" padding="-2"/>
+			<object collision_type="box" name="c_box_027" padding="-2"/>
+			<object collision_type="box" name="c_box_028" padding="-2"/>
+			<object collision_type="box" name="c_box_029" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_030" padding="-2"/>
+			<object collision_type="box" name="c_box_031" padding="-2"/>
+			<object collision_type="box" name="c_box_032" padding="-2"/>
+			<object collision_type="box" name="c_box_033" padding="-2"/>
+			<object collision_type="box" name="c_box_034" padding="-2"/>
+			<object collision_type="box" name="c_box_035" padding="-2"/>
+			<object collision_type="box" name="c_box_036" padding="-2"/>
+			<object collision_type="box" name="c_box_037" padding="-2"/>
+			<object collision_type="box" name="c_box_038" padding="-2"/>
+			<object collision_type="box" name="c_box_039" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_040" padding="-2"/>
+			<object collision_type="box" name="c_box_041" padding="-2"/>
+			<object collision_type="box" name="c_box_042" padding="-2"/>
+			<object collision_type="box" name="c_box_043" padding="-2"/>
+			<object collision_type="box" name="c_box_044" padding="-2"/>
+			<object collision_type="box" name="c_box_045" padding="-2"/>
+			<object collision_type="box" name="c_box_046" padding="-2"/>
+			<object collision_type="box" name="c_box_047" padding="-2"/>
+			<object collision_type="box" name="c_box_048" padding="-2"/>
+			<object collision_type="box" name="c_box_049" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_050" padding="-2"/>
+			<object collision_type="box" name="c_box_051" padding="-2"/>
+			<object collision_type="box" name="c_box_052" padding="-2"/>
+			<object collision_type="box" name="c_box_053" padding="-2"/>
+			<object collision_type="box" name="c_box_054" padding="-2"/>
+			<object collision_type="box" name="c_box_055" padding="-2"/>
+			<object collision_type="box" name="c_box_056" padding="-2"/>
+			<object collision_type="box" name="c_box_057" padding="-2"/>
+			<object collision_type="box" name="c_box_058" padding="-2"/>
+			<object collision_type="box" name="c_box_059" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_060" padding="-2"/>
+			<object collision_type="box" name="c_box_061" padding="-2"/>
+			<object collision_type="box" name="c_box_062" padding="-2"/>
+			<object collision_type="box" name="c_box_063" padding="-2"/>
+			<object collision_type="box" name="c_box_064" padding="-2"/>
+			<object collision_type="box" name="c_box_065" padding="-2"/>
+			<object collision_type="box" name="c_box_066" padding="-2"/>
+			<object collision_type="box" name="c_box_067" padding="-2"/>
+			<object collision_type="box" name="c_box_068" padding="-2"/>
+			<object collision_type="box" name="c_box_069" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_070" padding="-2"/>
+			<object collision_type="box" name="c_box_071" padding="-2"/>
+			<object collision_type="box" name="c_box_072" padding="-2"/>
+			<object collision_type="box" name="c_box_073" padding="-2"/>
+			<object collision_type="box" name="c_box_074" padding="-2"/>
+			<object collision_type="box" name="c_box_075" padding="-2"/>
+			<object collision_type="box" name="c_box_076" padding="-2"/>
+			<object collision_type="box" name="c_box_077" padding="-2"/>
+			<object collision_type="box" name="c_box_078" padding="-2"/>
+			<object collision_type="box" name="c_box_079" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_080" padding="-2"/>
+			<object collision_type="box" name="c_box_081" padding="-2"/>
+			<object collision_type="box" name="c_box_082" padding="-2"/>
+			<object collision_type="box" name="c_box_083" padding="-2"/>
+			<object collision_type="box" name="c_box_084" padding="-2"/>
+			<object collision_type="box" name="c_box_085" padding="-2"/>
+			<object collision_type="box" name="c_box_086" padding="-2"/>
+			<object collision_type="box" name="c_box_087" padding="-2"/>
+			<object collision_type="box" name="c_box_088" padding="-2"/>
+			<object collision_type="box" name="c_box_089" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_090" padding="-2"/>
+			<object collision_type="box" name="c_box_091" padding="-2"/>
+			<object collision_type="box" name="c_box_092" padding="-2"/>
+			<object collision_type="box" name="c_box_093" padding="-2"/>
+			<object collision_type="box" name="c_box_094" padding="-2"/>
+			<object collision_type="box" name="c_box_095" padding="-2"/>
+			<object collision_type="box" name="c_box_096" padding="-2"/>
+			<object collision_type="box" name="c_box_097" padding="-2"/>
+			<object collision_type="box" name="c_box_098" padding="-2"/>
+			<object collision_type="box" name="c_box_099" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_100" padding="-2"/>
+			<object collision_type="box" name="c_box_101" padding="-2"/>
+			<object collision_type="box" name="c_box_102" padding="-2"/>
+			<object collision_type="box" name="c_box_103" padding="-2"/>
+			<object collision_type="box" name="c_box_104" padding="-2"/>
+			<object collision_type="box" name="c_box_105" padding="-2"/>
+			<object collision_type="box" name="c_box_106" padding="-2"/>
+			<object collision_type="box" name="c_box_107" padding="-2"/>
+			<object collision_type="box" name="c_box_108" padding="-2"/>
+			<object collision_type="box" name="c_box_109" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_110" padding="-2"/>
+			<object collision_type="box" name="c_box_111" padding="-2"/>
+			<object collision_type="box" name="c_box_112" padding="-2"/>
+			<object collision_type="box" name="c_box_113" padding="-2"/>
+			<object collision_type="box" name="c_box_114" padding="-2"/>
+			<object collision_type="box" name="c_box_115" padding="-2"/>
+			<object collision_type="box" name="c_box_116" padding="-2"/>
+			<object collision_type="box" name="c_box_117" padding="-2"/>
+			<object collision_type="box" name="c_box_118" padding="-2"/>
+			<object collision_type="box" name="c_box_119" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_120" padding="-2"/>
+			<object collision_type="box" name="c_box_121" padding="-2"/>
+			<object collision_type="box" name="c_box_122" padding="-2"/>
+			<object collision_type="box" name="c_box_123" padding="-2"/>
+			<object collision_type="box" name="c_box_124" padding="-2"/>
+			<object collision_type="box" name="c_box_125" padding="-2"/>
+			<object collision_type="box" name="c_box_126" padding="-2"/>
+			<object collision_type="box" name="c_box_127" padding="-2"/>
+			<object collision_type="box" name="c_box_128" padding="-2"/>
+			<object collision_type="box" name="c_box_129" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_130" padding="-2"/>
+			<object collision_type="box" name="c_box_131" padding="-2"/>
+			<object collision_type="box" name="c_box_132" padding="-2"/>
+			<object collision_type="box" name="c_box_133" padding="-2"/>
+			<object collision_type="box" name="c_box_134" padding="-2"/>
+			<object collision_type="box" name="c_box_135" padding="-2"/>
+			<object collision_type="box" name="c_box_136" padding="-2"/>
+			<object collision_type="box" name="c_box_137" padding="-2"/>
+			<object collision_type="box" name="c_box_138" padding="-2"/>
+			<object collision_type="box" name="c_box_139" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_140" padding="-2"/>
+			<object collision_type="box" name="c_box_141" padding="-2"/>
+			<object collision_type="box" name="c_box_142" padding="-2"/>
+			<object collision_type="box" name="c_box_143" padding="-2"/>
+			<object collision_type="box" name="c_box_144" padding="-2"/>
+			<object collision_type="box" name="c_box_145" padding="-2"/>
+			<object collision_type="box" name="c_box_146" padding="-2"/>
+			<object collision_type="box" name="c_box_147" padding="-2"/>
+			<object collision_type="box" name="c_box_148" padding="-2"/>
+			<object collision_type="box" name="c_box_149" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_150" padding="-2"/>
+			<object collision_type="box" name="c_box_151" padding="-2"/>
+			<object collision_type="box" name="c_box_152" padding="-2"/>
+			<object collision_type="box" name="c_box_153" padding="-2"/>
+			<object collision_type="box" name="c_box_154" padding="-2"/>
+			<object collision_type="box" name="c_box_155" padding="-2"/>
+			<object collision_type="box" name="c_box_156" padding="-2"/>
+			<object collision_type="box" name="c_box_157" padding="-2"/>
+			<object collision_type="box" name="c_box_158" padding="-2"/>
+			<object collision_type="box" name="c_box_159" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_160" padding="-2"/>
+			<object collision_type="box" name="c_box_161" padding="-2"/>
+			<object collision_type="box" name="c_box_162" padding="-2"/>
+			<object collision_type="box" name="c_box_163" padding="-2"/>
+			<object collision_type="box" name="c_box_164" padding="-2"/>
+			<object collision_type="box" name="c_box_165" padding="-2"/>
+			<object collision_type="box" name="c_box_166" padding="-2"/>
+			<object collision_type="box" name="c_box_167" padding="-2"/>
+			<object collision_type="box" name="c_box_168" padding="-2"/>
+			<object collision_type="box" name="c_box_169" padding="-2"/>
+			
+			<object collision_type="box" name="c_box_170" padding="-2"/>
+			<object collision_type="box" name="c_box_171" padding="-2"/>
+			<object collision_type="box" name="c_box_172" padding="-2"/>
+			<object collision_type="box" name="c_box_173" padding="-2"/>
+			<object collision_type="box" name="c_box_173" padding="-2"/>
+			<object collision_type="box" name="c_box_174" padding="-2"/>
+			
+		</body>
+		
+		<!-- Front Door -->
+		<body name="front_door" enabled="true" template="animated" remove_ray_type="walk">
+			<object name="rp_suburbia_house1"/>
+			<object collision_type="box" name="c_box_front_door" padding="-3"/>
+		</body>
+		
+		<!-- Front Door Glass -->	
+		<body enabled="true" template="static" name="porch_glass_body" >
+            <object collision_type="mesh_mopp" name="g_porch_glass" />
+        </body>
+		
+		<!-- Bathroom Shower Glass -->
+		<body name="glass_bathroom" enabled="true" template="static">
+			<object name="rp_suburbia_house1"/>
+			<object collision_type="box" name="g_bathroom_glass" padding="-2"/>
+		</body>
+		
+		<!-- Mover -->
+		<body name="mov" enabled="true" template="nav_walk">
+			<object name="rp_suburbia_house1"/>
+			<object collision_type="box" name="c_box_mover_001" padding="-2"/>
+			<object collision_type="box" name="c_box_mover_002" padding="-2"/>
+			<object collision_type="box" name="c_box_mover_003" padding="-2"/>
+			<object collision_type="box" name="c_box_mover_004" padding="-2"/>
+		</body>
+	</bodies>
+		
+	<decal_surfaces default_material="wood" static="true">
+		<decal_mesh enabled="true" material="plaster" name="dm_plaster"/>
+		<decal_mesh enabled="true" material="tile" name="dm_tile"/>
+		<decal_mesh enabled="true" material="carpet" name="dm_carpet"/>
+		<decal_mesh enabled="true" material="plastic" name="dm_plastic"/>
+		<decal_mesh enabled="true" material="hardwood" name="dm_hardwood"/>
+		<decal_mesh enabled="true" material="rubber" name="dm_rubber"/>
+		<decal_mesh enabled="true" material="metal" name="dm_metal"/>
+		<decal_mesh enabled="true" material="concrete" name="dm_concrete"/>
+		<decal_mesh enabled="true" material="sheet_metal" name="dm_sheet_metal"/>
+		<decal_mesh enabled="true" material="wood" name="dm_wood"/>
+		<decal_mesh enabled="true" material="glass_unbreakable" name="g_porch_glass"/>                 
+		<decal_mesh enabled="true" material="glass_breakable" name="g_bathroom_glass"/>
+		<decal_mesh enabled="true" material="glass_breakable" name="g_bathroom_glass_broken"/>
+	</decal_surfaces>
+
+	<graphics>
+		<object shadow_caster="false" enabled="false"  name="s_s"/>
+		<object shadow_caster="false" enabled="false" name="s_front_door"/>
+		<object shadow_caster="true" enabled="true" name="g_garage_floor"/>
+		<object shadow_caster="true" enabled="true" name="g_interior"/>
+		<object shadow_caster="true" enabled="true" name="g_interior_roof"/>
+		<object shadow_caster="true" enabled="true" name="g_frame"/>
+		<object shadow_caster="true" enabled="true" name="g_exterior"/>
+		<object shadow_caster="true" enabled="true" name="g_concrete"/>
+		<object shadow_caster="true" enabled="true" name="g_porch_glass"/>
+		<object shadow_caster="true" enabled="false" name="g_porch_glass_dmg"/>
+		<object shadow_caster="true" enabled="true" name="g_wooden_deck"/>
+		<object shadow_caster="true" enabled="true" name="g_porch"/>
+		<object shadow_caster="true" enabled="true" name="g_front_door"/>
+
+		<object enabled="true" name="g_bathroom_glass" shadow_caster="true"/>
+		
+		<object enabled="false" name="g_bathroom_glass_broken" shadow_caster="true"/>
+	</graphics>
+</dynamic_object> 

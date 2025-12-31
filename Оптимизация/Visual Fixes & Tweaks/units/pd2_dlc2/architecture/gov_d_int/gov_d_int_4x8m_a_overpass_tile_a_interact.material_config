@@ -1,0 +1,27 @@
+<materials version="3">
+    
+	<material name="mat_floor_a" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_nm"/>
+    </material>
+	
+    <material name="mat_hcm_b_ext_01" render_template="generic" version="2"/>
+    <material name="mat_hcm_b_glass" render_template="generic" version="2"/>
+    <material name="mat_hcm_b_glass_shattered" render_template="generic" version="2"/>
+    <material name="mat_hcm_b_int_rubberfloor_01" render_template="generic" version="2"/>
+    
+	<material name="mat_wall_a" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_nm"/>
+    </material>
+	
+	<material name="mat_glass_a" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" >
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_glass_df"/>
+        <reflection_texture type="cubemap" file="environments/pd2_env_hox_02/pd2_env_hox_02"/>
+    </material>
+	
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>
+  

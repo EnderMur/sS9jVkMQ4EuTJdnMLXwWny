@@ -1,0 +1,11 @@
+<materials version="3">
+	<material name="mtr_sign" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/props/off_prop_fbi_sign/off_prop_fbi_sign_df"/>
+		<bump_normal_texture file="units/dev_tools/temp_textures/temp_texture_nm"/>
+	</material>
+	<material name="mat_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_df"/>
+		<bump_normal_texture file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_nm"/>
+		<reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap" />
+	</material>
+</materials>

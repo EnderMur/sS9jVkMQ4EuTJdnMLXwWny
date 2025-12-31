@@ -1,0 +1,4 @@
+v1.7.2
+
+* Fixed and Restored the visual appearance of the flamethrower... Throwing flames. 
+* Fixed an issue with the Akron magazines being visible through walls.

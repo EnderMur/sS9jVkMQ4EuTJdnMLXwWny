@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/air_prop_runway_signs/air_prop_runway_sign_hazard" orientation_object="rp_air_prop_runway_sign_hazard" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_g" shadow_caster="true" enabled="true"/>
+    </graphics>
+</dynamic_object>

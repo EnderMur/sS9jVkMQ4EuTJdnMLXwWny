@@ -1,0 +1,130 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_moon/props/moo_prop_dome/moo_prop_dome" orientation_object="rp_moo_prop_dome_small" />
+	<sequence_manager file="units/pd2_dlc_moon/props/moo_prop_dome/moo_prop_dome_small" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_moo_prop_dome_small" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_23" collision_type="box" padding="-2.5" />
+			<object name="c_box_24" collision_type="box" padding="-2.5" />
+			<object name="c_box_25" collision_type="box" padding="-2.5" />
+			<object name="c_box_26" collision_type="box" padding="-2.5" />
+			<object name="c_box_27" collision_type="box" padding="-2.5" />
+			<object name="c_box_28" collision_type="box" padding="-2.5" />
+			<object name="c_box_29" collision_type="box" padding="-2.5" />
+			<object name="c_box_30" collision_type="box" padding="-2.5" />
+			<object name="c_box_31" collision_type="box" padding="-2.5" />
+			<object name="c_box_32" collision_type="box" padding="-2.5" />
+			<object name="c_box_33" collision_type="box" padding="-2.5" />
+			<object name="c_box_34" collision_type="box" padding="-2.5" />
+			<object name="c_box_35" collision_type="box" padding="-2.5" />
+			<object name="c_box_36" collision_type="box" padding="-2.5" />
+			<object name="c_box_37" collision_type="box" padding="-2.5" />
+			<object name="c_box_38" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_window_01" enabled="true" template="static">
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_02" enabled="true" template="static">
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_03" enabled="true" template="static">
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_04" enabled="true" template="static">
+			<object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_05" enabled="true" template="static">
+			<object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_06" enabled="true" template="static">
+			<object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_07" enabled="true" template="static">
+			<object name="c_convex_07" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_08" enabled="true" template="static">
+			<object name="c_convex_08" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_09" enabled="true" template="static">
+			<object name="c_convex_09" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_010" enabled="true" template="static">
+			<object name="c_convex_010" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_011" enabled="true" template="static">
+			<object name="c_convex_011" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_012" enabled="true" template="static">
+			<object name="c_convex_012" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_013" enabled="true" template="static">
+			<object name="c_convex_013" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_014" enabled="true" template="static">
+			<object name="c_convex_014" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_015" enabled="true" template="static">
+			<object name="c_convex_015" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_016" enabled="true" template="static">
+			<object name="c_convex_016" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_017" enabled="true" template="static">
+			<object name="c_convex_017" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_018" enabled="true" template="static">
+			<object name="c_convex_018" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_019" enabled="true" template="static">
+			<object name="c_convex_019" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_window_020" enabled="true" template="static">
+			<object name="c_convex_020" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_mat_glass_01" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_02" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_03" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_04" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_05" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_06" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_07" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_08" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_09" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_010" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_011" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_012" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_013" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_014" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_015" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_016" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_017" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_018" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_019" 	enabled="true" shadow_caster="true" />
+		<object name="g_mat_glass_020" 	enabled="true" shadow_caster="true" />
+		<object name="g_moo_dome_small" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

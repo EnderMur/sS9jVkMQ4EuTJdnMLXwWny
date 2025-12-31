@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/off_prop_ceiling/off_prop_ceiling" orientation_object="rp_off_prop_ceiling_duct_1_a_hanging" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_off_prop_ceiling_duct_1_a_hanging" />
+			<object name="c_off_prop_ceiling_duct_1_a_hanging" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="sheet_metal" static="true">
+		<decal_mesh name="dm_off_prop_ceiling_duct_1_a_hanging" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_off_prop_ceiling_duct_1_a_hanging" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

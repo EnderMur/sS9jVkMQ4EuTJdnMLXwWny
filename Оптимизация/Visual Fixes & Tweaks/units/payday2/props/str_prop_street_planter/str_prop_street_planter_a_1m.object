@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_street_planter_a_1m" materials="units/payday2/props/str_prop_street_planter/str_prop_street_planter" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_str_prop_street_planter_a_1m" />
+				<object collision_type="box" name="c_box_000" padding="-2"/>
+			</body>
+    </bodies>
+    
+	<graphics>
+        <object enabled="true" name="g_ground" shadow_caster="true"/>
+        <object enabled="true" name="g_fence_flowers" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

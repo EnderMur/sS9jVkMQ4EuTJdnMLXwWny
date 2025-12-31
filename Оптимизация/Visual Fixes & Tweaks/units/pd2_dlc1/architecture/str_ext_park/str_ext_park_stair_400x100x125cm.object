@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_ext_park_stair_400x100x125cm" materials="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_stair" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_00" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_stone" material="stone" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

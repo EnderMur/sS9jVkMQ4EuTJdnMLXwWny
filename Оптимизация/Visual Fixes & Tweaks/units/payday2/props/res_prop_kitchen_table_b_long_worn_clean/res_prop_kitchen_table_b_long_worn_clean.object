@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/res_prop_kitchen_table_b_long_worn_clean/res_prop_kitchen_table_b_long_worn_clean" orientation_object="rp_res_prop_kitchen_table_b_long_worn_clean" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_res_prop_kitchen_table_b_long_worn_clean" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_table_long_clean_lod0" enabled="true" shadow_caster="true"/>
+		<object name="g_table_long_clean_lod1" enabled="false"/>
+	</graphics>
+</dynamic_object>

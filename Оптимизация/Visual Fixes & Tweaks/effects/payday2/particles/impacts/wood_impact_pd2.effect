@@ -1,0 +1,34 @@
+<effect force_synch="false">
+    <!-- <use name="effects/payday2/particles/impacts/small_particles/wood_particles"/> -->
+    <use name="effects/payday2/particles/impacts/smoke/big_smoke"/>
+    <use name="effects/payday2/particles/impacts/smoke/wood_smoke"/>
+    <atom name="Dust - Streaks" min_size="2" max_size="2" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomaspectsize size="12 45" min="0.9" max="1.5"/>
+            <boxrandomuvoffset uv_size="0.25 0.25" frame_start="0 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="3"/>
+            <boxrandomrotation relative="effect" min="-0.5 -0.5 1" max="0.5 0.5 1" min_rot="0" max_rot="0"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/effects_atlas" intensity="match" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.8" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="228.00001525879 218.00001525879 201.00001525879" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+                <size_scale_keys loop="false">
+                    <key t="0" v="0.5 0.5"/>
+                    <key t="0.11359724402428" v="1 2"/>
+                    <key t="0.79862302541733" v="1 3"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="100"/>
+                    <key t="0.80000001192093" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>
+
+
+
+Disables a grass effect when shooting wooden materials. Thanks Rex for this.

@@ -1,0 +1,1 @@
+You must be wondering why there's two versions here, that's because re-adding the flashhider to it's respected place looks kind of wonky so by default i removed it. If you really want it added back though, just rename wpn_npc_raging_bull with flashhider to wpn_npc_raging_bull and that's it. If you don't like both versions just delete both versions and you'll get the vanilla one.

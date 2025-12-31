@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/pd2_dlc_cro/gen_equipment_shape_charge_plantable_x1/gen_equipment_shape_charge_plantable_x1" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" />
+		<depends_on effect="effects/payday2/particles/explosions/shapecharger_explosion" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="attention" class="AIAttentionObject" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="shape_charge_plantable_c4_x1" />
+		</extension>
+	</extensions>
+</unit>

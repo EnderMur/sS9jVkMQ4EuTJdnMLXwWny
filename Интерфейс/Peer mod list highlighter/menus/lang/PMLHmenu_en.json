@@ -1,0 +1,46 @@
+{
+	"PMLH_title": "Peer Mod List Highlighter",
+	"PMLH_desc": "Change PMLH's settings.",
+	"PMLH_blank": "",
+	
+	"PMLHjoinmods": "Join screen mod list",
+	"PMLHjoinmods_desc": "While a new player is loading into your lobby show their mod list with appropriate highlights.",
+	"PMLH_profile_button": "Profile link",
+	"PMLH_profile_button_desc": "Adds a button that opens player's Steam profile (if available) in your overlay browser. This button is located above player's mods in the player list menu.",
+	
+	"PMLH_folder_in_player_menu": "Mod folder in player list",
+	"PMLH_folder_in_player_menu_desc": "Adds name of the mod folder after the mod name, while looking through player's mods in the player list.",
+	"PMLH_folder_in_crimenet": "Mod folder in crime.net (Hover)",
+	"PMLH_folder_in_crimenet_desc": "Adds name of the mod folder on Crime.net contract screen. Uses hover interaction - hover over any mod name to check it's folder name.",
+	"PMLH_folder_in_joinlist": "Mod folder in the join screen mod list",
+	"PMLH_folder_in_joinlist_desc": "Adds name of the mod folder after the mod name, during the joining player's loading screen.",
+	
+	"PMLH_colourchoice": "Result colour",
+	"PMLH_green_header": "First list",
+	"PMLH_yellow_header": "Second list",
+	"PMLH_red_header": "Third list",
+	"PMLH_colour1": "Amount of red",
+	"PMLH_colour2": "Amount of green",
+	"PMLH_colour3": "Amount of blue",
+	
+	"PMLH_joinplayer_list_mods_1": "",
+	"PMLH_joinplayer_list_mods_2": "'s mods:",
+	"PMLH_searchmodname": "Try to find mod on modworkshop by name",
+	"PMLH_searchmodfolder": "Try to find mod on modworkshop by mod's folder name",
+	"PMLH_adjustmod": "Add or remove mod from ",
+	"PMLH_list1name": "First",
+	"PMLH_list2name": "Second",
+	"PMLH_list3name": "Third",
+	"PMLH_list": " list",
+	"PMLH_adjustmenutitle": "Peer Mod List Highlighter",
+	"PMLH_adjustmenuquestion": "What do you want to do?",
+	"PMLH_cancelbutton": "Cancel",
+	
+	"PMLH_patch_notes": "Patch Notes",
+	"PMLH_patch_notes_desc": "Press this button to open latest patch notes in your overlay browser.",
+	
+	"PMLH_player_profile_inspect_help": "(PMLH) Click to open this player's Steam profile in the overlay browser.",
+	"PMLH_player_profile_inspect_text": "Steam Profile",
+	"PMLH_player_profile_inspect_help_epic": "(PMLH) This user is running Epic launcher version of the game, their profile is unavailable.",
+	"PMLH_player_profile_inspect_text_epic": "Epic profile",
+}

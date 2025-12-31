@@ -1,0 +1,36 @@
+<table name="Visual Fixes & Tweaks" priority="1" >
+    <AssetUpdates id="37161" version="v1.7.2" provider="modworkshop"/>
+	
+<AddFiles directory="assets">
+
+ <!-- Restored Golden AK bolt (Thank you Gambyt!) --->
+
+	<cooked_physics path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"/>
+    <model path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"/>
+    <object path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"/>
+    <unit path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold_thq"/>
+	
+ <!-- Better Orthogon parts (Just really only the bolt since we want that thing to move when shootin'! --->	
+	
+	<unit_mat_cc path="units/pd2_mod_mxm/weapons/wpn_fps_upg_mxm_m4/wpn_fps_m4_uupg_bolt_radian"/>
+
+</AddFiles>
+
+<Hooks directory="hooks">
+	<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+	<hook file="weaponcolortemplates.lua" source_file="lib/tweak_data/blackmarket/weaponcolortemplates"/>
+	<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+	<hook file="armorskinstweakdata.lua" source_file="lib/tweak_data/armorskinstweakdata"/>
+	<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+	<hook file="playerequipment.lua" source_file="lib/units/beings/player/playerequipment"/>
+	<hook file="fpcameraplayerbase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
+	<hook file="teamailogicassault.lua" source_file="lib/units/player_team/logics/teamailogicassault"/>
+	<hook file="teamaimovement.lua" source_file="lib/units/player_team/teamaimovement"/>
+	<hook file="newflamethrowerbase.lua" source_file="lib/units/weapons/newflamethrowerbase"/>	
+</Hooks>
+
+</table>

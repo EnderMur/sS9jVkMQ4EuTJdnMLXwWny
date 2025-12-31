@@ -1,0 +1,85 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_ck" orientation_object="rp_wpn_fps_lmg_hcar_m_ck" />
+	<graphics>
+		<object name="g_bullet_1" enabled="true" />
+		<object name="g_bullet_2" enabled="true" />
+		<object name="g_bullet_3" enabled="true" />
+		<object name="g_bullet_4" enabled="true" />
+		<object name="g_bullet_5" enabled="true" />
+		<object name="g_bullet_6" enabled="true" />
+		<object name="g_bullet_7" enabled="true" />
+		<object name="g_bullet_8" enabled="true" />
+		<object name="g_bullet_9" enabled="true" />
+		<object name="g_bullet_10" enabled="true" />
+		<object name="g_bullet_11" enabled="true" />
+		<object name="g_bullet_12" enabled="true" />
+		<object name="g_bullet_13" enabled="true" />
+		<object name="g_bullet_14" enabled="true" />
+		<object name="g_bullet_15" enabled="true" />
+		<object name="g_bullet_16" enabled="true" />
+		<object name="g_bullet_17" enabled="true" />
+		<object name="g_bullet_18" enabled="true" />
+		<object name="g_bullet_19" enabled="true" />
+		<object name="g_bullet_20" enabled="true" />
+		<object name="g_bullet_21" enabled="true" />
+		<object name="g_bullet_22" enabled="true" />
+		<object name="g_bullet_23" enabled="true" />
+		<object name="g_bullet_24" enabled="true" />
+		<object name="g_bullet_25" enabled="true" />
+		<object name="g_bullet_26" enabled="true" />
+		<object name="g_bullet_27" enabled="true" />
+		<object name="g_bullet_28" enabled="true" />
+		<object name="g_bullet_29" enabled="true" />
+		<object name="g_bullet_30" enabled="true" />
+		<object name="g_bullet_31" enabled="true" />
+		<object name="g_bullet_32" enabled="true" />
+		<object name="g_bullet_33" enabled="true" />
+		<object name="g_bullet_34" enabled="true" />
+		<object name="g_bullet_35" enabled="true" />
+		<object name="g_bullet_36" enabled="true" />
+		<object name="g_bullet_37" enabled="true" />
+		<object name="g_bullet_38" enabled="true" />
+		<object name="g_bullet_39" enabled="true" />
+		<object name="g_bullet_40" enabled="true" />
+		<object name="g_bullet_41" enabled="true" />
+		<object name="g_bullet_42" enabled="true" />
+		<object name="g_bullet_43" enabled="true" />
+		<object name="g_bullet_44" enabled="true" />
+		<object name="g_bullet_45" enabled="true" />
+		<object name="g_bullet_46" enabled="true" />
+		<object name="g_bullet_47" enabled="true" />
+		<object name="g_bullet_48" enabled="true" />
+		<object name="g_bullet_49" enabled="true" />
+		<object name="g_bullet_50" enabled="true" />
+		<object name="g_bullet_51" enabled="true" />
+		<object name="g_bullet_52" enabled="true" />
+		<object name="g_bullet_53" enabled="true" />
+		<object name="g_bullet_54" enabled="true" />
+		<object name="g_bullet_55" enabled="true" />
+		<object name="g_bullet_56" enabled="true" />
+		<object name="g_bullet_57" enabled="true" />
+		<object name="g_bullet_58" enabled="true" />
+		<object name="g_bullet_59" enabled="true" />
+		<object name="g_bullet_60" enabled="true" />
+		<object name="g_bullet_61" enabled="true" />
+		<object name="g_bullet_62" enabled="true" />
+		<object name="g_bullet_63" enabled="true" />
+		<object name="g_bullet_64" enabled="true" />
+		<object name="g_bullet_65" enabled="true" />
+		<object name="g_bullet_66" enabled="true" />
+		<object name="g_bullet_67" enabled="true" />
+		<object name="g_bullet_68" enabled="true" />
+		<object name="g_bullet_69" enabled="true" />
+		<object name="g_bullet_70" enabled="true" />
+		<object name="g_magazine_ck" enabled="true" />
+	</graphics>
+    <animations>
+		<animation_group name="reload" enabled="false" >
+			<object name="anim_reload"/>
+		</animation_group>
+		<animation_group name="reload_not_empty" enabled="false" >
+			<object name="anim_reload_not_empty"/>
+		</animation_group>
+	</animations>
+	<lights />
+</dynamic_object>

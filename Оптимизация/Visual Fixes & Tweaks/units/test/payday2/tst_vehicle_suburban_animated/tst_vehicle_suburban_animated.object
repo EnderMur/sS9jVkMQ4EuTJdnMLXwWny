@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/test/payday2/tst_vehicle_suburban_animated/tst_vehicle_suburban_animated_black" orientation_object="rp_tst_vehicle_suburban_animated" />
+	<sequence_manager file="units/test/payday2/tst_vehicle_suburban_animated/tst_vehicle_suburban_animated" />
+		<animations>
+			<!-- Gharacter Animation -->
+			<animation_group name="character" enabled="false">
+				<object name="Hips" />
+				<object name="LeftUpLeg" />
+				<object name="LeftLeg" />
+				<object name="LeftFoot" />
+				<object name="RightUpLeg" />
+				<object name="RightLeg" />
+				<object name="RightFoot" />
+				<object name="Spine" />
+				<object name="Spine1" />
+				<object name="Spine2" />
+				<object name="Neck" />
+				<object name="Head" />
+				<object name="LeftShoulder" />
+				<object name="RightShoulder" />
+				<object name="LeftArm" />
+				<object name="RightArm" />
+				<object name="LeftForeArm" />
+				<object name="RightForeArm" />
+				<object name="LeftForeArmRoll" />
+				<object name="RightForeArmRoll" />
+				<object name="LeftHand" />
+				<object name="RightHand" />
+
+				<object name="LeftHandThumb1" />
+				<object name="LeftHandThumb2" />
+				<object name="LeftHandThumb3" />
+				<object name="LeftHandIndex1" />
+				<object name="LeftHandIndex2" />
+				<object name="LeftHandIndex3" />
+				<object name="LeftHandMiddle1" />
+				<object name="LeftHandMiddle2" />
+				<object name="LeftHandMiddle3" />
+				<object name="LeftHandRing1" />
+				<object name="LeftHandRing2" />
+				<object name="LeftHandRing3" />
+				<object name="LeftHandPinky1" />
+				<object name="LeftHandPinky2" />
+				<object name="LeftHandPinky3" />
+
+				<object name="RightHandThumb1" />
+				<object name="RightHandThumb2" />
+				<object name="RightHandThumb3" />
+				<object name="RightHandIndex1" />
+				<object name="RightHandIndex2" />
+				<object name="RightHandIndex3" />
+				<object name="RightHandMiddle1" />
+				<object name="RightHandMiddle2" />
+				<object name="RightHandMiddle3" />
+				<object name="RightHandRing1" />
+				<object name="RightHandRing2" />
+				<object name="RightHandRing3" />
+				<object name="RightHandPinky1" />
+				<object name="RightHandPinky2" />
+				<object name="RightHandPinky3" />
+			</animation_group>
+
+			<!-- Slaughterhouyse Ambush Event Animations -->
+			<animation_group name="main_animation">
+				<object name="a_main_animation" />
+				<object name="a_main_animation_body" />
+				<object name="a_rear_wheels" />
+				<object name="a_left_front_wheels" />
+				<object name="a_right_front_wheels" />
+			</animation_group>
+			<animation_group name="car1_crash">
+				<object name="a_car1_crash" />
+				<object name="a_car1_body_crash" />
+				<object name="a_rear_wheels_car1_crash" />
+				<object name="a_left_front_wheels_car1_crash" />
+				<object name="a_right_front_wheels_car1_crash" />
+			</animation_group>
+			<animation_group name="car1_continue">
+				<object name="a_car1_continue" />
+				<object name="a_car1_body_continue" />
+				<object name="a_rear_wheels_car1_continue" />
+				<object name="a_left_front_wheels_car1_continue" />
+				<object name="a_right_front_wheels_car1_continue" />
+			</animation_group>
+			
+			<animation_group name="car2_crash">
+				<object name="a_car2_crash" />
+				<object name="a_car2_body_crash" />
+				<object name="a_rear_wheels_car2_crash" />
+				<object name="a_left_front_wheels_car2_crash" />
+				<object name="a_right_front_wheels_car2_crash" />
+			</animation_group>
+			<animation_group name="car2_continue">
+				<object name="a_car2_continue" />
+				<object name="a_car2_body_continue" />
+				<object name="a_rear_wheels_car2_continue" />
+				<object name="a_left_front_wheels_car2_continue" />
+				<object name="a_right_front_wheels_car2_continue" />
+			</animation_group>
+			
+			<animation_group name="car3_crash">
+				<object name="a_car3_crash" />
+				<object name="a_car3_body_crash" />
+				<object name="a_rear_wheels_car3_crash" />
+				<object name="a_left_front_wheels_car3_crash" />
+				<object name="a_right_front_wheels_car3_crash" />
+			</animation_group>
+			
+			<animation_group name="car4_reverse">
+				<object name="a_car4_reverse" />
+				<object name="a_car4_body_reverse" />
+				<object name="a_rear_wheels_car4_reverse" />
+				<object name="a_left_front_wheels_car4_reverse" />
+				<object name="a_right_front_wheels_car4_reverse" />
+			</animation_group>
+			
+			<animation_group name="car4_follow">
+				<object name="a_car4_follow" />
+				<object name="a_car4_body_follow" />
+				<object name="a_rear_wheels_car4_follow" />
+				<object name="a_left_front_wheels_car4_follow" />
+				<object name="a_right_front_wheels_car4_follow" />
+			</animation_group>
+			
+			<animation_group name="door_left_front">
+				<object name="a_door_left_front" />
+				<object name="g_door_left_front" />
+				<object name="g_glass_front_l" />
+				<object name="dm_glass_front_l" />
+				<object name="g_glass_front_l_dmg" />				   				
+			</animation_group>
+			
+			<animation_group name="door_left_back">				   
+				<object name="a_door_left_back" />
+				<object name="g_door_left_back" />
+				<object name="g_glass_middle_l" />
+				<object name="g_glass_middle_l_dmg" />
+				<object name="dm_glass_middle_l" />
+			</animation_group>
+			
+			<animation_group name="door_right_front">
+				<object name="a_door_right_front" />				   				
+				<object name="g_door_right_front" />
+				<object name="g_glass_front_r" />
+				<object name="dm_glass_front_r" />
+				<object name="g_glass_front_r_dmg" />				
+			</animation_group>
+			
+			<animation_group name="door_right_back">
+				<object name="a_door_right_back" />
+				<object name="g_door_right_back" />
+				<object name="g_glass_middle_r" />
+				<object name="g_glass_middle_r_dmg" />
+				<object name="dm_glass_middle_r" />				   
+			</animation_group>
+		<!-- //Slaughterhouyse Ambush Event Animations END -->
+		
+			<animation_group name="ag_tire_front_right">
+				<object name="a_tire_front_right" />
+			</animation_group>
+			<animation_group name="ag_tire_front_left">
+				<object name="a_tire_front_left" />
+			</animation_group>
+			<animation_group name="ag_tire_rear_right">
+				<object name="a_tire_rear_right" />
+			</animation_group>
+			<animation_group name="ag_tire_rear_left">
+				<object name="a_tire_rear_left" />
+			</animation_group>
+		</animations>
+		<bodies>
+			<body name="car1_animation1_hitbox" enabled="true" collides_with_mover="false" remove_ray_type="ai_vision" template="animated">
+				<object name="null2" />
+				<object name="c_car1_animation1_hitbox" collision_type="box" />
+			</body>
+			<body name="car1_animation2_hitbox" enabled="false" collides_with_mover="false" remove_ray_type="ai_vision" template="animated">
+				<object name="null2" />
+				<object name="c_car1_animation2_hitbox" collision_type="box" />
+			</body>
+			<body name="static_body" enabled="true" template="animated">
+				<object name="null2" />
+				
+				<object name="c_box_000" collision_type="box" padding="-2" />
+				<object name="c_box_001" collision_type="box" padding="-2" />
+				<object name="c_box_002" collision_type="box" padding="-2" />
+				<object name="c_box_003" collision_type="box" padding="-2" />
+				<object name="c_box_004" collision_type="box" padding="-2" />
+				<object name="c_box_005" collision_type="box" padding="-2" />
+				<object name="c_box_006" collision_type="box" padding="-2" />
+				<object name="c_box_007" collision_type="box" padding="-2" />
+				<object name="c_box_008" collision_type="box" padding="-2" />
+				<object name="c_box_009" collision_type="box" padding="-2" />
+				<object name="c_box_010" collision_type="box" padding="-2" />
+				<object name="c_box_011" collision_type="box" padding="-2" />
+				<object name="c_box_012" collision_type="box" padding="-2" />
+				<object name="c_box_013" collision_type="box" padding="-2" />
+				<object name="c_box_014" collision_type="box" padding="-2" />
+				<object name="c_box_015" collision_type="box" padding="-2" />
+				<object name="c_box_016" collision_type="box" padding="-2" />
+				<object name="c_box_017" collision_type="box" padding="-2" />
+				<object name="c_box_018" collision_type="box" padding="-2" />
+				<object name="c_box_019" collision_type="box" padding="-2" />
+				<object name="c_box_020" collision_type="box" padding="-2" />
+				<object name="c_box_021" collision_type="box" padding="-2" />
+				<object name="c_box_022" collision_type="box" padding="-2" />
+				
+				<object name="c_convex_000" collision_type="convex" padding="-2" />
+				<object name="c_convex_001" collision_type="convex" padding="-2" />
+				<object name="c_convex_002" collision_type="convex" padding="-2" />
+				<object name="c_convex_003" collision_type="convex" padding="-2" />
+				<object name="c_convex_004" collision_type="convex" padding="-2" />
+				<object name="c_convex_005" collision_type="convex" padding="-2" />
+				<object name="c_convex_006" collision_type="convex" padding="-2" />
+				<object name="c_convex_007" collision_type="convex" padding="-2" />
+				<object name="c_convex_008" collision_type="convex" padding="-2" />
+				<object name="c_convex_009" collision_type="convex" padding="-2" />
+				<object name="c_convex_010" collision_type="convex" padding="-2" />
+				<object name="c_convex_011" collision_type="convex" padding="-2" />
+				<object name="c_convex_012" collision_type="convex" padding="-2" />
+
+			</body>
+			<body name="mover_block" enabled="true" keyframed="true" template="mover_blocker">
+				<object name="null2" />
+				<object name="c_mover_blocker" collision_type="box" padding="-2" />
+			</body>	
+			
+			<body name="graph_blocker" enabled="false" template="graph_blocker">
+				<object name="c_graph_blocker" collision_type="box" /> 
+			</body>
+			
+						
+			<body name="window_front" enabled="true" template="animated">
+				<object name="c_glass_front" collision_type="convex" padding="-2"/>
+			</body>
+			<body remove_ray_type="ai_vision" name="window_left_front" collision_class = "disabled" enabled="true" template="animated">
+				<object name="a_door_left_front" />
+				<object name="c_glass_front_l" collision_type="convex" padding="-2" />
+			</body>	
+			<body remove_ray_type="ai_vision" name="window_right_front" collision_class = "disabled" enabled="true" template="animated">
+				<object name="a_door_right_front" />
+				<object name="c_glass_front_r" collision_type="convex" padding="-2" />
+			</body>
+			<body remove_ray_type="ai_vision" name="window_left_middle" collision_class = "disabled" enabled="true" template="animated">
+				<object name="a_door_left_back" />
+				<object name="c_glass_middle_l" collision_type="convex" padding="-2"/>
+			</body>
+			<body remove_ray_type="ai_vision" name="window_right_middle" collision_class = "disabled" enabled="true" template="animated">
+				<object name="a_door_right_back" />
+				<object name="c_glass_middle_r" collision_type="convex" padding="-2"/>
+			</body>
+			<body remove_ray_type="ai_vision" name="window_left_rear" enabled="true" template="animated">
+				<object name="c_glass_back_l" collision_type="convex" padding="-2"/>
+			</body>
+			<body remove_ray_type="ai_vision" name="window_right_rear" enabled="true" template="animated">
+				<object name="c_glass_back_r" collision_type="convex" padding="-2"/>
+			</body>
+			<body name="window_back" enabled="true" template="animated">
+				<object name="c_glass_back" collision_type="convex" padding="-2"/>
+			</body>
+		
+			<body name="tire_front_left" enabled="true" template="animated">
+				<object name="dm_suburban_wheel_01" collision_type="convex" padding="-2"/>
+			</body>
+			<body name="tire_rear_left" enabled="true" template="animated">
+				<object name="dm_suburban_wheel_03" ccollision_type="convex" padding="-2"/>
+			</body>
+			<body name="tire_front_right" enabled="true" template="animated">
+				<object name="dm_suburban_wheel_02" collision_type="convex" padding="-2"/>
+			</body>
+			<body name="tire_rear_right" enabled="true" template="animated">
+				<object name="dm_suburban_wheel_04" collision_type="convex" padding="-2"/>
+			</body>
+			 
+			<body name="rims" enabled="true" template="animated">
+				<object name="a_tire_front_left" />
+				<object name="dm_suburban_wheel_01_metal" collision_type="convex" padding="-2" />
+				<object name="dm_suburban_wheel_02_metal" collision_type="convex" padding="-2" />
+				<object name="dm_suburban_wheel_03_metal" collision_type="convex" padding="-2" />
+				<object name="dm_suburban_wheel_04_metal" collision_type="convex" padding="-2" />
+			</body>
+			
+			<body name="door_left_front" enabled="true" collision_class = "disabled" template="animated">
+				<object name="a_door_left_front" />
+				<object name="c_box_door_left_front_000" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_front_001" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_front_002" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_front_003" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_front_004" collision_type="box" padding="-2"/>
+				
+				<object name="c_convex_door_left_front_000" collision_type="convex" padding="-2"/>
+				<object name="c_convex_door_left_front_001" collision_type="convex" padding="-2"/>
+			</body>
+			
+			<body name="door_left_back" enabled="true" collision_class = "disabled" template="animated">
+				<object name="a_door_left_back" />
+				<object name="c_box_door_left_back_000" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_back_001" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_back_002" collision_type="box" padding="-2"/>
+				<object name="c_box_door_left_back_003" collision_type="box" padding="-2"/>
+				
+				<object name="c_convex_door_left_back_000" collision_type="convex" padding="-2"/>
+			</body>
+			<body name="door_right_front" enabled="true" collision_class = "disabled" template="animated">
+			
+				<object name="a_door_right_front" />
+				<object name="c_box_door_right_front_000" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_front_001" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_front_002" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_front_003" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_front_004" collision_type="box" padding="-2"/>
+				
+				<object name="c_convex_door_right_front_000" collision_type="convex" padding="-2"/>
+				<object name="c_convex_door_right_front_001" collision_type="convex" padding="-2"/>
+				
+			</body>
+			<body name="door_right_back" enabled="true" collision_class = "disabled" template="animated">
+				<object name="a_door_right_back" />
+				<object name="c_box_door_right_back_000" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_back_001" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_back_002" collision_type="box" padding="-2"/>
+				<object name="c_box_door_right_back_003" collision_type="box" padding="-2"/>
+				
+				<object name="c_convex_door_right_back_000" collision_type="convex" padding="-2"/>
+			</body>
+			<body name="body_anim_blocker" enabled="true" template="mover_blocker" keyframed="true">
+				<object name="null2" />
+				<object name="c_box_point" 	collision_type="box" />
+				<object name="c_box" 		collision_type="box" />
+			</body>
+		</bodies>
+		<effects>
+			<effect_spawner name="es_e_hood" object="e_hood" effect="effects/particles/dest/engine_smoke" enabled="false" />
+		</effects>
+		<graphics>
+			<object name="g_body" enabled="true" shadow_caster="true"/>
+			<object name="g_hands" enabled="true" shadow_caster="true"/>
+			<object name="g_head" enabled="true" shadow_caster="true"/>
+			<object name="g_suburban" enabled="true" shadow_caster="true"/>
+			<object name="g_net" enabled="false" shadow_caster="true"/>
+			<object name="g_metal" enabled="false" shadow_caster="true"/>
+			<object name="g_glass_front"   enabled="true"  />
+			<object name="g_glass_front_l"   enabled="true"  />
+			<object name="g_glass_front_r"   enabled="true"  />
+			<object name="g_glass_middle_l"   enabled="true"  />
+			<object name="g_glass_middle_r"   enabled="true"  />
+			<object name="g_glass_back_l"   enabled="true"  />
+			<object name="g_glass_back_r"   enabled="true"  />
+			<object name="g_glass_back"   enabled="true"  />
+			<object name="g_glass_front_dmg"   enabled="false"  />
+			<object name="g_glass_front_l_dmg"   enabled="false"  />
+			<object name="g_glass_front_r_dmg"   enabled="false"  /> 
+			<object name="g_glass_middle_l_dmg"   enabled="false"  /> 
+			<object name="g_glass_middle_r_dmg"   enabled="false"  />
+			<object name="g_glass_back_l_dmg"   enabled="false"  />
+			<object name="g_glass_back_r_dmg"   enabled="false"  />
+			<object name="g_glass_back_dmg"   enabled="false"  />
+				
+			<object name="g_rear_wheels"  enabled="true" shadow_caster="true"/>
+			<object name="g_left_front_wheel" enabled="true" shadow_caster="true"/>
+			<object name="g_right_front_wheel" enabled="true" shadow_caster="true"/>
+	
+			<object name="s_suburban" enabled="true" />
+			<object name="g_door_left_front" enabled="true" shadow_caster="true"/>
+			<object name="g_door_left_back" enabled="true" shadow_caster="true"/>
+			<object name="g_door_right_front" enabled="true" shadow_caster="true"/>
+			<object name="g_door_right_back" enabled="true" shadow_caster="true"/>
+		</graphics>
+		<decal_surfaces default_material="metal">
+			<decal_mesh name="dm_suburban_wheel_01" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_01_metal" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_02" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_02_metal" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_03" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_03_metal" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_04" enabled="true" material="rubber" />
+			<decal_mesh name="dm_suburban_wheel_04_metal" enabled="true" material="rubber" />
+			<decal_mesh name="dm_glass_front" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_front_l" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_front_r" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_middle_l" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_middle_r" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_back_l" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_back_r" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_glass_back" enabled="true" material="glass_breakable" />
+			<decal_mesh name="dm_metal" enabled="true" material="metal" />
+			<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+			<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+			<decal_mesh name="dm_inner_cloth" enabled="true" material="cloth" />
+			<decal_mesh name="dm_sheet_metal" enabled="true" material="metal_chassis"/>
+			<decal_mesh name="dm_door_left_front" enabled="true" material="metal_chassis"/>
+			<decal_mesh name="dm_door_left_back" enabled="true" material="metal_chassis"/>
+			<decal_mesh name="dm_door_right_front" enabled="true" material="metal_chassis"/>
+			<decal_mesh name="dm_door_right_back" enabled="true" material="metal_chassis"/>
+		</decal_surfaces>
+		
+		
+</dynamic_object> 

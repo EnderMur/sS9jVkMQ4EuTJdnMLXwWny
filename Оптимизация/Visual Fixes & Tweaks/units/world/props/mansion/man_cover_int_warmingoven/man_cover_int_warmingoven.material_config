@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="warmingoven" decal_material="sheet_metal" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/mansion/man_cover_int_warmingoven/man_cover_int_warmingoven_df"/>
+        <bump_normal_texture file="units/world/props/mansion/man_cover_int_warmingoven/man_cover_int_warmingoven_nm"/>
+    </material>
+    <material name="warmingoven_glass" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/glass/vehicle_glass_df"/>
+        <opacity_texture file="units/glass/vehicle_glass_op"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="0 1 0.5" type="vector3" name="fresnel_settings"/>
+    </material>
+</materials>

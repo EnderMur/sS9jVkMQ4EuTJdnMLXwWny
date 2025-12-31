@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/hedge_buxbom/hedge_buxbom_instanced" orientation_object="rp_hedge_buxbom" />
+  <bodies>
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="rp_hedge_buxbom" />
+			<object name="c_vision_block" collision_type="box" />
+		</body>	
+ 
+		<body name="static_body" enabled="true" editable="true" template="mover_blocker">
+			<object name="c_c" collision_type="box" />
+		</body>
+  </bodies>
+  <graphics>
+    <object name="g_g" enabled="true" shadow_caster="true" instance_struct="world_tm"/>
+	<object name="s_s" enabled="true" shadow_caster="false" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/cup/cup" orientation_object="rp_cup1" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_cup1" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+	<decal_surfaces default_material="glass_breakable">
+		<decal_mesh name="g_cup1" enabled="true" />
+	</decal_surfaces>
+  <graphics>
+    <object name="g_cup1" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

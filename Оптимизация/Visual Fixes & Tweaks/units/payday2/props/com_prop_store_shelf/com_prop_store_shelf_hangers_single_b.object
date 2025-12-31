@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_store_shelf_hangers_single_b" materials="units/payday2/props/com_prop_store_shelf/com_prop_store_shelf_b" />
+    <bodies>
+        <body enabled="true" name="nav_blocker" template="editor" add_ray_type="ai_blocker walk">
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_com_prop_store_shelf_hangers_single_b" />
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

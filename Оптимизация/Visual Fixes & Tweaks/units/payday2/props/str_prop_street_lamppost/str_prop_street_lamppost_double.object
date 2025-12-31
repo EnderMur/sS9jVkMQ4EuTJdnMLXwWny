@@ -1,0 +1,40 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_street_lamppost_double" materials="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost" />
+    <sequence_manager file="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_single" />
+    
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_str_prop_street_lamppost_double" />
+            <object collision_type="box" name="c_box_000" padding="-2"/>           
+		    <object collision_type="convex" name="c_convex_000" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_001" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_002" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_003" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_004" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_005" padding="-2"/>
+        </body>
+        <body enabled="false" template="dynamic" name="dynamic_body" >
+            <object name="rp_str_prop_street_lamppost_double" />
+            <object collision_type="box" 		name="c_box_000" 		mass="50" padding="-2"/>           
+		    <object collision_type="convex"  	name="c_convex_000" 	mass="450" padding="-2"/>
+            <object collision_type="capsule" 	name="c_capsule_001" 	mass="200" padding="-2"/>
+            <object collision_type="capsule" 	name="c_capsule_002" 	mass="50" padding="-2"/>
+            <object collision_type="capsule" 	name="c_capsule_003" 	mass="50" padding="-2"/>
+            <object collision_type="capsule" 	name="c_capsule_004" 	mass="50" padding="-2"/>
+            <object collision_type="capsule" 	name="c_capsule_005" 	mass="50" padding="-2"/>
+        </body>
+		<body name="body_bag_blocker" enabled="true" template="bag" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" />
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+    </decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+		<object enabled="true" name="s_s" shadow_caster="false" />
+    </graphics>
+</dynamic_object>

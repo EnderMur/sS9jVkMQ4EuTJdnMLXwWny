@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/lux/lux" orientation_object="rp_lux_int_stairs1_100x200x125m_a_bottom" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_lux_int_stairs1_100x200x125m_a_bottom"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+        </body>
+		<body name="bag_blocker" enabled="true"  template="bag" collision_class="bag_blocker">
+            <object name="rp_lux_int_stairs1_100x200x125m_a_bottom"/>
+			<object name="c_convex_railing_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_railing_02" collision_type="convex" padding="-2.5"/>
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_lux_int_stairs1_100x200x125m_a_bottom" material="metal" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_lux_int_stairs1_100x200x125m_a_bottom" instance_struct="world_tm" shadow_caster="true" />
+    </graphics>
+</dynamic_object> 

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/survivalist/mattress/mattress_double" orientation_object="rp_mattress_double" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+		<object name="rp_mattress_double"/>
+      <object name="c_mattress_double" collision_type="mesh_mopp" />
+	</body>
+  </bodies>
+  <decal_surfaces default_material="cloth" static="true">
+    <decal_mesh name="dm_mattress_double" enabled="true" material="cloth" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_mattress_double" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

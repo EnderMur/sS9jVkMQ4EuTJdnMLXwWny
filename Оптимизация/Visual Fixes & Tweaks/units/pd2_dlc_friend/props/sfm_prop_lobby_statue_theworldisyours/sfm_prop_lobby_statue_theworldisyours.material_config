@@ -1,0 +1,24 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_statue" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_nm"/>
+        <material_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_gsma"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_carshop_tunnels" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_il"/>
+        <variable type="scalar" name="il_bloom" value="3.0230001435848"/>
+        <variable type="scalar" name="il_multiplier" value="neonsign"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_statue_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_gsma" mip="4"/>
+		<reflection_texture file="units/payday2/cubemaps/cubemap_carshop_tunnels" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_theworldisyours/sfm_prop_lobby_statue_theworldisyours_il" mip="4"/>
+        <variable type="scalar" name="il_bloom" value="3.0230001435848"/>
+        <variable type="scalar" name="il_multiplier" value="neonsign"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_statue_debris" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_diningroom_fireplace_df" mip="4"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

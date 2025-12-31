@@ -1,0 +1,28 @@
+<dynamic_object>
+    <diesel materials="units/pd2_dlc1/vehicles/str_vehicle_car_ford_punctured/str_vehicle_car_ford_punctured" orientation_object="rp_str_vehicle_car_ford_punctured" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_vehicle_ford" />
+        </body>        
+		
+		<body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_windows" />
+        </body>
+		
+		<body name="graph_blocker" enabled="true" template="graph_blocker">
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+	  
+    </bodies>
+	
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_vehicle_ford" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_windows" material="glass_breakable" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" 	name="g_ford" shadow_caster="true" />
+        <object enabled="true" 	name="g_windows" shadow_caster="true" />
+        <object enabled="false" name="s_vehicle_ford" />
+    </graphics>
+</dynamic_object>

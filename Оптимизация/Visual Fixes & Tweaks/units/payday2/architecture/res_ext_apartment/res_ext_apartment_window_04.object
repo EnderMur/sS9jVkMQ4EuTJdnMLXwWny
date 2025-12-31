@@ -1,0 +1,29 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_ext_apartment_window_04" materials="units/payday2/architecture/res_ext_apartment/res_ext_apartment_window_01" />
+	<sequence_manager file="units/payday2/architecture/res_ext_apartment/res_ext_apartment_window_01" />
+
+    <bodies>
+		<body name="glass_body" template="window" enabled="true" >
+			<object name="c_box_glass" collision_type="box" padding="-2.5"/>
+	    </body>
+		<body name="frame_body" template="static" enabled="true" >
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+	    </body>
+    </bodies>
+
+	<decal_surfaces default_material="wood" static="true">
+		<decal_mesh name="dm_wood" material="wood" enabled="true"/>
+	</decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" instance_struct="world_tm" />
+		<object enabled="true" name="g_glass" shadow_caster="true" />
+        <object enabled="true" name="g_g_dmg" shadow_caster="true" instance_struct="world_tm" />
+		<object enabled="true" name="s_s" shadow_caster="false" instance_struct="world_tm" />
+		<object enabled="false" name="s_s_dmg" shadow_caster="false" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

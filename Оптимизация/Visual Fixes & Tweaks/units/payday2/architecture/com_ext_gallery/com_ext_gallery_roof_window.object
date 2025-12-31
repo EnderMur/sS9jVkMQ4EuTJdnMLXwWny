@@ -1,0 +1,85 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_ext_gallery_roof_window" materials="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" />
+	<sequence_manager file="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" />
+	
+   
+   <animations>
+	<animation_group name="anim" enabled="false" >
+		<object name="a_air_window_1" />
+	</animation_group>
+  </animations>
+   
+   <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_com_ext_gallery_roof_window" />
+            <object collision_type="mesh_mopp" name="g_g"/>
+        </body>
+		
+		<body name="glass_body_01" enabled="true" template="static"  remove_ray_type="vis_graph ai_vision walk" >
+			<object name="e_01" />
+           	<object name="c_box_glass_01_a" collision_type="box" padding="-2.5"/>
+           	<object name="c_box_glass_01_b" collision_type="box" padding="-2.5"/>
+        </body>
+		<body name="glass_body_02" enabled="true" template="static" remove_ray_type="vis_graph ai_vision walk">
+			<object name="e_02" />
+           	<object name="c_box_glass_02_a" collision_type="box" padding="-2.5"/>
+           	<object name="c_box_glass_02_b" collision_type="box" padding="-2.5"/>
+        </body>
+		<body name="glass_body_03" enabled="true" template="static" remove_ray_type="vis_graph ai_vision walk">
+			<object name="e_03" />
+           	<object name="c_box_glass_03" collision_type="box" padding="-2.5"/>
+        </body>
+		<body name="glass_body_04" enabled="true" template="static" remove_ray_type="vis_graph ai_vision walk">
+			<object name="e_04" />
+           	<object name="c_box_glass_04" collision_type="box" padding="-2.5"/>
+        </body>
+		
+		<body name="air_glass_body_1" enabled="true" template="static" keyframed="true" remove_ray_type="vis_graph ai_vision walk"> 
+           	<object name="a_air_window_1"/>
+           	<object name="c_box_air_window_1" collision_type="box" padding="-2.5"/>
+        </body>
+		
+    </bodies>
+	
+	<decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass_01" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_02" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_03" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_04" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_air_window_glass_1" material="glass_breakable" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="false" name="s_s" />
+        <object enabled="false" name="s_s_01" />
+        <object enabled="false" name="s_s_02" />
+        <object enabled="false" name="s_s_03" />
+        <object enabled="false" name="s_s_04" />
+		
+        <object enabled="true" name="g_g" shadow_caster="true" />
+        <object enabled="true" name="g_glass_01" />
+        <object enabled="true" name="g_glass_02" />
+        <object enabled="true" name="g_glass_03" />
+        <object enabled="true" name="g_glass_04" />
+        <object enabled="true" name="g_air_window_1" shadow_caster="true" />
+        <object enabled="true" name="g_air_window_glass_1" />
+		
+		<object enabled="false" name="g_glass_dmg_01" />
+        <object enabled="false" name="g_glass_dmg_02" />
+        <object enabled="false" name="g_glass_dmg_03" />
+        <object enabled="false" name="g_glass_dmg_04" />
+        <object enabled="false" name="g_air_window_glass_dmg_1" />
+		
+		<object enabled="true" name="g_bars_01" shadow_caster="true" />
+        <object enabled="true" name="g_bars_02" shadow_caster="true" />
+        <object enabled="true" name="g_bars_03" shadow_caster="true" />
+        <object enabled="true" name="g_bars_04" shadow_caster="true" />
+
+        <graphic_group name="contour_grp" enabled="true" culling_object="g_air_window_1">
+			<lod_object name="contour_lod">
+				<object name="g_contour_lod0" enabled="true"  max_distance="500"  max_draw_lod="0" />
+				<object name="g_contour_lod1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+    </graphics>
+</dynamic_object>

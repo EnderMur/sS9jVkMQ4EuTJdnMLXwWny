@@ -1,0 +1,27 @@
+<materials version="3" group="civ_female_doctor_01">
+    
+    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_03_head_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_03_head_df" />
+    </material>
+    <material name="mtr_head_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_03_head_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_03_head_df" />
+    </material>
+
+    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_nm" />
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_df" />
+    </material>
+    <material name="mtr_body_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_nm" />
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_df" />
+    </material>
+
+    <material name="mtr_details" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_nm"/>
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_df"/>
+    </material>
+
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

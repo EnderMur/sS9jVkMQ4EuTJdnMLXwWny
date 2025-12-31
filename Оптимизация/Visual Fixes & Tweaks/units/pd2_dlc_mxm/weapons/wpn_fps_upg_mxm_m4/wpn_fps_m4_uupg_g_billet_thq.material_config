@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_group">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_g_radian" version="2">
+        <diffuse_texture file="units/pd2_dlc_mxm/weapons/wpn_fps_upg_mxm_m4/grip_billet_df"/>
+        <material_texture file="units/pd2_dlc_mxm/weapons/wpn_fps_upg_mxm_m4/grip_billet_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_mxm/weapons/wpn_fps_upg_mxm_m4/grip_billet_nm"/>
+    </material>
+</materials>

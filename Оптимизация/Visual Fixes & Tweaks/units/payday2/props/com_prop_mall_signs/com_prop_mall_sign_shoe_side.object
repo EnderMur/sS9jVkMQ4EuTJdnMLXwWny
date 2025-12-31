@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_sign_shoe_side" materials="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_shoe_side" />
+	<sequence_manager file="units/payday2/props/com_prop_mall_signs/com_prop_mall_signs" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+	<decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plastic" material="thin_layer" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+        <object enabled="false" name="g_g_dmg" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

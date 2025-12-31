@@ -1,0 +1,47 @@
+<materials version="3">
+    <material name="mat_hcm" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_01_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_01_nm"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_hcm_ext_rooftop_metal_01">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_metal_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_metal_01_nm"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_hcm_ext_rooftop_details_01">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_details_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_details_01_nm"/>
+    </material>
+    <material name="mat_lcm_b_ext_rooftar_a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cube"/>
+        <bump_normal_texture file="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_nm"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_hcm_ext_rooftop_stonefloor_01">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_stonefloor_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_stonefloor_01_nm"/>
+    </material>
+    <material name="mat_hcm_ext_rooftop_metal_02" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_metal_02_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_ext_rooftop_metal_02_nm"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_hcm_int_a">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_a_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_int_01_a_nm"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2" name="mat_hcm_glass">
+        <variable value="0 1 0.66999995708466" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/hcm/hcm_ext_01_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_ext_01_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" decal_material="glass_breakable" name="mat_glass_shattered" version="2">
+        <variable value="2 0 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

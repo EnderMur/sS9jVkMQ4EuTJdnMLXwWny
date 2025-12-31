@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" orientation_object="rp_pta_prop_barn_hay_round" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pta_prop_barn_hay_round" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="foliage">
+		<decal_mesh name="dm_foliage" enabled="true" material="foliage" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true"  shadow_caster="true" />
+		<object name="g_lod1" enabled="false" />
+		<object name="g_lod2" enabled="false" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+</dynamic_object>

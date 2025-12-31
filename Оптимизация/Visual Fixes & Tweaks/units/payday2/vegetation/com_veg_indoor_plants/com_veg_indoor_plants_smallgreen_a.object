@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_veg_indoor_plants_smallgreen_a" materials="units/payday2/vegetation/com_veg_indoor_plants/com_veg_indoor_plants_smallgreen" />
+    <bodies>
+        <body enabled="true" template="editor" name="editor_body" >
+            <object name="rp_com_veg_indoor_plants_smallgreen_a" />
+            <object collision_type="box" name="c_box_editor" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

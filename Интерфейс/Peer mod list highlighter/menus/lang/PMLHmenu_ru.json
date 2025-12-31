@@ -1,0 +1,46 @@
+{
+	"PMLH_title": "Peer Mod List Highlighter",
+	"PMLH_desc": "Изменить настройки мода PMLH",
+	"PMLH_blank": "",
+	
+	"PMLHjoinmods": "Лист модов на экране загрузки",
+	"PMLHjoinmods_desc": "Пока в ваше лобби загружается новый игрок, показать список его модов с соответствующей подсвтекой.",
+	"PMLH_profile_button": "Ссылка на профиль",
+	"PMLH_profile_button_desc": "Добавляет кнопку открывающую Steam профиль игрока (если он доступен) в оверлей браузере. Данная кнопка находится над списком модов игрока в меню 'список игроков'.",
+	
+	"PMLH_folder_in_player_menu": "Папка мода в списке игроков",
+	"PMLH_folder_in_player_menu_desc": "Добавляет название папки мода, после названия мода, в списке модов игрока в меню 'список игроков'.",
+	"PMLH_folder_in_crimenet": "Папка мода в crime.net (Наведение)",
+	"PMLH_folder_in_crimenet_desc": "Добавляет название папки мода, после названия мода в списке Crime.net. Название папки показывается по наведению мышки на название мода.",
+	"PMLH_folder_in_joinlist": "Папка мода на экране загрузки",
+	"PMLH_folder_in_joinlist_desc": "Добавляет название папки мода, после названия мода, во время загрузки игрока в ваше лобби.",
+	
+	"PMLH_colourchoice": "Итоговый цвет",
+	"PMLH_green_header": "Первый лист",
+	"PMLH_yellow_header": "Второй лист",
+	"PMLH_red_header": "Третий лист",
+	"PMLH_colour1": "Количество красного",
+	"PMLH_colour2": "Количество зеленого",
+	"PMLH_colour3": "Количество синего",
+	
+	"PMLH_joinplayer_list_mods_1": "Моды игрока ",
+	"PMLH_joinplayer_list_mods_2": ":",
+	"PMLH_searchmodname": "Попытаться найти мод по имени на modworkshop",
+	"PMLH_searchmodfolder": "Попытаться найти мод по названию его папки на modworkshop",
+	"PMLH_adjustmod": "Добавить или удалить мод из ",
+	"PMLH_list1name": "первого",
+	"PMLH_list2name": "второго",
+	"PMLH_list3name": "третьего",
+	"PMLH_list": " списка",
+	"PMLH_adjustmenutitle": "Peer Mod List Highlighter",
+	"PMLH_adjustmenuquestion": "Что вы хотите сделать?",
+	"PMLH_cancelbutton": "Отменить",
+	
+	"PMLH_patch_notes": "Информация о патче",
+	"PMLH_patch_notes_desc": "Нажмите на эту кнопку чтобы открыть информацию об изменениях последнего патча в оверлей браузере.",
+	
+	"PMLH_player_profile_inspect_help": "(PMLH) Нажмите эту кнопку чтобы открыть Steam профиль данного игрока в оверлей браузере.",
+	"PMLH_player_profile_inspect_text": "Профиль Steam",
+	"PMLH_player_profile_inspect_help_epic": "(PMLH) Данный пользователь использует Epic версию игры, просмотр их профиля недоступен.",
+	"PMLH_player_profile_inspect_text_epic": "Профиль Epic",
+}

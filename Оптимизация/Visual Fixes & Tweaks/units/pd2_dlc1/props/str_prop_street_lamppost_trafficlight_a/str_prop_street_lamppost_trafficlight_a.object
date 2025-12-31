@@ -1,0 +1,35 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_prop_street_lamppost_trafficlight_a" materials="units/pd2_dlc1/props/str_prop_street_lamppost_trafficlight_a/str_prop_street_lamppost_trafficlight_a" />
+    <sequence_manager file="units/pd2_dlc1/props/str_prop_street_lamppost_trafficlight_a/str_prop_street_lamppost_trafficlight_a" />
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_str_prop_street_lamppost_trafficlight_a" />
+            <object collision_type="convex" name="c_convex_000" padding="-2"/>
+            <object collision_type="box" name="c_box_000" padding="-2"/>
+            <object collision_type="box" name="c_box_001" padding="-2"/>
+            <object collision_type="box" name="c_box_002" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_000" padding="-2"/>
+            <object collision_type="capsule" name="c_capsule_001" padding="-2"/>
+        </body>
+    </bodies>
+
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_glass_breakable" material="glass_breakable" />
+    </decal_surfaces>
+
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+		
+        <object enabled="true" name="g_red" shadow_caster="true"/>
+        <object enabled="true" name="g_yellow" shadow_caster="true"/>
+        <object enabled="true" name="g_green" shadow_caster="true"/>
+		
+		<object enabled="false" name="g_red_il" />
+        <object enabled="false" name="g_yellow_il" />
+        <object enabled="false" name="g_green_il" />
+		
+		<object enabled="true" name="s_s" shadow_caster="false"/>
+		
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" orientation_object="rp_sfm_veg_tree_desertfanpalm_large" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sfm_veg_tree_desertfanpalm_large" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+			<object name="g_lod0" enabled="true" shadow_caster="true" instance_struct="world_tm" />
+			<object name="g_lod1" enabled="true" shadow_caster="true" instance_struct="world_tm" />
+			<object name="s_s" enabled="true" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

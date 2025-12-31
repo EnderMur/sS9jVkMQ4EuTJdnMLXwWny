@@ -1,0 +1,11 @@
+{
+    "name" : "No Contract Broker Images",
+	"description" : "Why do we need this shit.",
+    "author" : "Xeletron",
+	"contact" : "xeletron1@gmail.com",
+    "version" : "1.0",
+	"blt_version" : 2,
+    "hooks" : [  
+		{"hook_id" :"lib/managers/menu/items/contractbrokerheistitem", "script_path" : "contractbrokerheistitem.lua"}
+    ]
+}

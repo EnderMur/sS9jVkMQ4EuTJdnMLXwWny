@@ -1,0 +1,27 @@
+<materials version="3">
+    <material name="steel" decal_material="metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <bump_normal_texture file="units/world/props/bank/vault/vault_nm"/>
+        <diffuse_texture file="units/world/props/bank/vault/vault_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_silver_df" type="cubemap"/>
+    </material>
+    <material name="glass" decal_material="glass_unbreakable" version="2" render_template="opacity">
+        <variable value="0.99900007247925" type="scalar" name="specular_power"/>
+        <opacity_texture file="units/world/props/bank/vault/glass_df"/>
+    </material>
+    <material name="mtr_screen" decal_material="metal" version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <self_illumination_texture file="units/world/props/bank/vault/vault_df"/>
+        <diffuse_texture file="units/world/props/bank/vault/vault_df"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_unbreakable" version="2" name="glass_breakable">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <diffuse_texture file="units/world/props/bank/vault/vault_glass_df"/>
+        <opacity_texture file="units/glass/glass_indoors_op"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+    </material>
+    <material name="glow_control_panel" render_template="generic:CONTOUR:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/gui/gui_color_use_df"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="1 0.5 0.0" type="vector3" name="contour_color"/>
+    </material>
+</materials>

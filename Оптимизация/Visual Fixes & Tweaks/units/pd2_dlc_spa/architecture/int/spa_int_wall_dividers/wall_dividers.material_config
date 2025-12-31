@@ -1,0 +1,32 @@
+<materials version="3">
+    <material version="2" decal_material="wood" render_template="generic:DIFFUSE_TEXTURE" name="mtr_gym_wall_dividers">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_wall_dividers_df"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" name="mtr_gym_wall_dividers_glass" render_template="generic:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <diffuse_texture file="units/world/props/blank_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" decal_material="glass_breakable" name="mat_glass" version="2">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 5000 0" type="vector3" name="opacity_fade_to_solid"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" name="glass_shattered">
+        <variable value="2 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+    </material>
+	   <material version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="glass_breakable">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 5000 0" type="vector3" name="opacity_fade_to_solid"/>
+    </material>
+</materials>

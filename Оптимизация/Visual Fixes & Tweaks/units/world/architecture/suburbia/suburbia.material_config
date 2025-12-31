@@ -1,0 +1,345 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="backdrop_far" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_far_df"/>
+        <variable value="0.11500000208616" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="childrens_room" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/childrens_room/childrens_room_df"/>
+    </material>
+    <material name="garage_floor" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/garage_floor_df"/>
+    </material>
+    <material name="crowbareddoor_material" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/crowbared_door_decal_df"/>
+    </material>
+    <material name="mat_crowbar_icon" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/crowbar_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="hud_brackets_crowbar" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_contour" unique="true" version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="suburbia_plankfence" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/suburbia_plank_fence_df"/>
+    </material>
+    <material name="garage_plywood" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/garage_plywood_df"/>
+    </material>
+    <material name="cellar_bar" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/cellar_bar_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/cellar_bar_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="brick_wall" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/brick_wall_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/brick_wall_nm"/>
+    </material>
+    <material name="wood_floor" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/childrens_room/wood_floor_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_bank_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="wallpaper_fond_girl" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/childrens_room/wallpaper_fond_girl_df"/>
+    </material>
+    <material name="wallpaper_girl_room" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/childrens_room/wallpaper_girl_room_df"/>
+    </material>
+    <material name="wallpaper_boy_room" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/childrens_room/wallpaper_boy_room_df"/>
+    </material>
+    <material name="driveway_asphalt" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/driveway_asphalt_df"/>
+    </material>
+    <material name="curb" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/curb_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/curb_nm"/>
+    </material>
+    <material name="road" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/road/road_suburbia_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/road/road_suburbia_nm"/>
+    </material>
+    <material name="wall" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wall_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/wall_nm"/>
+    </material>
+    <material name="floor_brick" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/floor_brick_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/floor_brick_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" name="pool">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/pool_tile_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/pool_tile_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2" name="drain">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/pool_tile_df"/>
+    </material>
+    <material name="water_anim" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/water_anim_df"/>
+        <variable value="reddot" type="scalar" name="intensity"/>
+        <variable value="-0.001-0.02 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wood_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/wood_nm"/>
+    </material>
+    <material name="wood_details" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wood_df"/>
+    </material>
+    <material name="wooden_deck" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wooden_deck_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/wooden_deck_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0.10000000149012 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="path" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/path_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/path_nm"/>
+    </material>
+    <material name="interior" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wallpaper_df"/>
+    </material>
+    <material name="roof" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/roof1_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/roof1_nm"/>
+    </material>
+    <material name="backdrop_trees" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_suburbia_df"/>
+        <variable value="0.019999999552965" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="beach" render_template="generic:DIFFUSE_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/beach_df"/>
+    </material>
+    <material name="backdrop_houses_a" render_template="generic:DIFFUSE_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_houses_df"/>
+    </material>
+    <material name="backdrop_cars_anim" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_houses_df"/>
+    </material>
+    <material name="backdrop_houses_b" render_template="generic:DIFFUSE_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_houses_02_df"/>
+    </material>
+    <material name="backdrop_wind_surfers" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_wind_surfers_df"/>
+        <variable value="0.10000000149012" type="scalar" name="alpha_ref"/>
+        <variable value="0.019999999552965 0 0" type="vector3" name="uv_speed"/>
+    </material>
+    <material name="backdrop_flag" render_template="generic:DIFFUSE_TEXTURE:VEGETATION_BENDING" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/us_flag_df"/>
+        <variable value="0.80000001192093" type="scalar" name="speed"/>
+        <variable value="16.346000671387 0.64900004863739 0" type="vector3" name="detail_settings"/>
+        <variable value="6 0.66200000047684 0" type="vector3" name="branch_settings"/>
+    </material>
+    <material name="sand" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/sand_df"/>
+    </material>
+    <material name="soil" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/soil_df"/>
+        <variable value="0.012000000104308" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="wave" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:DIFFUSE1_BLEND_OP_RGB_MUL:DIFFUSE1_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wave_df"/>
+        <variable value="searchlight" type="scalar" name="intensity"/>
+        <variable value="0 -0.03999999910593 0" type="vector3" name="uv0_speed"/>
+        <detail_diffuse_texture file="units/world/architecture/suburbia/textures/wave_mask_df"/>
+    </material>
+    <material name="porch_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE_TO_SOLID" version="2">
+        <variable value="0 1 0.41999998688698" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/suburbia/textures/porch_glass_op"/>
+        <diffuse_texture file="units/world/architecture/suburbia/textures/porch_glass_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/porch_glass_nm"/>
+        <variable value="577 3051 0" type="vector3" name="opacity_fade_to_solid"/>
+    </material>
+    <material name="porch_glass_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE_TO_SOLID" version="2">
+        <variable value="0 1 0.41999998688698" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/suburbia/textures/porch_glass_dmg_df"/>
+        <diffuse_texture file="units/world/architecture/suburbia/textures/porch_glass_dmg_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/porch_glass_nm"/>
+        <variable value="577 3051 0" type="vector3" name="opacity_fade_to_solid"/>
+    </material>
+    <material name="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <variable value="1 0 0.5" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_default_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_default_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="5000 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+    <material name="porch" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/porch_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/porch_nm"/>
+    </material>
+    <material name="sliding_door" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/sliding_door_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1.6000000238419 0.22600001096725 6" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="near_backdrop" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/near_backdop_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/near_backdop_nm"/>
+    </material>
+    <material name="near_backdrop_window" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/near_backdop_window_df"/>
+        <variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="cable_thin" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/cable_thin_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+    <material name="backdrop_suburbia_2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/backdrop_suburbia_2_df"/>
+        <variable value="0.019999999552965" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="sky" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/sky_df"/>
+        <self_illumination_texture file="units/world/architecture/suburbia/textures/sky2_df"/>
+        <variable value="none" type="scalar" name="il_multiplier"/>
+    </material>
+    <material render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" version="2" name="mtr_zone_forrest_bush_1">
+        <diffuse_texture file="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1_df"/>
+        <variable value="0.7600000500679" type="scalar" name="normal_world_z_blend"/>
+        <variable value="0.05" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="interior_wood_panel" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/interior_wood_panel_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1.9000000953674 0.010000000707805 2.0999999046326" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/interior_wood_panel_nm"/>
+    </material>
+    <material name="basement_carpet" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/basement_carpet_df"/>
+    </material>
+    <material name="metal_railing" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/railing_df"/>
+    </material>
+    <material name="interior_plaster" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_cage/architecture/ind_cardealership_int/ind_cardealership_int_wall_white_df"/>
+        <bump_normal_texture file="units/pd2_dlc_cage/architecture/ind_cardealership_int/ind_cardealership_int_wall_white_nm"/>
+    </material>
+    <material name="interior_tile" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/tile_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/tile_nm"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="trim" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/props/door_suburban_01/door_suburbua_df"/>
+    </material>
+    <material name="interior_props" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/interior_props_df"/>
+    </material>
+    <material name="interior_concrete" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/concrete_df"/>
+    </material>
+    <material name="interior_carpet" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/carpet_df"/>
+    </material>
+    <material version="2" decal_material="hardwood" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_BIGPROPS" name="cellar_stairs">
+        <diffuse_texture file="units/world/architecture/suburbia/stairs_cellar_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="2.3999998569489 0.05800000205636 4.0999999046326" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" decal_material="metal" render_template="generic:DIFFUSE_TEXTURE" name="railing_metal">
+        <diffuse_texture file="units/world/architecture/suburbia/railing_df"/>
+    </material>
+    <material name="railing_planes" version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP">
+        <bump_normal_texture file="units/world/architecture/suburbia/railing_nm"/>
+        <diffuse_texture file="units/world/architecture/suburbia/railing_df"/>
+        <variable value="0.079999998211861" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="chrome" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/props/pool_ladder/chrome_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+        <variable value="0.29300001263618" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="add" version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/add_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+    <material name="brick_wall" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/brick_wall_df"/>
+    </material>
+    <material name="interior_tile_black" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/tile_dark_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/tile_dark_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 1" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="grasstest" render_template="generic:DETAIL_TEXTURE_2:DIFFUSE_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/grass_big_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/suburbia/textures/grass2_df"/>
+    </material>
+    <material name="cinderblocks" version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/cellar_concrete_wall_df"/>
+    </material>
+    <material name="cellar_concrete_floor" version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/cellar_concrete_df"/>
+    </material>
+    <material name="concrete_debris" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/brushes/concrete_debris/concrete_debris_df"/>
+        <variable value="0.029999999329448" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="sewer" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/sewer_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/sewer_nm"/>
+    </material>
+    <material name="sewer_water" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING_WATER:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:WATER_BIG">
+        <diffuse_texture file="units/world/water/water_foam_df"/>
+        <bump_normal_texture file="units/world/water/water_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_bank_01"/>
+        <variable value="0.055118083953857 0.046688262373209 0.034367747604847" type="vector3" name="water_color_a"/>
+        <variable value="0.0062992130406201 0.0078740157186985 0.005033194553107" type="vector3" name="water_color_b"/>
+        <variable value="1.3000000715256 2.3500001430511 100000" type="vector3" name="water_settings"/>
+        <variable value="0 0.23000000417233 0.20000000298023" type="vector3" name="water_settings_b"/>
+        <variable value="0.32259997725487 0.32259997725487 0" type="vector3" name="water_settings_c"/>
+    </material>
+    <material name="sewer_mul" version="2" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/sewer_mul_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+    <material name="hedge_buxbom" version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP">
+        <bump_normal_texture file="units/world/props/hedge_buxbom/hedge_buxbom_nm"/>
+        <diffuse_texture file="units/world/props/hedge_buxbom/hedge_buxbom_df"/>
+        <variable value="0.070000000298023" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="secret_props_pipes_darker" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" version="2">
+        <diffuse_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_props_pipes_df"/>
+        <bump_normal_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_props_pipes_nm"/>
+        <variable value="0.17986725270748 0.19685041904449 0.19376258552074" type="vector3" name="tint_color"/>
+    </material>
+    <material name="goal" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/props/goal_units/goal_df"/>
+        <variable value="1.6360001564026 0 0" type="vector3" name="uv_speed"/>
+        <variable value="0.11500000208616" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="cellar_gate" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/suburbia_cellar_gate_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_saw" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/sawblade_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="3 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+</materials>

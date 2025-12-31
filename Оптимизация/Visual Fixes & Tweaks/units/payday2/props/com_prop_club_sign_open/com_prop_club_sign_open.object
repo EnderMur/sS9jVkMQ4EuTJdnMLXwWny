@@ -1,0 +1,23 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_club_sign_open" materials="units/payday2/props/com_prop_club_sign_open/com_prop_club_sign_open" />
+	<sequence_manager file="units/payday2/props/com_prop_club_sign_open/com_prop_club_sign_open" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_01" collision_type="capsule"/>
+			<object name="c_capsule_02" collision_type="capsule"/>
+        </body>
+        <body enabled="true" template="static" name="static_glass" >
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal"/>
+		<decal_mesh name="dm_glass" enabled="true" material="glass_breakable"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+        <object enabled="true" name="g_glass" />
+        <object enabled="false" name="g_glass_dmg" />
+    </graphics>
+</dynamic_object>

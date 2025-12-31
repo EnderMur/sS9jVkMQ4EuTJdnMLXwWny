@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/diamond_heist/construction_int/construction_paintcan" orientation_object="rp_construction_paintcan" />
+  
+  <bodies>
+    <body name="static_body" enabled="true" template="raycoll_static">
+      <object name="rp_construction_paintcan" />
+      <object name="c_construction_paintcan" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+  
+  <graphics>
+    <object name="g_construction_paintcan" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

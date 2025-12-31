@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="net" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/suburbia_hoop/suburbia_hoop_net_df"/>
+        <variable value="0.043000001460314" type="scalar" name="alpha_ref"/>
+        <bump_normal_texture file="units/world/props/suburbia_hoop/suburbia_hoop_net_nm"/>
+    </material>
+    <material version="2" decal_material="metal_hollow" name="hoop" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR:VERTEX_COLOR_ALPHA">
+        <diffuse_texture file="units/world/props/suburbia_hoop/suburbia_hoop_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="0.20000000298023 0 13.800000190735" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

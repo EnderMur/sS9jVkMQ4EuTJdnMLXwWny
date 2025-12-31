@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/gym/stn_lamp_walllobby/stn_prop_lamp_wall_lobby" orientation_object="rp_stn_prop_lamp_wall_lobby" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_stn_prop_lamp_wall_lobby" />
+      <object name="c_stn_prop_lamp_wall_lobby_mesh_mopp" collision_type="mesh_mopp" />
+      <object name="c_stn_prop_lamp_wall_lobby_glass_mesh_mopp" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="g_stn_prop_lamp_wall_lobby" enabled="true" material="metal"/>
+	<decal_mesh name="g_stn_prop_lamp_wall_lobby_glass" enabled="true" material="glass_breakable "/>
+  </decal_surfaces>
+  <graphics>
+    <object name="g_stn_prop_lamp_wall_lobby" enabled="true" shadow_caster="true" />
+    <object name="g_stn_prop_lamp_wall_lobby_glass" enabled="true" shadow_caster="true" />
+  </graphics>
+  <objects>
+    <object name="e_01" enabled="true" />
+  </objects>
+</dynamic_object>

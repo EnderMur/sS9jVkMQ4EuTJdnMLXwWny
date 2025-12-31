@@ -1,0 +1,34 @@
+<materials version="3">
+	<material name="roof_floor_mat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_nm"/>
+    </material>
+    <material name="mat_store_light" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_df"/>
+        <self_illumination_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_il"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+	<material name="mat_store" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_store_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_store_nm"/>
+    </material>
+    <material name="mat_stool" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_stool_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_stool_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" name="mat_glass">
+        <variable value="2 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_teal_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_teal_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_mall_int"/>
+    </material>
+	<material name="com_prop_costmetic_screendmg_mat" render_template="generic:DIFFUSE_TEXTURE" version="2" >
+		<diffuse_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_store_il"/>
+	</material>
+	<material name="com_prop_costmetic_screen_mat" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_store_cosmetic/com_prop_cosmetic_store_il"/>
+        <variable value="dimlight" type="scalar" name="intensity"/>
+    </material>
+</materials>

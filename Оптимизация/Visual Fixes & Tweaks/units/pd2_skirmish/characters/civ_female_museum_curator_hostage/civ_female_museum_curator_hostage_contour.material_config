@@ -1,0 +1,38 @@
+<materials version="3" group="civ_female_museum_curator_hostage">
+
+	<material version="2" unique="true" name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_nm"/>
+		<diffuse_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material version="2" unique="true" name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_head_nm"/>
+		<diffuse_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_head_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+
+	<material version="2" unique="true" name="mtr_body_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_nm" />
+		<diffuse_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+
+	<material version="2" unique="true" name="mtr_head_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_head_nm" />
+		<diffuse_texture file="units/pd2_skirmish/characters/civ_female_museum_curator_hostage/civ_female_museum_curator_hostage_head_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+
+	<material version="2" unique="true" name="mtr_tape" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+		<bump_normal_texture file="units/pd2_skirmish/characters/civ_male_bank_manager_hostage/acc_duct_tape_nm"/>
+		<diffuse_texture file="units/pd2_skirmish/characters/civ_male_bank_manager_hostage/acc_duct_tape_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+</materials>

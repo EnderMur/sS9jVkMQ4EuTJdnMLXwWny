@@ -1,0 +1,27 @@
+<dynamic_object>
+	<diesel materials="units/world/props/street/parking_meter/parking_meter" orientation_object="rp_parking_meter" />
+	<sequence_manager file="units/world/props/street/parking_meter/parking_meter" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_parking_meter" />
+			<object name="c_parking_meter_01" collision_type="box" padding="-2.5" />
+			<object name="c_parking_meter_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_static_root" enabled="false" template="static">
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic" enabled="false" template="dynamic" ang_damping="0.9">
+			<object name="c_parking_meter_01" collision_type="box" padding="0" mass="5" />
+			<object name="c_parking_meter_02" collision_type="box" padding="0" mass="5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_parking_meter" enabled="true" shadow_caster="true" instance_struct="world_tm"  />
+		<object name="g_parking_meter_dmg_02" enabled="false" instance_struct="world_tm"  />
+		<object name="g_parking_meter_dmg_01" enabled="false" instance_struct="world_tm"  />
+		<object name="s_parking_meter" enabled="false" instance_struct="world_tm"  />
+	</graphics>
+</dynamic_object>

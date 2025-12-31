@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" orientation_object="rp_str_veg_potted_plant" />
+  
+    <bodies>
+		<body name="static_body" enabled="true" template="static">
+		<object name="rp_str_veg_potted_plant"/>
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+  
+	<decal_surfaces default_material="foliage" static="true">
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+		<decal_mesh name="dm_plant" enabled="true" material="foliage" />
+	</decal_surfaces>
+  
+	<graphics>
+		<object name="g_plant" enabled="true" shadow_caster="true"/>
+		<object name="s_plant" enabled="true" shadow_caster="false"/>
+	</graphics>
+</dynamic_object> 

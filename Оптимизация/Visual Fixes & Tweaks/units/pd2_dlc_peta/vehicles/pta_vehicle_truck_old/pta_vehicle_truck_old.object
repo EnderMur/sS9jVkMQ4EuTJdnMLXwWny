@@ -1,0 +1,59 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_peta/vehicles/pta_vehicle_truck_old/pta_vehicle_truck_old" orientation_object="rp_pta_vehicle_truck_old" />
+	<sequence_manager file="units/pd2_dlc_peta/vehicles/pta_vehicle_truck_old/pta_vehicle_truck_old" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pta_vehicle_truck_old" />
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_front" enabled="true" template="static">
+			<object name="c_glass_front" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_back" enabled="true" template="static">
+			<object name="c_glass_back" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_right" enabled="true" template="static">
+			<object name="c_glass_right" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_left" enabled="true" template="static">
+			<object name="c_glass_left" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_back_right" enabled="true" template="static">
+			<object name="c_glass_back_right" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_window_back_left" enabled="true" template="static">
+			<object name="c_glass_back_left" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_cloth_stuffed" enabled="true" material="cloth_stuffed" />
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_back_left" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_back_right" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_back" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_left" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_front" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_right" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+	</decal_surfaces>
+		<graphics>
+			<object name="g_lod0" enabled="true" shadow_caster="true" />
+			<object name="g_lod1" enabled="false" />
+			<object name="g_lod2" enabled="false" />
+			<object name="g_glass_right" enabled="true" />
+			<object name="g_glass_right_dmg" enabled="false" />
+			<object name="g_glass_left" enabled="true" />
+			<object name="g_glass_left_dmg" enabled="false" />
+			<object name="g_glass_front" enabled="true" />
+			<object name="g_glass_front_dmg" enabled="false" />
+			<object name="g_glass_back" enabled="true" />
+			<object name="g_glass_back_dmg" enabled="false" />
+			<object name="g_glass_back_right" enabled="true" />
+			<object name="g_glass_back_right_dmg" enabled="false" />
+			<object name="g_glass_back_left" enabled="true" />
+			<object name="g_glass_back_left_dmg" enabled="false" />
+			<object name="s_s" enabled="false" shadow_caster="false" />
+		</graphics>
+</dynamic_object>

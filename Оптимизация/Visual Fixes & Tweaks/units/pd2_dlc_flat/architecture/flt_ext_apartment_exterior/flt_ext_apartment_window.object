@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" orientation_object="rp_flt_ext_apartment_window" />
+	<sequence_manager file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" />
+	<bodies>
+		<body name="glass_body" enabled="true" template="window">
+			<object name="c_box_glass" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="frame_body" template="static" enabled="true" >
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+	    </body>	    
+	</bodies>
+
+	<decal_surfaces default_material="wood" static="true">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_lod0" shadow_caster="true" />
+        <object enabled="true" name="g_g_dmg" shadow_caster="true" />
+		<object enabled="true" name="g_glass" />
+		<object enabled="false" name="s_s" shadow_caster="false" />
+		<object enabled="false" name="s_s_dmg" shadow_caster="false" />
+    </graphics>
+</dynamic_object>

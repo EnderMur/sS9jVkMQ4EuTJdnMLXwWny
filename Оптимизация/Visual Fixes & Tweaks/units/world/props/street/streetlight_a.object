@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/streetlights" orientation_object="rp_streetlight_a" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_streetlight_a" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_streetlight_a" shadow_caster="true" enabled="true" />
+  </graphics>
+</dynamic_object>

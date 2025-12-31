@@ -1,0 +1,8 @@
+<materials version="3" group="weapon_victor">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_upper" version="2">
+        <diffuse_texture file="units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/victor_upper_df" mip="1" /> 
+        <material_texture file="units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/victor_upper_gsma" mip="1" />
+        <bump_normal_texture file="units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/victor_upper_nm" mip="1" />
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

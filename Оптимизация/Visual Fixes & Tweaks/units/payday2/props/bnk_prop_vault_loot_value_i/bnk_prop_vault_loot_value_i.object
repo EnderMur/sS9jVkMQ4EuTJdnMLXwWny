@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_vault_loot_i" materials="units/payday2/props/bnk_prop_vault_loot_value_i/bnk_prop_vault_loot_value_i" />
+    <sequence_manager file="units/payday2/props/bnk_prop_vault_loot_value_i/bnk_prop_vault_loot_value_i" />
+	<bodies>
+		<body name="body_mesh" enabled="true" template="static">
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="dm_wood" enabled="true" material="wood"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+     <graphic_group name="grp_outline" enabled="true" >
+         <lod_object name="lod_outline">
+             <object name="g_outline_lod0" enabled="true"  max_distance="300" />
+             <object name="g_outline_lod1" enabled="true" />
+         </lod_object>
+     </graphic_group>   
+    </graphics>
+</dynamic_object>

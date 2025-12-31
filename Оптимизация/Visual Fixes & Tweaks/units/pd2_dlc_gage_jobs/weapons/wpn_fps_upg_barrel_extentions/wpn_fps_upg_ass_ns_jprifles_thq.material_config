@@ -1,0 +1,8 @@
+<materials version="3" group="weapon_group">
+    <material name="mtr_jprifles" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/jprifles_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/jprifles_nm" mip="1"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

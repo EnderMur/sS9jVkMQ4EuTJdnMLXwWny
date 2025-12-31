@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_balcony_table_large" materials="units/payday2/props/lxa_prop_balcony_table_large/lxa_prop_balcony_table_large" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_lxa_prop_balcony_table_large" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces>
+        <decal_mesh enabled="true" name="c_box_01" material="wood" /> 
+        <decal_mesh enabled="true" name="c_box_02" material="wood" /> 
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_mesh" shadow_caster="true" />
+    </graphics>
+</dynamic_object>
+
+

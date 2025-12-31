@@ -1,0 +1,27 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_ext_dock_crane_container" materials="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_container" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_ind_ext_dock_crane_container" />
+			<object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+            <object collision_type="box" name="c_box_04" />
+            <object collision_type="box" name="c_box_05" />
+            <object collision_type="box" name="c_box_06" />
+            <object collision_type="box" name="c_box_07" />
+            <object collision_type="box" name="c_box_08" />
+            <object collision_type="mesh_mopp" name="c_convex_01" />
+            <object collision_type="mesh_mopp" name="c_convex_02" />
+        </body>
+    </bodies>
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_planes" 	shadow_caster="true"/>
+        <object enabled="true" name="g_glass"  	shadow_caster="true"/>
+        <object enabled="true" name="g_crane" 	shadow_caster="true"/>
+        <object enabled="true" name="s_s" 		shadow_caster="false"/>
+    </graphics>
+</dynamic_object>

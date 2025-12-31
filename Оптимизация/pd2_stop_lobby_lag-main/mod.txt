@@ -1,0 +1,29 @@
+{
+	"name" : "Stop Lobby Lag",
+	"description" : "Stops the lag, that happens when players in the lobby keep changing skills, weapons and such",
+	"author" : "vojin154",
+	"contact" : "vojin154 (Discord)",
+	"version" : "1.5.2",
+	"updates": [
+		{
+			"identifier": "stop_lobby_lag",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/vojin154/pd2_stop_lobby_lag/main/meta.json"
+			}
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id": "lib/network/base/basenetworksession",
+			"script_path": "hooks/basenetworksession.lua"
+		},
+		{
+			"hook_id": "lib/network/base/handlers/connectionnetworkhandler",
+			"script_path": "hooks/connectionnetworkhandler.lua"
+		},
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "hooks/menumanager.lua"
+		}
+	]
+}

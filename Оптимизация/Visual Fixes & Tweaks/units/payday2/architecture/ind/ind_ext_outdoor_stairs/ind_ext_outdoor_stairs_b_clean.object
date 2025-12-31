@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/ind/ind" orientation_object="rp_ind_ext_outdoor_stairs_b_clean" />
+	<bodies>
+        <body name="static_body" template="mover_blocker" enabled="true" add_ray_type="walk">
+            <object name="rp_ind_ext_outdoor_stairs_b_clean"/>
+			<object name="c_box_ramp_01" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_railing_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_railing_02" collision_type="convex" padding="-2.5"/>
+        </body>
+		 <body name="bullet_only" template="static" collides_with_mover="false" enabled="true" remove_ray_type="walk" >
+			<object name="c_box_bullet_only_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bullet_only_13" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_bullet_only_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_bullet_only_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_bullet_only_03" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_bullet_only_04" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_bullet_only_05" collision_type="capsule" padding="-2.5"/>
+        </body>
+
+    </bodies>
+	
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_metal_hollow" material="metal_hollow" />
+    </decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_ind_ext_outdoor_stairs_b_clean" shadow_caster="true" />
+		<object enabled="true" name="s_s" />
+
+
+    </graphics>
+</dynamic_object> 

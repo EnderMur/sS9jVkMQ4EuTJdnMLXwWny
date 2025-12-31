@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_cro/vehicles/air_interactable_cessna_206/air_interactable_vehicle_cessna_206" orientation_object="rp_cessna_02" />
+	<sequence_manager file="units/pd2_dlc_cro/vehicles/air_interactable_cessna_206/air_interactable_vehicle_cessna_206" />
+	<animations>
+		<animation_group name="ag_propeller_start">
+			<object name="a_propeller_start" />
+		</animation_group>
+		<animation_group name="ag_propeller">
+			<object name="a_propeller" />
+		</animation_group>
+		<animation_group name="ag_propeller_stop">
+			<object name="a_propeller_stop" />
+		</animation_group>
+		<animation_group name="ag_door_pilot">
+			<object name="a_door_pilot" />
+		</animation_group>
+		<animation_group name="ag_door_passanger_back">
+			<object name="a_door_passanger_back" />
+			<object name="a_door_passanger_front" />
+		</animation_group>
+		<animation_group name="ag_land">
+			<object name="a_land" />
+			<object name="a_propeller" />
+			<object name="a_wheel_back" />
+			<object name="a_wheel_front" />
+		</animation_group>
+		<animation_group name="ag_drive_in_1">
+			<object name="a_drive_in_1" />
+		</animation_group>
+		<animation_group name="ag_drive_in_2">
+			<object name="a_drive_in_2" />
+		</animation_group>
+		<animation_group name="ag_drive_in_3">
+			<object name="a_drive_in_3" />
+		</animation_group>
+		<animation_group name="ag_drive_in_4">
+			<object name="a_drive_in_4" />
+		</animation_group>
+		<animation_group name="ag_drive_in_5">
+			<object name="a_drive_in_5" />
+		</animation_group>
+		<animation_group name="ag_takeof">
+			<object name="a_takeof" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_door_pilot" enabled="true" template="animated">
+			<object name="a_door_pilot" />
+			<object name="c_mesh_mopp_door_pilot_01" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_door_passanger_front" enabled="true" template="animated">
+			<object name="a_door_passanger_front" />
+			<object name="c_mesh_mopp_door_passanger_front_01" collision_type="convex" />
+		</body>
+		<body name="body_door_passanger_back" enabled="true" template="animated">
+			<object name="a_door_passanger_back" />
+			<object name="c_mesh_mopp_door_passanger_back_01" collision_type="convex" />
+		</body>
+
+		<body name="body_cesna" enabled="true" template="animated">
+			<object name="a_takeof" />
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+			<object name="c_meshmopp" collision_type="mesh_mopp" />
+		</body>
+		
+		<body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="body_blocker_graph" collision_type="box" padding="25" />
+		</body>
+
+		<body name="body_player_blocker" enabled="true" template="mover_blocker" keyframed="true">
+			<object name="a_takeof" />
+			<object name="c_box_playerblocker" collision_type="box"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood" static="true">
+		<decal_mesh name="g_cessna" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_driver" enabled="true" shadow_caster="true" />
+		<object name="g_cessna" enabled="true" shadow_caster="true" />
+		<object name="g_door_passanger_back" enabled="true" shadow_caster="true" />
+		<object name="g_door_passanger_front" enabled="true" shadow_caster="true" />
+		<object name="g_door_pilot" enabled="true" shadow_caster="true" />
+		<object name="g_propeller" enabled="true" shadow_caster="true" />
+		<object name="g_seats_back" enabled="true" shadow_caster="true" />
+		<object name="g_seats_front" enabled="true" shadow_caster="true" />
+		<object name="g_seats_middle" enabled="true" shadow_caster="true" />
+		<object name="g_wheel_back" enabled="true" shadow_caster="true" />
+		<object name="g_wheel_front" enabled="true" shadow_caster="true" />
+		<object name="g_wheel_front_holder" enabled="true" shadow_caster="true" />
+		<object name="g_window_passanger_back" enabled="true" shadow_caster="true" />
+		<object name="g_window_passanger_front" enabled="true" shadow_caster="true" />
+		<object name="g_window_pilot" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_01" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_02" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_03" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_04" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_05" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_06" enabled="true" shadow_caster="true" />
+		<object name="g_window_static_07" enabled="true" shadow_caster="true" />
+		<object name="s_cessna" enabled="false" />
+		<object name="s_door_passanger_back" enabled="false"  />
+		<object name="s_door_passanger_front" enabled="false"  />
+		<object name="s_door_pilot" enabled="false" />
+		<object name="s_propeller" enabled="false" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_trashbin" materials="units/payday2/props/com_prop_mall_trashbin/com_prop_mall_trashbin" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_box_01" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

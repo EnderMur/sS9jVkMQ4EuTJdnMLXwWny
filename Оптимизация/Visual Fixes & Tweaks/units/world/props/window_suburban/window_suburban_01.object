@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/window_suburban/window_suburban" orientation_object="rp_m" />
+  <sequence_manager file="units/world/props/window_suburban/window_suburban_01" />
+  <bodies>
+	
+	<body name="box_frame" enabled="true" template="static" remove_ray_type="walk">
+		<object name="rp_m" />
+
+		<object collision_type="box" name="c_box_top_000" padding="-2"/>
+		<object collision_type="box" name="c_box_top_001" padding="-2"/>
+		<object collision_type="box" name="c_box_top_002" padding="-2"/>
+		<object collision_type="box" name="c_box_top_003" padding="-2"/>
+
+		
+		<object collision_type="box" name="c_box_bottom_000" padding="-2"/>
+		<object collision_type="box" name="c_box_bottom_001" padding="-2"/>
+		<object collision_type="box" name="c_box_bottom_002" padding="-2"/>
+		<object collision_type="box" name="c_box_bottom_003" padding="-2"/>
+
+	</body>	
+	
+	<body name="frame" enabled="true" template="raycoll_static">
+		<object name="rp_m" />
+		<object collision_type="box" name="c_box_frame_000" padding="-2"/>
+		<object collision_type="box" name="c_box_frame_001" padding="-2"/>
+		<object collision_type="box" name="c_box_frame_002" padding="-2"/>
+		<object collision_type="box" name="c_box_frame_003" padding="-2"/>
+	</body>
+	
+	<body remove_ray_type="walk vis_graph ai_vision" name="glass" enabled="true" template="static">
+		<object name="g_glass" collision_type="box" padding="-2"/>
+	</body>
+	<body name="top_frame_dynamic" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_top_frame" collision_type="convex" material="balsa"/>
+		<object name="c_top_frame_weight" collision_type="none" mass="10"/>
+		<object name="g_top_frame"/>
+	</body>
+	<body name="bottom_frame_dynamic" enabled="false" template="dynamic" collides_with_mover="false" remove_ray_type="body">
+		<object name="c_bottom_frame" collision_type="convex" material="balsa"/>
+		<object name="c_bottom_frame_weight" collision_type="none" mass="10"/>
+		<object name="g_bottom_frame"/>
+	</body>
+  </bodies>
+  
+  <decal_surfaces default_material="glass_breakable">
+    <decal_mesh name="dm_wood_window" enabled="true" material="wood" />
+    <decal_mesh name="dm_wood" enabled="true" material="wood" />
+    <decal_mesh name="g_glass" enabled="true" material="glass_breakable" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object instance_struct="world_tm" name="g_frame"        enabled="true" shadow_caster="true" />
+    <object instance_struct="world_tm" name="g_top_frame"    enabled="true" shadow_caster="true" />
+    <object instance_struct="world_tm" name="g_bottom_frame" enabled="true" shadow_caster="true" />
+    <object instance_struct="world_tm" name="g_glass"        enabled="true"  />
+    <object instance_struct="world_tm" name="g_dmg_glass"    enabled="false"  />
+	<!-- <object instance_struct="world_tm" name="g_glass_frost"        enabled="true" />
+    <object instance_struct="world_tm" name="g_dmg_glass_frost"    enabled="false" />-->
+  </graphics>
+</dynamic_object>

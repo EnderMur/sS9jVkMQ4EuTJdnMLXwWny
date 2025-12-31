@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red_ext_plaza/red_ext_plaza" orientation_object="rp_red_ext_plaza" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_red_ext_plaza" />
+			<object name="c_bank_plaza" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_mover" enabled="true" template="nav_walk">
+			<object name="c_mover_ramp" collision_type="mesh_mopp" />
+			<object name="rp_red_ext_plaza" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_bank_plaza" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_bank_plaza" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

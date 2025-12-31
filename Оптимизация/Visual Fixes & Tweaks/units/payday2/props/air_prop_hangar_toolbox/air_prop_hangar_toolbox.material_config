@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mtr_toolbox" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox_nm"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

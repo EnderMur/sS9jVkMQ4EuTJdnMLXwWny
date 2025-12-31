@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_mxm/weapons/wpn_fps_upg_mxm_m4/wpn_fps_m4_uupg_bolt_radian" orientation_object="rp_wpn_fps_m4_bolt_edge" />
+	<graphics>
+		<object name="g_bolt" enabled="true" />
+	</graphics>
+</dynamic_object>

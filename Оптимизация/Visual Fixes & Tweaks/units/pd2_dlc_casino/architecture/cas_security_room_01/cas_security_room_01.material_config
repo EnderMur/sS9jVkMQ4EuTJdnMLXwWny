@@ -1,0 +1,46 @@
+<materials version="3">
+    <material name="mat_bnk_branch_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/bnk_branch/bnk_branch_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/bnk_branch/bnk_branch_01_nm"/>
+    </material>
+    <material name="mat_carpet_04" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_df"/>
+        <bump_normal_texture file="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_nm"/>
+    </material>
+    <material name="mat_cas_prop_vault_door" render_template="generic" version="2" />
+    <material name="mat_ceiling_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_ceiling_04_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_ceiling_04_nm"/>
+    </material> 
+    <material name="mat_corridor_floor_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_corridors_employee/cas_int_corridor_floor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/environment/cas_int/cas_corridors_employee/cas_int_corridor_floor_01_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_ext_wall_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_ext_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_ext_wall_nm"/>
+    </material>
+    <material name="mat_floor_04" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_floor_04_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_floor_04_nm"/>
+    </material>
+    <material name="mat_money_clg" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_ceiling_05_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_ceiling_05_nm"/>
+    </material>
+    <material name="mat_stairs_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/cas_int_01_b_casino_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/cas_int_01_b_nm"/>
+    </material>
+    <material name="mat_wall_07" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_07_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_07_nm"/>
+    </material>
+    <material name="mat_wall_10" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_10_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_10_nm"/>
+    </material>
+</materials>

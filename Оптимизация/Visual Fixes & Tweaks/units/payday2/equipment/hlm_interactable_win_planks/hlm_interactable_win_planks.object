@@ -1,0 +1,52 @@
+<dynamic_object>
+	<diesel orientation_object="rp_hlm_interactable_win_planks" materials="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks" />
+	<sequence_manager file="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks"/>
+	
+	<bodies>
+		<!-- Enabled by default -->
+		<body name="editor" enabled="true" template="editor">
+			<object name="rp_hlm_interactable_win_planks"/>
+			<object name="c_box_full" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<!-- Regular -->
+		<body name="planks_body" enabled="false" template="static">
+			<object name="rp_hlm_interactable_win_planks"/>
+			<object name="c_box_full" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="ai_vision_block" add_ray_type="ai_vision" remove_ray_type="body" enabled="false" template="static">
+			<object name="c_box_full" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<!-- Damaged -->
+		<body name="planks_body_damaged" enabled="false" template="static">
+			<object name="rp_hlm_interactable_win_planks"/>
+			<object name="c_box_sides_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_sides_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="ai_vision_block_damaged" add_ray_type="ai_vision" remove_ray_type="body" enabled="false" template="static">
+			<object name="rp_hlm_interactable_win_planks"/>
+			<object name="c_box_sides_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_sides_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="hardwood" >
+		<decal_mesh name="g_planks" enabled="false" material="hardwood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="plankicongroup" 	enabled="false" culling_object="g_icon">
+			<lod_object name="plank_icon">
+					<object name="g_icon" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<object name="g_planks" enabled="true" shadow_caster="true"/>
+		<object name="g_planks_dmg" enabled="false" shadow_caster="true"/>
+		
+		<object name="s_planks" enabled="true" shadow_caster="false"/>
+		<object name="s_planks_dmg" enabled="false" shadow_caster="false"/>
+	</graphics>
+	
+</dynamic_object>

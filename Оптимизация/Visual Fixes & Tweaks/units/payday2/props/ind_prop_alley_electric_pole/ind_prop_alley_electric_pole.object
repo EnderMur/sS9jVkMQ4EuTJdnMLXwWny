@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_prop_alley_electric_pole" materials="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_ind_prop_alley_electric_pole" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_hardwood" enabled="true" material="hardwood"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="mat_jewels_vtc" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_jewels_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_jewels_nm"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_jewels_il"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

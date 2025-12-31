@@ -1,0 +1,13 @@
+<materials version="3" group="weapon_51b">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_ammo_belt" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_nm"/>
+        <material_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_links" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_nm"/>
+        <material_texture file="units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/51b_ammo_belt_gsma"/>
+    </material>
+</materials>

@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone" orientation_object="rp_mcm_prop_drone" />
+	<bodies>
+		<body name="body_static" enabled="true" template="animated">
+			<object name="locator_body" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_body" enabled="true" shadow_caster="true" />
+		<object name="g_blade_1" enabled="true" shadow_caster="true" />
+		<object name="g_blade_2" enabled="true" shadow_caster="true" />
+		<object name="g_blade_3" enabled="true" shadow_caster="true" />
+		<object name="g_blade_4" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

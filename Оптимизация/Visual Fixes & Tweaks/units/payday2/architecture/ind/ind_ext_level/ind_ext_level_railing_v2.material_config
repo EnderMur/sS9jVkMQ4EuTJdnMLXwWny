@@ -1,0 +1,64 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_ind_ext_level_railing_v2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_ind_ext_level_railing_mount_v2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_ind_ext_level_railing_mount_v3" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_v3_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_ind_ext_level_railing_mount_add_v2" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_v2_df"/>
+        <variable value="dimlight" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_ind_ext_level_stairs_v2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_ind_ext_level_stairs_alpha_v2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
+        <opacity_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_alpha_df"/>
+    </material>
+    <material name="mat_ind_ext_level_stairs_alpha_shadow_v2" render_template="shadow_caster_only:ALPHA_MASKED:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_alpha_df"/>
+        <variable value="0.045000001788139" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_ind_ext_level_metal_net" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_metal_net_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_metal_net_nm"/>
+        <opacity_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_metal_net_alpha_df"/>
+    </material>
+    <material name="mat_ind_ext_level_metal_net_shadow" render_template="shadow_caster_only:ALPHA_MASKED:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_metal_net_alpha_df"/>
+        <variable value="0.045000001788139" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_ind_ext_level_railing_v3" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v3_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_nm"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_saw" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/sawblade_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="3 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="mat_cloth_blue" render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/air_prop_runway_fence_cloth_v2_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/air_prop_runway_fence_cloth_v2_nm"/>
+    </material>
+</materials>

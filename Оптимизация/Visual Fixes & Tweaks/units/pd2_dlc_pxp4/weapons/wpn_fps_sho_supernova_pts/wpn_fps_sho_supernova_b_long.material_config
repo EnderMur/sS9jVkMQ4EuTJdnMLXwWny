@@ -1,0 +1,16 @@
+<materials version="3" group="weapon_supernova">
+    <material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mtr_barrel" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_b_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_b_nm"/>
+        <material_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_b_gsma"/>
+    </material>  
+	<material name="mtr_conversion" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_conversion_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_conversion_nm"/>
+        <material_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_conversion_gsma"/>
+        <self_illumination_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_sho_supernova_pts/wpn_fps_sho_supernova_conversion_il"/>
+        <variable type="scalar" name="il_bloom" value="2"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+	</material>
+</materials>
+

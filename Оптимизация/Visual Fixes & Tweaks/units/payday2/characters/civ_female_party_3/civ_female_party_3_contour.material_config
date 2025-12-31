@@ -1,0 +1,39 @@
+<materials version="3" group="civ_female_party_3">
+	<material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_df"/>
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="mtr_head_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="mtr_head_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_head_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="mtr_body_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="mtr_body_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_party_3_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_party_3_df" />
+		<variable value="1 1 1" type="vector3" name="contour_color"/>
+		<variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+</materials>

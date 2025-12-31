@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock" orientation_object="rp_pnau_brush_rock_01_c" />
+  <graphics>
+    <object name="g_pnau_brush_rock_01_c" enabled="true" shadow_caster="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

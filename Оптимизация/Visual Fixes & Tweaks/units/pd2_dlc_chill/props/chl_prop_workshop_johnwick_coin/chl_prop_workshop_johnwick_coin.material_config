@@ -1,0 +1,8 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_coin" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_workshop_johnwick_coin/chl_prop_workshop_johnwick_coin_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_workshop_johnwick_coin/chl_prop_workshop_johnwick_coin_nm"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_prop_workshop_johnwick_coin/chl_prop_workshop_johnwick_coin_gsma"/>
+    </material>
+</materials>

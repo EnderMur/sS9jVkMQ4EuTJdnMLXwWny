@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="garbage_bags" version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP">
+	    <diffuse_texture file="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_df"/>
+        <bump_normal_texture file="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_nm"/>
+    </material>
+    <material name="shadow_caster" version="2" render_template="shadow_caster_only"/>  
+</materials>

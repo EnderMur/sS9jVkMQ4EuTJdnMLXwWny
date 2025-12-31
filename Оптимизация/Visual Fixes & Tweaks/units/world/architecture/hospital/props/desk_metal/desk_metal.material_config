@@ -1,0 +1,6 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_desk_metal" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/desk_metal/desk_metal_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+</materials>

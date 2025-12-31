@@ -1,0 +1,31 @@
+<materials version="3" group="civ_male_casual_5">
+    <material name="m_micke" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/micke_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/micke_df"/>
+    </material>
+
+    <material name="mtr_casual_male_5" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_5_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_5_df"/>
+    </material>
+	
+    <material name="m_micke_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/micke_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/micke_df" />
+    </material>
+    <material name="m_micke_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/micke_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/micke_df" />
+    </material>
+
+    <material name="mtr_casual_male_5_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_5_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_5_df" />
+    </material>
+    <material name="mtr_casual_male_5_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_5_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_5_df" />
+    </material>
+	
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

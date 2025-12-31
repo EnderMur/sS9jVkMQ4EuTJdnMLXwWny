@@ -1,0 +1,32 @@
+{
+	"name": "The Fixes Preventer",
+	"description": "Extensive configuration for The Fixes",
+	"author": "andole",
+	"version": "24 (TF31)",
+	"blt_version" : 2.0,
+	"priority" : -9,
+	"color" : "0 0.6 0.286",
+	"contact": "\n http://steamcommunity.com/id/andole/",
+
+    "updates" :
+    [
+        {
+            "identifier" : "TheFixesPreventer",
+            "host":
+            {
+                "meta": "https://www.dropbox.com/s/3wadj0awvsda75g/meta_preventer.json?raw=1"
+            }
+        }
+    ],
+
+	"hooks": [
+		{
+			"hook_id": "core/lib/system/coresystem",
+			"script_path": "coresystem.lua"
+		},
+		{
+			"hook_id": "core/lib/setups/coresetup",
+			"script_path": "coresetup.lua"
+		}
+	]
+}

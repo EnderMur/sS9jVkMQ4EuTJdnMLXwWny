@@ -1,0 +1,37 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" orientation_object="rp_pal_prop_ext_boat" />
+	<bodies>
+		<body name="body_bag" enabled="true" template="bag" collision_class="bag_blocker">
+     		<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+    	</body>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pal_prop_ext_boat" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_010" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_g_lod1" enabled="false" />
+		<object name="g_trailer_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_trailer_lod1" enabled="false" />
+		<object name="s_s" enabled="false" shadow_caster="false" />
+	</graphics>
+</dynamic_object>
+
+

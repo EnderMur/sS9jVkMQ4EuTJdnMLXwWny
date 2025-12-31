@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_ceiling_lamp_long" materials="units/payday2/props/com_prop_mall_ceiling_lamp/com_prop_mall_ceiling_lamp" />
+	<sequence_manager file="units/payday2/props/com_prop_mall_ceiling_lamp/com_prop_mall_ceiling_lamp_long" />
+ <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_com_prop_mall_ceiling_lamp_long"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+		<object enabled="false" name="g_dmg" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

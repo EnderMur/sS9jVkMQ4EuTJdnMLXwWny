@@ -1,0 +1,48 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_ext_gallery_stair_spiral" materials="units/payday2/architecture/com_ext_gallery/com_ext_gallery_stair_spiral" />
+    <bodies>
+        <body name="slope_body" enabled="true" template="nav_walk" >
+            <object collision_type="mesh_mopp" name="c_slope" />
+        </body>
+		<body  name="mover_body" enabled="true" template="fence" >
+            <object collision_type="mesh_mopp" name="c_mesh_mopp_mover_rail" />
+        </body>
+		<body name="bullet_body" enabled="true" template="static" collision_class="bag_blocker" collides_with_mover="false">
+			<object name="rp_com_ext_gallery_stair_spiral"/>
+			
+			<object name="c_mesh_mopp_sides" collision_type="mesh_mopp"/>
+			
+			<object name="c_box_000" collision_type="box" padding="-2"/>
+			
+			<object name="c_box_raycol_000" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_002" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_003" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_004" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_005" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_006" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_007" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_008" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_009" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_010" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_011" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_012" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_013" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_014" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_015" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_016" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_017" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_018" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_019" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_020" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_021" collision_type="box" padding="-2"/>
+			<object name="c_box_raycol_022" collision_type="box" padding="-2"/>
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

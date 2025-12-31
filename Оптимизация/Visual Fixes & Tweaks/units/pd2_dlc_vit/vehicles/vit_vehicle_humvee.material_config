@@ -1,0 +1,35 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_elements" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/humvee_elements_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/vehicles/humvee_elements_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_glass" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/humvee_glass_df"/>
+        <bump_normal_texture file="units/payday2/textures/blank_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0.89100004232023"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_humvee" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/humvee_chassis_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/vehicles/humvee_chassis_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP" name="mat_wheel" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/humvee_wheel_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/vehicles/humvee_wheel_nm"/>
+       <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_il_lights" version="2">
+        <self_illumination_texture file="units/pd2_dlc_vit/vehicles/humvee_il_il"/>
+        <variable type="scalar" name="il_multiplier" value="streetlight"/>
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/humvee_il_il"/>
+        <variable type="scalar" name="il_bloom" value="0.083000003942288"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED" name="mat_il_lightray" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/vehicles/hummer_headlight_lightray_df"/>
+        <variable type="scalar" name="intensity" value="neonsign"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

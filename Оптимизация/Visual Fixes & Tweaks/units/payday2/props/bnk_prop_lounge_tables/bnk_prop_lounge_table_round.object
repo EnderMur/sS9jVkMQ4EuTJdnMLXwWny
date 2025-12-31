@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_lounge_table_round" materials="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_tables" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_bnk_prop_lounge_table_round" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_bnk_prop_lounge_table_round" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

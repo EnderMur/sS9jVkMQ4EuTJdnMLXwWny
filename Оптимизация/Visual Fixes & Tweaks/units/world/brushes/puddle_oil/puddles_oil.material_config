@@ -1,0 +1,8 @@
+<materials version="3">
+    <material version="2" decal_material="water_puddle" name="oil_puddle" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+        <variable value="1.3399999141693 0.81000000238419 0.28000000119209" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/brushes/puddle_oil/puddles_oil_df"/>
+        <diffuse_texture file="units/world/brushes/puddle_oil/puddles_oil_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

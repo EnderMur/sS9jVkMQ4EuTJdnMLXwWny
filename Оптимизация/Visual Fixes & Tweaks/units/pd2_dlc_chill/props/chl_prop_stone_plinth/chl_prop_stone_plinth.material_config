@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_chl_prop_stone_plinth" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_stone_plinth/chl_prop_stone_plinth_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_stone_plinth/chl_prop_stone_plinth_nm"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_prop_stone_plinth/chl_prop_stone_plinth_gsma"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_car_interior" type="cubemap"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

@@ -1,0 +1,13 @@
+{
+	"name": "Recently Played Fix",
+	"description": "",
+	"author": "MetroLine",
+	"version" : "2",
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/network/base/basenetworksession",
+			"script_path": "basenetworksession.lua"
+		}
+	]
+}

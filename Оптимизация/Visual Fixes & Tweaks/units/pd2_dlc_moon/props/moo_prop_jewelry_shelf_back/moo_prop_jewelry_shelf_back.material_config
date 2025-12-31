@@ -1,0 +1,38 @@
+<materials version="3">
+    <material name="mat_jewelry_counter" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_jewelry_b_counters/com_prop_jewelry_b_counters_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_jewelry_b_counters/com_prop_jewelry_b_counters_nm"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+	<material decal_material="glass_breakable" name="mat_counter_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+		<variable name="fresnel_settings" type="vector3" value="2 1 0.59999996423721" />
+		<opacity_texture file="units/payday2/glass/glass_clear_small_op" />
+		<diffuse_texture file="units/payday2/glass/glass_clear_small_blue_df" />
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material name="mat_gold" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/payday2/props/com_prop_jewelry_counters/com_prop_jewelry_counters_df" />
+		<reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap" />
+		<variable name="environment_settings" type="vector3" value="1 0 2" />
+		<bump_normal_texture file="units/payday2/props/com_prop_jewelry_counters/com_prop_jewelry_counters_nm" />
+		<self_illumination_texture file="units/payday2/props/com_prop_jewelry_counters/com_prop_jewelry_counters_il" />
+		<variable name="il_multiplier" type="scalar" value="sun" />
+	</material>
+	<material name="sunray" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" version="2">
+		<diffuse_texture file="units/payday2/props/com_prop_jewelry_counters/com_prop_jewelry_sunray_df" />
+		<variable name="uv0_speed" type="vector3" value="0 -0.19199991226196 0" />
+		<variable name="intensity" type="scalar" value="desklight" />
+		<variable name="falloff_exp" type="scalar" value="9.9999997473788e-005" />
+		<variable name="fadeout_distance" type="scalar" value="396" />
+	</material>
+	<material name="sunray_thin" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" version="2">
+		<diffuse_texture file="units/payday2/props/com_prop_jewelry_counters/com_prop_jewelry_sunray_df" />
+		<variable name="uv0_speed" type="vector3" value="0 -0.19199991226196 0" />
+		<variable name="intensity" type="scalar" value="desklight" />
+		<variable name="falloff_exp" type="scalar" value="1.0101000070572" />
+		<variable name="fadeout_distance" type="scalar" value="396" />
+	</material>
+	<material name="mat_bulletproof_tag" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_moon/props/moo_prop_jewelry_shelf_back/moo_prop_jewelry_shelf_back_bulletproof_tag_df" />
+	</material>
+</materials>

@@ -1,0 +1,24 @@
+<materials version="3">
+	<material name="mat_dollar" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2_cash/safe_room/100_dollar_bill_front_df"  />
+	</material>
+	<material name="mat_dollar_lod" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2_cash/safe_room/100_dollar_bill_front_df" mip="4" />
+	</material>
+	<material name="mat_lootbag" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_df"  />
+		<bump_normal_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm"  />
+	</material>
+	<material name="mat_lootbag_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_df" mip="4" />
+		<bump_normal_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm" mip="4" />
+	</material>
+	<material name="mat_money_wrapped" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_jerry/airplane/money_stack_wrapped_df"  />
+		<bump_normal_texture file="units/pd2_dlc_jerry/airplane/money_stack_wrapped_nm" />
+	</material>
+	<material name="mat_money_wrapped_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_jerry/airplane/money_stack_wrapped_df" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_jerry/airplane/money_stack_wrapped_nm" mip="4" />
+	</material>
+</materials>

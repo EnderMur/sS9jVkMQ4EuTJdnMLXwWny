@@ -1,0 +1,11 @@
+<materials version="3" group="civ_male_bartender_chill">
+    <material name="m_martin" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/martin_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/martin_df" />
+    </material>
+	<material name="mtr_bartender_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_male_bartender_body_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_male_bartender_body_df" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

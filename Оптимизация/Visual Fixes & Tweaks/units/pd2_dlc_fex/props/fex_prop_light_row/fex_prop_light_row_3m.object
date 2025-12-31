@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/props/fex_prop_light_row/fex_prop_light_row" orientation_object="rp_fex_prop_light_row_3m" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_fex_prop_light_row_3m" />
+			<object name="g_g" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+		<object name="g_glow" enabled="true" />
+	</graphics>
+</dynamic_object>

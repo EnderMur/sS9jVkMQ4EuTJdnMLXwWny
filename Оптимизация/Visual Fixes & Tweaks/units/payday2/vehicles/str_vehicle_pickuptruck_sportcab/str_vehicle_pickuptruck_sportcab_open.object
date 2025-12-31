@@ -1,0 +1,67 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_vehicle_pickuptruck_sportcab_open" materials="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" />
+	<sequence_manager file="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" />
+    <bodies>
+    	<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" />
+		</body>
+		<body name="graph_blocker" enabled="true" template="graph_blocker">
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="mesh_mopp" name="c_str_vehicle_pickuptruck_sportcab" />
+        </body>
+		<body name="window_front" enabled="true" template="static">
+			<object name="c_glass_front" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_front" enabled="true" template="static">
+			<object name="c_glass_front_l" collision_type="mesh_mopp" two_sided="true" />
+		</body>	
+		<body remove_ray_type="ai_vision" name="window_right_front" enabled="true" template="static">
+			<object name="c_glass_front_r" collision_type="mesh_mopp" two_sided="true" />
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_middle" enabled="true" template="static">
+			<object name="c_glass_middle_l" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_right_middle" enabled="true" template="static">
+			<object name="c_glass_middle_r" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body name="window_back" enabled="true" template="static">
+			<object name="c_glass_back" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass_lights" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_rubber_tires" material="rubber" />
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="metal_chassis" />
+        <decal_mesh enabled="true" name="dm_plastic" material="rubber" />
+        <decal_mesh enabled="true" name="dm_glass_back" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_front" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_middle_l" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_middle_r" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_front_l" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_front_r" material="glass_breakable" />
+    </decal_surfaces>
+    <graphics>
+		<object name="g_body_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_body_lod1" enabled="false"  />
+		<object name="g_body_lod2" enabled="false" />
+        <object name="g_mullplan" enabled="false"/>
+        <object enabled="true" name="g_str_vehicle_pickuptruck_sportcab" />
+        <object enabled="true" name="g_glass_lights" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_back_dmg" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_back" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_front" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_front_dmg" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_middle_l" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_middle_l_dmg" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_middle_r" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_middle_r_dmg" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_front_l" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_front_l_dmg" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_front_r_dmg" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_front_r" instance_struct="world_tm" />
+		<object name="s_pickup" enabled="true" shadow_caster="true" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

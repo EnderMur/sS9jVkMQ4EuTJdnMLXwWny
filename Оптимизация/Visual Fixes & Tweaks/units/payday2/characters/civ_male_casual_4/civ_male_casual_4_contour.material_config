@@ -1,0 +1,40 @@
+<materials version="3" group="civ_male_casual_4">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="m_jakob">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="m_jakob_lod1">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="m_jakob_lod2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_civ_casual_4">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_civ_casual_4_lod1">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_civ_casual_4_lod2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

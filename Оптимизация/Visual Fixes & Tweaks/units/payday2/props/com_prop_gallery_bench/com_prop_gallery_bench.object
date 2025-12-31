@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bench" materials="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_bench" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_02" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth sa" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

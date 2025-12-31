@@ -1,0 +1,15 @@
+<materials version="3" group="npc_yakuza_guard_2">
+    <material version="2" unique="true" name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_2/npc_yakuza_guard_2_head_nm" />
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_2/npc_yakuza_guard_2_head_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_nm" />
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_yakuza_guard_1/npc_yakuza_guard_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster"/>
+</materials>

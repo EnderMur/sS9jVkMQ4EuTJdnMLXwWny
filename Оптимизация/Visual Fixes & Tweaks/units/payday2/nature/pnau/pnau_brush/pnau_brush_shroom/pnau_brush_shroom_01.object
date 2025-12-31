@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/nature/pnau/pnau_brush/pnau_brush_shroom/pnau_brush_shroom" orientation_object="rp_pnau_brush_shroom_01" />
+  <graphics>
+    <object name="g_pnau_brush_shroom_01" enabled="true" shadow_caster="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_zombie_all" materials="units/world/props/zombie_toys/zombie_toys" />
+	 <bodies>	
+		<body enabled="true" template="editor" name="static_body" >
+			<object name="rp_zombie_all"/>
+			<!--object collision_type="box" name="c_box" /-->
+			<object collision_type="box" name="g_zombies_all" />
+		</body>
+	 </bodies>	
+    <graphics>
+        <object enabled="true" name="g_zombies_all" shadow_caster="true" />		
+    </graphics>
+</dynamic_object>

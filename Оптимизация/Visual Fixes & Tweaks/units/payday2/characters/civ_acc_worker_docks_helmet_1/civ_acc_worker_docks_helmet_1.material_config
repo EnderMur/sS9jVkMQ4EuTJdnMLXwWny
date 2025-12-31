@@ -1,0 +1,14 @@
+<materials version="3">
+	<material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/harbor_worker_1_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/harbor_worker_1_df"/>
+	</material>
+	<material name="mtr_body_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/harbor_worker_1_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/harbor_worker_1_df" />
+	</material>
+	<material name="mtr_body_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/harbor_worker_1_nm" />
+		<diffuse_texture file="units/payday2/characters/shared_textures/harbor_worker_1_df" />
+	</material>
+</materials>

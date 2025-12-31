@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_night" orientation_object="rp_ind_ext_dock_crane_night" />
+	<sequence_manager file="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_night" />
+	<bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_ind_ext_dock_crane_night"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal">
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+    </decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_ind_ext_dock_crane_night" />
+        <object enabled="false" name="g_illum" />
+		<object enabled="true" name="s_s" shadow_caster="true"/>		
+	</graphics>
+	<!--effects>
+		<effect_spawner name="flashlight_1" object="e_light_1" effect="effects/payday2/particles/flares/spotlight_flare" enabled="false" assign_parent="true"/>
+		<effect_spawner name="flashlight_2" object="e_light_2" effect="effects/payday2/particles/flares/spotlight_flare" enabled="false" assign_parent="true"/>
+		<effect_spawner name="flashlight_3" object="e_light_3" effect="effects/payday2/particles/flares/spotlight_flare" enabled="false" assign_parent="true"/>
+		<effect_spawner name="flashlight_4" object="e_light_4" effect="effects/payday2/particles/flares/spotlight_flare" enabled="false" assign_parent="true"/>
+	</effects-->
+  <lights>
+		<light multiplier="searchlight" editable="true" name="ls_light_1" enabled="false" projection="true" type="plane_projection|spot|specular" far_range="3000" texture="units/lights/spot_light_projection_textures/spotprojection_08_spot_df" />
+		<light multiplier="searchlight" editable="true" name="ls_light_2" enabled="false" projection="true" type="plane_projection|spot|specular" far_range="3000" texture="units/lights/spot_light_projection_textures/spotprojection_08_spot_df" />
+		<light multiplier="searchlight" editable="true" name="ls_light_3" enabled="false" projection="true" type="plane_projection|spot|specular" far_range="6000" texture="units/lights/spot_light_projection_textures/spotprojection_08_spot_df" />
+		<light multiplier="searchlight" editable="true" name="ls_light_4" enabled="false" projection="true" type="plane_projection|spot|specular" far_range="3000" texture="units/lights/spot_light_projection_textures/spotprojection_08_spot_df" />
+	</lights>
+</dynamic_object>  

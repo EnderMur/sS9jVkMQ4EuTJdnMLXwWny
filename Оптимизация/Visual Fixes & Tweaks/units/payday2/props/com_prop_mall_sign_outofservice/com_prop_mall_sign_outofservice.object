@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_sign_outofservice" materials="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice" />
+    <bodies>
+        <body enabled="true" template="static" collides_with_mover="false" name="static_body" >
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

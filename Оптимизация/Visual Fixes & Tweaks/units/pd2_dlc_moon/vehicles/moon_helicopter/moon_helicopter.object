@@ -1,0 +1,123 @@
+<dynamic_object>
+  <animation_def name="anims/units/moo_helicopter/helicopter" />
+  <diesel materials="units/pd2_dlc_moon/vehicles/moon_helicopter/moon_helicopter" orientation_object="rp_helicopter" />
+  <sequence_manager file="units/pd2_dlc_moon/vehicles/moon_helicopter/moon_helicopter" />
+  <animations>
+	<animation_group name="ag_main_rotor">
+	  <object name="a_main_rotor" />
+	  <object name="a_second_rotor" />
+	</animation_group>
+	<animation_group name="a_main_animation">
+	  <object name="a_body" />
+	</animation_group>
+
+	<animation_group name="ag_hook_1" enabled="false">
+	  <object name="winch_wire_1" />
+	  <object name="winch_hook_1" />
+	</animation_group>
+	<animation_group name="ag_hook_2" enabled="false">
+	  <object name="winch_wire_2" />
+	  <object name="winch_hook_2" />
+	</animation_group>
+	<animation_group name="ag_hook_3" enabled="false">
+	  <object name="winch_wire_3" />
+	  <object name="winch_hook_3" />
+	</animation_group>
+	<animation_group name="ag_hook_4" enabled="false">
+	  <object name="winch_wire_4" />
+	  <object name="winch_hook_4" />
+	</animation_group>
+
+	<animation_group name="ag_door_left" enabled="false">
+	  <object name="a_door_left" />
+	</animation_group>
+	
+	<animation_group name="ag_door_right" enabled="false">
+	  <object name="a_door_right" />
+	</animation_group>
+
+  </animations>
+
+
+  <bodies>
+	<body name="static_body" enabled="true" template="animated">
+		<object name="a_body" />
+		<object name="c_body" collision_type="mesh_mopp" />
+		<object name="c_convex_door_right" collision_type="convex" />
+		<object name="c_convex_door_left" collision_type="convex" />
+
+		<!--object name="c_apartment_panicroom" collision_type="mesh_mopp" /-->
+	</body>
+	<body name="main_rotor" enabled="true" template="raycoll_static">
+	  <object name="c_main_rotor" collision_type="convex" />
+	</body>
+	<body name="second_rotor" enabled="true" template="raycoll_static">
+	  <object name="c_second_rotor" collision_type="mesh_mopp" />
+	</body>
+
+	<body name="c_winch" enabled="true" template="animated">
+	  <object name="winch_main_wire_2" />
+	  <object name="c_box_01" collision_type="box" />
+	  <object name="c_box_02" collision_type="box" />
+	  <object name="c_box_03" collision_type="box" />
+	  <object name="c_box_04" collision_type="box" />
+	  <object name="c_box_05" collision_type="box" />
+	  <object name="c_box_06" collision_type="box" />
+	  <object name="c_box_07" collision_type="box" />
+	  <object name="c_box_08" collision_type="box" />
+	  <object name="c_box_09" collision_type="box" />
+	  <object name="c_box_10" collision_type="box" />
+	  <object name="c_box_11" collision_type="box" />
+	  <object name="c_box_12" collision_type="box" />
+	  <object name="c_convex_01" collision_type="convex" />
+	  <object name="c_convex_02" collision_type="convex" />
+	  <object name="c_convex_03" collision_type="convex" />
+	  <object name="c_convex_04" collision_type="convex" />
+	</body>
+
+	
+
+  </bodies>
+  
+  <decal_surfaces default_material="metal">
+		<decal_mesh			name="dm_interior_hull"       enabled="true"       material="sheet_metal" />
+		<decal_mesh			name="dm_body_diamondheist1"  enabled="true"       material="metal_chassis" />
+		<decal_mesh			name="dm_door_right_nypd"  enabled="true"       material="metal_chassis" />
+		<decal_mesh			name="dm_door_left_nypd"  enabled="true"       material="metal_chassis" />
+		<decal_mesh			name="dm_glass"               enabled="true"       material="glass_breakable" />
+  </decal_surfaces>
+  
+ 	<graphics>   
+		<graphic_group name="gg_helicopter" enabled="true" culling_object="culling_box">
+			<object			name="s_body"						enabled="true"	shadow_caster="false"/>
+			<object			name="g_interior"					enabled="true"/>
+			<object			name="g_interior_hull"				enabled="true"/>
+
+			<object			name="g_glass_right_passenger"		enabled="true"/>
+			<object			name="g_door_right_handles"			enabled="true"/>
+			<object			name="g_door_right_diamondheist"	enabled="true"/>
+			<object			name="g_door_left_diamondheist1"	enabled="true"/>
+			<object			name="g_glass_left_passenger"		enabled="true"/>
+			<object			name="g_door_left_handles"			enabled="true"/>
+			<object			name="g_body_diamondheist"			enabled="true"/>
+			<object			name="g_glass"						enabled="true"/>
+			<object			name="g_body_diamondheist"			enabled="true"/>
+
+			<object			name="g_main_rotor"					enabled="true"/>
+			<object			name="g_second_rotor"				enabled="true"/>
+			<object			name="g_wire_box"					enabled="true"/>
+		</graphic_group>
+
+		<graphic_group name="gg_winch" enabled="true" culling_object="culling_box">
+			<object			name="g_wire"					enabled="true" shadow_caster="false"/>
+			<object			name="g_winch"					enabled="true" shadow_caster="false"/>
+			<object			name="g_hook"					enabled="true"/>
+		</graphic_group>
+
+		<object			name="g_winch_glow_1"			enabled="false"/>
+		<object			name="g_winch_glow_2"			enabled="false"/>
+		<object			name="g_winch_glow_3"			enabled="false"/>
+		<object			name="g_winch_glow_4"			enabled="false"/>
+
+	</graphics>
+</dynamic_object> 

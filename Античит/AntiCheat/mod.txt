@@ -1,0 +1,13 @@
+{
+	"name" : "PAYDAY AntiCheat™",
+	"description" : "Prevents cheating.",
+	"author" : "made by ovk",
+	"contact" : "yes",
+	"version" : "1.0",
+	"priority" : 30,
+	"hooks" : [
+        	{	"hook_id" : "lib/entry",
+        		"script_path" : "anticheat.lua"
+    		}
+	]		
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" orientation_object="rp_door" />
+	<sequence_manager file="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" />
+
+	<animations>
+		<animation_group name="door_a" enabled="false">
+			<object name="a_door_a" />
+		</animation_group>
+		<animation_group name="door_b" enabled="false">
+			<object name="a_door_b" />
+		</animation_group>
+		<animation_group name="door_c" enabled="false">
+			<object name="a_door_c" />
+		</animation_group>
+		<animation_group name="int_point" enabled="false">
+			<object name="int_" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="frame" enabled="true" template="static">
+			<object name="rp_door"/>
+			<object name="c_frame1_box" collision_type="box" padding="-2"/>
+			<object name="c_frame2_box" collision_type="box" padding="-2"/>
+			<object name="c_frame3_box" collision_type="box" padding="-2"/>
+		</body>
+		<body name="door_a" enabled="true" template="animated" remove_ray_type="walk">
+			<object name="a_door_a"/>
+			<object name="c_door_a" collision_type="box" padding="-2"/>
+			<object name="g_door_a"/>
+		</body>
+		<body name="door_b" enabled="false" template="animated" remove_ray_type="walk">
+			<object name="a_door_b"/>
+			<object name="c_door_b" collision_type="box" padding="-2"/>
+			<object name="g_door_b"/>
+		</body>
+		<body name="door_c" enabled="false" template="animated">
+			<object name="a_door_c"/>
+			<object name="c_convex_door_c_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_03" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_04" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_05" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_06" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_07" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_door_c_08" collision_type="convex" padding="-2.5"/>
+		</body>		
+		<body name="door_c_window" enabled="false" template="animated">
+			<object name="a_door_c"/>
+			<object name="c_door_c_glass" collision_type="box" padding="-2"/>
+		</body>
+
+		<body name="body_bullet_a" enabled="true" template="animated">
+			<object name="a_door_a" />
+			<object name="c_bullet_box_a" collision_type="box" padding="-2.5"/>
+		</body>		
+
+		<body name="body_bullet_b" enabled="false" template="animated">
+			<object name="a_door_b" />
+			<object name="c_bullet_box_b" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_bullet_c" enabled="false" template="animated">
+			<object name="a_door_c" />
+			<object name="c_bullet_box_c" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_frame" enabled="true" material="wood" />
+		<decal_mesh name="g_door_a" enabled="true" material="wood" />
+		<decal_mesh name="g_door_b" enabled="false" material="wood" />
+		<decal_mesh name="g_door_c" enabled="false" material="wood"  />
+		<decal_mesh name="g_door_c_glass" enabled="false" material="glass_breakable" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_b_broken" enabled="false" shadow_caster="true" />
+		<object name="g_a_broken" enabled="false" shadow_caster="true" />
+		<object name="g_a_broken_frame" enabled="false" shadow_caster="true" />
+		<object name="g_b_broken_frame" enabled="false" shadow_caster="true" />
+		<object name="g_door_a" enabled="true" shadow_caster="true" />
+		<object name="g_door_b" enabled="false" shadow_caster="true" />
+		<object name="g_door_b_handle" enabled="false" shadow_caster="true" />
+		<object name="g_door_c" enabled="false" shadow_caster="true" />
+		<object name="g_door_c_glass" enabled="false" shadow_caster="true" />
+
+		<object name="s_s_frame" enabled="true" shadow_caster="false"/>
+		<object name="s_s_a" enabled="true" shadow_caster="false"/>
+		<object name="s_s_b" enabled="false" shadow_caster="false"/>
+		<object name="s_s_c" enabled="false" shadow_caster="false"/>
+		
+		<object name="g_frame_a" enabled="true" shadow_caster="true" />
+		<object name="g_frame_b" enabled="false" shadow_caster="true" />
+
+		<graphic_group name="grp_lockpick" enabled="false">
+			<lod_object name="lod_lockpick">
+				<object name="g_icon_lockpick_lod0" enabled="true"  max_distance="300" />
+				<object name="g_icon_lockpick_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_crowbar" enabled="true">
+			<lod_object name="lod_crowbar">
+				<object name="g_icon_crowbar_lod0" enabled="true"  max_distance="300" />
+				<object name="g_icon_crowbar_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_lockpick_b" enabled="false">
+			<lod_object name="lod_lockpick_b">
+				<object name="g_icon_lockpick_b_lod0" enabled="true"  max_distance="300" />
+				<object name="g_icon_lockpick_b_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_crowbar_b" enabled="false">
+			<lod_object name="lod_crowbar_b">
+				<object name="g_icon_crowbar_b_lod0" enabled="true"  max_distance="300" />
+				<object name="g_icon_crowbar_b_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object> 

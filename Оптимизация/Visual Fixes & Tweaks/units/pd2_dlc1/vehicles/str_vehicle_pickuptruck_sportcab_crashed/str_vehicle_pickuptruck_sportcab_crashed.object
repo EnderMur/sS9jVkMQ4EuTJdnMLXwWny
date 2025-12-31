@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel materials="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed" orientation_object="rp_str_vehicle_pickuptruck_sportcab_crashed" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_c" />
+            <object collision_type="mesh_mopp" name="c_glass" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_dm" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+        <object enabled="true" name="g_glass" />
+        <object enabled="true" name="g_windshield" />
+        <object enabled="false" name="s_s" />
+    </graphics>
+</dynamic_object>

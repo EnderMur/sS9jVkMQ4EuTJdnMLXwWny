@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/survivalist/cardboard_box/cardboard_cube" orientation_object="rp_cardboard_cube" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_cardboard_cube" />
+      <object name="dm_wood" collision_type="mesh_mopp" />
+	</body>
+  </bodies>
+  
+  <decal_surfaces default_material="thin_layer">
+    <decal_mesh name="dm_wood" enabled="true" material="thin_layer"  />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_cardboard_cube" enabled="true" shadow_caster="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object> 

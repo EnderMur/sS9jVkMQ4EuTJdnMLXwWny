@@ -1,0 +1,6 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_book" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_meth_book_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_meth_book_nm"/>
+    </material>
+</materials>

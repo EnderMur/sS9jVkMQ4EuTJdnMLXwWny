@@ -1,0 +1,13 @@
+<materials version="3" group="weapon_awp">
+	<material name="mtr_wpn_fps_snp_awp_dh" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_speed_df"/>
+        <material_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_speed_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_standard_nm"/>
+    </material>
+	<material name="mtr_wpn_fps_snp_awp_dh_speed" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_speed_df"/>
+        <material_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_speed_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_snp_awp_pts/wpn_fps_snp_awp_dh_standard_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

@@ -1,0 +1,42 @@
+<materials version="3" group="civ_male_helper_2">
+   
+    <material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_nm"/>
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+     <material name="mtr_head_lod" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_nm" />
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+     <material name="mtr_head_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_nm" />
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_head_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+  
+    <material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_nm"/>
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="mtr_body_lod" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_nm" />
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="mtr_body_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_nm" />
+        <diffuse_texture file="units/pd2_dlc_cane/characters/civ_male_helper_2/civ_male_helper_2_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+   
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

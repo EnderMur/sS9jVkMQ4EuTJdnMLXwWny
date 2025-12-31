@@ -1,0 +1,40 @@
+<materials version="3" group="civ_female_casino_2">
+    <material version="2" unique="true" name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_df" />
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_nm" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_df" />
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/civ_female_casino_1_nm" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material version="2" unique="true" name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_nm"/>
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_head_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_nm" />
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_head_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_nm" />
+        <diffuse_texture file="units/pd2_dlc_casino/characters/shared_textures/jindriska_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

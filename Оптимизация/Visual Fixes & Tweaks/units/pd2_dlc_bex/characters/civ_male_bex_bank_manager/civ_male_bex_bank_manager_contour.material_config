@@ -1,0 +1,46 @@
+<materials version="3" group="civ_male_bex_bank_manager">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head">
+        <bump_normal_texture 	file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_nm"/>
+        <diffuse_texture 		file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head_lod1">
+        <bump_normal_texture    file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_nm" />
+        <diffuse_texture        file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head_lod2">
+        <bump_normal_texture    file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_nm" />
+        <diffuse_texture        file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_head_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body">
+        <bump_normal_texture 	file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_nm"/>
+        <diffuse_texture 		file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod1">
+        <bump_normal_texture    file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_nm" />
+        <diffuse_texture        file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod2">
+        <bump_normal_texture    file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_nm" />
+        <diffuse_texture        file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_body_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_tag">
+        <diffuse_texture        file="units/pd2_dlc_bex/characters/civ_male_bex_bank_manager/bex_civ_male_bank_manager_1_tag_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

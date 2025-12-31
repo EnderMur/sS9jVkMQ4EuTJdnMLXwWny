@@ -1,0 +1,51 @@
+<materials version="3" group="npc_butler">
+    <material version="2" unique="true" name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_head_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_head_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_head_lod3" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body_lod1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body_lod2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" name="mtr_body_lod3" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df" mip="4"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster"/>
+</materials>

@@ -1,0 +1,11 @@
+<materials version="3">
+	<material name="mat_chl_puck" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_hockey_puck/chl_prop_hockey_gear_puck_red_df" />
+	</material>
+	<material name="mat_puck" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_hockey_puck/chl_prop_hockey_gear_puck_red_df" />
+	</material>
+	<material name="lambert1" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_gym_sokol_hockey_puck/chl_prop_hockey_gear_puck_red_df" />
+	</material>
+</materials>

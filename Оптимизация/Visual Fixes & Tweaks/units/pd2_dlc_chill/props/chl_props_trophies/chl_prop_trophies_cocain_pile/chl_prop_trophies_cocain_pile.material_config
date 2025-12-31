@@ -1,0 +1,25 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_cocain" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_nm"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_cocain_alpha" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.039000001852401"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_cocain_vtxc" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_nm"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:VERTEX_COLOR" name="mat_cocain_alpha_vtxc" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0.14300000679214"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_cocain_alpha_small_piles" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophies_cocain_pile/chl_prop_trophies_cocain_pile_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0.023000001092441"/>
+    </material>
+</materials>

@@ -1,0 +1,75 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_prop_pillar_breakable_02"/>
+	<sequence_manager file="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_02" />
+
+	<bodies>
+		<body name="pillar_concrete" enabled="true" template="static">
+			<object name="rp_red_prop_pillar_breakable_02" />
+			<object name="g_pillar_destroyed_concrete" collision_type="mesh_mopp" />
+		</body>
+		<body name="pillar_dest_hole1" enabled="true" template="static">
+			<object name="rp_red_prop_pillar_breakable_02" />
+			<object name="c_pillar_dest_hole1" collision_type="box" />
+		</body>
+		<body name="pillar_dest_hole2" enabled="true" template="static">
+			<object name="rp_red_prop_pillar_breakable_02" />
+			<object name="c_pillar_dest_hole2" collision_type="box" />
+		</body>
+		<body name="pillar_dest_crack1" enabled="true" template="static">
+			<object name="rp_red_prop_pillar_breakable_02" />
+			<object name="c_pillar_dest_crack1" collision_type="box" />
+		</body>
+		<body name="pillar_dest_crack2" enabled="true" template="static">
+			<object name="rp_red_prop_pillar_breakable_02" />
+			<object name="c_pillar_dest_crack2" collision_type="box" />
+		</body>
+
+		<body name="dmg_1a_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_1a" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_1b_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_1b" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_1c_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_1c" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_1d_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_1d" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_1e_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_1e" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_2a_dynamic" enabled="false" template="debris" collision_group="1">
+		   <object name="c_dmg_2a" collision_type="convex" mass="1" />
+		</body>
+
+		<body name="dmg_2b_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_2b" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_2d_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_2d" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_2f_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_2f" collision_type="convex" mass="1" />
+		</body>
+
+		<body name="dmg_3a_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_3a" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_3b_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_3b" collision_type="convex" mass="1" />
+		</body>
+		<body name="dmg_3c_dynamic" enabled="false" template="debris" collision_group="2">
+		   <object name="c_dmg_3c" collision_type="convex" mass="1" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="g_pillar_destroyed_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="g_pillar_whole" enabled="true" material="marble" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_pillar_whole" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,21 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile" orientation_object="rp_chl_prop_warehouse_pallet_pile" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chl_prop_warehouse_pallet_pile" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_glod0" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

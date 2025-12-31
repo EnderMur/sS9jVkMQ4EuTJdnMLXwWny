@@ -1,0 +1,47 @@
+<materials version="3">
+    <material version="2" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_bike">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="mat_decal" version="2" render_template="decal:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_decal_df"/>
+        <opacity_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_decal_op"/>
+    </material>
+    <material name="mat_skull_ornament" unique="true" render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_part_skull_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_part_skull_nm"/>
+        <material_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_part_skull_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="3.6949437907317e-041" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="mat_skull_ornament_lod" unique="true" render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_part_skull_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_part_skull_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="mat_bike_chrome" unique="true" render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_parts_chrome_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_parts_chrome_nm"/>
+        <material_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/bike_1_parts_chrome_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="3.6949437907317e-041" type="scalar" name="contour_opacity"/>
+    </material>
+    <material version="2" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" name="lambert1">
+        <diffuse_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+</materials>

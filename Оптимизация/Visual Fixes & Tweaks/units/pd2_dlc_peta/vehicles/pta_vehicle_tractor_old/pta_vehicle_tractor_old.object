@@ -1,0 +1,42 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" orientation_object="rp_pta_vehicle_tractor_old" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pta_vehicle_tractor_old" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_05" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_06" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_lod1" enabled="false" />
+		<object name="g_lod2" enabled="false" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+</dynamic_object>

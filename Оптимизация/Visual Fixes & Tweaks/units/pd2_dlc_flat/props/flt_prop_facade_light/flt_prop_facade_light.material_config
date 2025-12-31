@@ -1,0 +1,14 @@
+<materials version="3">
+	<material name="mat_facade_light" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT" version="2">
+		<variable value="light::color" type="listener" name="il_tint" object="lo_omni"/>
+		<variable name="il_multiplier" type="scalar" value="candle" />
+		<diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_facade_light/flt_prop_facade_light_df" />
+		<self_illumination_texture file="units/pd2_dlc_flat/props/flt_prop_facade_light/flt_prop_facade_light_il" />
+		<bump_normal_texture file="units/pd2_dlc_flat/props/flt_prop_facade_light/flt_prop_facade_light_nm" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+	<material name="mat_facade_light_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_facade_light/flt_prop_facade_light_df" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_flat/props/flt_prop_facade_light/flt_prop_facade_light_nm" mip="4" />
+	</material>
+</materials>

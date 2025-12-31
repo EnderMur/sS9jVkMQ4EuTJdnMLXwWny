@@ -1,0 +1,5 @@
+<materials version="3">
+    <material version="2" name="paintings_material" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/world/props/bank/paintings/suburbia_painting_31_34_df"/>
+    </material>
+</materials>

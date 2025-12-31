@@ -1,0 +1,44 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mtr_device" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_gsma" mip="1"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_pku_device_il" mip="1"/>
+        <variable type="scalar" name="il_bloom" value="0.086000004084781"/>
+        <variable type="scalar" name="il_multiplier" value="none"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mtr_device_1" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_pku_device_il" mip="1"/>
+        <variable type="scalar" name="il_bloom" value="0.086000004084781"/>
+        <variable type="scalar" name="il_multiplier" value="match"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mtr_device_2" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_pku_device_il" mip="1"/>
+        <variable type="scalar" name="il_bloom" value="0.086000004084781"/>
+        <variable type="scalar" name="il_multiplier" value="neonsign"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mtr_device_3" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_prop_device_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/pickups/sah_pku_tablet/sah_pku_device_il" mip="1"/>
+        <variable type="scalar" name="il_bloom" value="0.086000004084781"/>
+        <variable type="scalar" name="il_multiplier" value="streetlight"/>
+    </material>
+    <material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df" mip="1"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op" mip="1"/>
+    </material>
+</materials>

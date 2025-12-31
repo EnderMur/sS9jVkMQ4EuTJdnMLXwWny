@@ -1,0 +1,42 @@
+<materials version="3" group="ene_female_civ_undercover">
+    <material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture       file="units/payday2/characters/shared_textures/johanna_bende_nm"/>
+        <diffuse_texture           file="units/payday2/characters/shared_textures/johanna_bende_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+     <material name="mtr_head_lod_1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture       file="units/payday2/characters/shared_textures/johanna_bende_nm"/>
+        <diffuse_texture           file="units/payday2/characters/shared_textures/johanna_bende_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+     <material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture    file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_nm" />
+        <diffuse_texture        file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+     <material name="mtr_body_lod_1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture    file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_nm" />
+        <diffuse_texture        file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <!--   <material name="mtr_details" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture    file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/material_details_nm" />
+        <diffuse_texture        file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/material_details_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+      <material name="mtr_details_lod_1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" unique="true" version="2" >
+        <bump_normal_texture    file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/material_details_nm" />
+        <diffuse_texture        file="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/material_details_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material -->
+
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

@@ -1,0 +1,15 @@
+<materials version="3">
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPINGLDIFFUSE_TEXTURE:NORMALMAP" name="mat_glass" version="2">
+		<diffuse_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_laser_turret" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mat_laser_turret_cables" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_ray_turret/des_ray_turret_nm"/>
+    </material>
+</materials>

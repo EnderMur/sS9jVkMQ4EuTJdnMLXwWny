@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_blueprint" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_safehouse_blueprint/chl_prop_safehouse_blueprint_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.066000003134832"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm"/>
+    </material>
+</materials>

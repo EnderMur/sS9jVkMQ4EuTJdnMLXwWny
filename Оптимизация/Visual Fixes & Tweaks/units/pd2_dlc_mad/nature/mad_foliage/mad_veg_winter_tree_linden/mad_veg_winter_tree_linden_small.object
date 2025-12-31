@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_mad/nature/mad_foliage/mad_veg_winter_tree_linden/mad_veg_winter_tree_linden" orientation_object="rp_mad_veg_winter_tree_linden_small" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mad_veg_winter_tree_linden_small" />
+			<object name="c_box_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_box_02" collision_type="capsule" padding="-2.5" />
+			<object name="c_box_03" collision_type="capsule" padding="-2.5" />
+		</body>
+		<body name="body_vision_blocker" add_ray_type="ai_vision" template="foliage" editable="true" collides_with_mover="false" enabled="true">
+			<object name="rp_mad_veg_winter_tree_linden_small" />
+			<object name="c_sphere_01" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+			<object name="g_lod0" enabled="true" instance_struct="world_tm" shadow_caster="true" />
+			<object name="g_lod1" enabled="false" instance_struct="world_tm" shadow_caster="false" />
+			<object name="g_lod2" enabled="false" instance_struct="world_tm" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

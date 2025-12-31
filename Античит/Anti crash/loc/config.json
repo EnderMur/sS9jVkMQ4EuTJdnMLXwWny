@@ -1,0 +1,13 @@
+{
+  "config": {
+    "base": {
+      "class_name": "A_Anti_Crash"
+    },
+    "safecaller": {
+      "chat_message": true,
+      "crash_notifications": 100,
+      "error_notifications": 1000,
+      "punishment": 1
+    }
+  }
+}

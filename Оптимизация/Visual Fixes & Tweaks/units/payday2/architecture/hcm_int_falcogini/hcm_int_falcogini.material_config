@@ -1,0 +1,40 @@
+<materials version="3">
+    <material name="mat_walls" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_painted_plaster_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_painted_plaster_nm"/>
+    </material>
+    <material name="mat_floor_tiles" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_floor_marble_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_floor_marble_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material name="mat_carpet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_carpet_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_carpet_nm"/>
+    </material>
+    <material name="mat_trims" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_trims_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_trims_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_int_falcogini" type="cubemap"/>
+    </material>
+    <material name="mat_trims_b" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_trims_df"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm_int_falcogini/hcm_int_falcogini_trims_nm"/>
+        <reflection_texture global_texture="current_global_texture" type="cubemap"/>
+    </material>
+    <material name="mtr_sport1" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mtr_sport2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_spotlight" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_store_spotlight/com_prop_store_spotlight_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_store_spotlight/com_prop_store_spotlight_il"/>
+        <variable value="megatron" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="chl_prop_bodhi_surfboard" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_bodhi_surfboards/chl_bodhi_surfboard_texture_df" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+</materials>

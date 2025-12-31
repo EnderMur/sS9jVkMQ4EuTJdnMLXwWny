@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/ind/ind_ext_level/ind_ext_level" orientation_object="rp_ind_ext_level_ladder_mid" />
+	<bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_ind_ext_level_ladder_mid"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_06" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_07" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_08" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_09" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_10" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_11" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_12" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_13" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_14" collision_type="capsule" padding="-2.5" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal">
+    </decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+		<object enabled="true" name="s_s" shadow_caster="false"/>
+    </graphics>
+</dynamic_object> 

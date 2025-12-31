@@ -1,0 +1,35 @@
+<materials version="3" group="npc_butler">
+    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df"/>
+    </material>
+    <material name="mtr_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df"/>
+    </material>
+    <material name="mtr_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df"/>
+    </material>
+    <material name="mtr_head_lod3" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_head_df"/>
+    </material>
+    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df"/>
+    </material>
+    <material name="mtr_body_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df"/>
+    </material>
+    <material name="mtr_body_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df"/>
+    </material>
+    <material name="mtr_body_lod3" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_nm"/>
+        <diffuse_texture file="units/pd2_dlc_chill/characters/npc_butler/npc_butler_body_df"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster"/>
+</materials>

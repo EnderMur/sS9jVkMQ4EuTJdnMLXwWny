@@ -1,0 +1,35 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_sign_shield" materials="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_shield" />
+	<sequence_manager file="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign_shield" />
+	    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="convex" name="c_convex_00" />
+		</body>
+		<body enabled="true" template="static" name="body1" >
+            <object collision_type="convex" name="c_convex_01" />
+		</body>	
+		<body enabled="true" template="static" name="body2" >	
+            <object collision_type="convex" name="c_convex_02" />
+		</body>
+		<body enabled="true" template="static" name="body3" >		
+            <object collision_type="convex" name="c_convex_03" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_plastic_1" material="plastic" />
+        <decal_mesh enabled="true" name="dm_plastic_2" material="plastic" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+        <object enabled="true" name="g_g_1" shadow_caster="true"/>
+        <object enabled="true" name="g_g_2" shadow_caster="true"/>
+        <object enabled="true" name="g_g_3" shadow_caster="true"/>
+		<object enabled="false" name="g_g_4" shadow_caster="true"/>
+        <object enabled="true" name="g_g_5" shadow_caster="true"/>
+        <object enabled="false" name="g_g_dmg_1" />
+        <object enabled="false" name="g_g_dmg_2" />
+        <object enabled="true" name="s_s" />
+    </graphics>
+</dynamic_object>

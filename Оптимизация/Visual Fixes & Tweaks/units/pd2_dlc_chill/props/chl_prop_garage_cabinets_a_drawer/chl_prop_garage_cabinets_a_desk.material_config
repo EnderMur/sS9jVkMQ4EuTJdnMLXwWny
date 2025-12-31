@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" src="GLOBAL" version="2" name="mat_cabinets">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_a_drawer/chl_prop_garage_cabinets_a_drawer_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_a_drawer/chl_prop_garage_cabinets_a_drawer_nm" />
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_prop_garage_cabinets_a_drawer/chl_prop_drawer_gsma"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

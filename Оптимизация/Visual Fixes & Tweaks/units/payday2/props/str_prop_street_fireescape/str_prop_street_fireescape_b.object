@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/str_prop_street_fireescape/str_prop_street_fireescape" orientation_object="rp_str_prop_street_fireescape_b" />
+  <bodies>
+    <body name="fireescape_01" enabled="true" template="static">
+      <object name="rp_str_prop_street_fireescape_b" />
+      <object name="c_c" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal" static="true">
+    <decal_mesh name="c_c" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_g" shadow_caster="true" enabled="true"  />
+  </graphics>
+</dynamic_object>

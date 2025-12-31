@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ranc/vegetation/ranc_prop_tree_cottonwood/ranc_prop_tree_cottonwood" orientation_object="rp_ranc_prop_tree_cottonwood" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ranc_prop_tree_cottonwood" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_lod1" enabled="false"/>
+		<object name="g_lod2" enabled="false"/>
+		<object name="s_s" enabled="false" />
+	</graphics>
+</dynamic_object>

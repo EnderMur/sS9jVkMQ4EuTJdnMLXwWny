@@ -1,0 +1,14 @@
+{
+	"anti_kill_teammate_title" : "Anti Kill Teammates",
+	"anti_kill_teammate_desc":"Anti Kill Teammates.",
+	"anti_kill_teammate_action_choice_title":"Choose action",
+	"anti_kill_teammate_action_choice_desc":"What to do when detected.",
+	"akt_action_1":"Kick(HOST ONLY)",
+	"akt_action_2":"Ban",
+        "akt_action_3":"Just chat",
+
+        "anti_kill_teammate_msg_choice_title":"Choose msg",
+        "anti_kill_teammate_msg_choice_desc":"Choose private or announce.",
+        "akt_msg_1":"Private msg",
+	"akt_msg_2":"Announce to others"
+}

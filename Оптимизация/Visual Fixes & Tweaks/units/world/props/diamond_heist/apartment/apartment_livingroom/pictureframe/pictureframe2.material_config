@@ -1,0 +1,5 @@
+<materials version="3">    
+	<material name="mtr_photoshader" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/pictureframe/t_pictureframe2_df"/>
+    </material>
+</materials>

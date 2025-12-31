@@ -1,0 +1,31 @@
+<materials version="3" group="weapon_hailstorm">
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP:TAKE_GLOBAL_LIGHT" name="mtr_mag_transparency" version="2">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.5"/>
+        <opacity_texture file="units/pd2_dlc_bbq/weapons/molotov_cocktail/textures/wpn_fps_molotov_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/magazine_transparency_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/magazine_transparency_nm"/>
+    </material>
+    <material render_template="generic_customizable:CUBE_ENVIRONMENT_MAPPING:DECAL_STICKER_UV2:DEPTH_SCALING:DIFFUSE_TEXTURE:GRADIENTMAP:NORMALMAP:PATTERN_GRADIENTMAP:PATTERN_GRADIENTMAP_ANGLE_OFFSET:PATTERN_UV2:WEAR_TEAR_MASKING" name="mtr_mag_solid" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/magazine_solid_df_cc"/>
+        <material_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/magazine_solid_gsma"/>
+        <diffuse_layer1_texture file="units/payday2_cash/safes/default/base_gradient/base_default_df"/>
+        <diffuse_layer2_texture file="units/payday2_cash/safes/default/pattern_gradient/gradient_default_df"/>
+        <diffuse_layer0_texture file="units/payday2_cash/safes/default/pattern/pattern_default_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="vector3" name="pattern_tweak" value="1 0 1"/>
+        <variable type="vector3" name="pattern_pos" value="0 0 0"/>
+        <variable type="scalar" name="wear_tear_value" value="0"/>
+        <diffuse_layer3_texture file="units/payday2_cash/safes/default/sticker/sticker_default_df"/>
+        <variable type="vector3" name="uv_scale" value="1 1 1"/>
+        <variable type="vector3" name="uv_offset_rot" value="0 0 0"/>
+        <variable type="vector3" name="cubemap_pattern_control" value="0 0 0"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/magazine_solid_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_gyrojet" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/gyrojet_df"/>
+        <material_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/gyrojet_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_hailstorm_pts/gyrojet_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_gold"/>
+    </material>
+</materials>

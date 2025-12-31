@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cone" materials="units/payday2/props/str_prop_street_cone/str_prop_street_cone" />
+	<sequence_manager file="units/payday2/props/str_prop_street_cone/str_prop_street_cone" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_cone" />
+            <object collision_type="convex" name="c_convex_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+        </body>
+		
+        <body enabled="false" template="dynamic" name="dynamic_body" >
+            <object name="rp_cone" />
+            <object collision_type="convex" name="c_convex_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

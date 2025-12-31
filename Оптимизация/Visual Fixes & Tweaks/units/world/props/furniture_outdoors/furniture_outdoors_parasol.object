@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+    <diesel materials="units/world/props/furniture_outdoors/furniture_outdoors" orientation_object="rp_parasol" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_parasol"/>
+			<object name="c_parasol" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+    <graphics>
+        <object name="g_parasol" enabled="true" shadow_caster="true"/>
+        <object name="s_parasol" enabled="false" shadow_caster="false"/>
+    </graphics>
+	<decal_surfaces default_material="wood" static="true">
+        <decal_mesh name="dm_concrete" enabled="true" material="plastic"/>
+        <decal_mesh name="dm_cloth" enabled="true" material="cloth"/>
+	</decal_surfaces>
+</dynamic_object>

@@ -1,0 +1,72 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_cars" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_backdrop_cars_df"/>
+        <variable value="sun" type="scalar" name="intensity"/>
+        <variable value="0.096000194549561 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="mat_backdrop" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_backdrop_ground_df"/>
+    </material>
+    <material name="mat_water" render_template="generic:CUBE_ENVIRONMENT_MAPPING:CUBE_ENVIRONMENT_MAPPING_WATER:DIFFUSE_TEXTURE:RL_BACKDROP:WATER_BIG" version="2">
+        <diffuse_texture file="units/world/water/water_foam_df"/>
+        <variable value="0.47619998455048 4.7067999839783 0" type="vector3" name="water_settings_c"/>
+        <variable value="0.029999999329448 0 0.096000000834465" type="vector3" name="water_settings_b"/>
+        <bump_normal_texture file="units/world/water/water_2_nm"/>
+        <variable value="0.51863521337509 0.59842520952225 0.44353869557381" type="vector3" name="water_color_a"/>
+        <variable value="0 0.019607843831182 0.090196080505848" type="vector3" name="water_color_b"/>
+        <variable value="9.9500007629395 10 82707" type="vector3" name="water_settings"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+    </material>
+	
+
+	
+    <material name="mat_buildings_far" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/backdrop_watchdogs3_buildings_far_df"/>
+    </material>
+    <material name="mat_buildings_far_il" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <variable value="sun" type="scalar" name="intensity"/>
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/backdrop_watchdogs3_buildings_far_il"/>
+    </material>
+	
+	
+    <material name="mat_stadium" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_backdrop_stadium_df"/>
+    </material>
+    <material name="mat_stadium_il" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <variable value="sun" type="scalar" name="intensity"/>
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_backdrop_stadium_df"/>
+    </material>
+	
+	
+    <material name="mat_foundation_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_base_wood_df"/>
+        <variable value="0.010000000707805" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_trees" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_backdrop_trees_df"/>
+        <variable value="0.010000000707805" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_street_lights_il" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <variable value="sun" type="scalar" name="intensity"/>
+        <diffuse_texture file="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_mat_street_lights_strip_df"/>
+    </material>
+    <material name="mat_ind_bdrop" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_bdrop_all_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_bdrop_all_nm"/>
+    </material>
+    <material name="mat_backdropstreet" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/backdropstreet_df"/>
+    </material>
+    <material name="mat_boat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/vehicles/tst_cargoship/tst_cargoship_boat_bdrop_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/tst_cargoship/tst_cargoship_boat_bdrop_nm"/>
+    </material>
+    <material name="mat_container_bdrop" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/world/props/container_backdrop/con_backdrop_df"/>
+    </material>
+    <material name="mat_boat_decal" version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF">
+        <variable value="0.048000000417233" type="scalar" name="alpha_ref"/>
+        <diffuse_texture file="units/payday2/vehicles/tst_cargoship/tst_cargoship_decals_bdrop_df"/>
+    </material>
+</materials>

@@ -1,0 +1,15 @@
+<dynamic_object>
+ <metadata material_config_group="curtain_tint_group"/>
+    <diesel orientation_object="rp_curtain_short_single" materials="units/world/props/curtain/curtain_kitchen" />
+    
+<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_curtain_short_single" />
+			<object name="c_editor_box_001" collision_type="box" />			
+		</body>	
+ </bodies>
+	
+	<graphics>
+        <object enabled="true" name="g_curtain" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

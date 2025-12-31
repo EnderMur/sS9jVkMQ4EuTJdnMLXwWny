@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_int_gallery_art_covered" materials="units/payday2/props/com_prop_int_gallery_art_covered/com_prop_int_gallery_art_covered" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

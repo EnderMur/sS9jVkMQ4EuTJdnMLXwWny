@@ -1,0 +1,13 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_boat" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_hull_wooden_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_hull_wooden_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_hull_wooden_floor_nm"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE" name="mat_mulplane" version="2">
+        <diffuse_texture file="units/payday2/props/shadow_mullplan/shadow_mullplan_df"/>
+    </material>
+</materials>

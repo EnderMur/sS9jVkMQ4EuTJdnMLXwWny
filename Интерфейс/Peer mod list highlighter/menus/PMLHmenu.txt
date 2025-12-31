@@ -1,0 +1,247 @@
+{
+	"menu_id": "PMLHmenu",
+	"parent_menu_id": "blt_options",
+	"title": "PMLH_title",
+	"description": "PMLH_desc",
+	"back_callback": "PMLHsave",
+	"items":
+	[	
+		{
+			"type" : "toggle",
+			"id" : "PMLHjoinmods",
+			"title" : "PMLHjoinmods",
+			"description" : "PMLHjoinmods_desc",
+			"callback" : "cb_PMLHjoinmods",
+			"value" : "join_mods",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "PMLH_profile_button",
+			"title" : "PMLH_profile_button",
+			"description" : "PMLH_profile_button_desc",
+			"callback" : "cb_PMLH_profile_button",
+			"value" : "profile_button",
+			"default_value" : true
+		},
+		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
+			"type" : "toggle",
+			"id" : "PMLH_folder_in_player_menu",
+			"title" : "PMLH_folder_in_player_menu",
+			"description" : "PMLH_folder_in_player_menu_desc",
+			"callback" : "cb_PMLH_folder_in_player_menu",
+			"value" : "include_mod_folder_player_menu",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "PMLH_folder_in_crimenet",
+			"title" : "PMLH_folder_in_crimenet",
+			"description" : "PMLH_folder_in_crimenet_desc",
+			"callback" : "cb_PMLH_folder_in_crimenet",
+			"value" : "include_mod_folder_crimenet",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "PMLH_folder_in_joinlist",
+			"title" : "PMLH_folder_in_joinlist",
+			"description" : "PMLH_folder_in_joinlist_desc",
+			"callback" : "PMLH_folder_in_joinlist",
+			"value" : "include_mod_folder_join",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
+			"type" : "button",
+			"id" : "PMLH_green_header",
+			"title" : "PMLH_green_header",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing"
+		},
+		{
+			"type" : "slider",
+			"id" : "Glistcolour1",
+			"title" : "PMLH_colour1",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Glist_colour1",
+			"value" : "Glistcolour1",
+			"default_value" : 0,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Glistcolour2",
+			"title" : "PMLH_colour2",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Glist_colour2",
+			"value" : "Glistcolour2",
+			"default_value" : 255,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Glistcolour3",
+			"title" : "PMLH_colour3",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Glist_colour3",
+			"value" : "Glistcolour3",
+			"default_value" : 100,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "colourshowcase1",
+			"title" : "PMLH_colourchoice",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing",
+			"value" : "colourshowcase1",
+			"default_value" : 1,
+			"min" : 0,
+			"max" : 1,
+			"step" : 0
+		},
+		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
+			"type" : "button",
+			"id" : "PMLH_yellow_header",
+			"title" : "PMLH_yellow_header",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing"
+		},
+		{
+			"type" : "slider",
+			"id" : "Ylistcolour1",
+			"title" : "PMLH_colour1",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Ylist_colour1",
+			"value" : "Ylistcolour1",
+			"default_value" : 225,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Ylistcolour2",
+			"title" : "PMLH_colour2",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Ylist_colour2",
+			"value" : "Ylistcolour2",
+			"default_value" : 200,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Ylistcolour3",
+			"title" : "PMLH_colour3",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Ylist_colour3",
+			"value" : "Ylistcolour3",
+			"default_value" : 20,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "colourshowcase2",
+			"title" : "PMLH_colourchoice",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing",
+			"value" : "colourshowcase2",
+			"default_value" : 1,
+			"min" : 0,
+			"max" : 1,
+			"step" : 0
+		},
+		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
+			"type" : "button",
+			"id" : "PMLH_red_header",
+			"title" : "PMLH_red_header",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing"
+		},
+		{
+			"type" : "slider",
+			"id" : "Rlistcolour1",
+			"title" : "PMLH_colour1",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Rlist_colour1",
+			"value" : "Rlistcolour1",
+			"default_value" : 200,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Rlistcolour2",
+			"title" : "PMLH_colour2",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Rlist_colour2",
+			"value" : "Rlistcolour2",
+			"default_value" : 0,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "Rlistcolour3",
+			"title" : "PMLH_colour3",
+			"description" : "PMLH_blank",
+			"callback" : "cb_Rlist_colour3",
+			"value" : "Rlistcolour3",
+			"default_value" : 0,
+			"min" : 0,
+			"max" : 255,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "colourshowcase3",
+			"title" : "PMLH_colourchoice",
+			"description" : "PMLH_blank",
+			"callback" : "PMLH_donothing",
+			"value" : "colourshowcase3",
+			"default_value" : 1,
+			"min" : 0,
+			"max" : 1,
+			"step" : 0
+		},
+		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
+			"type" : "button",
+			"id" : "PMLH_patch_notes",
+			"title" : "PMLH_patch_notes",
+			"description" : "PMLH_patch_notes_desc",
+			"callback" : "PMLHcb_patch_notes"
+		},
+	]
+}

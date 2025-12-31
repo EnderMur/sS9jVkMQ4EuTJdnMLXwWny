@@ -1,0 +1,30 @@
+<dynamic_object>
+    <diesel orientation_object="rp_stand" materials="units/payday2/props/com_prop_gallery_postcard_stand/com_prop_gallery_postcard_stand" />
+	<sequence_manager file="units/payday2/props/com_prop_gallery_postcard_stand/com_prop_gallery_postcard_stand" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_stand" />
+            <object name="c_box_01" collision_type="box" padding="-2.5"/>
+            <object name="c_box_02" collision_type="box" padding="-2.5"/>
+            <object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+        </body>
+        <body enabled="false" template="dynamic" name="dynamic_body" collides_with_mover="false" pushed_by_mover="false">
+            <object name="c_box_01" collision_type="box" padding="-2.5"/>
+            <object name="c_box_02" collision_type="box" padding="-2.5" mass="30"/>
+            <object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

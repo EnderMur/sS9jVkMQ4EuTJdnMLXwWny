@@ -1,0 +1,13 @@
+<materials version="3" group="weapon_deagle">
+	<material name="mat_m_ck" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture      file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/mag_ck_df" />
+        <bump_normal_texture  file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/mag_ck_nm" />
+        <material_texture     file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/mag_ck_gsma"/>
+        <reflection_texture   type="cubemap" global_texture="current_global_texture"/>
+    </material>
+	<material name="mat_bullet" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture 	  file="units/payday2/weapons/wpn_fps_pis_deagle_pts/mag_df"/>
+        <bump_normal_texture  file="units/payday2/weapons/wpn_fps_pis_deagle_pts/mag_nm"/>
+		<reflection_texture   file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+</materials>

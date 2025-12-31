@@ -1,0 +1,126 @@
+<dynamic_object>
+    <diesel orientation_object="rp_sand_vehicle_truck_boxvan" materials="units/pd2_dlc_sand/vehicles/sand_vehicle_truck_boxvan/sand_vehicle_truck_boxvan" />
+	<sequence_manager file="units/pd2_dlc_sand/vehicles/sand_vehicle_truck_boxvan/sand_vehicle_truck_boxvan" />
+    <animations>
+        <animation_group name="door_animation" >
+            <object name="anim_open" />
+        </animation_group>
+        <animation_group name="anim_door_left" enabled="false">
+        	<object name="a_door_l" />
+        </animation_group>
+        <animation_group name="anim_door_right" enabled="false">
+        	<object name="a_door_r" />
+        </animation_group>
+        <animation_group name="anim_drive" >
+            <object name="anim_car" />
+            <object name="anim_wheel_front_right" />
+            <object name="anim_wheel_back_right" />
+            <object name="anim_wheel_front_left" />
+            <object name="anim_wheel_back_left" />
+        </animation_group>
+    </animations>
+    <bodies>
+		<body name="graph_blocker" enabled="true" template="graph_blocker" keyframed="true">
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+        <body enabled="true" template="animated" name="body0" >
+            <object name="anim_car" />
+            <object collision_type="mesh_mopp" name="c_truck" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5"/>
+			
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+        </body>
+		<body name="window_front" enabled="true" template="animated">
+			<object name="c_window_front" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_front" enabled="true" template="animated">
+			<object name="c_window_left_small" collision_type="mesh_mopp" two_sided="true" />
+		</body>	
+		<body remove_ray_type="ai_vision" name="window_right_front" enabled="true" template="animated">
+			<object name="c_window_right_small" collision_type="mesh_mopp" two_sided="true" />
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_middle" enabled="true" template="animated">
+			<object name="c_window_left_big" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_right_middle" enabled="true" template="animated">
+			<object name="c_window_right_big" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body name="back_door" enabled="true" template="animated">
+			<object name="c_box_door" collision_type="box" padding="-2.5"/>
+			<object name="c_mesh_door" collision_type="mesh_mopp" />
+		</body>
+		<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker" keyframed="true">
+			<object name="c_box_bag_blocker" collision_type="box" />
+		</body>
+		<body name="body_door_r" enabled="true" template="animated">
+			<object name="a_door_r" />
+			<object name="c_box_015" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_door_l" enabled="true" template="animated">
+			<object name="a_door_l" />
+			<object name="c_box_014" collision_type="box" padding="-2.5" />
+		</body>
+    </bodies>
+    <decal_surfaces default_material="metal_chassis">
+        <decal_mesh enabled="true" name="dm_window_right_big" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_left_small" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_left_big" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_right_small" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_front" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_rubber" material="rubber" />
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="metal_chassis" />
+        <decal_mesh enabled="true" name="dm_door_sheet_metal" material="metal_chassis" />
+		<decal_mesh name="dm_sheet_metal_door_l"	enabled="true" 	material="metal_chassis" />
+		<decal_mesh name="dm_sheet_metal_door_r"	enabled="true" 	material="metal_chassis" />
+    </decal_surfaces>
+    <graphics>
+    	<graphic_group name="grp_truck" enabled="true" culling_object="co_cull">
+			<object enabled="true" name="g_truck" shadow_caster="true" />
+			<object enabled="true" name="g_door" shadow_caster="true"  />
+			<object enabled="true" name="g_door_l" shadow_caster="true" />
+			<object enabled="true" name="g_door_r" shadow_caster="true" />
+			<object enabled="true" name="s_door_l" />
+			<object enabled="true" name="s_door_r" />
+			<object enabled="true" name="g_wheel_back_left" shadow_caster="true" />
+			<object enabled="true" name="g_wheel_front_left" shadow_caster="true" />
+			<object enabled="true" name="g_wheel_back_right" shadow_caster="true" />
+			<object enabled="true" name="g_wheel_front_right" shadow_caster="true" />
+
+			<object enabled="true" name="g_window_right_big" />
+			<object enabled="true" name="g_window_left_small" />
+			<object enabled="true" name="g_window_left_big" />
+			<object enabled="true" name="g_window_right_small" />
+			<object enabled="true" name="g_window_front" />
+			<object enabled="false" name="g_window_front_dmg" />
+			<object enabled="false" name="g_window_right_small_dmg" />
+			<object enabled="false" name="g_window_left_big_dmg" />
+			<object enabled="false" name="g_window_left_small_dmg" />
+			<object enabled="false" name="g_window_right_big_dmg" />
+			<object name="g_mullplan"  	enabled="false" />
+			
+			<object name="s_s" enabled="false"/>
+			<object name="s_door" enabled="false"/>    		
+    	</graphic_group>
+    </graphics>
+</dynamic_object>

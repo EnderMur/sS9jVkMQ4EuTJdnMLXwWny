@@ -1,0 +1,25 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:EXTERNAL_ALPHA_REF:VEGETATION_BENDING" name="mat_foam" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/props/bph_prop_waveplane/foam_fringe_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.39"/>
+        <variable type="scalar" name="speed" value="0.05"/>
+        <variable type="vector3" name="detail_settings" value="0 0 0"/>
+        <variable type="vector3" name="branch_settings" value="5 2 0"/>
+        <variable type="vector3" name="uv_speed" value="0 0.019999999552965 0"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VERTEX_COLOR" name="mat_foam_tile" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/props/bph_prop_waveplane/foam_tile_df"/>
+        <variable type="scalar" name="intensity" value="sun"/>
+        <variable type="vector3" name="uv0_speed" value="-0.35399979352951 0.1000002399087 0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:CUBE_ENVIRONMENT_MAPPING_WATER:DIFFUSE_TEXTURE:RL_BACKDROP:WATER_BIG" name="mat_waveplane" version="2">
+        <diffuse_texture file="units/world/water/water_foam_df"/>
+        <variable type="vector3" name="water_settings_c" value="0.10000000149012 1 0"/>
+        <variable type="vector3" name="water_settings_b" value="0.029999999329448 0 0.096000000834465"/>
+        <bump_normal_texture file="units/world/water/water_pond_nm"/>
+        <variable type="vector3" name="water_color_a" value="0.027296576648951 0.031496047973633 0.023344129323959"/>
+        <variable type="vector3" name="water_color_b" value="0.090196080505848 0.098039217293262 0.12549020349979"/>
+        <variable type="vector3" name="water_settings" value="10 0 0"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

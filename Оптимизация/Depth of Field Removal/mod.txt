@@ -1,0 +1,7 @@
+{
+    "name" : "Depth of Field Removal",
+    "author" : "Matt & Sora",
+    "blt_version" : 2,
+    "description" : "When DoF is a piece of shit going up to the sky ...",
+    "contact" : "Use the modworkshop page"
+}

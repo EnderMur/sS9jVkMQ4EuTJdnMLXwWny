@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_a" orientation_object="rp_jry_bdrop_tree_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jry_bdrop_tree_a" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+		</body>
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" collides_with_mover="false">
+			<object name="rp_jry_bdrop_tree_a" />
+			<object name="c_sphere_01" collision_type="sphere" padding="-2.5"/>
+			<object name="c_sphere_02" collision_type="sphere" padding="-2.5"/>
+			<object name="c_sphere_03" collision_type="sphere" padding="-2.5"/>
+		</body>	
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" 	enabled="true" 		shadow_caster="true" instance_struct="world_tm" />
+		<object name="g_lod1" 	enabled="false" 	instance_struct="world_tm" />
+		<object name="g_lod2" 	enabled="false" 	instance_struct="world_tm" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,45 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/props/red_prop_globes/red_prop_globes" orientation_object="rp_red_prop_globe_pedestal"/>
+    <sequence_manager file="units/pd2_dlc_red/props/red_prop_globes/red_prop_globe_pedestal" />
+
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_red_prop_globe_pedestal" />
+			<object collision_type="box" name="c_box_000" padding="-2"/>
+			<object collision_type="box" name="c_box_001" padding="-2"/>
+			<object collision_type="box" name="c_box_002" padding="-2"/>
+			<object collision_type="box" name="c_box_003" padding="-2"/>
+			<object name="c_convex_000" collision_type="convex" />
+			<object name="c_convex_001" collision_type="convex" />
+		</body>
+		<body name="glass" enabled="true" template="static">
+			<object collision_type="sphere" name="c_sphere"/>
+		</body>
+
+		<body name="glass_dynamic" enabled="false" template="dynamic" lin_damping="0.6" ang_damping="0.6">
+			<object collision_type="sphere" mass="1000"  name="c_sphere"/>	
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="steel" static="true">
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_pedestal" enabled="true" />
+		<object name="g_world" enabled="true" shadow_caster="true"/>
+		<object name="g_stand" enabled="true" shadow_caster="true"/>
+		<object name="g_glass" enabled="true" />
+		<object name="g_glass_broken" enabled="false" />
+		<object name="g_mesh" enabled="true" shadow_caster="true"/>
+		<object name="g_plaque" enabled="true" />
+		<object name="s_shadow" enabled="true" shadow_caster="true"/>
+	</graphics>
+
+	<objects>
+		<align_point name="e_glass" enabled="true" parent="rp_bank_globe" position="0 0 0" rotation="0 0 0" />
+	</objects> 
+</dynamic_object>
+
+

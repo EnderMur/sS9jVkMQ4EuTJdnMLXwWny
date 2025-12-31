@@ -1,0 +1,44 @@
+<dynamic_object>
+    <diesel materials="units/pd2_dlc1/vehicles/str_vehicle_car_compact_crushed_roof/str_vehicle_car_compact_crushed_roof" orientation_object="rp_str_vehicle_car_compact_crushed_roof" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_windows_side_left" />
+            <object collision_type="mesh_mopp" name="c_windows_side_right" />
+            <object collision_type="mesh_mopp" name="c_windows_back" />
+            <object collision_type="mesh_mopp" name="c_windows_front" />
+            <object collision_type="mesh_mopp" name="c_body" />
+        </body>
+		<body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="rp_str_vehicle_car_compact_crushed_roof" />
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_body" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_windows_front" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_back" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_side_right" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_windows_side_left" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_headlights" material="glass_breakable" />
+    </decal_surfaces>
+    <!--effects>
+        <effect_spawner enabled="true" name="e_windows_back" />
+        <effect_spawner enabled="true" name="e_windows_front" />
+        <effect_spawner enabled="true" name="e_windows_side_left" />
+        <effect_spawner enabled="true" name="e_windows_side_right" />
+    </effects--> 
+    <graphics>
+        <object enabled="true" name="g_decal" />
+        <object enabled="true" name="g_glass_headlights" />
+        <object enabled="true" name="g_windows_side_left" />
+        <object enabled="true" name="g_windows_side_right" />
+        <object enabled="true" name="g_windows_back" />
+        <object enabled="true" name="g_windows_front" />
+        <object enabled="false" name="g_windows_side_left_dmg" />
+        <object enabled="false" name="g_windows_side_right_dmg" />
+        <object enabled="false" name="g_windows_back_dmg" />
+        <object enabled="false" name="g_windows_front_dmg" />
+        <object enabled="true"  name="s_body" />
+        <object enabled="true" shadow_caster="true" name="g_body" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_stack_logs_b" materials="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_stack_logs_b" />
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+	
+  <decal_surfaces default_material="wood" static="true">
+  </decal_surfaces>
+  
+    <graphics>
+        <object  name="g_mesh"		enabled="true" shadow_caster="true" />
+        <object  name="g_mesh_lod" 	enabled="false" />
+		<object  name="s_s" 		enabled="false" shadow_caster="false"/>
+    </graphics>
+</dynamic_object>

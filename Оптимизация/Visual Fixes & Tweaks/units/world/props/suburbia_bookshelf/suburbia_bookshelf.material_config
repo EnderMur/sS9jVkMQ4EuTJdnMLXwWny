@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="dmg_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2/architecture/lcm/lcm_glass_df"/> 
+		<opacity_texture file="units/payday2/architecture/lcm/lcm_glass_op"/>
+		<reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+    </material>
+    <material name="glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+      <variable value="2 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_dark_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_blue_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+    </material>
+    <material name="bookshelf" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/suburbia_bookshelf/suburbia_bookshelf_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="0.40000000596046 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/props/suburbia_bookshelf/suburbia_bookshelf_nm"/>
+    </material>
+</materials> 

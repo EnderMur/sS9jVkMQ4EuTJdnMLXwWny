@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_hcar">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_supressor" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/hcar_suppressor_df" />
+        <bump_normal_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/hcar_suppressor_nm" />
+        <material_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/hcar_suppressor_gsma"/>
+    </material>
+</materials>

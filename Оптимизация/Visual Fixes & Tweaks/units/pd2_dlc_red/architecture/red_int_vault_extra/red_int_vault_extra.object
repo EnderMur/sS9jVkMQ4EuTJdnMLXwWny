@@ -1,0 +1,66 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red_vault_extra" orientation_object="rp_red_int_vault_extra"/>
+	<sequence_manager file="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" />
+
+	<animations>
+		<animation_group name="s_door_anim" enabled="false">
+			<object name="a_s_door" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="s_no_body" enabled="true" template="static">
+			<object name="rp_red_int_vault_extra" />
+			<object name="c_s_no" collision_type="mesh_mopp"/> 
+		</body>
+
+		<body name="s_frame_body" enabled="false" template="static">
+			<object name="rp_red_int_vault_extra" />
+			<object name="c_s_frame" collision_type="mesh_mopp"/> 
+		</body> 
+
+		<body name="s_door_body" enabled="false" template="animated">
+			<object name="a_s_door" />
+			<object name="c_s_door" collision_type="box"/> 
+		</body>
+
+		<body name="s_yes_body" enabled="false" template="static">
+			<object name="rp_red_int_vault_extra" />
+			<object name="c_s_yes" collision_type="mesh_mopp"/> 
+		</body> 
+
+		<body name="s_yes_int_body" enabled="false" template="static">
+			<object name="rp_red_int_vault_extra" />
+			<object name="c_s_yes_int" 	collision_type="mesh_mopp"/> 
+			<object name="c_box_01" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" 	collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_metal_frame" 		enabled="true" material="metal"/>
+		<decal_mesh name="dm_metal_door" 		enabled="true" material="metal"/>		
+		<decal_mesh name="dm_marble_no"			enabled="false" material="marble"/>
+		<decal_mesh name="dm_marble_yes"		enabled="true" material="marble"/>				
+		<decal_mesh name="dm_stone"				enabled="true" material="stone"/>
+	</decal_surfaces>
+	
+	<graphics>
+		
+		<object name="g_s_no" 				enabled="true"/>
+		
+		<object name="g_s_door" 			enabled="false"/>
+		<object name="g_s_floor" 			enabled="false"/>
+		
+		<object name="g_s_yes_int" 			enabled="false"/>
+		<object name="g_s_yes_int_vtxc" 	enabled="false"/>
+		<object name="g_s_yes" 				enabled="false"/>
+	</graphics>
+</dynamic_object>

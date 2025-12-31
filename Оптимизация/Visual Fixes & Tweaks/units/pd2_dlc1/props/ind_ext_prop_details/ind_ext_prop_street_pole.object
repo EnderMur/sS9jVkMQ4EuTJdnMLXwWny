@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_ext_prop_street_pole" materials="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_details" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_ind_ext_prop_street_pole" />
+            <object collision_type="capsule" 	name="c_capsule_01" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" />
+  
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+		<object enabled="true" name="s_s" shadow_caster="false" />
+    </graphics>
+</dynamic_object>

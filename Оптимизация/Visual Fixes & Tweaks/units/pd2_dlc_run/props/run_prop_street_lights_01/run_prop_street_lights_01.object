@@ -1,0 +1,97 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_run/props/run_prop_street_lights_01/run_prop_street_lights_01" orientation_object="rp_run_prop_street_lights_01" />
+	<sequence_manager file="units/pd2_dlc_run/props/run_prop_street_lights_01/run_prop_street_lights_01" />
+	<bodies>
+		<body name="body_static_base" enabled="true" template="static">
+			<object name="rp_run_prop_street_lights_01" />
+			<object name="c_convex_base_01" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_static_pole_short" enabled="false" template="static">
+			<object name="rp_run_prop_street_lights_01" />
+			<object name="c_capsule_pole_01" collision_type="capsule" padding="-2.5"/>
+		</body>
+		<body name="body_static_pole_long" enabled="true" template="static">
+			<object name="rp_run_prop_street_lights_01" />
+			<object name="c_capsule_pole_02" collision_type="capsule" padding="-2.5"/>
+		</body>
+		<body name="body_static_a" enabled="true" template="static">
+			<object name="rp_run_prop_street_lights_01" />
+			<object name="c_box_a_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_box_a_02" collision_type="capsule" padding="-2.5"/>
+		</body>
+		<body name="body_static_b" enabled="true" template="static">
+			<object name="rp_run_prop_street_lights_01" />
+			<object name="c_capsule_b_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_b_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_b_03" collision_type="capsule" padding="-2.5"/>
+		</body>
+		<body name="body_static_c" enabled="false" template="static">
+		    <object name="rp_run_prop_street_lights_01" />
+			<object name="c_box_c_01" collision_type="capsule" padding="-2.5"/>
+		</body>
+
+	</bodies>
+
+	<decal_surfaces >
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_concrete" enabled="true" material="dm_concrete" />
+	</decal_surfaces>
+
+	<graphics>
+		<!-- Base That Should Always be On -->
+			<object name="g_light_base_lod0" enabled="true" shadow_caster="true" />
+			<object name="g_light_base_lod1" enabled="false" />
+			<object name="g_light_base_lod2" enabled="false" />
+			<object name="s_base" enabled="false" shadow_caster="false"/>
+
+		<!-- Short Pole -->
+		<graphic_group name="pole_short" enabled="false">
+			<lod_object name="lod_pole_short">
+				<object name="g_pole_short_lod0" enabled="true"/>
+				<object name="g_pole_short_lod1" enabled="true"/>
+				<object name="g_pole_short_lod2" enabled="true"/>
+			</lod_object>		
+			<object name="s_pole_short" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+		<!-- Normal Pole -->
+		<graphic_group name="pole_long" enabled="true">
+			<lod_object name="lod_pole_long">
+				<object name="g_pole_long_lod0" enabled="true" max_distance="1500" />
+				<object name="g_pole_long_lod1" enabled="true" max_distance="3000" />
+				<object name="g_pole_long_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_pole_long" enabled="true" shadow_caster="true"/>
+		</graphic_group>		
+
+		<!-- Normal Pole Mods -->
+	    <graphic_group name="grp_01" enabled="true" >
+			<lod_object name="lod_g_light_a">
+				<object name="g_light_a_lod0" enabled="true" max_distance="1500" />
+				<object name="g_light_a_lod1" enabled="true" max_distance="3000" />
+				<object name="g_light_a_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_var_a" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+		<graphic_group name="grp_02" enabled="true">
+			<lod_object name="lod_g_light_b">
+				<object name="g_light_b_lod0" enabled="true" max_distance="1500" />
+				<object name="g_light_b_lod1" enabled="true" max_distance="3000" />
+				<object name="g_light_b_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_var_b" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+		<graphic_group name="grp_03" enabled="false" >
+			<lod_object name="lod_g_light_c">
+				<object name="g_light_c_lod0" enabled="true" max_distance="1500" />
+				<object name="g_light_c_lod1" enabled="true" max_distance="3000" />
+				<object name="g_light_c_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_var_c" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+
+	</graphics>
+</dynamic_object>

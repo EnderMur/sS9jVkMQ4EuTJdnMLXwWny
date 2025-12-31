@@ -1,0 +1,27 @@
+<materials version="3" group="civ_female_casual_5">
+	<material name="m_civ_female_casual_5" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_df"/>
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_nm"/>
+	</material>
+	<material name="m_civ_female_casual_5_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_df"/>
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_nm"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="m_civ_female_casual_5_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_nm" />
+	</material>
+	<material name="m_civ_female_casual_5_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_nm" />
+	</material>
+	<material name="m_civ_female_casual_5_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_nm" />
+	</material>
+	<material name="m_civ_female_casual_5_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_df" />
+		<bump_normal_texture file="units/payday2/characters/civ_female_casual_5/civ_female_casual_5_head_nm" />
+	</material>
+</materials>

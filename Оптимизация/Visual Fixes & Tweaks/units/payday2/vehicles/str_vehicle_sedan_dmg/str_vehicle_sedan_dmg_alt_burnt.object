@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt" orientation_object="rp_rail_sedan01_alt_burnedout" />
+  <bodies>
+	<body name="static_body" enabled="true" template="static" >
+		<object name="g_rail_sedan01_alt_burnedout" collision_type="mesh_mopp" />
+	</body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_rail_sedan01_alt_burnedout" enabled="true" material="sheet_metal" />
+  </decal_surfaces>
+  <graphics>
+		<object name="g_rail_sedan01_alt_burnedout" shadow_caster="true" enabled="true"/>
+  </graphics>
+</dynamic_object>

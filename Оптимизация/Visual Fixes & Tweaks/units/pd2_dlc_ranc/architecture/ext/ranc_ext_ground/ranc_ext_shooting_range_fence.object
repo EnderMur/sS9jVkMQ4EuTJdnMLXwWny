@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground" orientation_object="rp_ranc_ext_shooting_range_fence" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ranc_ext_shooting_range_fence" />
+			<object name="c_box_0739" collision_type="box" padding="-2.5" />
+			<object name="c_box_0737" collision_type="box" padding="-2.5" />
+			<object name="c_box_0738" collision_type="box" padding="-2.5" />
+			<object name="c_box_0736" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+		<object name="s_s" enabled="false" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,9 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_sign_barber" materials="units/payday2/props/com_prop_mall_signs/com_prop_mall_sign" />
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_sign" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

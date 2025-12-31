@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/wire/wire_01" orientation_object="rp_wire_01" />
+  <bodies>
+    <body name="b_source" enabled="true" template="editor">
+      <object name="c_source" collision_type="box" />
+    </body>
+    <body name="b_target" enabled="true" template="editor">
+      <object name="c_target" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <graphics>
+    <graphic_group name="gg_01" enabled="true" culling_object="co_cable">
+      <object name="g_cable" shadow_caster="true" enabled="true" />
+    </graphic_group>
+  </graphics>
+</dynamic_object>
+
+
+
+
+
+
+
+
+
+
+

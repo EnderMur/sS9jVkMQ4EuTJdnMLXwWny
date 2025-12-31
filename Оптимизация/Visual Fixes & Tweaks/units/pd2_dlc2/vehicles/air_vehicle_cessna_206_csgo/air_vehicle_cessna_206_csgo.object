@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc2/vehicles/air_vehicle_cessna_206_csgo/air_vehicle_cessna_206_csgo" orientation_object="rp_cessna" />
+	<sequence_manager file="units/pd2_dlc2/vehicles/air_vehicle_cessna_206_csgo/air_vehicle_cessna_206_csgo" />
+
+	<animations>
+		<animation_group name="door_pilot" enabled="false">
+			<object name="a_door_pilot" />
+		</animation_group>
+		<animation_group name="door_passanger_front" enabled="false">
+			<object name="a_door_passanger_front" />
+		</animation_group>
+		<animation_group name="door_passanger_back" enabled="false">
+			<object name="a_door_passanger_back" />
+		</animation_group>
+		<animation_group name="anim_cage" enabled="false">
+				<object name="ct_ring" />
+				<object name="ct_balloon_1" />
+				<object name="ct_balloon_2" />
+				<object name="ct_balloon_3" />
+				<object name="ct_balloon_expand_1" />
+				<object name="ct_balloon_expand_2" />
+				<object name="ct_balloon_expand_3" />
+				<object name="ct_balloon_expand_4" />
+				<object name="ct_balloon_expand_5" />
+				<object name="ct_balloon_expand_6" />
+				<object name="ct_balloon_expand_7" />
+				<object name="ct_balloon_expand_8" />
+				<object name="ct_balloon_expand_9" />
+				<object name="ct_cage_1" />
+				<object name="ct_cage_2" />
+				<object name="ct_cage_3" />
+				<object name="ct_cage_4" />
+				<object name="ct_cage_5" />
+				<object name="ct_cage_6" />
+				<object name="ct_cage_7" />
+				<object name="ct_cage_8" />
+				<object name="ct_cage" />
+		</animation_group>
+		<animation_group name="anim_plane" enabled="false">
+				<object name="a_body" />
+		</animation_group>
+	</animations>
+
+	
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="ct_cage" />
+			<object name="c_box_back_01" 			collision_type="box" padding="-2.5"/>
+			<object name="c_box_back_02" 			collision_type="box" padding="-2.5"/>
+			<object name="c_box_ballon_01" 			collision_type="box" padding="-2.5"/>
+			<object name="c_box_bottom" 			collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_01" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_02" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_03" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_04" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_05" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_06" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_07" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_08" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_09" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_10" 	collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_01" 		collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_02" 		collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_03" 		collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_04" 		collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_05" 		collision_type="box" padding="-2.5"/>
+			<object name="c_box_side_01" 			collision_type="box" padding="-2.5"/>
+			<object name="c_box_side_02" 			collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_bag_blocker" enabled="false" keyframed="true" template="fence">
+			<object name="ct_cage" />
+			<object name="c_box_back_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_back_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_side_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_side_02" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_bag_blocker_bottom" enabled="false" keyframed="true" template="fence">
+			<object name="ct_cage" />
+			<object name="c_box_bottom" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_cage" enabled="false" template="animated">
+			<object name="ct_cage" />
+			<object name="c_box_cage_top_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_top_05" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_cage_bottom" enabled="false" template="animated">
+			<object name="ct_cage" />
+			<object name="c_box_cage_bottom_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_bottom_10" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<body name="balloon_box" enabled="false" template="static">
+			<object name="ct_cage" />
+			<object name="c_box_ballon_01" collision_type="box" padding="-0.5" mass="0.5"/>			
+		</body>
+		<body name="balloon_box_lid" enabled="false" template="static">
+			<object name="c_box_ballon_02" collision_type="box" padding="-0.5" mass="1"/>			
+			<object name="g_balloon_box_lid" />			
+		</body>
+	</bodies>
+		
+	<decal_surfaces default_material="sheet_metal">
+		<decal_mesh name="g_balloon_box" 		enabled="false" material="steel" />		
+		<decal_mesh name="g_balloon_box_lid" 	enabled="false" material="steel" />		
+		<decal_mesh name="g_cage_bottom" 		enabled="false" material="steel" />		
+		<decal_mesh name="g_cage_top" 			enabled="false" material="steel" />		
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="cessna" enabled="true" culling_object="g_cessna">		
+		<object name="g_cessna" 		enabled="true"/>
+		<object name="g_propeller" 		enabled="true"/>
+		<object name="g_window" 		enabled="true"/>
+		<object name="s_cessna" 		enabled="true" shadow_caster="true"/>
+		<object name="s_propeller" 		enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+		<!-- CAGE -->
+		<graphic_group name="cage" enabled="true" culling_object="co_balloon">			
+			<object name="g_string_static" 		enabled="false" shadow_caster="true"/>
+			<object name="g_cage_bottom" 		enabled="false" shadow_caster="true"/>
+			<object name="g_cage_top" 			enabled="false" shadow_caster="true"/>
+			<object name="g_balloon_box" 		enabled="false" shadow_caster="true"/>
+			<object name="g_cage_wire" 			enabled="false" shadow_caster="true"/>
+			<object name="g_outline" 			enabled="true"/>
+			<object name="g_balloon" 			enabled="false"shadow_caster="true"/>
+			<object name="g_canister" 			enabled="false"shadow_caster="true"/>
+		</graphic_group>
+		
+		<object name="g_balloon_box_lid"	enabled="false"/>
+	</graphics>
+</dynamic_object> 

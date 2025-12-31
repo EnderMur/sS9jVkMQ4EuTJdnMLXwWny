@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/acunit01" orientation_object="rp_acunit01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_acunit01" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_acunit01" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_acunit01" 	enabled="true" 	shadow_caster="true" />		
+		<object name="s_acunit01" 	enabled="false" shadow_caster="false"/>
+	</graphics>
+</dynamic_object> 

@@ -1,0 +1,63 @@
+<dynamic_object>
+    <diesel orientation_object="rp_car_crusher" materials="units/payday2/props/ind_prop_scrapyard_carcrusher/ind_prop_scrapyard_carcrusher" />
+	<bodies>
+		<body name="static_body" template="static" enabled="true">
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object name="c_box_24" collision_type="box" padding="-2.5"/>
+			<object name="c_box_25" collision_type="box" padding="-2.5"/>
+			<object name="c_box_26" collision_type="box" padding="-2.5"/>
+			<object name="c_box_27" collision_type="box" padding="-2.5"/>
+			<object name="c_box_28" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_06" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_07" collision_type="capsule" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_07" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_08" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_09" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_10" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_11" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_blocker_mover_1" enabled="true" template="mover_blocker">
+			<object name="rp_car_crusher" />
+			<object name="c_box_blocker_mover_1" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_blocker_mover_2" enabled="true" template="mover_blocker">
+			<object name="rp_car_crusher" />
+			<object name="c_box_blocker_mover_2" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

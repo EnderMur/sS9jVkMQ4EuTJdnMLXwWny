@@ -1,0 +1,10 @@
+{
+	"CCSD_menu_title" : "Change Crime Spree Difficulty",
+	"CCSD_menu_desc"  : "Change options for Crime Spree Difficulty.",
+	"CCSD_slider_value_title" : "Crime Spree Difficulty",
+	"CCSD_slider_value_desc"  : "Change the base Difficulty for Crime Sprees",
+	"CCSD_slider_value_1" : "Overkill",
+	"CCSD_slider_value_2" : "Mayhem",
+	"CCSD_slider_value_3" : "Death Wish",
+	"CCSD_slider_value_4" : "Death Sentence",
+}

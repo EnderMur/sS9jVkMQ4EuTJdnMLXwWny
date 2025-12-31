@@ -1,0 +1,30 @@
+<materials version="3">
+	<material name="mat_archives_ceiling" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_c_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_c_nm"/>
+	</material>
+	<material name="mat_archives_walls" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_brick_a_blend_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_brick_a_nm"/>
+		<diffuse_layer0_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_brick_a_df"/>
+		<diffuse_layer1_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_brick_a_mask_df"/>
+		<normal_layer0_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_brick_a_nm"/>
+	</material>
+	<material name="mat_archives_floor" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_tile_a_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_tile_a_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+	</material>
+	<material name="mat_wall_a" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_nm"/>
+	</material>
+	<material name="mat_stair" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_stair_df"/>
+	</material>
+	<material name="mat_concrete" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_concrete_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_concrete_nm"/>
+	</material>
+</materials>

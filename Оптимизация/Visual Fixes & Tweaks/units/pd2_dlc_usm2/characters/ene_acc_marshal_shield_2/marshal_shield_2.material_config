@@ -1,0 +1,35 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_shield" version="2">
+        <diffuse_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_df"/>
+        <bump_normal_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_nm"/>
+        <material_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_gsma"/>
+		<reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_shield_lod_1" version="2">
+        <diffuse_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_gsma" mip="1"/>
+		<reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_shield_lod_2" version="2">
+        <diffuse_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_df" mip="2"/>
+        <bump_normal_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_nm" mip="2"/>
+        <material_texture file="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_2/marshal_shield_2_gsma" mip="2"/>
+		<reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mtr_light_il" version="2">
+        <diffuse_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il"/>
+        <self_illumination_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mtr_light_il_lod_1" version="2">
+        <diffuse_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il" mip="1"/>
+        <self_illumination_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il" mip="1"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mtr_light_il_lod_2" version="2">
+        <diffuse_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il" mip="4"/>
+        <self_illumination_texture file="units/payday2/characters/shared_textures/ene_acc_shield_lights_il" mip="4"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+</materials>

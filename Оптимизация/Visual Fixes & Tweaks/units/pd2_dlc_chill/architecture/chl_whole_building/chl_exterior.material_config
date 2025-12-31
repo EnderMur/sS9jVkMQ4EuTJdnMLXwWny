@@ -1,0 +1,233 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_beams" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_building_trims_01_gsma" />
+        <reflection_texture file="environments/cubemaps/cubemap_csgo_de_bank_ext" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete02_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_mad/architecture/mad_underground_lab/mad_int_concrete_ceiling_df" />
+        <bump_normal_texture file="units/pd2_dlc_mad/architecture/mad_underground_lab/mad_int_concrete_ceiling_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <material_texture file="units/pd2_dlc_mad/architecture/mad_underground_lab/mad_int_concrete_ceiling_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_mad/architecture/mad_underground_lab/mad_int_concrete_df" />
+        <bump_normal_texture file="units/pd2_dlc_mad/architecture/mad_underground_lab/mad_int_concrete_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_04" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_large_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_large_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_dark" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_basement_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_basement_floor_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_floor_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_concrete_slabs_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_concrete_slabs_02_nm"/>
+        <variable type="scalar" name="glossiness_control" value="0.25200001196936"/>
+        <reflection_texture file="environments/cubemaps/cubemap_apartment_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_panels" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_small_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_small_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_frame_corners" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_industrial_grunge_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_industrial_grunge_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_street_01" type="cubemap"/>
+        <variable type="scalar" name="glossiness_control" value="0.10500000498723"/>
+    </material>
+    <material render_template="generic" name="mat_glass" version="2"/>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_industrial_bricks" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_industrial_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_ind_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_ind_nm"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_gsma"/>
+    </material>
+    <material name="mat_plate" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" src="GLOBAL">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_yellow_metal_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_yellow_metal_floor_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_branch_office_weak" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_yellow_metal_floor_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_polished_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable type="scalar" name="glossiness_control" value="0.5"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_DIFFUSE_UV2:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:BLEND_NORMAL_UV2:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_grass_rock" version="2">
+        <diffuse_texture file="units/pd2_dlc_jerry/terrain/jry_rock_smooth_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/terrain/jry_rock_smooth_nm" />
+        <diffuse_layer0_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_df"/>
+        <variable type="vector3" name="blend_control" value="0.37000000476837 0.40000000596046 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_nm"/>
+        <material_texture file="units/pd2_dlc_jerry/terrain/jry_rock_smooth_df"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_soft_celing" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02a_df"/>
+        <bump_normal_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02a_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_df" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_apartment_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_wall_exterior" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_wall_brick_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_wall_brick_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0.040000001899898"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wip" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bodhi_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bodhi_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bodhi_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bridge_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ext_roof" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/corrugated_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/corrugated_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/corrugated_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_building_trims_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_tiles" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_tiled_floor_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_tiled_floor_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_tiled_floor_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_raw_plaster_wall" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_wall_03_df" />
+        <bump_normal_texture file="units/payday2/architecture/safehouse/safehouse_int_wall_03_nm"/>
+    </material>
+    <material name="mat_glass1" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2" decal_material="glass_unbreakable">
+        <variable type="vector3" name="fresnel_settings" value="1.9699999094009 1 0.35999998450279"/>
+        <opacity_texture file="units/payday2/architecture/safehouse/safehouse_glass_01_op"/>
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_glass_01_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_carshop_indoor" type="cubemap"/>
+        <bump_normal_texture file="units/payday2/architecture/res_ext_apartment/res_ext_apartment_window_glass_01_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="floor_update_mat_polished_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_01_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_ceiling_02" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02b_df"/>
+        <bump_normal_texture file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02a_nm" />
+        <variable type="scalar" name="glossiness_control" value="0.30600001453422"/>
+    </material>
+    <material name="mat_glossy_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" version="2" decal_material="metal">
+        <diffuse_texture file="units/payday2/architecture/bnk/bnk_int_wall_1_df"/>
+        <bump_normal_texture file="units/payday2/architecture/bnk/bnk_int_wall_1_nm" />
+        <reflection_texture file="environments/cubemaps/cubemap_secret_stash" type="cubemap"/>
+        <variable type="scalar" name="glossiness_control" value="0.99900004744995"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wall_concrete" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_nm" />
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_column" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_column_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_column_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_column_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_diamond_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_DIFFUSE_UV2:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:BLEND_NORMAL_UV2:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_grass_pebbles" version="2">
+        <diffuse_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_rocky_ground_df" />
+        <variable type="vector3" name="blend_control" value="0.10999999940395 1 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_rocky_ground_nm" />
+        <material_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_grass_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_jerry/terrain/jry_terrain_rocky_ground_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_raw_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_nm" />
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable type="scalar" name="glossiness_control" value="0.50004308019"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_chains_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_chains_wall_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_chains_wall_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_chains_wall_gsma"/>
+    </material>
+     <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_sicario_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_sicario_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_sicario_wall_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_sicario_wall_gsma" />
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_garage_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_nm" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wall_yellow" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_yellow_df" />
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_gsma" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_basement_corridors_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_apartment_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_bathroom_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bathroom_tiles_large_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bathroom_tiles_large_nm" />
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_bathroom_marble_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bathroom_tiles_floor_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_bathroom_tiles_floor_nm" />
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_industrial_bricks_indoor" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_brighter_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_nm"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_cinderblocks_wall_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_apartment_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_concrete_black" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_black_paint_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_black_paint_nm" />
+        <variable type="scalar" name="glossiness_control" value="0.20900000992697"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_black_plaster" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_black_paint_df" />
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_concrete_panels_black_paint_nm"/>
+    </material>
+	<material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_chl_int_shell" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_office_shell_df" />
+        <bump_normal_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_office_shell_nm"/>
+        <material_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_office_shell_gsma"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_carshop_tunnels" type="cubemap"/>
+    </material>
+	<material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_chl_office_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_bedroom_ceiling_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_bedroom_ceiling_nm" />
+        <material_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_bedroom_ceiling_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_secret_stash_ext" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_chl_office_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_black_marble_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_black_marble_nm" />
+        <reflection_texture file="environments/cubemaps/cubemap_flat_bathroom" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_friend/architecture/int/textures/sfm_int_black_marble_gsma"/>
+    </material>
+	<material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_black_frame" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_office_door_black/sfm_prop_office_door_black_df" />
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_office_door_black/sfm_prop_office_door_black_nm" />
+        <material_texture file="units/pd2_dlc_friend/props/sfm_prop_office_door_black/sfm_prop_office_door_black_gsma"/>
+    </material>
+</materials>

@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_kacchainsaw">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mat_kcs_barrel_short" version="2">
+        <diffuse_texture     file="units/pd2_dlc_pxp4/weapons/wpn_fps_lmg_kacchainsaw_pts/kcs_b_standard_df" />
+        <bump_normal_texture file="units/pd2_dlc_pxp4/weapons/wpn_fps_lmg_kacchainsaw_pts/kcs_b_standard_nm" />
+        <material_texture    file="units/pd2_dlc_pxp4/weapons/wpn_fps_lmg_kacchainsaw_pts/kcs_b_standard_gsma"/>
+    </material>
+</materials>

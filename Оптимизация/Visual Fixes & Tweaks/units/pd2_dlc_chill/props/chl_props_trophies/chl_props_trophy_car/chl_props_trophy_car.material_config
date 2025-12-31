@@ -1,0 +1,21 @@
+<materials version="3">
+	<material name="mat_exterior" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_car/chl_props_trophy_car_df"/>
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_car/chl_props_trophy_car_nm"/>
+	</material>
+	<material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" version="2">
+		<variable name="fresnel_settings" type="vector3" value="0 1 0.59999996423721" />
+		<opacity_texture file="units/glass/vehicle_glass_op" />
+		<diffuse_texture file="units/glass/vehicle_glass_df" />
+		<reflection_texture file="units/payday2/cubemaps/cubemap_carshop_indoor" type="cubemap" />
+		<bump_normal_texture file="units/dev_tools/tangent_test/blank_nm" />
+		<variable name="opacity_fade" type="vector3" value="10 4000 0" />
+	</material>
+	<material name="mat_interior" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_car/chl_props_trophy_car_interier_df"/>
+		<bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_car/chl_props_trophy_car_interier_nm"/>
+	</material>
+	    <material render_template="decal:DIFFUSE_TEXTURE" name="mat_ao" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_mullplan/ch_int_mullplan_circle_df"/>
+    </material>
+</materials>

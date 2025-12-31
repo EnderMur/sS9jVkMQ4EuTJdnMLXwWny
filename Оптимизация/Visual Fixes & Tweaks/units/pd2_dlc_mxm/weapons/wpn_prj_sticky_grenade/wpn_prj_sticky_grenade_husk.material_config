@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_sticky">
+	<material name="mtr_gre_sticky" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+	    <diffuse_texture        file="units/pd2_dlc_mxm/weapons/wpn_prj_sticky_grenade/wpn_prj_sticky_grenade_df"/>
+        <bump_normal_texture    file="units/pd2_dlc_mxm/weapons/wpn_prj_sticky_grenade/wpn_prj_sticky_grenade_nm"/>
+        <material_texture       file="units/pd2_dlc_mxm/weapons/wpn_prj_sticky_grenade/wpn_prj_sticky_grenade_gsma"/>
+    </material>
+</materials>

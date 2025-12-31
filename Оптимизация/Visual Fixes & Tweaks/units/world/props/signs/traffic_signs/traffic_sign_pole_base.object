@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/signs/traffic_signs/traffic_sign_01_base" orientation_object="rp_traffic_sign_pole_base" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_traffic_sign_pole_base" />
+      <object name="g_traffic_sign_pole_base" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal">
+	<decal_mesh name="g_traffic_sign_pole_base" enabled="true" material="metal"/>
+  </decal_surfaces>
+  <graphics>
+       <object enabled="true" name="g_traffic_sign_pole_base" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

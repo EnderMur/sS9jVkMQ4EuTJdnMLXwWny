@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/suburbia_magazines/magazinepile" orientation_object="rp_magazinepile_01" />
+  <bodies>
+    <body name="static_body" enabled="true" template="raycoll_static">
+		<object name="rp_magazinepile_01"/>
+      <object name="c_magazinepile_01" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  <decal_surfaces default_material="thin_layer" static="true" >
+    <decal_mesh name="c_magazinepile_01" enabled="true" material="thin_layer" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_magazinepile_01" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object> 

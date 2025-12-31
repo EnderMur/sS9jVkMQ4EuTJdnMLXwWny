@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/res/res_scrapyard_house_b" orientation_object="rp_res_scrapyard_house_b" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_res_scrapyard_house_b"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_res_scrapyard_house_b_int"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_res_scrapyard_house_b_ext"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_res_scrapyard_house_b_windows"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_res_scrapyard_house_b_detail"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_stairs"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_hardwood" material="hardwood" enabled="true"/>
+		<decal_mesh name="dm_metal" material="metal" enabled="true"/>
+		<decal_mesh name="dm_plaster" material="plaster" enabled="true"/>
+        <decal_mesh name="dm_tile" material="tile" enabled="true"/>
+		<decal_mesh name="dm_concrete" material="concrete" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_res_scrapyard_house_b_detail" shadow_caster="true" />
+        <object enabled="true" name="g_res_scrapyard_house_b_windows" shadow_caster="true" />
+        <object enabled="true" name="g_res_scrapyard_house_b_ext" shadow_caster="true" />
+        <object enabled="true" name="g_res_scrapyard_house_b_int" shadow_caster="true" />
+
+        <object enabled="true" name="s_1" />
+    </graphics>
+</dynamic_object> 

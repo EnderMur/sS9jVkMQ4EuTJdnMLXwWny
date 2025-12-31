@@ -1,0 +1,146 @@
+<materials version="3" group="mat_joy_van">
+    <material name="mat_prop_box_evidence" decal_material="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <variable value="0.99900007247925" type="scalar" name="specular_power"/>
+       <diffuse_texture file="units/world/props/box/box_evidence_df"/>
+        <bump_normal_texture file="units/world/props/box/box_evidence_nm"/>
+    </material>
+    <material name="mat_prop_boxes_a" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_med_a_df"/>
+        <bump_normal_texture file="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_med_nm"/>
+    </material>
+    <material name="mat_prop_boxes_b" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_med_b_df"/>
+        <bump_normal_texture file="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_med_nm"/>
+    </material>
+    <material name="mat_prop_chair" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <diffuse_texture file="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe_df"/>
+        <bump_normal_texture file="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe_nm"/>
+    </material>
+    <material name="mat_prop_computer" decal_material="computer" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/props/display/bank_display_master_df"/>
+        <self_illumination_texture file="units/world/props/display/bank_display_master_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_prop_console" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_security_console/console_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_security_console/console_nm"/>
+    </material>
+    <material name="mat_prop_headphones" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_shop_pear/com_prop_shop_pear_headphones_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_shop_pear/com_prop_shop_pear_headphones_nm"/>
+    </material>
+    <material name="mat_prop_keyboard_mechanical" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/office/computer/computer_keyboards_df"/>
+        <bump_normal_texture file="units/world/props/office/computer/computer_keyboards_nm"/>
+    </material>
+    <material name="mat_prop_keyboard_modern" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/off_prop_appliance_keyboard/keyboard_df"/>
+        <bump_normal_texture file="units/payday2/props/off_prop_appliance_keyboard/keyboard_nm"/>
+    </material>
+    <material name="mat_prop_laptop" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" decal_material="glass_breakable" version="2" >
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_df"/>
+        <self_illumination_texture file="units/payday2/equipment/gen_interactable_laptop_crimenet/gen_interactable_object_laptop_crimenet_il"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop_nm"/>
+    </material>
+    <material name="mat_prop_lcd" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" >
+        <diffuse_texture file="units/payday2/props/gen_prop_security_monitors/lcds_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_security_monitors/lcds_nm"/>
+    </material>
+    <material name="mat_prop_leds" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP" version="2" >
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_leds_df"/>
+        <variable type="scalar" name="falloff_exp" value="1.5"/>
+        <variable type="scalar" name="intensity" value="flashlight"/>
+    </material>
+    <material name="mat_prop_microphone" decal_material="metal" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/gym/stn_prop_microphone/stn_prop_microphone_df"/>
+        <bump_normal_texture file="units/world/props/gym/stn_prop_microphone/stn_prop_microphone_nm"/>
+    </material>
+    <material name="mat_prop_monitors_code_scroll" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" version="2" >
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_scrolling_df"/>
+        <self_illumination_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_scrolling_df"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+        <variable type="vector3" name="uv_speed" value="0 0.03999999910593 0"/>
+    </material>
+    <material name="mat_prop_monitors_game" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2" >
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_game_df"/>
+        <self_illumination_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_game_df"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+    </material>
+    <material name="mat_prop_monitors_joy" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2" >
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_df"/>
+        <self_illumination_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_monitors_df"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+    </material>
+    <material name="mat_prop_mouse" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_mouse_01/des_prop_hack_computer_df" />
+        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_mouse_01/des_prop_hack_computer_nm" />
+        <material_texture file="units/pd2_dlc_des/props/des_prop_mouse_01/des_prop_hack_computer_gsma"/>
+    </material>
+    <material name="mat_prop_phone" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/props/iphone/iphone_df"/>
+        <self_illumination_texture file="units/world/props/iphone/iphone_il"/>
+        <variable value="sun" type="scalar" name="il_multiplier"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="2.7000000476837 0.34500002861023 2.9000000953674" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_prop_pillows" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/textures/t_pillow_flat_df"/>
+        <bump_normal_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/textures/t_pillow_flat_nm"/>
+    </material>
+    <material name="mat_prop_screwdriver" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_df" />
+        <bump_normal_texture file="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_nm" />
+    </material>
+    <material name="mat_prop_server" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <diffuse_texture file="units/payday2/props/gen_prop_security_servers/server_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_security_servers/server_nm"/>
+    </material>
+    <material name="mat_prop_server_glow" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" version="2" >
+        <diffuse_texture file="units/payday2/props/gen_prop_security_servers/glow_il"/>
+        <self_illumination_texture file="units/payday2/props/gen_prop_security_servers/glow_il"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+        <variable type="vector3" name="uv_speed" value="0 7 0"/>
+    </material>
+    <material name="mat_prop_speaker" render_template="generic:DIFFUSE_TEXTURE" version="2" >
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_speaker/tv_speaker_df"/>
+    </material>
+    <material name="mat_prop_wrench" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_wrench_df" />
+        <bump_normal_texture file="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_wrench_nm" />
+    </material>
+
+    <material name="mat_van" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_df"/>
+        <bump_normal_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_nm"/>
+    </material>
+    <material name="mat_van_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:DOUBLE_SIDED:OPACITY_FADE" version="2">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.59999996423721"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="vector3" name="opacity_fade" value="10 4000 0"/>
+    </material>
+    <material name="mat_van_int_carpet" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_planning_room_ceiling/chl_int_gray_carpet_df" mip="4"/>
+    </material>
+    <material name="mat_van_int_main" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_nm"/>
+    </material>
+    <material name="mat_van_interior" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_interior_df"/>
+        <bump_normal_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_interior_nm"/>
+    </material>
+    <material name="mat_van_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_nm" mip="4"/>
+    </material>
+    <material name="mat_van_satellite" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_satellite_df"/>
+        <bump_normal_texture file="units/pd2_dlc_joy/props/joy_prop_safehouse_hacker_van/joy_prop_safehouse_hacker_van_satellite_nm"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

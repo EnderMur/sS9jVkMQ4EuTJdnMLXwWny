@@ -1,0 +1,31 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/props/sfm_prop_ext_sofa_a/sfm_prop_ext_sofa_a" orientation_object="rp_sfm_prop_ext_sofa_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sfm_prop_ext_sofa_a" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth_stuffed">
+		<decal_mesh name="dm_cloth_stuffed" enabled="true" material="cloth_stuffed" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true" />
+		<object name="s_s" enabled="true" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

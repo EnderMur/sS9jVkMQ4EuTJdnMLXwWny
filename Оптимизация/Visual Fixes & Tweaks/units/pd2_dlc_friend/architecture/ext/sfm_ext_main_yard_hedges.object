@@ -1,0 +1,75 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/architecture/ext/sfm_exteriors" orientation_object="rp_sfm_ext_main_yard_hedges" />
+	<bodies>
+		<body name="static_body" enabled="true" editable="true" template="window" >
+			<object name="rp_sfm_ext_main_yard_hedges" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_23" collision_type="box" padding="-2.5" />
+			<object name="c_box_24" collision_type="box" padding="-2.5" />
+			<object name="c_box_25" collision_type="box" padding="-2.5" />
+			<object name="c_box_26" collision_type="box" padding="-2.5" />
+			<object name="c_box_27" collision_type="box" padding="-2.5" />
+		</body>	
+
+		<body name="vision_blocker" enabled="true" add_ray_type="ai_vision" template="nav_walk" editable="true" collides_with_mover="false">
+			<object name="rp_sfm_ext_main_yard_hedges" />
+			<object name="c_vision_block_01" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_02" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_03" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_04" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_05" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_06" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_07" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_08" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_09" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_10" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_11" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_12" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_13" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_14" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_15" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_16" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_17" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_18" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_19" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_20" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_21" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_22" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_23" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_24" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_25" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_26" collision_type="box" padding="-2.5" />
+			<object name="c_vision_block_27" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="foliage">
+		<decal_mesh name="dm_foliage" enabled="true" material="foliage" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_lod1" enabled="false" shadow_caster="false" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+</dynamic_object>

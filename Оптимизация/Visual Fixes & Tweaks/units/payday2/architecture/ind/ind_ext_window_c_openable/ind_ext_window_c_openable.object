@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" orientation_object="rp_ind_ext_window_c_openable" />
+    <sequence_manager file="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" />
+    <animations>
+    	<animation_group name="open_window_in" enabled="false">
+    		<object name="anim_open_in" />
+    	</animation_group>
+    	<animation_group name="open_window_out" enabled="false">
+    		<object name="anim_open_out" />
+    	</animation_group>
+    </animations>
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_ind_ext_window_c_openable"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_ind_ext_window_c"/>
+        </body>
+        <body name="body_window_frame" enabled="true" template="animated">
+        	<object name="anim_open_in" />
+        	<object name="c_window_frame" collision_type="mesh_mopp" />
+        </body>
+        <body name="body_window" enabled="true" template="animated" remove_ray_type="vis_graph ai_vision">
+        	<object name="anim_open_in" />
+        	<object name="c_box" collision_type="box" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="stone">
+		<decal_mesh name="dm_ind_ext_window_c" 	material="hardwood" 		enabled="true"/>
+		<decal_mesh name="dm_window_frame" 		material="hardwood" 		enabled="true"/>
+		<decal_mesh name="dm_1" 				material="glass_breakable" 	enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>		
+		<graphic_group name="icon" 	enabled="true" culling_object="g_icon">
+			<lod_object name="icon_lod">
+					<object name="g_icon" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+        <object enabled="true" instance_struct="world_tm" name="g_ind_ext_window_c" shadow_caster="true"/>
+        <object enabled="true" instance_struct="world_tm" name="g_window_frame" shadow_caster="true"/>
+        <object enabled="true" instance_struct="world_tm" name="g_1" />
+        <object enabled="false" instance_struct="world_tm" name="g_2" />
+        <object enabled="false" instance_struct="world_tm" name="s_ind_ext_window_c" />
+        <object enabled="false" instance_struct="world_tm" name="s_window_frame" />
+    </graphics>
+	
+</dynamic_object>

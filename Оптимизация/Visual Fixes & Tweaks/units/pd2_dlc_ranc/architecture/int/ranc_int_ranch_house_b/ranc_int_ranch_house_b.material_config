@@ -1,0 +1,112 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_int_concrete_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_garage_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_garage_floor_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_garage_floor_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_painted_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_painted_walls_df"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_painted_walls_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_painted_walls_nm"/>
+        <variable type="vector3" name="tint_color" value="0.5039370059967 0.44860276579857 0.40117341279984"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_int_wood_old_planks" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_old_planks_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_old_planks_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_old_planks_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_int_wood_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_wood_trims_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_wood_trims_01_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_wood_trims_01_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wooden_floor_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_wooden_floor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_wooden_floor_01_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_black_roll_roof" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_black_roll_roof_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_black_roll_roof_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_steel" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_steel_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_steel_01_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_steel_01_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_stonewall" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_ext_stone_wall_irregular_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_ext_stone_wall_irregular_01_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_ext_stone_wall_irregular_01_gsma"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_wood_beams_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wood_beam_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wood_beam_01_nm"/>
+        <variable type="vector3" name="tint_color" value="1 1 1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_int_tileable_marble_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_tileable_marble_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_tileable_marble_01_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_tileable_marble_01_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_plaster_stucco" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_plaster_stucco_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_plaster_stucco_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_plaster_stucco_gsma"/>
+        <variable type="vector3" name="tint_color" value="0.72440946102142 0.65907061100006 0.49714377522469"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_floor_marble_tiles_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_floor_marble_tiles_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_floor_marble_tiles_01_nm"/>
+        <variable type="vector3" name="tint_color" value="0.7007874250412 0.7007874250412 0.7007874250412"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wires_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wire_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wire_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_shower_wall_plain_tiles_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_shower_wall_plain_tiles_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_shower_wall_plain_tiles_01_nm"/>
+        <variable type="vector3" name="tint_color" value="0.32283467054367 0.31523859500885 0.305110424757"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_int_wood_roof_planks" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wood_planks_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wood_planks_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_wood_planks_gsma"/>
+        <variable type="vector3" name="tint_color" value="0.48818898200989 0.48818898200989 0.48818898200989"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_marble_floor_shower" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_marble_floor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_int_marble_floor_01_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_shower_curtain" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_shower_curtain_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/ranc_shower_curtain_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE" name="mat_int_mirror" version="2">
+        <variable type="scalar" name="glossiness_control" value="0.6"/>
+        <diffuse_texture file="units/world/props/suburbia_bathroom/bathroom_mirror_suburbia_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_bathroom_sink" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/bathroom_sink/ranc_bathroom_sink_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/int/int_textures/ranch_house/bathroom_sink/ranc_bathroom_sink_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="ranc_wood_fence" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_int_mat_wood_wenge_gsma"/>
+        <variable type="vector3" name="tint_color" value="0.51968502998352 0.37295043468475 0.2914312183857"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="ranc_roof_tiles_alt" version="2">
+        <diffuse_texture file="units/pd2_dlc_holly/mansion/architecture/lxa_man_main_building/lxa_ext_roofflore_tile_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_holly/mansion/architecture/lxa_man_main_building/lxa_ext_roofflore_tile_01_nm"/>
+        <variable type="vector3" name="tint_color" value="0.24409449100494 0.24409449100494 0.24409449100494"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="warehouse_wood_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_warehouse_wood_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_warehouse_wood_wall_nm"/>
+        <material_texture file="units/pd2_dlc_ranc/architecture/ext/tiling_textures/ranc_warehouse_wood_wall_gsma"/>
+        <variable type="vector3" name="tint_color" value="0.34268954396248 0.48818898200989 0.34651845693588"/>
+    </material>
+</materials>

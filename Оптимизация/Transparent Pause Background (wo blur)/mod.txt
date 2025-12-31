@@ -1,0 +1,11 @@
+{
+	"name": "Transparent Pause Menu Background",
+	"description": " Removes blue filter from pause menu ",
+	"author": "kvadrat",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menu/menupauserenderer",
+			"script_path": "PauseMenu.lua"
+		}
+	]
+}

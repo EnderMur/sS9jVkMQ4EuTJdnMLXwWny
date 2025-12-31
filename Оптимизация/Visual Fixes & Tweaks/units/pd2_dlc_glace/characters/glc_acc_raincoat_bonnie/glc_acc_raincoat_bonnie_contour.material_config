@@ -1,0 +1,21 @@
+<materials version="3" group="raincoat_bonnie">
+    <material name="mat_raincoat" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/glc_acc_raincoat_nm"/>
+        <diffuse_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/glc_acc_raincoat_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material name="mat_raincoat_gloves" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/wrinkled_plastic_gloves_nm"/>
+        <diffuse_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/wrinkled_plastic_gloves_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material name="mat_raincoat_pants" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2" unique="true">
+        <bump_normal_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/trd_acc_peacoat_female_var4_nm"/>
+        <diffuse_texture file="units/pd2_dlc_glace/characters/glc_acc_raincoat/trd_acc_peacoat_female_var4_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster"/>
+</materials>

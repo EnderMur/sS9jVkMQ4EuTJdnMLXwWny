@@ -1,0 +1,35 @@
+<dynamic_object>
+    <diesel orientation_object="rp_suburbia_manhole" materials="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour" />
+	<sequence_manager file="units/world/props/suburbia_manhole/suburbia_manhole" />
+    <animations>
+        <animation_group name="open" >
+            <object enabled="true" name="a_plate" />
+        </animation_group>
+    </animations>
+    <bodies>
+        <body enabled="true" template="static" name="main" >
+            <object name="rp_suburbia_manhole" />
+            <object collision_type="box" name="c_box_1" padding="-2"/>
+            <object collision_type="box" name="c_box_2" padding="-2"/>
+            <object collision_type="box" name="c_box_3" padding="-2"/>
+            <object collision_type="box" name="c_box_4" padding="-2"/>
+        </body>
+        <body enabled="true" template="raycoll" name="plate_bullet">
+            <object name="a_plate" />
+            <object collision_type="box" name="c_plate" padding="-2"/>
+        </body>
+        <body enabled="true" template="bag" name="plate_mover">
+            <object name="rp_suburbia_manhole" />
+            <object collision_type="box" name="c_mover" padding="-2"/>
+        </body>
+    </bodies>
+    <decal_surfaces default_material="concrete">
+        <decal_mesh enabled="true" name="dm_concrete" material="concrete" />
+        <decal_mesh enabled="true" name="dm_steel" material="steel" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_base1" shadow_caster="true"/> 
+        <object enabled="true" name="g_base" shadow_caster="true"/>
+        <object enabled="true" name="g_plate" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

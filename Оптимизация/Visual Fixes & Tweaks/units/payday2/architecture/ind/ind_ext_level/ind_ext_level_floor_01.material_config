@@ -1,0 +1,17 @@
+<materials version="3">
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+	<material name="mat_ind_ext_level_floor_01" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_v2_df"/>
+		<diffuse_layer0_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_df"/>
+		<diffuse_layer1_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_mask_df"/>
+		<bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_nm"/>
+		<normal_layer0_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_nm"/>
+	</material>
+	<material name="mat_ind_ext_level_floor_02" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_02_v2_df"/>
+		<diffuse_layer0_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_02_df"/>
+		<diffuse_layer1_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_01_mask_df"/>
+		<bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_02_nm"/>
+		<normal_layer0_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_floor_02_nm"/>
+	</material>
+</materials>

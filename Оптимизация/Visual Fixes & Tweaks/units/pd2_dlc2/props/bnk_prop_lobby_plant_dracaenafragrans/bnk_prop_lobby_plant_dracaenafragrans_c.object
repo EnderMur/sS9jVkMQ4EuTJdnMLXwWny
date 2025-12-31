@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans" orientation_object="rp_bnk_prop_lobby_plant_dracaenafragrans_c" />
+    <sequence_manager file="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_c" />
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_bnk_prop_lobby_plant_dracaenafragrans_c" shadow_caster="true"/>
+            <object name="c_convex_00" collision_type="convex" padding="-2.5"/>
+        </body>
+		<body enabled="true" template="mover_blocker" name="leafs_body" >
+            <object name="rp_bnk_prop_lobby_plant_dracaenafragrans_c" shadow_caster="true"/>
+            <object name="c_capsule_00" collision_type="capsule" padding="-2.5" />
+        </body>
+	</bodies>
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g_g">
+			<object name="g_g_lod_0" enabled="true" max_distance="2000" shadow_caster="true"/>
+			<object name="g_g_lod_1" enabled="true"/>
+		</lod_object>
+	</graphics>
+</dynamic_object>

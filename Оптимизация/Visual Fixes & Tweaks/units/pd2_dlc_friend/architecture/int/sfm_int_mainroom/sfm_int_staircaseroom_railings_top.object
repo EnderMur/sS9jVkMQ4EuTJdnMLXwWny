@@ -1,0 +1,114 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_int_maintroom_staircase_railings" orientation_object="rp_sfm_int_staircaseroom_railings_top" />
+	<sequence_manager file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_int_staircaseroom_railings_top" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sfm_int_staircaseroom_railings_top" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+		
+		<!-- Posts cross Parts-->		
+		<body name="static_cross_a" enabled="true" template="static">
+			<object name="e_cross_a" />
+			<object name="c_box_railing_cross_a_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_cross_b" enabled="true" template="static">
+			<object name="e_cross_b" />
+			<object name="c_box_railing_cross_b_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_cross_c" enabled="true" template="static">
+			<object name="e_cross_c" />
+			<object name="c_box_railing_cross_c_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_cross_d" enabled="true" template="static">
+			<object name="e_cross_d" />
+			<object name="c_box_railing_cross_d_01" collision_type="box" padding="-2.5" />		
+
+		</body>
+			<body name="static_cross_e" enabled="true" template="static">
+			<object name="e_cross_e" />
+			<object name="c_box_railing_cross_e_01" collision_type="box" padding="-2.5" />		
+
+		</body>
+			<body name="static_cross_f" enabled="true" template="static">
+			<object name="e_cross_f" />
+			<object name="c_box_railing_cross_f_01" collision_type="box" padding="-2.5" />		
+
+		</body>
+			<body name="static_cross_g" enabled="true" template="static">
+			<object name="e_cross_g" />
+			<object name="c_box_railing_cross_g_01" collision_type="box" padding="-2.5" />		
+
+		</body>
+			<body name="static_cross_h" enabled="true" template="static">
+			<object name="e_cross_h" />
+			<object name="c_box_railing_cross_h_01" collision_type="box" padding="-2.5" />		
+
+		</body>
+		
+		<!-- Posts Crosses -->
+		<body name="static_post_a" enabled="true" template="static">
+			<object name="e_post_a" />
+			<object name="c_box_railing_post_a_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_a_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_b" enabled="true" template="static">
+			<object name="e_post_b" />
+			<object name="c_box_railing_post_b_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_b_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_c" enabled="true" template="static">
+			<object name="e_post_c" />
+			<object name="c_box_railing_post_c_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_c_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_d" enabled="true" template="static">
+			<object name="e_post_d" />
+			<object name="c_box_railing_post_d_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_d_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_e" enabled="true" template="static">
+			<object name="e_post_e" />
+			<object name="c_box_railing_post_e_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_e_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_f" enabled="true" template="static">
+			<object name="e_post_f" />
+			<object name="c_box_railing_post_f_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_f_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_g" enabled="true" template="static">
+			<object name="e_post_g" />
+			<object name="c_box_railing_post_g_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_g_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_post_h" enabled="true" template="static">
+			<object name="e_post_h" />
+			<object name="c_box_railing_post_h_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_railing_post_h_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_d" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_c" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_b" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_a" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_e" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_f" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_g" enabled="true" shadow_caster="true" />
+		<object name="g_railing_post_h" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_a" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_b" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_c" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_d" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_e" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_f" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_g" enabled="true" shadow_caster="true" />
+		<object name="g_railing_cross_h" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

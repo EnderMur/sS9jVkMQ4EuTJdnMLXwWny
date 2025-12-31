@@ -1,0 +1,41 @@
+<dynamic_object>
+	<diesel materials="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop" orientation_object="rp_lcm_prop_rooftop_catwalk" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_lcm_prop_rooftop_catwalk" />
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+		</body>
+		<body name="static_body_grate" enabled="true" template="fence">
+			<object name="rp_lcm_prop_rooftop_catwalk" />
+			<object name="c_box_walk_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_walk_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_walk_03" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_walk_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_walk_02" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_nav_walk" enabled="true" template="nav_walk">
+			<object name="rp_lcm_prop_rooftop_catwalk" />
+			<object name="c_box_nav_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_11" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_navwalk_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_navwalk_02" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_secret_stash_catwalk_rooftop" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_grating_shadow" enabled="true" shadow_caster="true" />
+		<object name="g_secret_stash_catwalk_rooftop" enabled="true" shadow_caster="true" />
+		<object name="s_secret_stash_catwalk_rooftop" enabled="false" />
+	</graphics>
+</dynamic_object>

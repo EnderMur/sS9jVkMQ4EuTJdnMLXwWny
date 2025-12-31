@@ -1,0 +1,49 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_sah_prop_display_cases" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_df"  mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_gsma" mip="1"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2">
+        <variable type="vector3" name="fresnel_settings" value="1.5599999427795 0.62999999523163 1"/>
+        <opacity_texture file="units/glass/window_glass/windows_op_frosted glass_op" mip="1"/>
+        <diffuse_texture file="units/glass/window_glass/window_glass_turcose_df" mip="1"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2" name="mat_glass_shattered">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.59999996423721"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="gensec" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_sign_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_lock" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge_lock_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge_lock_nm"/>
+        <variable type="vector3" name="tint_color" value="0.11811023950577 0.11811023950577 0.11811023950577"/>
+    </material>
+    <material unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable type="vector3" name="contour_color" value="0 1 0"/>
+        <variable type="scalar" name="contour_opacity" value="1"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="mtr_glass_cut" version="2">
+        <diffuse_texture file="units/gui/glasscutter_indicator_df"/>
+        <variable type="scalar" name="intensity" value="identity"/>
+        <variable type="scalar" name="falloff_exp" value="1"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="hud_brackets" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable type="scalar" name="intensity" value="identity"/>
+        <variable type="scalar" name="falloff_exp" value="1"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="mtr_lockpick" version="2">
+        <diffuse_texture file="units/gui/lockpick_indicator_df"/>
+        <variable type="scalar" name="intensity" value="identity"/>
+        <variable type="scalar" name="falloff_exp" value="1"/>
+    </material>
+</materials>

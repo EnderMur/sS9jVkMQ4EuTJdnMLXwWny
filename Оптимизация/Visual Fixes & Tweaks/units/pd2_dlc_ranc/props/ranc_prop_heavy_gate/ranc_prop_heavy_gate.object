@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc_ranc/props/ranc_prop_heavy_gate/ranc_prop_heavy_gate" orientation_object="rp_ranc_prop_heavy_gate"/>
+    <sequence_manager file="units/pd2_dlc_ranc/props/ranc_prop_heavy_gate/ranc_prop_heavy_gate"/>
+    <animations>
+        <animation_group name="gate">
+            <object name="a_gate_door_l"/>
+            <object name="a_gate_door_r"/>
+        </animation_group>
+        <animation_group name="thermite_anim">
+            <object name="thermite_ign"/>
+        </animation_group>
+    </animations>
+    <effects>
+        <effect_spawner name="effect_light" effect="effects/payday2/particles/equipment/welding_effect" object="thermite_ign"/>
+    </effects>
+    <bodies>
+        <body name="body_collision_01" enabled="true" template="animated">
+            <object name="a_gate_door_l"/>
+            <object name="c_box_blocker_left" padding="-2.5" collision_type="box"/>
+        </body>
+        <body name="body_collision_02" enabled="true" template="animated">
+            <object name="a_gate_door_r"/>
+            <object name="c_box_blocker_right" padding="-2.5" collision_type="box"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_gate_r_deformed" />
+        <object name="g_gate_l_deformed" />
+        <object name="g_static_gate" shadow_caster="true" enabled="true"/>
+        <object name="g_gate_r" shadow_caster="true" enabled="true"/>
+        <object name="g_gate_l" shadow_caster="true" enabled="true"/>
+        <object name="g_thermite"shadow_caster="false" enabled="false"/>
+    </graphics>
+    <lights/>
+</dynamic_object>

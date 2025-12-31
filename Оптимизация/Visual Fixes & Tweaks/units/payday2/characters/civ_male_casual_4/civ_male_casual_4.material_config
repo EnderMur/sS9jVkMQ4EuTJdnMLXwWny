@@ -1,0 +1,28 @@
+<materials version="3" group="civ_male_casual_4">
+    <material name="m_jakob" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df"/>
+    </material>
+    <material name="m_jakob_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df" />
+    </material>
+    <material name="m_jakob_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/jakob_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/jakob_df" />
+    </material>
+
+    <material name="mtr_civ_casual_4" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df"/>
+    </material>
+    <material name="mtr_civ_casual_4_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df" />
+    </material>
+    <material name="mtr_civ_casual_4_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/casual_male_4_nm" />
+        <diffuse_texture file="units/payday2/characters/shared_textures/casual_male_4_df" />
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

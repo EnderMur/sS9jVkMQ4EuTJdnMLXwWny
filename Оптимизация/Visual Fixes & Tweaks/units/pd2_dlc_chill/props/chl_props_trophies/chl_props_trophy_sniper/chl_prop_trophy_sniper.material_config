@@ -1,0 +1,43 @@
+<materials version="3">
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS:VIEW_ANGLE_FALLOFF_OP" name="bors_il1" version="2">
+        <variable type="scalar" name="intensity" value="streetlight"/>
+        <diffuse_texture file="units/pd2_dlc_gage_snp/weapons/wpn_effects_textures/wpn_barret_bors_il"/>
+        <variable type="scalar" name="falloff_exp" value="1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="gfx_reddot2" version="2">
+        <diffuse_texture file="units/dev_tools/temp_textures/temp_texture_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="gfx_redlight1" version="2">
+        <diffuse_texture file="units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_o_cs/red_glass_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="gfx_redlight3" version="2">
+        <diffuse_texture file="units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_o_cs/red_glass_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="gfx_specter1" version="2">
+        <diffuse_texture file="units/pd2_dlc2/weapons/wpn_fps_upg_o_acog/effect_acog_sight_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="glass1" version="2">
+        <diffuse_texture file="units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_o_cs/red_glass_texture_df"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="inside_scope1" version="2">
+        <variable type="scalar" name="intensity" value="reddot"/>
+        <diffuse_texture file="units/pd2_dlc_gage_snp/weapons/wpn_fps_upg_o_leupold/wpn_fps_upg_o_sight_df"/>
+        <variable type="scalar" name="falloff_exp" value="0.01"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="leupold1" version="2">
+        <diffuse_texture file="units/pd2_dlc_gage_snp/weapons/wpn_fps_upg_o_leupold/wpn_fps_upg_o_leupold_df"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_trophy_base" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophy_base/chl_prop_trophy_base_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophy_base/chl_prop_trophy_base_nm"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_prop_trophy_base/chl_prop_trophy_base_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE" name="mtr_display1" version="2">
+        <variable type="scalar" name="intensity" value="reddot"/>
+        <diffuse_texture file="units/pd2_dlc_gage_snp/weapons/wpn_effects_textures/wpn_effect_rangefinder_dds_df"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE" name="mat_ao" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_mullplan/ch_int_mullplan_circle_df"/>
+    </material>
+</materials>

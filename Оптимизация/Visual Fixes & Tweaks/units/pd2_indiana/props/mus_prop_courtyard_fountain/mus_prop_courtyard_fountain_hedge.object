@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_courtyard_fountain/mus_prop_courtyard_fountain_hedge" orientation_object="rp_mus_prop_courtyard_fountain_hedge" />
+	<bodies>
+		<body name="hedge" template="editor" enabled="true">
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_lod0" enabled="true" shadow_caster="true"/>
+		<object name="g_lod1" enabled="true" shadow_caster="false"/>
+		<object name="g_lod2" enabled="true" shadow_caster="false"/>
+	</graphics>
+</dynamic_object>

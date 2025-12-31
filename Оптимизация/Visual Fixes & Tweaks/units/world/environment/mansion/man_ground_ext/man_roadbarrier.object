@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/environment/mansion/man_ground_ext/man_roadbarrier" orientation_object="rp_man_roadbarrier" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_man_roadbarrier" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="dm_stone" enabled="true" material="stone" />
+    <decal_mesh name="dm_metal" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_man_roadbarrier" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

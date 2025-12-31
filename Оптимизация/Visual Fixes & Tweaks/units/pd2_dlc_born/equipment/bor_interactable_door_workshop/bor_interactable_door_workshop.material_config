@@ -1,0 +1,21 @@
+<materials version="3">
+    <material name="mat_door" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/pd2_dlc_born/equipment/bor_interactable_door_workshop/bor_interactable_door_workshop_nm"/>
+		<material_texture file="units/payday2/props/gen_prop_door_metal/gen_prop_door_metal_gsma"/>
+        <diffuse_texture file="units/pd2_dlc_born/equipment/bor_interactable_door_workshop/bor_interactable_door_workshop_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="saw" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/sawblade_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="3 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

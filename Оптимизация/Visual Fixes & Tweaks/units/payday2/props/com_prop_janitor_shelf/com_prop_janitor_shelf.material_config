@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="com_prop_janitor_shelf" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf_nm"/>
+        <variable value="0.017000000923872" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

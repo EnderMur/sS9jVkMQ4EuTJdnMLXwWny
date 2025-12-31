@@ -1,0 +1,48 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ranc/architecture/ext/ranc_ext_tree_circle/ranc_ext_tree_circle" orientation_object="rp_ranc_ext_tree_circle" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ranc_ext_tree_circle" />
+			<object name="c_box_tree_circle_041" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_042" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_043" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_044" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_045" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_046" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_047" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_048" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_049" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_050" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_051" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_052" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_053" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_054" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_055" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_056" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_057" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_058" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_059" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_060" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_061" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_062" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_063" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_064" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_065" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_066" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_067" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_068" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_069" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_070" collision_type="box" padding="-2.5" />
+			<object name="c_box_tree_circle_071" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+		<decal_mesh name="dm_stone" enabled="true" material="stone" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+	<lights />
+</dynamic_object>

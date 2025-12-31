@@ -1,0 +1,342 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:VERTEX_COLOR" name="mat_limestone_ext_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.069000003277324"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_limestone_ext_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_02/sah_limestone_ext_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_02/sah_limestone_ext_02_nm" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_02/sah_limestone_ext_02_gsma" mip="1"/>
+    </material>
+    <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_limestone_int_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_01/sah_limestone_int_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_01/sah_limestone_int_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_01/sah_limestone_int_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <!--<material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_limestone_int_ornament_trims_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_ornament_trims_01/sah_limestone_int_ornament_trims_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_ornament_trims_01/sah_limestone_int_ornament_trims_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_int_ornament_trims_01/sah_limestone_int_ornament_trims_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>-->
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_green_marble_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_green_marble_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_02/sah_green_marble_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_green_marble_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_03/sah_green_marble_03_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_white_marble_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_df"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_gsma" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_nm" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_white_marble_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_02/sah_white_marble_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_marble_checkered_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_checkered_floor/sah_marble_checkered_floor_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_checkered_floor/sah_marble_checkered_floor_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_checkered_floor/sah_marble_checkered_floor_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_green_marble_ribbed" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_ribbed/sah_green_marble_ribbed_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_ribbed/sah_green_marble_ribbed_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_ribbed/sah_green_marble_ribbed_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.099000004702248"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_white_marble_ornament_trims_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_wooden_floor_patterned" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_floor_patterned/sah_wooden_floor_patterned_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_floor_patterned/sah_wooden_floor_patterned_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_floor_patterned/sah_wooden_floor_patterned_gsma" mip="1"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_wooden_panel_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.013500000641216"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_roofslate_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_01/sah_roofslate_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_01/sah_roofslate_01_nm" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_01/sah_roofslate_01_gsma" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_roofslate_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_02/sah_roofslate_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_02/sah_roofslate_02_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_roofslate_02/sah_roofslate_02_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_night_sky" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wallpaper_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_carpet_patterned" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_carpet_patterned/sah_carpet_patterned_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_carpet_patterned/sah_carpet_patterned_nm" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_cobbelstone_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_01/sah_cobbelstone_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_01/sah_cobbelstone_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_01/sah_cobbelstone_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.054500002588611"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_cobbelstone_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_02/sah_cobbelstone_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_02/sah_cobbelstone_02_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_02/sah_cobbelstone_02_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.044500002113637"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_cobbelstone_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_03/sah_cobbelstone_03_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_03/sah_cobbelstone_03_dnm"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_cobbelstone_03/sah_cobbelstone_03_gsma"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="scalar" name="parallax_scale" value="0.022000001044944"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_temp" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/test_actors/temp_texture_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/test_actors/temp_texture_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/test_actors/temp_texture_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED" name="mat_text" version="2">
+        <diffuse_texture file="units/white_df" mip="1"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_marble_floor_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_01/sah_marble_floor_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_01/sah_marble_floor_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_01/sah_marble_floor_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_painted_steel_red" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_painted_steel_red/sah_painted_steel_red_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_painted_steel_red/sah_painted_steel_red_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_painted_steel_red/sah_painted_steel_red_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.14950000710087"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_grass" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_grass/sah_ext_lawn_grass_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_grass/sah_ext_lawn_grass_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_grass/sah_ext_lawn_grass_gsma" mip="1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS" name="mat_fence_stone_01" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_fence/str_prop_park_fence_stone_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_park_fence/str_prop_park_fence_stone_nm" mip="1"/>
+    </material>
+    <material render_template="water" name="mat_water" version="2">
+        <diffuse_texture file="units/world/water/water_foam_df" mip="1"/>
+        <variable type="vector3" name="water_settings_c" value="0.10830000042915 5.4512996673584 0"/>
+        <variable type="vector3" name="water_settings_b" value="0 0 0.27399998903275"/>
+        <bump_normal_texture file="units/world/water/water_weak_nm" mip="1"/>
+        <variable type="vector3" name="water_settings_d" value="74 172 0.40900000929832"/>
+        <variable type="vector3" name="water_color_shallow" value="0 0.56692910194397 0.55358964204788"/>
+        <variable type="vector3" name="water_settings" value="1.9500000476837 1.1000000238419 0"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_lxy_ext_df" type="cubemap"/>
+        <variable type="vector3" name="water_color_deep" value="0.25993517041206 0.27840051054955 0.36220473051071"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_RELIEF:PARALLAX_SHADOWS" decal_material="concrete" name="mat_bricks_01">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_bricks_01/sah_bricks_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_bricks_01/sah_bricks_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_bricks_01/sah_bricks_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.016000000759959"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+        <variable type="scalar" name="parallax_shadow_scale" value="0.24200001149438"/>
+        <variable type="scalar" name="parallax_shadowing" value="0.26999999396503"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_gravel" version="2">
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_gravel/sah_gravel_nm" mip="1"/>
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_gravel/sah_gravel_df" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_gravel/sah_gravel_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_rough_floor_tiles" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_rough_floor_tiles/sah_rough_floor_tile_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_rough_floor_tiles/sah_rough_floor_tile_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_rough_floor_tiles/sah_rough_floor_tile_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_limestone_ext_ornaments_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_ornaments/sah_limestone_ornaments_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_ornaments/sah_limestone_ornaments_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_ornaments/sah_limestone_ornaments_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_ext_roof_parapet_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_parapet_01/sah_prop_parapet_01_df" mip="1"/>
+        <variable type="scalar" name="alpha_ref" value="0.4"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_parapet_01/sah_prop_parapet_01_nm" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_white_ceiling_patterned_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_ceiling_patterned_01/sah_white_ceiling_patterned_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_ceiling_patterned_01/sah_white_ceiling_patterned_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_ceiling_patterned_01/sah_white_ceiling_patterned_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.037500001781154"/>
+        <variable type="scalar" name="parallax_layers" value="32"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_storageroom_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_storageroom_trims/sah_storageroom_trims_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_storageroom_trims/sah_storageroom_trims_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_storageroom_trims/sah_storageroom_trims_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_planter_a" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_planting/str_prop_park_planting_a_df" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_marble_floor_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:VERTEX_COLOR" name="mat_limestone_ext_blend" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_01/sah_limestone_ext_01_gsma" mip="1"/>
+        <variable type="vector3" name="blend_control" value="0.52999997138977 0.40000000596046 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_03/sah_limestone_ext_03_nm"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_03/sah_limestone_ext_03_df"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_sah/tiling_textures/sah_limestone_ext_03/sah_limestone_ext_03_gsma"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" decal_material="marble" name="mat_beige_marble_01">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_01/sah_marble_beige_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_01/sah_marble_beige_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_01/sah_marble_beige_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" decal_material="marble" name="mat_beige_marble_02">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_02/sah_marble_beige_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_01/sah_marble_beige_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_beige_marble_01/sah_marble_beige_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_broken_marble" version="2">
+        <diffuse_texture file="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_dest_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_dest_nm" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_old_planks" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_old_planks/sah_old_planks_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_old_planks/sah_old_planks_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_old_planks/sah_old_planks_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_metal_concrete" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_metal_concrete/sah_metal_concrete_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_metal_concrete/sah_metal_concrete_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_metal_concrete/sah_metal_concrete_gsma" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_wood_pannel" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_pannels/sah_int_wall_pannel_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_pannels/sah_int_wall_pannel_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_pannels/sah_int_wall_pannel_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="vector3" name="tint_color" value="0.30384439229965 0.37795275449753 0.320148229599"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_drainpipe_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_drainpipe_metal/sah_drainpipe_metal_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_drainpipe_metal/sah_drainpipe_metal_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_drainpipe_metal/sah_drainpipe_metal_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_night_sky" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_marble_beige_ornament_trims_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_beige_ornament trims/sah_marble_beige_ornament_trims_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_beige_ornament trims/sah_marble_beige_ornament_trims_01_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_beige_ornament trims/sah_marble_beige_ornament_trims_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX" name="mat_wooden_panel_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_ceiling/sah_wooden_panel_ceiling_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_ceiling/sah_wooden_panel_ceiling_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_ceiling/sah_wooden_panel_ceiling_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.029000001377426"/>
+        <variable type="scalar" name="parallax_layers" value="5"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_white_ceiling_plain_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_ceiling_plain_01/sah_white_ceiling_plain_01_df" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+        <bump_normal_texture file="units/payday2/textures/blank_nm"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_sah_prop_display_cases" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/props/sah_prop_display_cases/sah_prop_display_cases_gsma" mip="1"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" name="mat_light_effect" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_light gradient_df" mip="1"/>
+        <variable type="scalar" name="intensity" value="searchlight"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_carpet" version="2">
+        <diffuse_texture file="units/pd2_dlc_aru/props/aru_prop_carpet_floor/aru_prop_carpet_floor_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_aru/props/aru_prop_carpet_floor/aru_prop_carpet_floor_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_aru/props/aru_prop_carpet_floor/aru_prop_carpet_floor_gsma" mip="1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_carpet_edge" version="2">
+        <diffuse_texture file="units/pd2_dlc_aru/props/aru_prop_carpet_floor/aru_carpet_edge_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_aru/props/aru_prop_carpet_floor/aru_carpet_edge_nm" mip="1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_beams" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/tiling_textures/des_trimsheet_1/des_trimsheet_1_df" mip="5"/>
+        <bump_normal_texture file="units/pd2_dlc_des/tiling_textures/des_trimsheet_1/des_trimsheet_1_nm" mip="6"/>
+        <material_texture file="units/pd2_dlc_des/tiling_textures/des_trimsheet_1/des_trimsheet_1_gsma" mip="6"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_auctionhall_cubemap" type="cubemap"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_glass_vault" version="2">
+        <opacity_texture file="units/glass/window_glass/windows_op_frosted glass_op" mip="1"/>
+        <diffuse_texture file="units/glass/window_glass/window_glass_blue_df" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/sah_vaut_cubemap" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0 0 0.96999996900558"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="10000 10000 0"/>
+    </material>
+</materials>

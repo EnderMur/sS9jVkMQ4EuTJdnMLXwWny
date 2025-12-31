@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="mat_gate" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_gate_lock_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_glass_a" decal_material="glass_breakable" version="2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_door_glass_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

@@ -1,0 +1,40 @@
+<materials version="3" group="civ_male_firefighter_1">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body">
+        <bump_normal_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_nm"/>
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod1">
+        <bump_normal_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_nm" />
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod2">
+        <bump_normal_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_nm" />
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2" name="mtr_visor">
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_df"/>
+        <opacity_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_op"/>
+        <reflection_texture file="core/textures/default_texture_df"/>
+        <variable value="0 1 0.5" type="vector3" name="fresnel_settings"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2" name="mtr_visor_lod1">
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_df" />
+        <opacity_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_op" />
+        <reflection_texture file="core/textures/default_texture_df"/>
+        <variable value="0 1 0.5" type="vector3" name="fresnel_settings"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2" name="mtr_visor_lod2">
+        <diffuse_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_df" />
+        <opacity_texture file="units/pd2_dlc1/characters/shared_textures/civ_male_firefighter_1_visor_op" />
+        <reflection_texture file="core/textures/default_texture_df"/>
+        <variable value="0 1 0.5" type="vector3" name="fresnel_settings"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_veg_flower_box_c" materials="units/payday2/vegetation/srt_veg_flower_box/str_veg_flower_box_b" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_str_veg_flower_box_c" />
+            <object collision_type="box" name="c_box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+	</decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

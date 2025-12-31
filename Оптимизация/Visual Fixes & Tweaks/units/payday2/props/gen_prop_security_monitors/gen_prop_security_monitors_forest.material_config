@@ -1,0 +1,18 @@
+<materials version="3" group="security_set">
+	<material name="mtr_lcd" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_security_monitors/lcds_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_security_monitors/lcds_nm"/>
+    </material>
+    <material name="mtr_screen" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_security_monitors/forest_screen_df"/>
+        <self_illumination_texture file="units/payday2/props/gen_prop_security_monitors/forest_screen_il"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+		<variable type="scalar" name="il_bloom" value="1"/>
+    </material>
+    <material name="mtr_screen_no_bones" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_security_monitors/forest_screen_df"/>
+        <self_illumination_texture file="units/payday2/props/gen_prop_security_monitors/forest_screen_il"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+		<variable type="scalar" name="il_bloom" value="1"/>
+    </material>
+</materials>

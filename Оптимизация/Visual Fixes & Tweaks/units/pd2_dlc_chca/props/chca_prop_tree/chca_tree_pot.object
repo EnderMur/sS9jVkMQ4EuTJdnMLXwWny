@@ -1,0 +1,58 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chca/props/chca_prop_tree/chca_tree_pot" orientation_object="rp_chca_tree_pot" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chca_tree_pot" />
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_06" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_07" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_08" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_09" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_10" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_11" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_12" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_13" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_14" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_15" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_16" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_17" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_18" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_19" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_20" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_21" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_22" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_23" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_24" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="marble">		
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_mull_plane" enabled="false" />
+		<object name="g_lod0" enabled="true" shadow_caster="true" />
+		<object name="g_lod1" enabled="false" />
+	</graphics>
+</dynamic_object>

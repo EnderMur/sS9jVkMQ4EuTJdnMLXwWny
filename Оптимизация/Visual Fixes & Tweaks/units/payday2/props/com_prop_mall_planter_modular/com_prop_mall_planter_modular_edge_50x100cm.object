@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_mall_planter_modular_edge_50x100cm" materials="units/payday2/props/com_prop_mall_planter_modular/com_prop_mall_planter_modular" />
+    
+	<bodies>
+		<body name="static_body" enabled="true" editable="true" template="static">
+			<object name="rp_com_prop_mall_planter_modular_edge_50x100cm"/>
+			<object name="c_box_000" collision_type="box" />			
+		</body>
+	</bodies>
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="g_g" enabled="true" material="marble" />
+	</decal_surfaces>
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

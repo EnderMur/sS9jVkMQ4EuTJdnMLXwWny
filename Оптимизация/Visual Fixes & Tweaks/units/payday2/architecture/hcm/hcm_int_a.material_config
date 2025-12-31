@@ -1,0 +1,9 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_hcm_int_a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_a_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_int_01_a_nm"/>
+    </material>
+</materials>

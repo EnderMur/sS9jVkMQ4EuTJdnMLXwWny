@@ -1,0 +1,143 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a" orientation_object="rp_ranc_ext_workshop_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ranc_ext_workshop_a" />
+			<object name="c_box_workshop_a_001" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_002" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_003" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_004" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_005" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_006" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_007" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_008" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_009" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_010" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_011" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_012" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_013" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_014" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_015" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_016" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_017" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_018" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_019" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_020" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_021" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_022" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_023" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_024" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_025" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_026" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_027" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_028" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_029" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_030" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_031" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_032" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_033" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_034" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_035" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_036" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_037" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_038" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_039" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_040" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_041" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_042" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_043" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_044" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_045" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_046" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_047" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_048" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_049" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_050" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_051" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_052" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_053" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_054" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_055" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_056" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_057" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_058" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_059" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_060" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_061" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_062" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_063" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_064" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_065" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_066" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_067" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_068" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_069" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_070" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_071" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_072" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_073" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_074" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_075" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_076" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_077" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_078" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_079" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_123" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_080" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_081" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_082" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_083" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_084" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_085" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_086" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_087" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_088" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_089" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_090" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_091" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_092" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_093" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_094" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_095" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_096" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_097" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_098" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_099" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_100" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_101" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_102" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_103" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_104" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_105" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_106" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_107" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_108" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_109" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_110" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_111" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_112" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_113" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_114" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_115" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_116" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_117" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_118" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_119" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_120" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_121" collision_type="box" padding="-2.5" />
+			<object name="c_box_workshop_a_122" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_stone" enabled="true" material="stone" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+		<object name="s_s" enabled="false" />
+	</graphics>
+	<lights />
+</dynamic_object>

@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_livingroom_sofa3_english" materials="units/payday2/props/lxa_prop_livingroom_sofaenglish/lxa_prop_livingroom_sofaenglish" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+            <object collision_type="box" name="c_box_04" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth_stuffed" material="cloth_stuffed" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

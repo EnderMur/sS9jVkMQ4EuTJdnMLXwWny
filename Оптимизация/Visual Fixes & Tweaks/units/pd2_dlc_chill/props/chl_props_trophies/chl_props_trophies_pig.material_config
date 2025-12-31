@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_pig" version="2">
+        <diffuse_texture file="units/payday2/props/bnk_prop_piggybank/bnk_prop_piggybank_df"/>
+        <bump_normal_texture file="units/payday2/props/bnk_prop_piggybank/bnk_prop_piggybank_nm"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE" name="mat_ao" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_mullplan/ch_int_mullplan_circle_df"/>
+    </material>
+</materials>

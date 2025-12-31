@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/roof_addons/roof_addons" orientation_object="rp_roof_water_sistern_01" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_roof_water_sistern_01" />
+      <object name="c_roof_water_sistern_01" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal" static="true">
+	<decal_mesh name="dm_roof_water_sistern_01" enabled="true" material="metal"/>
+</decal_surfaces>
+  <graphics>
+    <object name="g_roof_water_sistern_01" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="mat_cutter" unique="true" version="2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

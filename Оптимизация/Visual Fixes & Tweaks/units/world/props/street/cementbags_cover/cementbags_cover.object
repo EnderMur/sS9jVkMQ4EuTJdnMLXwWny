@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/cementbags_cover/cementbags_cover" orientation_object="rp_cementbags_cover" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_cementbags_cover" />
+      <object name="c_cementbags_cover" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="rubber" static="true">
+  <decal_mesh name="dm_cementbags_cover" enabled="true" material="rubber"/>
+  </decal_surfaces>
+  <graphics>
+    <object name="s_cementbags_cover" enabled="false" />
+    <object name="g_cementbags_cover" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

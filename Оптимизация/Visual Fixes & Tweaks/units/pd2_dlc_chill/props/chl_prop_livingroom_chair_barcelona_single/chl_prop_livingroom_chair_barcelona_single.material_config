@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="mat_chair" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_livingroom_chair_barcelona_single/chl_prop_livingroom_chair_barcelona_single_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_livingroom_chair_barcelona_single/chl_prop_livingroom_chair_barcelona_single_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_street_wet_df" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_prop_livingroom_chair_barcelona_single/chl_prop_livingroom_chair_barcelona_3seater_gsma"/>
+    </material>
+    <material name="mat_chair_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture mip="4" file="units/pd2_dlc_chill/props/chl_prop_livingroom_chair_barcelona_single/chl_prop_livingroom_chair_barcelona_single_df"/>
+        <bump_normal_texture mip="4" file="units/pd2_dlc_chill/props/chl_prop_livingroom_chair_barcelona_single/chl_prop_livingroom_chair_barcelona_single_nm"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

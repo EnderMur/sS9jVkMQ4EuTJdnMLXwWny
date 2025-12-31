@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up" orientation_object="rp_stn_prop_blinds_window_up" />
+  <bodies>
+    <body name="static_body" remove_ray_type="body ai_vision" add_ray_type="editor" enabled="true" template="static">
+      <object name="rp_stn_prop_blinds_window_up" />
+      <object name="c_stn_prop_blinds_window_up_a_box" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="thin_layer">
+    <decal_mesh name="g_stn_prop_blinds_window_up" material="thin_layer" enabled="true" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_stn_prop_blinds_window_up" enabled="true"  shadow_caster="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object> 

@@ -1,0 +1,23 @@
+{
+	"name": "More Letters",
+	"description": "Doubles the amount of allowed input characters for renaming weapons, skill sets and profiles",
+	"author": "Valdas V.",
+	"version": "1.0.1",
+	"blt_version": 2,
+	"image" : "logo.png",
+	"updates" : [
+		{
+			"identifier" : "ML"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/tweak_data/guitweakdata",
+			"script_path" : "lua/guitweakdata.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menu/multiprofileitemgui",
+			"script_path" : "lua/multiprofileitemgui.lua"
+		}
+	]
+}

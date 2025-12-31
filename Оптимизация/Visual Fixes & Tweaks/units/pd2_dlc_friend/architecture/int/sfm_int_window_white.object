@@ -1,0 +1,92 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" orientation_object="rp_sfm_int_window_white" />
+	<sequence_manager file="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sfm_int_window_white" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_static_wood" enabled="true" template="static">
+			<object name="rp_sfm_int_window_white" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_01" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_02" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_03" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_03" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_04" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_05" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_06" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_06" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_07" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_07" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_glass_08" template="window" enabled="true">
+			<object name="e_glass" />
+			<object name="c_box_glass_08" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_glass_breakable_01" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_02" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_03" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_04" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_05" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_06" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_07" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_08" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="glass" enabled="true">
+			<object name="g_glass_01" enabled="true" />
+			<object name="g_glass_02" enabled="true" />
+			<object name="g_glass_03" enabled="true" />
+			<object name="g_glass_04" enabled="true" />
+			<object name="g_glass_05" enabled="true" />
+			<object name="g_glass_06" enabled="true" />
+			<object name="g_glass_07" enabled="true" />
+			<object name="g_glass_08" enabled="true" />
+		</graphic_group>
+		<graphic_group name="glass_dmg" enabled="true">
+			<object name="g_glass_dmg_01" enabled="false" />
+			<object name="g_glass_dmg_02" enabled="false" />
+			<object name="g_glass_dmg_03" enabled="false" />
+			<object name="g_glass_dmg_04" enabled="false" />
+			<object name="g_glass_dmg_05" enabled="false" />
+			<object name="g_glass_dmg_06" enabled="false" />
+			<object name="g_glass_dmg_07" enabled="false" />
+			<object name="g_glass_dmg_08" enabled="false" />
+		</graphic_group>
+		<graphic_group name="window" enabled="true" >
+			<object name="g_g" enabled="true" shadow_caster="true" />
+		</graphic_group>		
+		<graphic_group name="frame_broken" enabled="false" >
+			<object name="g_frame_broken" enabled="true" shadow_caster="true" />
+		</graphic_group>
+		<object name="g_glass" enabled="true" shadow_caster="true" />	
+	</graphics>
+</dynamic_object>

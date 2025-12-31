@@ -1,0 +1,58 @@
+<dynamic_object>
+    <diesel orientation_object="rp_slaughterhouse_container_crane" materials="units/world/architecture/slaughterhouse/slaughterhouse_container_crane" />
+	<sequence_manager file="units/world/architecture/slaughterhouse/slaughterhouse_container_crane" />
+	
+		<animations>
+		<animation_group name="pickup_crate">
+			<object name="a_crane" />
+			<object name="a_crane_house" />
+			<object name="a_crane_lift_up_down" />
+			<object name="a_crane_lift_rotateble" />
+			<object name="a_lift_left_arm_1" />
+			<object name="a_lift_left_arm_2" />
+			<object name="a_lift_right_arm_1" />
+			<object name="a_lift_right_arm_2" />
+		</animation_group>
+	</animations>
+	<bodies>
+	<!-- Container -->
+    <body name="static_body" enabled="false" template="animated">
+      <object name="a_container" />
+	  <object name="c_container" 					collision_type="box" />
+    </body>
+	  
+	<!-- Container -->
+  </bodies>
+  <decal_surfaces default_material="metal_hollow">
+    <decal_mesh name="dm_container" 					enabled="true" material="steel" />
+  </decal_surfaces>
+    <graphics>
+		<graphic_group name="crane" culling_object="g_crane" enabled="true">
+			<object enabled="true" name="g_lifter" />
+			<object enabled="true" name="s_lifter" shadow_caster="true" />
+			<object enabled="true" name="g_lifter_rotater" shadow_caster="true"/>
+			<object enabled="true" name="s_lifter_rotater" shadow_caster="true" />
+			<object enabled="true" name="g_lifter_arm_left_1" shadow_caster="true" />
+			<object enabled="true" name="g_lifter_arm_left_2" shadow_caster="true" />
+			<object enabled="true" name="g_lifter_arm_right_1" shadow_caster="true" />
+			<object enabled="true" name="g_lifter_arm_right_2" shadow_caster="true" />
+			<object enabled="true" name="g_glass" shadow_caster="true"/>
+			<object enabled="true" name="g_crane_house" shadow_caster="true"/>
+			<object enabled="true" name="s_crane_house" shadow_caster="true" />
+			<object enabled="true" name="g_house_floor" shadow_caster="true"/>
+			<object enabled="true" name="g_crane" shadow_caster="true"/>
+			<object enabled="true" name="s_crane"  />
+			<object enabled="true" name="g_floor" shadow_caster="true" />
+			<object enabled="true" name="g_ropes" shadow_caster="true" />
+			<object enabled="true" name="g_crane_house_planes" />
+			<object enabled="true" name="g_planes" shadow_caster="true" />
+			<object enabled="false" name="g_light" />
+		</graphic_group>
+		<graphic_group name="container" culling_object="g_container_1" enabled="true">		
+			<object name="g_container_1" 					enabled="false" shadow_caster="true"/>
+			<object name="g_container_1_decal"				enabled="false" shadow_caster="true"/>
+			<object name="g_container_2" 					enabled="false" shadow_caster="true"/>
+			<object name="s_container" 						enabled="false" shadow_caster="false" />
+		</graphic_group>
+    </graphics>
+</dynamic_object>

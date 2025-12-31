@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/train/tra_prop_dish/tra_dish" orientation_object="rp_tra_prop_dish_mug" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_tra_prop_dish_mug_box" collision_type="box" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_tra_prop_dish_mug" enabled="true" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_tra_prop_dish_mug" enabled="true"  shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

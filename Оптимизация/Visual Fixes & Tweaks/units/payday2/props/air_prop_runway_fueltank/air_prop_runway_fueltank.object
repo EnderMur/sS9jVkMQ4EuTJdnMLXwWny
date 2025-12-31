@@ -1,0 +1,28 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/air_prop_runway_fueltank/air_prop_runway_fueltank" orientation_object="rp_air_prop_runway_fueltank" />
+	<sequence_manager file="units/payday2/props/air_prop_runway_fueltank/air_prop_runway_fueltank" />
+	
+    <bodies>
+        <body enabled="true" template="static" name="whole" >
+            <object collision_type="mesh_mopp" name="c_fuel" />
+        </body>        
+		
+		<body enabled="false" template="static" name="dest" >
+            <object collision_type="mesh_mopp" name="c_fuel_dest" />
+        </body>
+		
+		<body name="hitbox_fuel" enabled="true" template="static">
+			<object name="c_box_hitbox" collision_type="box" padding="-2.5" />
+		</body>
+		
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_fuel" material="sheet_metal" />
+        <decal_mesh enabled="false" name="dm_fuel_dest" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_fuel" shadow_caster="true"/>
+        <object enabled="false" name="g_outline" />
+        <object enabled="false" name="g_fuel_dest" />
+    </graphics>
+</dynamic_object>

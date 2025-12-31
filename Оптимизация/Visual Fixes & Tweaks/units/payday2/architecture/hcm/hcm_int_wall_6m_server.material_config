@@ -1,0 +1,18 @@
+<materials version="3">
+    <material name="mat_hcm_int_a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_a_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_int_01_a_nm"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_hcm_int_b_metal">
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_b_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <bump_normal_texture file="units/payday2/architecture/hcm/hcm_int_01_b_nm"/>
+    </material>	
+    <material version="2" decal_material="glass_breakable" name="mat_hcm_int_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <variable value="0 1 0.66999995708466" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/hcm/hcm_int_01_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/hcm/hcm_int_01_glass_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cube"/>
+    </material>
+</materials>

@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_veg_indoor_plants_palm_b" materials="units/payday2/vegetation/com_veg_indoor_plants/com_veg_indoor_plants_palm" />
+    <bodies>
+        <body enabled="true" template="mover_blocker" name="mover_blocker_body" >
+            <object name="rp_com_veg_indoor_plants_palm_b"/>
+            <object collision_type="capsule" name="c_capsule_01" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

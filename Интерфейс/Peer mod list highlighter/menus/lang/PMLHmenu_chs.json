@@ -1,0 +1,46 @@
+{
+	"PMLH_title": "玩家模组列表高亮器",
+	"PMLH_desc": "更改 PMLH 的设置",
+	"PMLH_blank": "",
+	
+	"PMLHjoinmods": "加入界面模组列表",
+	"PMLHjoinmods_desc": "当玩家加入你的大厅时，显示他们的模组列表并进行相应的高亮标记",
+	"PMLH_profile_button": "个人资料链接",
+	"PMLH_profile_button_desc": "添加一个按钮，让你打开玩家的 Steam 个人资料(如果可以的话). 此按钮位于玩家列表菜单中玩家模组的上方",
+	
+	"PMLH_folder_in_player_menu": "玩家列表中模组的文件夹名称",
+	"PMLH_folder_in_player_menu_desc": "在玩家列表中查看玩家的模组名称时，在模组名称后附加模组文件夹的名称",
+	"PMLH_folder_in_crimenet": "在crime.net浏览模组界面中显示模组文件夹名(悬浮显示)",
+	"PMLH_folder_in_crimenet_desc": "在crime.net浏览模组界面添加模组文件夹的名称. 使用悬停交互 - 将鼠标悬停在任何模组名称上即可查看其文件夹名称",
+	"PMLH_folder_in_joinlist": "玩家加入界面时模组列表中显示模组文件夹名",
+	"PMLH_folder_in_joinlist_desc": "在玩家加入的加载界面期间，在模组名称后附加模组文件夹的名称",
+	
+	"PMLH_colourchoice": "当前选择的高亮颜色",
+	"PMLH_green_header": "第一种模组高亮类别",
+	"PMLH_yellow_header": "第二种模组高亮类别",
+	"PMLH_red_header": "第三种模组高亮类别",
+	"PMLH_colour1": "红色值",
+	"PMLH_colour2": "绿色值",
+	"PMLH_colour3": "蓝色值",
+	
+	"PMLH_joinplayer_list_mods_1": "",
+	"PMLH_joinplayer_list_mods_2": "安装了以下模组:",
+	"PMLH_searchmodname": "尝试通过模组名称在modworkshop查找模组",
+	"PMLH_searchmodfolder": "尝试通过模组文件夹名称在modworkshop查找模组",
+	"PMLH_adjustmod": "将此模组添加/删除到这一列: ",
+	"PMLH_list1name": "第一种模组高亮",
+	"PMLH_list2name": "第二种模组高亮",
+	"PMLH_list3name": "第三种模组高亮",
+	"PMLH_list": "类别",
+	"PMLH_adjustmenutitle": "玩家模组列表高亮器",
+	"PMLH_adjustmenuquestion": "你想对该模组做什么",
+	"PMLH_cancelbutton": "取消",
+	
+	"PMLH_patch_notes": "更新日志",
+	"PMLH_patch_notes_desc": "按下此按钮可打开最新的更新日志",
+	
+	"PMLH_player_profile_inspect_help": "(PMLH) 点击以打开此玩家的 Steam 个人资料",
+	"PMLH_player_profile_inspect_text": "Steam 个人资料",
+	"PMLH_player_profile_inspect_help_epic": "(PMLH) 该用户为Epic玩家，无法查看其个人资料",
+	"PMLH_player_profile_inspect_text_epic": "Epic 个人资料",
+}

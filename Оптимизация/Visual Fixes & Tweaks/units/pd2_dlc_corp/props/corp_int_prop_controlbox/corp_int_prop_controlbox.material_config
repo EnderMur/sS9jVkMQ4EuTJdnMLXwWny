@@ -1,0 +1,26 @@
+<materials version="3">
+	<material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_controlbox" version="2">
+        <diffuse_texture file="units/pd2_dlc_corp/props/corp_int_prop_controlbox/controlbox_df"/>
+        <bump_normal_texture file="units/pd2_dlc_corp/props/corp_int_prop_controlbox/controlbox_nm"/>
+    </material>
+	<material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_box_vtxc" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box_nm"/>
+    </material>
+	<material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_leds" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/props/bex_prop_cable_box/led_colors_df"/>
+        <self_illumination_texture file="units/pd2_dlc_bex/props/bex_prop_cable_box/led_colors_df"/>
+        <variable type="scalar" name="il_bloom" value="8.8510004203999"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+	 <material unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_outline" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable type="vector3" name="contour_color" value="1.0 0.5 0"/>
+        <variable type="scalar" name="contour_opacity" value="1"/>
+        <opacity_texture file="units/transparent_op"/>
+        <variable type="scalar" name="contour_distance" value="300"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_whitebox" version="2">
+        <diffuse_texture file="units/payday2/architecture/mkp/mkp_grid_df"/>
+    </material>
+</materials>

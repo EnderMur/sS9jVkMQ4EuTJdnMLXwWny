@@ -1,0 +1,32 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_int_office_lower" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_red_int_office_lower" />
+			<object name="c_mesh_office" collision_type="mesh_mopp" />
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_box_005" collision_type="box" padding="-2.5"/>
+			<object name="c_box_006" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_nav" enabled="true" template="nav_walk">
+			<object name="rp_red_int_office_lower" />
+			<object name="c_mesh_nav" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="dm_carpet" 	enabled="true" material="carpet" />
+		<decal_mesh name="dm_marble" 	enabled="true" material="marble" />
+		<decal_mesh name="dm_wood" 		enabled="true" material="wood" />
+		<decal_mesh name="dm_plaster" 	enabled="true" material="plaster" />
+		<decal_mesh name="dm_concrete" 	enabled="true" material="concrete"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="s_s" enabled="true"/>
+		<object name="g_office_lower" enabled="true" shadow_caster="true"/>
+		<object name="g_carpet" enabled="true" />
+		<object name="g_office_lower_window_wood" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

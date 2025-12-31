@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_int_store_cosmetic_2a" materials="units/payday2/architecture/com_int_store_cosmetic/com_int_store_cosmetic" />
+    <bodies>
+        <body enabled="true" template="editor" name="body0" >
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="true" />
+		<object enabled="true" name="g_il" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,47 @@
+<materials version="3" group="civ_male_miami_store_clerk_1">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head">
+        <bump_normal_texture 	file="units/payday2/characters/shared_textures/store_clerk_1_nm"/>
+        <diffuse_texture 		file="units/payday2/characters/shared_textures/store_clerk_1_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head_lod1">
+        <bump_normal_texture    file="units/payday2/characters/shared_textures/store_clerk_1_nm" />
+        <diffuse_texture        file="units/payday2/characters/shared_textures/store_clerk_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_head_lod2">
+        <bump_normal_texture    file="units/payday2/characters/shared_textures/store_clerk_1_nm" />
+        <diffuse_texture        file="units/payday2/characters/shared_textures/store_clerk_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body">
+        <bump_normal_texture 	file="units/payday2/characters/shared_textures/store_clerk_body_1_nm"/>
+        <diffuse_texture 		file="units/payday2/characters/shared_textures/store_clerk_body_1_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod1">
+        <bump_normal_texture    file="units/payday2/characters/shared_textures/store_clerk_body_1_nm" />
+        <diffuse_texture        file="units/payday2/characters/shared_textures/store_clerk_body_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_body_lod2">
+        <bump_normal_texture    file="units/payday2/characters/shared_textures/store_clerk_body_1_nm" />
+        <diffuse_texture        file="units/payday2/characters/shared_textures/store_clerk_body_1_df" />
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_necklace">
+        <opacity_texture 		file="units/payday2/characters/shared_textures/store_clerk_body_1_op"/>
+        <bump_normal_texture 	file="units/payday2/characters/shared_textures/store_clerk_body_1_nm"/>
+        <diffuse_texture 		file="units/payday2/characters/shared_textures/store_clerk_body_1_df"/>
+        <variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

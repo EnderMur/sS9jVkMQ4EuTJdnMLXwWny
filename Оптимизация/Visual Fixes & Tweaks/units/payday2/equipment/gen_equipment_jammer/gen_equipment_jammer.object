@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<dynamic_object>
+    <diesel materials="units/payday2/equipment/gen_equipment_jammer/gen_equipment_jammer" orientation_object="rp_gen_equipment_jammer"/>
+    <graphics>
+        <object enabled="true" name="g_ecm" shadow_caster="true"/>
+		<object enabled="true" name="g_glow_func1_green" shadow_caster="true"/>
+		<object enabled="false" name="g_glow_func1_red" shadow_caster="true"/>
+		<object enabled="false" name="g_glow_func2_green" shadow_caster="true"/>
+		<object enabled="false" name="g_glow_func2_red" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

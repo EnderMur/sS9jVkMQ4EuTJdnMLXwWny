@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/com_inte_store_tshirt/com_int_store_tshirt" orientation_object="rp_com_int_store_tshirt_street" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_com_int_store_tshirt_street" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true"/>
+		<object name="s_s" enabled="true" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

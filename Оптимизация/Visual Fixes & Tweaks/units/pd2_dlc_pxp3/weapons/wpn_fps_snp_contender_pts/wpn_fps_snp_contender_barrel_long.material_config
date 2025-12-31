@@ -1,0 +1,14 @@
+<materials version="3" group="weapon_contender">
+    <material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_contender_barrel" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_barrel_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_barrel_nm"/>
+        <material_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_barrel_gsma"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mtr_contender_bullet" version="2">
+        <diffuse_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_bullet_df"/>
+        <bump_normal_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_bullet_nm"/>
+        <material_texture file="units/pd2_dlc_pxp3/weapons/wpn_fps_snp_contender_pts/wpn_fps_snp_contender_bullet_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+</materials>

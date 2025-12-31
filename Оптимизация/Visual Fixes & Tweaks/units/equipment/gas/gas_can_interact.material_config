@@ -1,0 +1,11 @@
+<materials version="3" group="thermite">
+	<material unique="true" version="2" decal_material="metal" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_des_prop_gascan">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+		<opacity_texture file="units/transparent_op"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" decal_material="metal" name="mtr_thermite_decal" version="2">
+        <diffuse_texture file="units/equipment/thermite/thermite_txt_df"/>
+    </material>
+</materials>

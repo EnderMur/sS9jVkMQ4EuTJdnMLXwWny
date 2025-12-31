@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/roof_addons/roof_addons" orientation_object="rp_roof_antenna_far_03" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_roof_antenna_far_03" />
+      <object name="c_roof_antenna_far_03" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+   <decal_surfaces default_material="metal" static="true">
+    <decal_mesh name="c_roof_antenna_far_03" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_roof_antenna_far_03" enabled="true" shadow_caster="true"/>
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,37 @@
+{
+	"menu_id" : "options",
+	"title" : "VoidUI_options_title",
+	"priority" : 1,
+	"items" : [
+		{
+			"type" : "button",
+			"id" : "scoreboard",
+			"title" : "VoidUI_stats_title",
+			"description" : "VoidUI_stats_desc",
+			"next_menu" : "scoreboard"
+		},
+		{
+			"type" : "slider",
+			"id" : "hud_scale",
+			"title" : "VoidUI_hud_scale_title",
+			"description" : "VoidUI_hud_scale_desc",
+			"callback" : "SetGlobalHudscale",
+			"percentage" : true,
+			"default_value" : 1,
+			"max" : 2,
+			"min" : 0.65,
+			"step" : 2
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "button",
+			"id" : "reset_options",
+			"title" : "VoidUI_reset_title",
+			"description" : "VoidUI_reset_desc",
+			"callback" : "ResetOptions"
+		}
+
+	]
+}

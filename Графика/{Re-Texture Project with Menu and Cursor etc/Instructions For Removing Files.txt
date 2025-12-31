@@ -1,0 +1,11 @@
+HD AMMO By default texture is 2048x2048 pixels though i have included 1024x1024 and 512x512 versions.  
+units\pickups\ammo folder and choose which one you would like.
+
+To delete enemy units navigate to:
+\units\payday2\characters
+Delete "shared_textures" folder.
+
+To Delete Mouse Pointer/Cursor navigate to:
+\guis\textures
+Delete the "mouse_pointer.texture" file
+Here you can also delete the loading screen and other things u might not like

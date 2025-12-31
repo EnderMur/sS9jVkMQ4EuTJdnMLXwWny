@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_construction_ladder_folded" materials="units/world/props/prop_ladder_folded/ladder_folded" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="mesh_mopp" name="c_construction_ladder_folded" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_construction_ladder_folded" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_construction_ladder_folded" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

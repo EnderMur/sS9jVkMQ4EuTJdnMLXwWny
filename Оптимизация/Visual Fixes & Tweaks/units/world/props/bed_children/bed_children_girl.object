@@ -1,0 +1,40 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bed_children_girl" materials="units/world/props/bed_children/bed_children" />
+    <bodies>
+        <body enabled="true" template="static" collides_with_mover="false" name="body0" >
+            <object name="rp_bed_children_girl"/>
+            <object collision_type="box" name="c_box1" padding="-2" />
+            <object collision_type="box" name="c_box2" padding="-2"/>
+            <object collision_type="box" name="c_box3" padding="-2"/>
+            <object collision_type="box" name="c_box4" padding="-2"/>
+            <object collision_type="box" name="c_box5" padding="-2"/>
+            <object collision_type="box" name="c_box6" padding="-2"/>
+            <object collision_type="box" name="c_box7" padding="-2"/>
+            <object collision_type="box" name="c_box8" padding="-2"/>
+            <object collision_type="box" name="c_box10" padding="-2"/>
+            <object collision_type="box" name="c_box11" padding="-2"/>
+            <object collision_type="box" name="c_box12" padding="-2"/>
+            <object collision_type="box" name="c_box13" padding="-2"/>
+            <object collision_type="box" name="c_box14" padding="-2"/>
+            <object collision_type="box" name="c_box15" padding="-2"/>
+            <object collision_type="box" name="c_box16" padding="-2"/>
+            <object collision_type="box" name="c_box17" padding="-2"/>
+            <object collision_type="box" name="c_box18" padding="-2"/>
+        </body>
+		<body name="ai_player" enabled="true" add_ray_type="camera" template="nav_walk">
+            <object name="rp_bed_children_girl"/>
+			<object name="c_mover1" collision_type="box" padding="-2" />
+			<object name="c_mover2" collision_type="box" padding="-2" />
+			<object name="c_mover3" collision_type="box" padding="-2" />
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="hardwood">
+		<decal_mesh name="dm_hardwood" enabled="true" material="hardwood" />
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth_stuffed" />
+	</decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_bed_children_girl" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

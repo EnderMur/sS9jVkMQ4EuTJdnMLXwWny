@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_terrace_sunbed" materials="units/payday2/props/lxa_prop_terrace_sunbed/lxa_prop_terrace_sunbed" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_lxa_prop_terrace_sunbed" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+            <object collision_type="box" name="c_box_04" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth" />
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

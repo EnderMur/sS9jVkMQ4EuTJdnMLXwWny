@@ -1,0 +1,114 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_prop_construction_crane_mocup_top" materials="units/payday2/props/gen_prop_construction_crane/gen_prop_construction_crane_arm" />
+		<sequence_manager file="units/payday2/props/gen_prop_construction_crane/gen_prop_construction_crane_arm" />
+	<animations>
+		<animation_group name="ag_crane_turn_left">
+			<object name="a_crane_top" />
+		</animation_group>
+		<animation_group name="ag_crane_turn_right">
+			<object name="a_crane" />
+		</animation_group>
+		<animation_group name="ag_crane_lift">
+			<object name="crane" />
+			<object name="hook" />
+		</animation_group>
+		<animation_group name="anim_piggy" enabled="false">
+				<object name="spawn_piggy" />
+		</animation_group>
+		<animation_group name="loop_piggy" enabled="true" loop="true">
+				<object name="spawn_piggy_dst" />
+		</animation_group>
+		<animation_group name="anim_debris" enabled="false">
+    		<object name="a_piece_1" />
+    		<object name="a_piece_2" />
+    		<object name="a_piece_3" />
+    		<object name="a_piece_4" />
+    		<object name="a_piece_5" />
+    		<object name="a_piece_6" />
+    		<object name="a_piece_7" />
+    		<object name="a_piece_8" />
+    		<object name="a_piece_9" />
+    		<object name="a_piece_10" />
+    		<object name="a_piece_11" />
+    		<object name="a_piece_12" />
+    		<object name="a_piece_13" />
+    		<object name="a_piece_14" />
+    		<object name="a_piece_15" />
+    		<object name="a_piece_16" />
+    		<object name="a_piece_17" />
+    		<object name="a_piece_18" />
+    		<object name="a_piece_19" />
+    		<object name="a_piece_20" />
+    		<object name="a_piece_21" />
+    		<object name="a_piece_22" />
+    		<object name="a_piece_23" />
+    		<object name="a_piece_24" />
+    		<object name="a_piece_25" />
+    		<object name="a_piece_26" />
+    		<object name="a_piece_27" />
+    		<object name="a_piece_28" />
+    		<object name="a_piece_29" />
+    		<object name="a_piece_30" />
+    		<object name="a_piece_31" />
+    		<object name="a_piece_32" />
+    		<object name="a_piece_33" />
+    		<object name="a_piece_34" />
+    		<object name="a_piece_35" />
+    		<object name="a_piece_36" />
+    		<object name="a_piece_37" />
+    		<object name="a_piece_38" />
+    		<object name="a_piece_39" />
+    		<object name="a_piece_40" />
+    		<object name="a_piece_41" />
+    		<object name="a_piece_42" />
+    		<object name="a_piece_43" />
+    		<object name="a_piece_44" />
+    		<object name="a_piece_45" />
+    		<object name="a_piece_46" />
+    		<object name="a_piece_47" />
+    		<object name="a_piece_48" />
+    		<object name="a_piece_49" />
+    		<object name="a_piece_50" />
+    		<object name="a_piece_51" />
+    		<object name="a_piece_52" />
+    		<object name="a_piece_53" />
+    		<object name="a_piece_54" />
+    		<object name="a_piece_55" />
+    	</animation_group>
+	</animations>
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_gen_prop_construction_crane_mocup_top" />
+			<object name="g_net" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_piggy" enabled="false" template="animated">
+			<object name="spawn_piggy_dst" />
+			<object name="c_convex_001" collision_type="convex" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="metal_hollow">
+		<decal_mesh name="dm_piggybank" enabled="true" material="tile" />
+	</decal_surfaces>
+
+   <graphics>
+        <object name="g_neck" 		enabled="true" shadow_caster="true"/>
+        <object name="g_arm" 		enabled="true" shadow_caster="true"/>
+        <object name="g_net" 		enabled="true" shadow_caster="true"/>
+        <object name="g_lights"  	enabled="true" />
+			
+		
+		<graphic_group name="grp_crane" enabled="true" culling_object="co_crane">
+			<object name="g_hook" enabled="true" shadow_caster="true" />
+		</graphic_group>
+
+		<graphic_group name="grp_debris" enabled="false" culling_object="co_cull">
+        	<object enabled="true" name="g_debris" shadow_caster="true" />
+    	</graphic_group>
+    	<graphic_group name="grp_piggy" enabled="true" culling_object="co_cull">
+        	<object name="g_piggybank" 	enabled="true"shadow_caster="true" />
+    	</graphic_group>
+		
+    </graphics>
+
+</dynamic_object>

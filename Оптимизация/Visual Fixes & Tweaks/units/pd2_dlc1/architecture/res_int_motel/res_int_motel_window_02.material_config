@@ -1,0 +1,23 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_motel_windowl_02" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_window_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_window_02_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_motel_aircon_out" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_aircon_out_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_aircon_out_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" decal_material="glass_breakable" name="mat_motel_window_glass_01" version="2">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_window_glass_01_op"/>
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_window_glass_01_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_window_glass_01_nm"/>
+    </material>
+</materials>

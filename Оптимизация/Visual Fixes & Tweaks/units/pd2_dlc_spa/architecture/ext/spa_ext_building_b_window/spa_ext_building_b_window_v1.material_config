@@ -1,0 +1,22 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_spa_building_b_window" version="2">
+        <diffuse_texture file="units/pd2_dlc_spa/architecture/ext/spa_ext_building_b_window/spa_ext_building_b_window_df"/>
+        <bump_normal_texture file="units/pd2_dlc_spa/architecture/ext/spa_ext_building_b_window/spa_ext_building_b_window_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_spa_wood_section" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_a/chl_prop_cardboard_shutterstock_df"/>
+    </material>
+    <material name="mat_spa_building_b_window_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2" decal_material="glass_breakable">
+        <opacity_texture file="units/payday2/architecture/lcm/lcm_int_window_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/lcm/lcm_int_window_glass_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0.029999999329448 0.51999998092651 0.81000000238419"/>
+    </material>
+    <material decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" name="mat_spa_building_b_window_glass_shattered" version="2">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.59999996423721"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_dark_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cubemap"/>
+    </material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+</materials>

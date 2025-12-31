@@ -1,0 +1,21 @@
+<materials version="3" group="civ_female_hotpants">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" name="mtr_body" version="2">
+        <bump_normal_texture file="units/pd2_dlc_nmh/characters/civ_female_hotpants/civ_female_hotpants_nm"/>
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_hotpants/civ_female_hotpants_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" name="mtr_body_lod" version="2">
+        <bump_normal_texture file="units/pd2_dlc_nmh/characters/civ_female_hotpants/civ_female_hotpants_nm" />
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_hotpants/civ_female_hotpants_df" />
+    </material>
+    <material render_template="opacity:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" name="mtr_hair" version="2">
+        <opacity_texture file="units/pd2_dlc_ecp/characters/npc_criminals_ecp_female/npc_criminal_ecp_female_hair_op"/>
+        <diffuse_texture file="units/pd2_dlc_nmh/characters/civ_female_hotpants/civ_female_hotpants_hair_df"/>
+    </material>
+    <material render_template="opacity:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" name="mtr_lashes" version="2">
+        <opacity_texture file="units/pd2_dlc_ecp/characters/npc_criminals_ecp_female/npc_criminal_ecp_female_lashes_op"/>
+        <diffuse_texture file="units/pd2_dlc_ecp/characters/npc_criminals_ecp_female/npc_criminal_ecp_female_lashes_df"/>
+        <variable type="vector3" name="contour_color" value="0 0 0"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="shadow_caster_only:SKINNED_1WEIGHT" name="shadow_caster" version="2"/>
+</materials>

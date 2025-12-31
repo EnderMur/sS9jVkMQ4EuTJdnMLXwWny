@@ -1,0 +1,25 @@
+<materials version="3" group="str_vehicle_van_anim_shouse">
+    <material name="mtr_exterior" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:SKINNED_1WEIGHT" version="2">
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_van/exterior_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_van/exterior_nm"/>
+    </material>
+    <material name="mtr_interior" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:SKINNED_1WEIGHT" version="2">
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_van/interior_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_van/interior_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:DOUBLE_SIDED" decal_material="glass_breakable" version="2" name="mtr_glass">
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_dark_b_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mtr_glass_shattered" decal_material="glass_breakable" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP">
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_dark_b_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mtr_head" render_template="generic" version="2"/>
+    <material name="mtr_suite_body" render_template="generic" version="2"/>
+    <material name="mtr_hands" render_template="generic" version="2"/>
+</materials>
