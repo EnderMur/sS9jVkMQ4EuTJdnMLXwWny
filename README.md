@@ -38,6 +38,7 @@
 1. BeardLib - Библиотека
 2. ~Simple Mod Updater - Обновление модов~ Обязательно к удалению
 3. unlock_all_dlcs - Открытие всех DLC
+4. QuickKeyboardInput
 
 ### Графика
 1. Re-Texture Project with Menu and Cursor etc. - проект пере-текстурирования меню, курсора и т.д.
@@ -56,6 +57,7 @@
 5. VanillaHUD Plus - игровой HUD показывающее информацию о ограблении
 6. Void UI Scoreboard Standalone - улучшение Tab
 7. Improved Search - быстрый и простой поиск
+8. Rename Inventory Pages
 
 ### Оптимизация
 1. Fullscreen Windowed (Borderless Windowed Updated)
@@ -72,6 +74,8 @@
 12. DX11 Shaders Fix SuperBLT Edition
 13. Fixed NPC Weapon scale
 14. Less Artifacted Weapons
+15. Full Speed Swarm
+16. No Duplicated Bullets
 
 ### Серия преступлений
 1. Crime Spree Difficulty Rebalance
@@ -80,10 +84,14 @@
 4. Revert CS Sniper Nerf
 5. Stop the crimespree loss on crash
 6. Vanilla More Heist Crime Spree Extended
+7. Fix Crime Spree Concealment Modifier
 
 ### Удобство
 1. Extra Profiles and Skill Sets - увеличение количества наборов навыков и профилей
 2. Infamy in Lobby
-3. Joining Screen Selector - для исключения и бана при присоединении
-4. No Confirm Dialogs V2 - отключение подтверждений
-5. Perfect Viewmodel - возможность настроить вид оружия
+3. No Confirm Dialogs V2 - отключение подтверждений
+4. Perfect Viewmodel - возможность настроить вид оружия
+
+### Необязательные моды
+1. Day & Night Full - случайная погода в ограблении (русский перевод планируется)
+2. Joining Screen Selector - для исключения и бана при присоединении
