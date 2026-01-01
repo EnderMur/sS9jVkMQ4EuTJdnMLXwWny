@@ -1,0 +1,22 @@
+{
+	"name": "Improved Search",
+	"description": "Adds a search field to the melee weapon menu, and makes the search case-insensitive in all languages \(previously it was case-sensitive in some languages, such as Russian\).",
+	"author": "SparkVXR",
+	"contact": "sparkvxr@yandex.ru",
+	"version": "1.0",
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menu/achievementlistgui",
+			"script_path": "hooks/achievementlistgui.lua"
+		},
+		{
+			"hook_id": "lib/managers/menu/blackmarketgui",
+			"script_path": "hooks/blackmarketgui.lua"
+		},
+		{
+			"hook_id": "lib/managers/menu/contractbrokergui",
+			"script_path": "hooks/contractbrokergui.lua"
+		}
+	]
+}
