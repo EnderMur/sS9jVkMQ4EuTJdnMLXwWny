@@ -1,0 +1,12 @@
+<materials version="3">
+    <material render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" name="clouds_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/environments/sky_vit_thunderstorm/dc_thunderstorm_horizon_2_df"/>
+        <variable type="scalar" name="intensity" value="identity"/>
+        <variable type="vector3" name="uv0_speed" value="0.0010000000474975 0 0"/>
+    </material>
+    <material render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VERTEX_COLOR" name="clouds_top" version="2">
+        <diffuse_texture file="core/environments/skies/sky_1945_sunset_clouds/top_clouds_df"/>
+        <variable type="scalar" name="intensity" value="sun"/>
+        <variable type="vector3" name="uv0_speed" value="0 0.0099999997764826 0"/>
+    </material>
+</materials>

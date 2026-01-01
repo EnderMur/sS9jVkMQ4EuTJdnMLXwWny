@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<materials>
+	<material name="sky" render_template="dome_sky">
+		<diffuse_texture file="background_rail01"/>
+		<variable name="color0" type="vector3" value="1.0 1.0 1.0"/>
+		<variable name="color1" type="vector3" value="1.0 1.0 1.0"/>
+		<variable name="color2" type="vector3" value="1.0 1.0 1.0"/>
+	</material>
+	
+	<material name="cloud_overlay" render_template="dome_clouds">
+		<diffuse_texture file="clouds_composite"/>
+		
+		<variable name="uv_velocity_rg_mask" type="vector3" value="0.008 0 0"/>
+		<variable name="uv_velocity_b_mask" type="vector3" value="0.007 0 0"/>
+		<variable name="uv_scale_b_mask" type="scalar" value="1"/>
+
+		<variable name="color_sun" type="vector3" value="0.45 0.35 0.3"/>
+		<variable name="alpha_scale_sun" type="scalar" value="3"/>
+		<variable name="color_opposite_sun" type="vector3" value="0.5 0.5 0.5"/>
+		<variable name="alpha_scale_opposite_sun" type="scalar" value="1"/>
+	</material>
+	
+	<material name="sun" render_template="dome_sun">
+		<diffuse_texture file="sun"/>
+		<variable name="sun_color" type="vector3" value="1.0 1.0 1.0"/>
+	</material>
+	<!--
+	<material name="sun_blend" render_template="sun">
+		<diffuse_texture file="sun_blend"/>
+		<opacity_texture file="sun_blend"/>
+	</material>
+	-->
+</materials>

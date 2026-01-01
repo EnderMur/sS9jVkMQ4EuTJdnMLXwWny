@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<underlay>
+	<load_scene file="core/environments/skies/skyrail01/skyrail01" materials="core/environments/skies/skyrail01/skyrail01">
+
+		<object name="sky" force_sort_depth="100000"/>
+		<!-- <object name="sun" force_sort_depth="98000"/> -->
+		<!--<object name="sun_blend" force_sort_depth="99000" hidden="true"/>-->
+		<!-- <object name="clouds" force_sort_depth="97000"/>		 -->
+	</load_scene>
+	
+</underlay>

@@ -1,0 +1,169 @@
+<environment>
+	<metadata>
+	</metadata>
+	<data>
+		<post_effect>
+			<deferred_lighting>
+				<shadow>
+					<param key="fadeout_blend" value="0.5009999871254"/>
+				</shadow>
+				<apply_ambient>
+					<param key="environment_map_intensity" value="320"/>
+					<param key="environment_map_intensity_shadow" value="313.70098876953"/>
+					<param key="ambient_falloff_scale" value="61.606998443604"/>
+					<param key="ambient_color_scale" value="0.31999999284744"/>
+					<param key="sky_reflection_top_color" value="0.78039222955704 0.92549026012421 1"/>
+					<param key="sky_reflection_top_color_scale" value="104.80799865723"/>
+					<param key="sky_bottom_color" value="0.72549021244049 0.98039221763611 1"/>
+					<param key="sky_top_color_scale" value="98.176002502441"/>
+					<param key="sun_specular_color" value="0.96862751245499 0.98823535442352 1"/>
+					<param key="height_fade_intesity_clamp" value="1 1 0"/>
+					<param key="sky_reflection_bottom_color" value="1 0.90196084976196 0.76470595598221"/>
+					<param key="sky_bottom_color_scale" value="10.765999794006"/>
+					<param key="height_fade" value="25000 25000 0"/>
+					<param key="ambient_scale" value="0"/>
+					<param key="sun_specular_color_scale" value="144.94799804688"/>
+					<param key="effect_light_scale" value="1"/>
+					<param key="sky_reflection_bottom_color_scale" value="12.451000213623"/>
+					<param key="sky_top_color" value="0.79607850313187 1 0.96862751245499"/>
+					<param key="ambient_color" value="0.70196080207825 0.88627457618713 1"/>
+				</apply_ambient>
+				<ssao>
+					<param key="intensity" value="1"/>
+				</ssao>
+			</post_processor>
+			<post_processor name="hdr_post_processor" effect="default">
+				<modifier name="dof">
+					<param key="near_focus_distance_min" value="0"/>
+					<param key="near_focus_distance_max" value="0"/>
+					<param key="far_focus_distance_min" value="12687"/>
+					<param key="far_focus_distance_max" value="24813"/>
+					<param key="clamp" value="0.0040000001899898"/>
+				</modifier>
+				<modifier name="z">
+				</modifier>
+				<modifier name="soften">
+				</modifier>
+				<modifier name="depth_blur">
+				</modifier>
+				<modifier name="tone_mapping">
+					<param key="luminance_clamp" value="5.7849998474121 14.522999763489 0"/>
+					<param key="middle_grey" value="0.061000000685453"/>
+					<param key="dark_to_bright_adaption_speed" value="1.9279999732971"/>
+					<param key="bright_to_dark_adaption_speed" value="1.9279999732971"/>
+					<param key="white_luminance" value="0.25699999928474"/>
+				</modifier>
+				<modifier name="bloom_brightpass">
+					<param key="disable_tone_mapping" value="0"/>
+					<param key="threshold" value="0.75999999046326"/>
+					<param key="middle_grey" value="0.032000001519918"/>
+					<param key="white_luminance" value="0.15000000596046"/>
+				</modifier>
+				<modifier name="bloom_apply">
+					<param key="opacity" value="0.34900000691414"/>
+				</modifier>
+				<modifier name="exposure_sepia_levels">
+					<param key="disable_tone_mapping" value="0"/>
+				</modifier>
+			</post_processor>
+			<fog>
+				<modifier name="fog">
+					<param key="start_color_scale" value="34.799999237061"/>
+					<param key="end2" value="100000"/>
+					<param key="color2_scale" value="34.799999237061"/>
+					<param key="color1" value="0.47725799679756 0.75590550899506 0.69365453720093"/>
+					<param key="end0" value="12523"/>
+					<param key="start_color" value="1 0.88235300779343 0.30196079611778"/>
+					<param key="color2" value="0.54509806632996 0.95294123888016 1"/>
+					<param key="alpha0" value="0.28600001335144"/>
+					<param key="alpha1" value="0.76999998092651"/>
+					<param key="color1_scale" value="34.799999237061"/>
+					<param key="start" value="1215"/>
+					<param key="end1" value="29965"/>
+					<param key="color0" value="0.74423348903656 0.92125982046127 0.60333490371704"/>
+					<param key="color0_scale" value="34.799999237061"/>
+				</modifier>
+			</fog>
+		</post_effect>
+		<others>
+			<param key="sun_ray_color_scale" value="4.0859999656677"/>
+			<param key="global_world_overlay_texture" value=""/>
+			<param key="sun_ray_color" value="1 0.92549026012421 0.74901962280273"/>
+			<param key="global_texture" value="environments/cubemaps/cubemap_bank_01"/>
+			<param key="underlay" value="core/environments/skies/skyrail01/skyrail01"/>
+		</others>
+		<sky>
+			<param key="sun_ray_color" value="1 0.99607849121094 0.91372555494308"/>
+			<param key="flare_index_6" value="1"/>
+			<param key="flare_alpha_4" value="0"/>
+			<param key="flare_offset_7" value="0"/>
+			<param key="flare_index_7" value="1"/>
+			<param key="flare_scale_7" value="0"/>
+			<param key="flare_offset_8" value="0"/>
+			<param key="sun_anim_x" value="0"/>
+			<param key="sun_anim" value="0.21072222292423"/>
+			<param key="flare_scale_3" value="0"/>
+			<param key="flare_anim_y" value="0"/>
+			<param key="flare_alpha_6" value="0"/>
+			<param key="flare_alpha_1" value="0"/>
+			<param key="flare_alpha_2" value="0"/>
+			<param key="flare_color" value="0 0 0"/>
+			<param key="flare_alpha_8" value="0"/>
+			<param key="flare_offset_3" value="0"/>
+			<param key="flare_offset_4" value="0"/>
+			<param key="flare_scale_8" value="0"/>
+			<param key="flare_offset_6" value="0"/>
+			<param key="flare_offset_1" value="0"/>
+			<param key="flare_index_8" value="1"/>
+			<param key="flare_index_4" value="1"/>
+			<param key="flare_anim_x" value="0"/>
+			<param key="flare_offset_5" value="0"/>
+			<param key="flare_alpha_5" value="0"/>
+			<param key="flare_alpha_7" value="0"/>
+			<param key="flare_scale_1" value="0"/>
+			<param key="flare_scale_6" value="0"/>
+			<param key="flare_index_2" value="1"/>
+			<param key="flare_scale_4" value="0"/>
+			<param key="sun_ray_color_scale" value="301.42599487305"/>
+			<param key="flare_index_1" value="1"/>
+			<param key="flare_name" value="default"/>
+			<param key="flare_index_3" value="1"/>
+			<param key="flare_scale_5" value="0"/>
+			<param key="flare_index_5" value="1"/>
+			<param key="flare_alpha_3" value="0"/>
+			<param key="flare_scale_2" value="0"/>
+			<param key="flare_offset_2" value="0"/>
+		</sky>
+		<underlay_effect>
+			<material name="sky_top">
+				<param key="sky_intensity" value="320"/>
+			</material>
+			<material name="sun">
+				<param key="sun_color_scale" value="0"/>
+				<param key="sun_color" value="0.45669293403625 0.2525243461132 0"/>
+			</material>
+			<sky>
+				<param key="color2" value="0.58823531866074 0.58823531866074 1"/>
+				<param key="color1_scale" value="64"/>
+				<param key="color2_scale" value="64"/>
+				<param key="color1" value="0.58823531866074 1 0.58823531866074"/>
+				<param key="color0" value="1 0.39215686917305 0"/>
+				<param key="color0_scale" value="64"/>
+			</material>
+			<cloud_overlay>
+				<param key="color_sun" value="0.86666667461395 0.74509805440903 0.22352941334248"/>
+				<param key="alpha_scale_opposite_sun" value="0"/>
+				<param key="color_opposite_sun_scale" value="0"/>
+				<param key="uv_velocity_b_mask" value="0.037000000476837 0 0"/>
+				<param key="uv_scale_b_mask" value="0"/>
+				<param key="color_opposite_sun" value="0.50980395078659 0.38039216399193 0.26274511218071"/>
+				<param key="uv_velocity_rg_mask" value="0.010999999940395 0 0"/>
+				<param key="color_sun_scale" value="0"/>
+				<param key="alpha_scale_sun" value="0"/>
+			</material>
+			<sky_bottom>
+				<param key="sky_intensity" value="320"/>
+			</material>
+		</underlay_effect>
+	</data>
+</environment>

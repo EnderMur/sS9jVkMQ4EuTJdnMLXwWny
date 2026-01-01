@@ -1,0 +1,8 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_vit/environments/sky_vit_thunderstorm/vit_stormclouds" orientation_object="rp_vit_stormclouds" />
+	<graphics>
+		<object name="g_clouds_08" enabled="true" />
+		<object name="g_clouds_06" enabled="true" />
+		<object name="g_clouds_07" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,8 @@
+Hooks:PostHook(HUDManager, "_setup_player_info_hud_pd2", "veritas_apply", function(self)
+    veritasreborn:Load()
+    VeritasSet()
+    VeritasInstant()
+    OverTex()
+    OverMask()
+    managers.environment_controller:refresh_render_settings()
+end)
