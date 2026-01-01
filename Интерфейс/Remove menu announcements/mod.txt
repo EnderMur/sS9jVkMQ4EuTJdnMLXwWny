@@ -1,0 +1,14 @@
+{
+    "name" : "Remove menu announcements",
+    "description" : "gone",
+    "author" : "TeRRor",
+    "contact" : "xd",
+    "image" : "vladi.png",
+    "version" : "1.1",
+    "color" : "50 50 50",
+    "hooks": 
+	[
+		{"hook_id": "lib/managers/menu/newsfeedgui","script_path" :"xd.lua" }
+	],
+
+}

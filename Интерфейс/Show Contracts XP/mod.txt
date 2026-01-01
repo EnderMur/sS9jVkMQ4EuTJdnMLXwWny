@@ -1,0 +1,21 @@
+{
+	"name": "Show Contracts XP",
+	"description": "Show XP in Contract Broker and sorts it",
+	"author": "Shaklin",
+	"version" : "1.2",
+	"priority" : 950,
+	"blt_version" : 2.0,
+	"color" : "29 222 255",
+	"image" : "logo.png",
+	"contact": "http://shaklin.com",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menu/contractbrokergui",
+			"script_path": "lua/contractbrokergui.lua"
+		},
+		{
+			"hook_id": "lib/managers/menu/items/contractbrokerheistitem",
+			"script_path": "lua/contractbrokerheistitem.lua"
+		}
+	]
+}
