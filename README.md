@@ -1,5 +1,5 @@
 # PAYDAY 2 — Рекомендация по модам
-**Version** 1.0.3
+**Version** 1.1.0
 
 ## Рекомендация
 
@@ -36,9 +36,8 @@
 
 ### Библиотеки
 1. BeardLib - Библиотека
-2. ~Simple Mod Updater - Обновление модов~ Обязательно к удалению
-3. unlock_all_dlcs - Открытие всех DLC
-4. QuickKeyboardInput
+2. unlock_all_dlcs - Открытие всех DLC
+3. QuickKeyboardInput - мод добавляет компоненты для получения текстового ввода от игрока
 
 ### Графика
 1. Re-Texture Project with Menu and Cursor etc. - проект пере-текстурирования меню, курсора и т.д.
@@ -48,16 +47,22 @@
 2. Drag and Drop Inventory - Перемещение оружия в инвентаре
 3. More Letters - удваивает количество символов для ввода названий наборов навыков и профилей
 4. No Interaction Cooldowns (No Pagerloop Bug) - отключение кулдаунов между взаимодействиями с сумками (может привести бану В STEAM НАВСЕГДА)
+5. Day & Night Full - случайная погода в ограблении (русский перевод планируется)
+6. As Boosted As Possible - мод позволяет установить любой бонус к характеристикам на любое оружие
+7. No Dirt Camera - убирает эффект "грязного объектива" если смотреть на свет
+8. Less Inaccurate Weapon Laser - лазер показывает ровно куда произойдёт выстрел
 
 ### Интерфейс
-1. ~Compact Host Info - Показывает моды у хоста~ Обязательно к удалению
-2. More Weapon Stats - Больше описания у оружия
-3. No Contract Broker Images - отключение фотографий у контрактов в Crime.net
-4. Peer Mod List Highlighter - позволяет выделять названия модов одним из 3 цветов в меню списка модов игрока, на экране модов Crime.net, а также во время присоединения игроков к вашему лобби.
-5. VanillaHUD Plus - игровой HUD показывающее информацию о ограблении
-6. Void UI Scoreboard Standalone - улучшение Tab
-7. Improved Search - быстрый и простой поиск
-8. Rename Inventory Pages
+1. More Weapon Stats - Больше описания у оружия
+2. No Contract Broker Images - отключение фотографий у контрактов в Crime.net
+3. Peer Mod List Highlighter - позволяет выделять названия модов одним из 3 цветов в меню списка модов игрока, на экране модов Crime.net, а также во время присоединения игроков к вашему лобби.
+4. VanillaHUD Plus - игровой HUD показывающее информацию о ограблении
+5. Void UI Scoreboard Standalone - улучшение Tab
+6. Improved Search - быстрый и простой поиск
+7. Rename Inventory Pages - переименовать страницу инвентаря
+8. Joining Screen Selector - для исключения и бана при присоединении
+9. Remove menu announcements - удаление последний изменений в главном меню
+10. Show Contracts XP - он отображает минимальное и максимальное количество XP непосредственно в списке контрактных брокеров и сортирует их
 
 ### Оптимизация
 1. Fullscreen Windowed (Borderless Windowed Updated)
@@ -76,6 +81,9 @@
 14. Less Artifacted Weapons
 15. Full Speed Swarm
 16. No Duplicated Bullets
+17. AFSF2
+18. Low Violence Mode
+19. Stop crime spree crash on join
 
 ### Серия преступлений
 1. Crime Spree Difficulty Rebalance
@@ -88,10 +96,7 @@
 
 ### Удобство
 1. Extra Profiles and Skill Sets - увеличение количества наборов навыков и профилей
-2. Infamy in Lobby
+2. Infamy in Lobby - возможность открыть бесславие в лобби
 3. No Confirm Dialogs V2 - отключение подтверждений
 4. Perfect Viewmodel - возможность настроить вид оружия
-
-### Необязательные моды
-1. Day & Night Full - случайная погода в ограблении (русский перевод планируется)
-2. Joining Screen Selector - для исключения и бана при присоединении
+5. SteamOverFBI - при нажатии на никнейм игрока открывается профиль Steam вместо сайта FBI
