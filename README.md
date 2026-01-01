@@ -1,6 +1,8 @@
 # PAYDAY 2 — Рекомендация по модам
 **Version** 1.1.0
 
+📜 [Чейнджлог](https://github.com/EnderMur/sS9jVkMQ4EuTJdnMLXwWny/blob/main/CHANGELOG.md)
+
 ## Рекомендация
 
 1. Удалить всех моды
