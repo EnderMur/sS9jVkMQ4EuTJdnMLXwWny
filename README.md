@@ -64,7 +64,7 @@
 7. Rename Inventory Pages - переименовать страницу инвентаря
 8. Joining Screen Selector - для исключения и бана при присоединении
 9. Remove menu announcements - удаление последний изменений в главном меню
-10. Show Contracts XP - он отображает минимальное и максимальное количество XP непосредственно в списке контрактных брокеров и сортирует их
+10. Show Contracts XP - он отображает минимальное и максимальное количество XP непосредственно в списке контрактных брокеров и сортирует их | Конфликтует с No Contract Broker Images
 
 ### Оптимизация
 1. Fullscreen Windowed (Borderless Windowed Updated)
