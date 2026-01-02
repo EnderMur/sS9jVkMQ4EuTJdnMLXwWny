@@ -129,34 +129,20 @@
 
 			<object name="g_police"  			enabled="false" />
 			
-			<lod_object name="lod_body" orientation_object="anim_body">
-				<object max_draw_lod="0" name="g_body_lod0" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_body_lod1" enabled="true" shadow_caster="true" />
-			</lod_object>
-			<lod_object name="lod_window_front">
-				<object max_draw_lod="0" name="g_window_front" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_window_front_lod" enabled="true" />
-			</lod_object>
-			<lod_object name="lod_window_left_front">
-				<object max_draw_lod="0" name="g_door_left_window" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_door_left_window_lod" enabled="true" />
-			</lod_object>
-			<lod_object name="lod_window_right_front">
-				<object max_draw_lod="0" name="g_door_right_window" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_door_right_window_lod" enabled="true" />
-			</lod_object>
-			<lod_object name="lod_window_left_rear">
-				<object max_draw_lod="0" name="g_window_rear_left" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_window_rear_left_lod" enabled="true" />
-			</lod_object>
-			<lod_object name="lod_window_right_rear">
-				<object max_draw_lod="0" name="g_window_rear_right" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_window_rear_right_lod" enabled="true" />
-			</lod_object>
-			<lod_object name="lod_window_back">
-				<object max_draw_lod="0" name="g_window_back" enabled="true" max_distance="6000" />
-				<object lod="1" name="g_window_back_lod" enabled="true" />
-			</lod_object>
+			<object name="g_body_lod0" 				enabled="true" shadow_caster="true" />
+			<object name="g_body_lod1" 				enabled="false" />
+			<object name="g_window_front" 			enabled="true" shadow_caster="true" />
+			<object name="g_window_front_lod" 		enabled="false" />
+			<object name="g_door_left_window" 		enabled="true" shadow_caster="true" />
+			<object name="g_door_left_window_lod" 	enabled="false" />
+			<object name="g_door_right_window" 		enabled="true" shadow_caster="true" />
+			<object name="g_door_right_window_lod" 	enabled="false" />
+			<object name="g_window_rear_left" 		enabled="true" shadow_caster="true" />
+			<object name="g_window_rear_left_lod" 	enabled="false" />
+			<object name="g_window_rear_right" 		enabled="true" shadow_caster="true" />
+			<object name="g_window_rear_right_lod" 	enabled="false" />
+			<object name="g_window_back" 			enabled="true" shadow_caster="true" />
+			<object name="g_window_back_lod" 		enabled="false" />
 		</graphic_group>
 			<graphic_group name="outline" enabled="false">
 				<object name="g_outline" enabled="true" />

@@ -919,7 +919,6 @@
 	<object path="units/payday2/architecture/sub/sub_ext_crater_entrance_debris_pile_01/sub_ext_crater_entrance_debris_pile_01"/>
 	<object path="units/payday2/architecture/res/res_scrapyard_house_b"/>
 	<object path="units/payday2/architecture/res/res_int_window_01"/>
-	
 </table>
 
 	<!-- <reflection_texture type="cubemap" global_texture="current_global_texture"/> -->

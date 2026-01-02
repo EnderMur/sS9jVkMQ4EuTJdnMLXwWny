@@ -1,5 +1,5 @@
 # PAYDAY 2 — Рекомендация по модам
-**Version** 1.1.1
+**Version** 1.1.2
 
 📜 [Чейнджлог](https://github.com/EnderMur/sS9jVkMQ4EuTJdnMLXwWny/blob/main/CHANGELOG.md)
 

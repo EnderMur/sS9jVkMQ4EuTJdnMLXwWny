@@ -1,4 +1,5 @@
-v1.7.2
+v1.7.3
 
-* Fixed and Restored the visual appearance of the flamethrower... Throwing flames. 
-* Fixed an issue with the Akron magazines being visible through walls.
+* Fixed Northstar Sniper Rifle's flip-down iron sights now appearing when certain scopes are equipped.
+* Fixed NPC CMP-9 (MP9) causing some weird effects with the flashlight.
+* Fixed the New York variant of the police crusiers not having shadow casters.

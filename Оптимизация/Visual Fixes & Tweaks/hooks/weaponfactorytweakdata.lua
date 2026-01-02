@@ -6,6 +6,15 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "visualfixweaponfactorytweakdata"
 		wpn_fps_ak_bolt = {unit="units/mods/weapons/wpn_fps_ass_ak_gold_pts/wpn_fps_ak_bolt_gold"}
 	}
 	
+	-- let's add back the irons on the northstar when we equip certain sights.
+	
+	self.wpn_fps_snp_victor.adds = {
+		wpn_fps_upg_o_health = { "wpn_fps_snp_victor_o_down" },
+		wpn_fps_upg_o_fc1 = { "wpn_fps_snp_victor_o_down" },
+		wpn_fps_upg_o_northtac = { "wpn_fps_snp_victor_o_down" },
+		wpn_fps_upg_o_schmidt = { "wpn_fps_snp_victor_o_down" }
+	}
+	
 	-- Better orthogon parts. SHAMELESSLY copied from Tangerine's mod. Though you're a real G.
 	
     self.parts.wpn_fps_m4_uupg_upper_radian.override = self.parts.wpn_fps_m4_uupg_upper_radian.override or {}
@@ -101,6 +110,7 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "visualfixweaponfactorytweakdata"
 
 	-- Fixes some issues with some sights and gadgets not having rails when applying them to the R700 in-game.
 	
+	self.parts.wpn_fps_upg_o_poe.forbids = {}
 	self.wpn_fps_snp_r700.adds.wpn_fps_upg_o_poe = { "wpn_fps_snp_r700_o_rail" }
 	
 	-- Fixes the new tatinka stock removing gadget rails for some reason.(SBZ might've used a foregrip as a base?)
@@ -115,13 +125,14 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "visualfixweaponfactorytweakdata"
 		
 	}
 	
+	
 	-- A fix for the cavity where the rear sight never lowers if you have a sight equipped
 	
 	self.wpn_fps_ass_sub2000.override.wpn_fps_ass_sub2000_b_std = self.wpn_fps_ass_sub2000.override.wpn_fps_ass_sub2000_b_std or {}
 	self.wpn_fps_ass_sub2000.override.wpn_fps_ass_sub2000_b_std.adds = { "wpn_fps_ass_sub2000_o_back" }
 
 	for i, part_id in pairs(self.wpn_fps_ass_sub2000.uses_parts) do
-		if self.parts[part_id].type == "sight" and part_id ~= "wpn_fps_ass_sub2000_o_back" then
+		if self.parts[part_id] and self.parts[part_id].type == "sight" and part_id ~= "wpn_fps_ass_sub2000_o_back" then
 			self.parts[part_id].forbids = self.parts[part_id].forbids or {}
 			table.insert(self.parts[part_id].forbids, "wpn_fps_ass_sub2000_o_back")
 		end
@@ -157,7 +168,8 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "visualfixweaponfactorytweakdata"
 	self.parts.wpn_fps_lmg_mg42_reciever.bullet_objects = {
 		amount = 5,
 		prefix = "g_bullet_"
-	}			
+	}		
+	
 	
 end)
 
